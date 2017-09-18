@@ -1,0 +1,316 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+          Lattice Mapping Report File for Design Module 'E_Prac1_1'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     Prac_1_impl1.ngd -o Prac_1_impl1_map.ncd -pr Prac_1_impl1.prf -mp
+     Prac_1_impl1.mrp -lpf C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practica_1_v2/impl1/Prac_1_impl1.lpf -lpf
+     C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/Prac_1.lpf -c 0
+     -gui -msgset C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practica_1_v2/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond Version 3.9.0.99.2
+Mapped on:  09/13/17  09:16:37
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:      5 out of  7209 (0%)
+      PFU registers:            5 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        12 out of  3432 (0%)
+      SLICEs as Logic/ROM:     12 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:         23 out of  6864 (0%)
+      Number used as logic LUTs:         23
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 33 + 4(JTAG) out of 115 (32%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+     Net MA_N_6: 1 loads, 1 rising, 0 falling (Driver: Z_1__bdd_3_lut_4_lut )
+
+     Net Display_6__N_17: 1 loads, 1 rising, 0 falling (Driver: MA_N_6_bdd_2_lut
+     )
+   Number of Clock Enables:  0
+   Number of LSRs:  4
+     Net MA_N_6: 1 loads, 1 LSLICEs
+     Net Display_6__N_21: 1 loads, 1 LSLICEs
+     Net Display_6__N_2: 1 loads, 1 LSLICEs
+     Net Display_6__N_17: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net Sel_c_0: 8 loads
+     Net Ref_c_0: 6 loads
+     Net Ref_c_1: 6 loads
+     Net Sel_c_1: 6 loads
+     Net I_N_13: 4 loads
+     Net Display2_c_3: 2 loads
+     Net Display3_c_3: 2 loads
+     Net Display_c: 2 loads
+     Net n353: 2 loads
+     Net Z_0: 2 loads
+
+
+
+
+   Number of warnings:  3
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: Register Display_6__I_0_i1 has a clock signal tied to GND.
+WARNING - map: Register Display_6__I_0_i3_set has a clock signal tied to GND.
+WARNING - map: Register Display_6__I_0_i2_set has a clock signal tied to GND.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| Display3[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display2[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display2[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display2[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display2[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+| Display2[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display3[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display2[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display2[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display3[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display3[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display3[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display3[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Display3[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| A[1]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| A[0]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B[1]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B[0]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| C[1]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| C[0]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| D[1]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| D[0]                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Sel[1]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Sel[0]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Ref[1]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Ref[0]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block i408 undriven or does not drive anything - clipped.
+Signal n536 undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Block m0_lut was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is
+        'Display_6__N_11'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'Display_6__N_11' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 4 
+
+     Type and instance name of component: 
+   Register : i285
+   Register : Display_6__I_0_i1
+   Register : Display_6__I_0_i3_set
+   Register : Display_6__I_0_i2_set
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 51 MB
+        
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

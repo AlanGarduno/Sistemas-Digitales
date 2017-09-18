@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>52101259</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Display_6__I_0_i1</Dynamic>
+        </Message>
+        <Message>
+            <ID>52101259</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Display_6__I_0_i3_set</Dynamic>
+        </Message>
+        <Message>
+            <ID>52101259</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Display_6__I_0_i2_set</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(5): </Dynamic>
+            <Dynamic>e_prac1_1</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(15): </Dynamic>
+            <Dynamic>a_prac1_1</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(12): </Dynamic>
+            <Dynamic>E_Prac1_1</Dynamic>
+            <Dynamic>A_Prac1_1</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35001752</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Display_6__I_0_i4</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001752</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Display_6__I_0_i3_reset</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001752</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Display_6__I_0_i2_reset</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=MA_N_6 loads=6 clock_loads=1
+   Signal=Display_6__N_17 loads=2 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=MA_N_6 loads=6 clock_loads=1
+   Signal=Display_6__N_17 loads=2 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

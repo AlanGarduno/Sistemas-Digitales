@@ -1,0 +1,16 @@
+----------------------------------------------------------------------
+Report for cell E_Prac1_1.TECH
+Register bits:  5 of 7209 (0.069%)
+I/O cells:      33
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             FD1S1A         1          100.0
+                             FD1S1B         3          100.0
+                             FD1S1D         1          100.0
+                                GSR         1          100.0
+                                 IB        12          100.0
+                               LUT4        22          100.0
+                                 OB        21          100.0
+                              PFUMX         2          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL        64

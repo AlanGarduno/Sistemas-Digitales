@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell E_Prac1_1
+   Instance path: E_Prac1_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00        100.0
+                                  LUT4	      23.00        100.0
+                                 IOBUF	         33        100.0
+                                PFUREG	          5        100.0

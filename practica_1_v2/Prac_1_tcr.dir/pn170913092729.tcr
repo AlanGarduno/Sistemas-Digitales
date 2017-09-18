@@ -1,0 +1,22 @@
+#Start recording tcl command: 9/13/2017 08:36:34
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2; Project name: Prac_1
+prj_project open "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/Prac_1.ldf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project open "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1/impl1.xcf"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/SimulacionPractica_1/SimulacionPractica_1.spf"
+prj_run Synthesis -impl impl1
+pgr_project save "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1/impl1.xcf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1/impl1.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/13/2017 09:27:29

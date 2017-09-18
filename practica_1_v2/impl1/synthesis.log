@@ -1,0 +1,171 @@
+synthesis:  version Diamond Version 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Sep 13 09:16:35 2017
+
+
+Command Line:  synthesis -f Prac_1_impl1_lattice.synproj -gui -msgset C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/promote.xml 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 5.
+The -t option is TQFP144.
+The -d option is LCMXO2-7000HE.
+Using package TQFP144.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-7000HE
+
+### Package : TQFP144
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = E_Prac1_1.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.9/ispfpga/xo2c00/data (searchpath added)
+-p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1 (searchpath added)
+-p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2 (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1/source/prac_1_final.vhd
+NGD file = Prac_1_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.9/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/impl1". VHDL-1504
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd. VHDL-1481
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(5): analyzing entity e_prac1_1. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(15): analyzing architecture a_prac1_1. VHDL-1010
+unit E_Prac1_1 is not yet analyzed. VHDL-1485
+unit E_Prac1_1 is not yet analyzed. VHDL-1485
+c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(5): executing E_Prac1_1(A_Prac1_1)
+
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_1_v2/impl1/source/prac_1_final.vhd(12): replacing existing netlist E_Prac1_1(A_Prac1_1). VHDL-1205
+Top module name (VHDL): E_Prac1_1
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Top-level module name = E_Prac1_1.
+
+
+
+GSR instance connected to net ME_N_8.
+WARNING - synthesis: mRegister Display_6__I_0_i4 is stuck at Zero
+WARNING - synthesis: mRegister Display_6__I_0_i3_reset is stuck at Zero
+WARNING - synthesis: mRegister Display_6__I_0_i2_reset is stuck at Zero
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in E_Prac1_1_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file Prac_1_impl1.ngd.
+
+################### Begin Area Report (E_Prac1_1)######################
+Number of register bits => 5 of 7209 (0 % )
+FD1S1A => 1
+FD1S1B => 3
+FD1S1D => 1
+GSR => 1
+IB => 12
+LUT4 => 22
+OB => 21
+PFUMX => 2
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : MA_N_6, loads : 6
+  Net : Display_6__N_17, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : Sel_c_0, loads : 8
+  Net : Sel_c_1, loads : 6
+  Net : Ref_c_1, loads : 6
+  Net : Ref_c_0, loads : 6
+  Net : I_N_13, loads : 4
+  Net : n536, loads : 3
+  Net : Display_c, loads : 2
+  Net : n353, loads : 2
+  Net : Display2_c_3, loads : 2
+  Net : Display3_c_3, loads : 2
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets Display_6__N_17]         |            -|            -|     0  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 52.273  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.688  secs
+--------------------------------------------------------------

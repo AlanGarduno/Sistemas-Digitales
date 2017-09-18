@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.9/bin/nt/moduleparser.exe -PROJ SimulacionPractica_1 -pf C:/lscc/diamond/3.9/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg C:/lscc/diamond/3.9/cae_library/vhdl_packages/vdbs -lst C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_1_v2/SimulacionPractica_1/source_files.lst
