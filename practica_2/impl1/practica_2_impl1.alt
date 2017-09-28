@@ -1,0 +1,12 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Sep 27 09:51:06 2017 *
+NOTE DESIGN NAME: ffd *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS qd : 5 : out *
+NOTE PINS d : 33 : in *
+NOTE PINS clk : 35 : in *
+NOTE PINS clr : 32 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *
