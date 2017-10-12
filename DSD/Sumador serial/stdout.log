@@ -1,0 +1,59 @@
+Running in Lattice mode
+
+
+Starting:    C:\ispLEVER_Classic2_0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\ispLEVER_Classic2_0\synpbase
+Date:        Fri Jun 16 20:03:22 2017
+Version:     I-2014.03LC 
+
+Arguments:   -product synplify_pro  -batch c:/users/richie/desktop/4 semestre/dsd/sumador serial\top_sum_serie.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srr"
+
+Generating HDL info...
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+log file: "C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srr"
+
+Running top_sum_serie|sumador serial
+
+Running: Compile on top_sum_serie|sumador serial
+
+Running: Compile Process on top_sum_serie|sumador serial
+
+Running: Compile Input on top_sum_serie|sumador serial
+Copied C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_comp.srs to C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srs
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Running: Multi-srs Generator on top_sum_serie|sumador serial
+Copied C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_comp.srs to C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_s.srs
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Copied C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_mult.srs to C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srs
+Copied C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srr to C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srf
+Complete: Compile Process on top_sum_serie|sumador serial
+Complete: Compile on top_sum_serie|sumador serial
+
+Running: Map on top_sum_serie|sumador serial
+
+Running: Map & Optimize on top_sum_serie|sumador serial
+fpga_mapper Completed
+Return Code: 0
+Run Time:0h:00m:01s
+Complete: Map on top_sum_serie|sumador serial
+Copied C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srr to C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srf
+Complete: Logic Synthesis on top_sum_serie|sumador serial
+
+exit status=0
+
+exit status=0
+

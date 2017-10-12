@@ -1,0 +1,42 @@
+ library ieee;
+use ieee. std_logic_1164.all;
+use ieee. std_logic_arith.all;
+use ieee. std_logic_unsigned.all;
+
+entity T-FF is
+
+PORT( T,CLK,PRST,RST: in std_logic;
+      Q: out std_logic);
+
+end T-FF;
+
+architecture behavioral of T-FF is
+
+begin
+P1: process(CLK,PRST,RST)
+
+variable x: std_logic;
+
+begin
+
+if(RST='0') then
+
+x:='0';
+
+elsif(RST='1' and PRST='0') then
+
+x:='1';
+
+elsif(CLK='1' and CLK'EVENT) then
+
+if(T='1')then
+
+x:= not x;
+
+end if;
+end if;
+
+   Q<=x;
+
+end process;
+end behavioral;

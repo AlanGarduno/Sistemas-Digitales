@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/registro\ practica\ 3/packageregistro0.vhd" "C:/users/richie/desktop/4\ semestre/dsd/registro\ practica\ 3/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/registro\ practica\ 3/registro0.vhd" "C:/users/richie/desktop/4\ semestre/dsd/registro\ practica\ 3/topregistro0.vhd" 

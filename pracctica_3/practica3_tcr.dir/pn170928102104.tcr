@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/28/2017 08:54:57
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/pracctica_3; Project name: practica3
+prj_project new -name "practica3" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/pracctica_3/practica3.vhd"
+#Stop recording: 9/28/2017 10:21:04

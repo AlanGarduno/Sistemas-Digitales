@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/sumador\ serial/package_suma_serial.vhd" "C:/users/richie/desktop/4\ semestre/dsd/sumador\ serial/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/sumador\ serial/sumador.vhd" "C:/users/richie/desktop/4\ semestre/dsd/sumador\ serial/top_sum_serie.vhd" 

@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+Report for cell deca.TECH
+Register bits:  7 of 880 (0.795%)
+I/O cells:      15
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DFFCR         6          100.0
+                              DFFCS         1          100.0
+                               IBUF         8          100.0
+                               OBUF         7          100.0
+                              TOTAL        22

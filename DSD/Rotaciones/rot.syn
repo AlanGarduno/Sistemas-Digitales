@@ -1,0 +1,17 @@
+JDF B
+// Created by Version 2.0 
+PROJECT rot
+DESIGN rot Normal
+DEVKIT LC4256ZE-5TN144C
+ENTRY Pure VHDL
+MODULE top_reguni.vhd
+MODSTYLE top_regUni Normal
+MODULE osc00o.vhd
+MODSTYLE osc00 Normal
+MODULE package_registrouni.vhd
+MODSTYLE package_registroUni Normal
+MODULE registrouniversal.vhd
+MODSTYLE registrouniversal Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE top_regUni

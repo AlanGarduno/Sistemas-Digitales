@@ -1,0 +1,155 @@
+#PLAFILE     detectorsecuencia.bl5
+#DATE        Sun May 28 05:15:49 2017
+
+#DESIGN      detectorsecuencia
+#DEVICE      MACH4S-256
+
+
+// Default settings.
+DATA GLOBAL tINDIO:0
+
+
+// Signal locations
+DATA LOCATION dato0_8_:K_*_79
+DATA LOCATION dato0_7_:K_*_80
+DATA LOCATION dato0_6_:K_*_81
+DATA LOCATION dato0_5_:L_*_83
+DATA LOCATION dato0_9_:K_*_78
+DATA LOCATION dato0_4_:L_*_84
+DATA LOCATION dato0_3_:L_*_85
+DATA LOCATION sel0_2_:J_*_66
+DATA LOCATION dato0_2_:L_*_86
+DATA LOCATION dato0_1_:L_*_87
+DATA LOCATION dato0_0_:L_*_88
+DATA LOCATION sel0_1_:K_*_76
+DATA LOCATION sel0_0_:K_*_77
+DATA LOCATION clr0:J_*_69
+DATA LOCATION cd0:J_*_68
+DATA LOCATION ci0:J_*_67
+DATA LOCATION display0_6_:G_13_39
+DATA LOCATION clks0:A_7_130
+DATA LOCATION clk0:E_3_26
+DATA LOCATION display0_5_:F_1_33
+DATA LOCATION display0_4_:F_0_32
+DATA LOCATION display0_3_:F_9_31
+DATA LOCATION display0_2_:F_6_30
+DATA LOCATION display0_1_:F_4_29
+DATA LOCATION display0_0_:F_2_28
+DATA LOCATION salida0_9_:D_1_13
+DATA LOCATION salida0_8_:D_12_12
+DATA LOCATION salida0_7_:D_4_11
+DATA LOCATION salida0_6_:C_2_9
+DATA LOCATION salida0_5_:C_5_8
+DATA LOCATION salida0_4_:C_8_7
+DATA LOCATION salida0_3_:C_11_6
+DATA LOCATION salida0_2_:C_1_5
+DATA LOCATION salida0_1_:C_13_4
+DATA LOCATION salida0_0_:H_4_53
+DATA LOCATION gnd_n_n:C_15
+DATA LOCATION U02_edo_Pre_1_:F_5
+DATA LOCATION U02_edo_Pre_2_:F_3
+DATA LOCATION U02_edo_Pre_3_:F_7
+DATA LOCATION u01_n_113_n:E_9
+DATA LOCATION _dup_gnd_n_n:F_15
+
+// Signals direction
+DATA IO_DIR dato0_8_:IN
+DATA IO_DIR dato0_7_:IN
+DATA IO_DIR dato0_6_:IN
+DATA IO_DIR dato0_5_:IN
+DATA IO_DIR dato0_9_:IN
+DATA IO_DIR dato0_4_:IN
+DATA IO_DIR dato0_3_:IN
+DATA IO_DIR sel0_2_:IN
+DATA IO_DIR dato0_2_:IN
+DATA IO_DIR dato0_1_:IN
+DATA IO_DIR dato0_0_:IN
+DATA IO_DIR sel0_1_:IN
+DATA IO_DIR sel0_0_:IN
+DATA IO_DIR clr0:IN
+DATA IO_DIR cd0:IN
+DATA IO_DIR ci0:IN
+DATA IO_DIR display0_6_:OUT
+DATA IO_DIR clks0:OUT
+DATA IO_DIR clk0:OUT
+DATA IO_DIR display0_5_:OUT
+DATA IO_DIR display0_4_:OUT
+DATA IO_DIR display0_3_:OUT
+DATA IO_DIR display0_2_:OUT
+DATA IO_DIR display0_1_:OUT
+DATA IO_DIR display0_0_:OUT
+DATA IO_DIR salida0_9_:OUT
+DATA IO_DIR salida0_8_:OUT
+DATA IO_DIR salida0_7_:OUT
+DATA IO_DIR salida0_6_:OUT
+DATA IO_DIR salida0_5_:OUT
+DATA IO_DIR salida0_4_:OUT
+DATA IO_DIR salida0_3_:OUT
+DATA IO_DIR salida0_2_:OUT
+DATA IO_DIR salida0_1_:OUT
+DATA IO_DIR salida0_0_:OUT
+
+// Signals using Shared Clock or CE
+DATA tBCLK salida0_9_.C
+DATA tBCLK salida0_8_.C
+DATA tBCLK salida0_7_.C
+DATA tBCLK salida0_6_.C
+DATA tBCLK salida0_5_.C
+DATA tBCLK salida0_4_.C
+DATA tBCLK salida0_3_.C
+DATA tBCLK salida0_2_.C
+DATA tBCLK salida0_1_.C
+DATA tBCLK salida0_0_.C
+DATA tBCLK U02_edo_Pre_1_.C
+DATA tBCLK U02_edo_Pre_2_.C
+DATA tBCLK U02_edo_Pre_3_.C
+
+// Signals using Shared Init Pterm
+DATA tBSR salida0_9_.AR
+DATA tBSR salida0_8_.AR
+DATA tBSR salida0_7_.AR
+DATA tBSR salida0_6_.AR
+DATA tBSR salida0_5_.AR
+DATA tBSR salida0_4_.AR
+DATA tBSR salida0_3_.AR
+DATA tBSR salida0_2_.AR
+DATA tBSR salida0_1_.AR
+DATA tBSR salida0_0_.AR
+
+// Block Load Adders
+DATA tBLA clk0_c:4
+DATA tBLA salida0_0_:3
+DATA tBLA sel0_2_:3
+DATA tBLA sel0_1_:3
+DATA tBLA sel0_0_:3
+DATA tBLA salida0_1_:2
+DATA tBLA clr0:2
+DATA tBLA u01_n_113_n:1
+DATA tBLA salida0_2_:1
+DATA tBLA salida0_3_:1
+DATA tBLA salida0_4_:1
+DATA tBLA salida0_5_:1
+DATA tBLA salida0_6_:1
+DATA tBLA salida0_7_:1
+DATA tBLA salida0_9_:1
+
+// Signals using OSM or fast 5-PTs path
+DATA tOSM display0_6_
+DATA tOSM clks0
+DATA tOSM clk0
+DATA tOSM display0_5_
+DATA tOSM display0_4_
+DATA tOSM display0_3_
+DATA tOSM display0_2_
+DATA tOSM display0_1_
+DATA tOSM display0_0_
+DATA tOSM salida0_9_
+DATA tOSM salida0_8_
+DATA tOSM salida0_7_
+DATA tOSM salida0_6_
+DATA tOSM salida0_5_
+DATA tOSM salida0_4_
+DATA tOSM salida0_3_
+DATA tOSM salida0_2_
+DATA tOSM salida0_1_
+DATA tOSM salida0_0_

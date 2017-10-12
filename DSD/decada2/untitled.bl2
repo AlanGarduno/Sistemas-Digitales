@@ -1,0 +1,667 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Fri May 26 02:47:26 2017
+#$ PROPERTY LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 1048576; 
+#$ MODULE untitled
+#$ PINS 15 control0_1_:68'ke'  E0_3_:66'ke'  display0_6_:39'ke'  clk0:26'ke'  clr0:69'ke'  \
+#  control0_0_:67'ke'  E0_2_:76'ke'  E0_1_:77'ke'  E0_0_:78'ke'  display0_5_:33'ke'  display0_4_:32'ke'  \
+#  display0_3_:31'ke'  display0_2_:30'ke'  display0_1_:29'ke'  display0_0_:28'ke' 
+#$ NODES 202 gnd_n_n U01_display_1_10_ U01_display_1_9_ U01_display_1_8_ \
+#  U01_display_1_7_ U01_display_1_6_ U01_display_1_5_ U01_display_1_4_ \
+#  U01_display_1_3_ U01_display_1_2_ U01_display_1_1_ U01_display_1_0_ u01_n_246_n \
+#  u01_n_247_n u01_n_249_n u01_n_250_n u01_n_251_n u01_n_252_n u01_n_32_n u01_n_37_n \
+#  u01_n_38_n u01_n_39_n u01_n_40_n u01_n_41_n u01_n_42_n u01_n_43_n u01_n_44_n \
+#  u01_n_45_n u01_n_46_n u01_n_47_n u01_n_48_n u01_n_49_n u01_n_50_n u01_n_51_n \
+#  u01_n_52_n u01_n_53_n u01_n_54_n u01_n_55_n u01_n_56_n u01_n_57_n u01_n_58_n \
+#  u01_n_59_n u01_n_60_n u01_n_61_n u01_n_62_n u01_n_63_n u01_n_64_n u01_n_65_n \
+#  u01_n_66_n u01_n_67_n u01_n_68_n u01_n_69_n u01_n_70_n u01_n_71_n u01_n_72_n \
+#  u01_n_73_n u01_n_74_n u01_n_75_n u01_n_76_n u01_n_77_n u01_n_79_n u01_n_80_n \
+#  u01_n_81_n u01_n_82_n u01_n_83_n u01_n_84_n u01_n_85_n u01_n_86_n u01_n_88_n \
+#  u01_n_246_i_n u01_n_247_i_n u01_n_249_i_n u01_n_251_i_n u01_n_250_i_n u01_n_252_i_n \
+#  control0_i_1__n u01_display_1_i_2__n u01_display_1_i_5__n u01_display_1_i_0__n \
+#  u01_display_1_i_1__n e0_i_0__n e0_i_1__n e0_i_2__n e0_i_3__n control0_i_0__n \
+#  u01_display_1_i_9__n u01_display_1_i_10__n u01_display_1_i_3__n \
+#  u01_display_1_i_6__n u01_display_1_i_7__n u01_display_1_i_8__n \
+#  u01_display_1_i_4__n clr0_i clk0_c clr0_c control0_c_0__n control0_c_1__n e0_c_0__n \
+#  e0_c_1__n e0_c_2__n e0_c_3__n display0_c_2__n u01_n_32_0_n u01_n_74_i_n u01_n_75_i_n \
+#  u01_n_76_i_n u01_n_77_i_n u01_display_1_ns_0_9__n u01_n_70_i_n u01_n_71_i_n \
+#  u01_n_72_i_n u01_n_73_i_n u01_display_1_ns_0_10__n u01_n_66_i_n u01_n_67_i_n \
+#  u01_n_68_i_n u01_n_69_i_n u01_display_1_ns_0_0__n u01_n_62_i_n u01_n_63_i_n \
+#  u01_n_64_i_n u01_n_65_i_n u01_display_1_ns_0_1__n u01_n_58_i_n u01_n_59_i_n \
+#  u01_n_60_i_n u01_n_61_i_n u01_display_1_ns_0_2__n u01_n_54_i_n u01_n_55_i_n \
+#  u01_n_56_i_n u01_n_57_i_n u01_display_1_ns_0_3__n u01_n_50_i_n u01_n_51_i_n \
+#  u01_n_52_i_n u01_n_53_i_n u01_display_1_ns_0_4__n u01_n_46_i_n u01_n_47_i_n \
+#  u01_n_48_i_n u01_n_49_i_n u01_display_1_ns_0_5__n u01_n_42_i_n u01_n_43_i_n \
+#  u01_n_44_i_n u01_n_45_i_n u01_display_1_ns_0_6__n u01_n_38_i_n u01_n_39_i_n \
+#  u01_n_40_i_n u01_n_41_i_n u01_display_1_ns_0_7__n u01_n_37_i_n u01_n_82_i_n \
+#  u01_n_86_i_n u01_display_1_ns_0_1_9__n u01_display_1_ns_0_2_9__n \
+#  u01_display_1_ns_0_1_10__n u01_display_1_ns_0_2_10__n u01_display_1_ns_0_1_0__n \
+#  u01_display_1_ns_0_2_0__n u01_display_1_ns_0_1_1__n u01_display_1_ns_0_2_1__n \
+#  u01_display_1_ns_0_1_2__n u01_display_1_ns_0_2_2__n u01_display_1_ns_0_1_3__n \
+#  u01_display_1_ns_0_2_3__n u01_display_1_ns_0_1_4__n u01_display_1_ns_0_2_4__n \
+#  u01_display_1_ns_0_1_5__n u01_display_1_ns_0_2_5__n u01_display_1_ns_0_1_6__n \
+#  u01_display_1_ns_0_2_6__n u01_display_1_ns_0_1_7__n u01_display_1_ns_0_2_7__n \
+#  u01_n_273_i_1_n u01_n_273_i_2_n u01_n_77_1_n u01_n_69_1_n u01_n_69_2_n u01_n_68_1_n \
+#  u01_n_61_1_n u01_n_57_1_n u01_n_57_2_n u01_n_53_1_n u01_n_53_2_n u01_n_53_3_n \
+#  u01_n_53_4_n u01_n_53_5_n u01_n_53_6_n u01_n_53_7_n u01_n_52_1_n u01_n_49_1_n \
+#  u01_n_45_1_n u01_n_41_1_n u01_n_247_1_n u01_n_247_2_n display0_c_1_2__n \
+#  display0_c_2_2__n u01_n_249_1_n U00_inst11>OSCOUT
+#$ EXTERNAL osctimer  4 DYNOSCDIS'i'  TIMERRES'i'  OSCOUT'o'  TIMEROUT'o' 
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n U00_inst11>OSCOUT clk0_c
+.model top_deca0
+.inputs control0_1_.BLIF E0_3_.BLIF clr0.BLIF control0_0_.BLIF E0_2_.BLIF \
+E0_1_.BLIF E0_0_.BLIF U01_display_1_10_.BLIF U01_display_1_9_.BLIF \
+U01_display_1_8_.BLIF U01_display_1_7_.BLIF U01_display_1_6_.BLIF \
+U01_display_1_5_.BLIF U01_display_1_4_.BLIF U01_display_1_3_.BLIF \
+U01_display_1_2_.BLIF U01_display_1_1_.BLIF U01_display_1_0_.BLIF \
+u01_n_246_n.BLIF u01_n_247_n.BLIF u01_n_249_n.BLIF u01_n_250_n.BLIF \
+u01_n_251_n.BLIF u01_n_252_n.BLIF u01_n_32_n.BLIF u01_n_37_n.BLIF \
+u01_n_38_n.BLIF u01_n_39_n.BLIF u01_n_40_n.BLIF u01_n_41_n.BLIF \
+u01_n_42_n.BLIF u01_n_43_n.BLIF u01_n_44_n.BLIF u01_n_45_n.BLIF \
+u01_n_46_n.BLIF u01_n_47_n.BLIF u01_n_48_n.BLIF u01_n_49_n.BLIF \
+u01_n_50_n.BLIF u01_n_51_n.BLIF u01_n_52_n.BLIF u01_n_53_n.BLIF \
+u01_n_54_n.BLIF u01_n_55_n.BLIF u01_n_56_n.BLIF u01_n_57_n.BLIF \
+u01_n_58_n.BLIF u01_n_59_n.BLIF u01_n_60_n.BLIF u01_n_61_n.BLIF \
+u01_n_62_n.BLIF u01_n_63_n.BLIF u01_n_64_n.BLIF u01_n_65_n.BLIF \
+u01_n_66_n.BLIF u01_n_67_n.BLIF u01_n_68_n.BLIF u01_n_69_n.BLIF \
+u01_n_70_n.BLIF u01_n_71_n.BLIF u01_n_72_n.BLIF u01_n_73_n.BLIF \
+u01_n_74_n.BLIF u01_n_75_n.BLIF u01_n_76_n.BLIF u01_n_77_n.BLIF \
+u01_n_79_n.BLIF u01_n_80_n.BLIF u01_n_81_n.BLIF u01_n_82_n.BLIF \
+u01_n_83_n.BLIF u01_n_84_n.BLIF u01_n_85_n.BLIF u01_n_86_n.BLIF \
+u01_n_88_n.BLIF u01_n_246_i_n.BLIF u01_n_247_i_n.BLIF u01_n_249_i_n.BLIF \
+u01_n_251_i_n.BLIF u01_n_250_i_n.BLIF u01_n_252_i_n.BLIF control0_i_1__n.BLIF \
+u01_display_1_i_2__n.BLIF u01_display_1_i_5__n.BLIF u01_display_1_i_0__n.BLIF \
+u01_display_1_i_1__n.BLIF e0_i_0__n.BLIF e0_i_1__n.BLIF e0_i_2__n.BLIF \
+e0_i_3__n.BLIF control0_i_0__n.BLIF u01_display_1_i_9__n.BLIF \
+u01_display_1_i_10__n.BLIF u01_display_1_i_3__n.BLIF u01_display_1_i_6__n.BLIF \
+u01_display_1_i_7__n.BLIF u01_display_1_i_8__n.BLIF u01_display_1_i_4__n.BLIF \
+clr0_i.BLIF clk0_c.BLIF clr0_c.BLIF control0_c_0__n.BLIF control0_c_1__n.BLIF \
+e0_c_0__n.BLIF e0_c_1__n.BLIF e0_c_2__n.BLIF e0_c_3__n.BLIF \
+display0_c_2__n.BLIF u01_n_32_0_n.BLIF u01_n_74_i_n.BLIF u01_n_75_i_n.BLIF \
+u01_n_76_i_n.BLIF u01_n_77_i_n.BLIF u01_display_1_ns_0_9__n.BLIF \
+u01_n_70_i_n.BLIF u01_n_71_i_n.BLIF u01_n_72_i_n.BLIF u01_n_73_i_n.BLIF \
+u01_display_1_ns_0_10__n.BLIF u01_n_66_i_n.BLIF u01_n_67_i_n.BLIF \
+u01_n_68_i_n.BLIF u01_n_69_i_n.BLIF u01_display_1_ns_0_0__n.BLIF \
+u01_n_62_i_n.BLIF u01_n_63_i_n.BLIF u01_n_64_i_n.BLIF u01_n_65_i_n.BLIF \
+u01_display_1_ns_0_1__n.BLIF u01_n_58_i_n.BLIF u01_n_59_i_n.BLIF \
+u01_n_60_i_n.BLIF u01_n_61_i_n.BLIF u01_display_1_ns_0_2__n.BLIF \
+u01_n_54_i_n.BLIF u01_n_55_i_n.BLIF u01_n_56_i_n.BLIF u01_n_57_i_n.BLIF \
+u01_display_1_ns_0_3__n.BLIF u01_n_50_i_n.BLIF u01_n_51_i_n.BLIF \
+u01_n_52_i_n.BLIF u01_n_53_i_n.BLIF u01_display_1_ns_0_4__n.BLIF \
+u01_n_46_i_n.BLIF u01_n_47_i_n.BLIF u01_n_48_i_n.BLIF u01_n_49_i_n.BLIF \
+u01_display_1_ns_0_5__n.BLIF u01_n_42_i_n.BLIF u01_n_43_i_n.BLIF \
+u01_n_44_i_n.BLIF u01_n_45_i_n.BLIF u01_display_1_ns_0_6__n.BLIF \
+u01_n_38_i_n.BLIF u01_n_39_i_n.BLIF u01_n_40_i_n.BLIF u01_n_41_i_n.BLIF \
+u01_display_1_ns_0_7__n.BLIF u01_n_37_i_n.BLIF u01_n_82_i_n.BLIF \
+u01_n_86_i_n.BLIF u01_display_1_ns_0_1_9__n.BLIF \
+u01_display_1_ns_0_2_9__n.BLIF u01_display_1_ns_0_1_10__n.BLIF \
+u01_display_1_ns_0_2_10__n.BLIF u01_display_1_ns_0_1_0__n.BLIF \
+u01_display_1_ns_0_2_0__n.BLIF u01_display_1_ns_0_1_1__n.BLIF \
+u01_display_1_ns_0_2_1__n.BLIF u01_display_1_ns_0_1_2__n.BLIF \
+u01_display_1_ns_0_2_2__n.BLIF u01_display_1_ns_0_1_3__n.BLIF \
+u01_display_1_ns_0_2_3__n.BLIF u01_display_1_ns_0_1_4__n.BLIF \
+u01_display_1_ns_0_2_4__n.BLIF u01_display_1_ns_0_1_5__n.BLIF \
+u01_display_1_ns_0_2_5__n.BLIF u01_display_1_ns_0_1_6__n.BLIF \
+u01_display_1_ns_0_2_6__n.BLIF u01_display_1_ns_0_1_7__n.BLIF \
+u01_display_1_ns_0_2_7__n.BLIF u01_n_273_i_1_n.BLIF u01_n_273_i_2_n.BLIF \
+u01_n_77_1_n.BLIF u01_n_69_1_n.BLIF u01_n_69_2_n.BLIF u01_n_68_1_n.BLIF \
+u01_n_61_1_n.BLIF u01_n_57_1_n.BLIF u01_n_57_2_n.BLIF u01_n_53_1_n.BLIF \
+u01_n_53_2_n.BLIF u01_n_53_3_n.BLIF u01_n_53_4_n.BLIF u01_n_53_5_n.BLIF \
+u01_n_53_6_n.BLIF u01_n_53_7_n.BLIF u01_n_52_1_n.BLIF u01_n_49_1_n.BLIF \
+u01_n_45_1_n.BLIF u01_n_41_1_n.BLIF u01_n_247_1_n.BLIF u01_n_247_2_n.BLIF \
+display0_c_1_2__n.BLIF display0_c_2_2__n.BLIF u01_n_249_1_n.BLIF \
+U00_inst11>OSCOUT.BLIF
+.outputs display0_6_ clk0 display0_5_ display0_4_ display0_3_ display0_2_ \
+display0_1_ display0_0_ U01_display_1_4_.D U01_display_1_4_.C \
+U01_display_1_4_.AR U01_display_1_3_.D U01_display_1_3_.C U01_display_1_3_.AR \
+U01_display_1_2_.D U01_display_1_2_.C U01_display_1_2_.AR U01_display_1_1_.D \
+U01_display_1_1_.C U01_display_1_1_.AR U01_display_1_0_.D U01_display_1_0_.C \
+U01_display_1_0_.AR U01_display_1_10_.D U01_display_1_10_.C \
+U01_display_1_10_.AR U01_display_1_9_.D U01_display_1_9_.C U01_display_1_9_.AP \
+U01_display_1_8_.D U01_display_1_8_.C U01_display_1_8_.AR U01_display_1_7_.D \
+U01_display_1_7_.C U01_display_1_7_.AR U01_display_1_6_.D U01_display_1_6_.C \
+U01_display_1_6_.AR U01_display_1_5_.D U01_display_1_5_.C U01_display_1_5_.AR \
+gnd_n_n u01_n_246_n u01_n_247_n u01_n_249_n u01_n_250_n u01_n_251_n \
+u01_n_252_n u01_n_32_n u01_n_37_n u01_n_38_n u01_n_39_n u01_n_40_n u01_n_41_n \
+u01_n_42_n u01_n_43_n u01_n_44_n u01_n_45_n u01_n_46_n u01_n_47_n u01_n_48_n \
+u01_n_49_n u01_n_50_n u01_n_51_n u01_n_52_n u01_n_53_n u01_n_54_n u01_n_55_n \
+u01_n_56_n u01_n_57_n u01_n_58_n u01_n_59_n u01_n_60_n u01_n_61_n u01_n_62_n \
+u01_n_63_n u01_n_64_n u01_n_65_n u01_n_66_n u01_n_67_n u01_n_68_n u01_n_69_n \
+u01_n_70_n u01_n_71_n u01_n_72_n u01_n_73_n u01_n_74_n u01_n_75_n u01_n_76_n \
+u01_n_77_n u01_n_79_n u01_n_80_n u01_n_81_n u01_n_82_n u01_n_83_n u01_n_84_n \
+u01_n_85_n u01_n_86_n u01_n_88_n u01_n_246_i_n u01_n_247_i_n u01_n_249_i_n \
+u01_n_251_i_n u01_n_250_i_n u01_n_252_i_n control0_i_1__n u01_display_1_i_2__n \
+u01_display_1_i_5__n u01_display_1_i_0__n u01_display_1_i_1__n e0_i_0__n \
+e0_i_1__n e0_i_2__n e0_i_3__n control0_i_0__n u01_display_1_i_9__n \
+u01_display_1_i_10__n u01_display_1_i_3__n u01_display_1_i_6__n \
+u01_display_1_i_7__n u01_display_1_i_8__n u01_display_1_i_4__n clr0_i clr0_c \
+control0_c_0__n control0_c_1__n e0_c_0__n e0_c_1__n e0_c_2__n e0_c_3__n \
+display0_c_2__n u01_n_32_0_n u01_n_74_i_n u01_n_75_i_n u01_n_76_i_n \
+u01_n_77_i_n u01_display_1_ns_0_9__n u01_n_70_i_n u01_n_71_i_n u01_n_72_i_n \
+u01_n_73_i_n u01_display_1_ns_0_10__n u01_n_66_i_n u01_n_67_i_n u01_n_68_i_n \
+u01_n_69_i_n u01_display_1_ns_0_0__n u01_n_62_i_n u01_n_63_i_n u01_n_64_i_n \
+u01_n_65_i_n u01_display_1_ns_0_1__n u01_n_58_i_n u01_n_59_i_n u01_n_60_i_n \
+u01_n_61_i_n u01_display_1_ns_0_2__n u01_n_54_i_n u01_n_55_i_n u01_n_56_i_n \
+u01_n_57_i_n u01_display_1_ns_0_3__n u01_n_50_i_n u01_n_51_i_n u01_n_52_i_n \
+u01_n_53_i_n u01_display_1_ns_0_4__n u01_n_46_i_n u01_n_47_i_n u01_n_48_i_n \
+u01_n_49_i_n u01_display_1_ns_0_5__n u01_n_42_i_n u01_n_43_i_n u01_n_44_i_n \
+u01_n_45_i_n u01_display_1_ns_0_6__n u01_n_38_i_n u01_n_39_i_n u01_n_40_i_n \
+u01_n_41_i_n u01_display_1_ns_0_7__n u01_n_37_i_n u01_n_82_i_n u01_n_86_i_n \
+u01_display_1_ns_0_1_9__n u01_display_1_ns_0_2_9__n u01_display_1_ns_0_1_10__n \
+u01_display_1_ns_0_2_10__n u01_display_1_ns_0_1_0__n u01_display_1_ns_0_2_0__n \
+u01_display_1_ns_0_1_1__n u01_display_1_ns_0_2_1__n u01_display_1_ns_0_1_2__n \
+u01_display_1_ns_0_2_2__n u01_display_1_ns_0_1_3__n u01_display_1_ns_0_2_3__n \
+u01_display_1_ns_0_1_4__n u01_display_1_ns_0_2_4__n u01_display_1_ns_0_1_5__n \
+u01_display_1_ns_0_2_5__n u01_display_1_ns_0_1_6__n u01_display_1_ns_0_2_6__n \
+u01_display_1_ns_0_1_7__n u01_display_1_ns_0_2_7__n u01_n_273_i_1_n \
+u01_n_273_i_2_n u01_n_77_1_n u01_n_69_1_n u01_n_69_2_n u01_n_68_1_n \
+u01_n_61_1_n u01_n_57_1_n u01_n_57_2_n u01_n_53_1_n u01_n_53_2_n u01_n_53_3_n \
+u01_n_53_4_n u01_n_53_5_n u01_n_53_6_n u01_n_53_7_n u01_n_52_1_n u01_n_49_1_n \
+u01_n_45_1_n u01_n_41_1_n u01_n_247_1_n u01_n_247_2_n display0_c_1_2__n \
+display0_c_2_2__n u01_n_249_1_n
+.names u01_display_1_ns_0_6__n.BLIF U01_display_1_4_.D
+0 1
+.names u01_display_1_ns_0_7__n.BLIF U01_display_1_3_.D
+0 1
+.names u01_n_273_i_1_n.BLIF u01_n_273_i_2_n.BLIF U01_display_1_2_.D
+11 1
+.names u01_display_1_ns_0_9__n.BLIF U01_display_1_1_.D
+0 1
+.names u01_display_1_ns_0_10__n.BLIF U01_display_1_0_.D
+0 1
+.names u01_display_1_ns_0_0__n.BLIF U01_display_1_10_.D
+0 1
+.names u01_display_1_ns_0_1__n.BLIF U01_display_1_9_.D
+0 1
+.names u01_display_1_ns_0_2__n.BLIF U01_display_1_8_.D
+0 1
+.names u01_display_1_ns_0_3__n.BLIF U01_display_1_7_.D
+0 1
+.names u01_display_1_ns_0_4__n.BLIF U01_display_1_6_.D
+0 1
+.names u01_display_1_ns_0_5__n.BLIF U01_display_1_5_.D
+0 1
+.names gnd_n_n
+.names u01_display_1_i_0__n.BLIF u01_display_1_i_9__n.BLIF u01_n_246_n
+11 1
+.names u01_n_247_1_n.BLIF u01_n_247_2_n.BLIF u01_n_247_n
+11 1
+.names u01_n_249_1_n.BLIF u01_display_1_i_7__n.BLIF u01_n_249_n
+11 1
+.names u01_n_32_0_n.BLIF u01_display_1_i_3__n.BLIF u01_n_250_n
+11 1
+.names u01_display_1_i_2__n.BLIF u01_display_1_i_5__n.BLIF u01_n_251_n
+11 1
+.names u01_display_1_i_0__n.BLIF u01_display_1_i_1__n.BLIF u01_n_252_n
+11 1
+.names u01_n_32_0_n.BLIF u01_n_32_n
+0 1
+.names u01_display_1_i_2__n.BLIF control0_i_0__n.BLIF u01_n_37_n
+11 1
+.names u01_n_32_n.BLIF u01_n_80_n.BLIF u01_n_38_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_1_.BLIF u01_n_39_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_3_.BLIF u01_n_40_n
+11 1
+.names u01_n_41_1_n.BLIF u01_n_88_n.BLIF u01_n_41_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_3_.BLIF u01_n_42_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_4_.BLIF u01_n_43_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_6_.BLIF u01_n_44_n
+11 1
+.names u01_n_45_1_n.BLIF u01_n_85_n.BLIF u01_n_45_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_0_.BLIF u01_n_46_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_5_.BLIF u01_n_47_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_8_.BLIF u01_n_48_n
+11 1
+.names u01_n_49_1_n.BLIF u01_n_85_n.BLIF u01_n_49_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_6_.BLIF u01_n_50_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_10_.BLIF u01_n_51_n
+11 1
+.names u01_n_52_1_n.BLIF u01_n_88_n.BLIF u01_n_52_n
+11 1
+.names u01_n_53_7_n.BLIF u01_display_1_i_10__n.BLIF u01_n_53_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_10_.BLIF u01_n_54_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_7_.BLIF u01_n_55_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_9_.BLIF u01_n_56_n
+11 1
+.names u01_n_57_1_n.BLIF u01_n_57_2_n.BLIF u01_n_57_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_5_.BLIF u01_n_58_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_8_.BLIF u01_n_59_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_1_.BLIF u01_n_60_n
+11 1
+.names u01_n_61_1_n.BLIF u01_n_88_n.BLIF u01_n_61_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_7_.BLIF u01_n_62_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_9_.BLIF u01_n_63_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_0_.BLIF u01_n_64_n
+11 1
+.names u01_n_84_n.BLIF u01_n_85_n.BLIF u01_n_65_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_10_.BLIF u01_n_66_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_7_.BLIF u01_n_67_n
+11 1
+.names u01_n_68_1_n.BLIF u01_display_1_i_10__n.BLIF u01_n_68_n
+11 1
+.names u01_n_69_1_n.BLIF u01_n_69_2_n.BLIF u01_n_69_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_9_.BLIF u01_n_70_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_0_.BLIF u01_n_71_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_5_.BLIF u01_n_72_n
+11 1
+.names u01_n_84_n.BLIF u01_n_88_n.BLIF u01_n_73_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_8_.BLIF u01_n_74_n
+11 1
+.names u01_n_79_n.BLIF U01_display_1_1_.BLIF u01_n_75_n
+11 1
+.names u01_n_80_n.BLIF U01_display_1_3_.BLIF u01_n_76_n
+11 1
+.names u01_n_77_1_n.BLIF u01_n_85_n.BLIF u01_n_77_n
+11 1
+.names control0_c_1__n.BLIF control0_i_0__n.BLIF u01_n_79_n
+11 1
+.names control0_c_0__n.BLIF control0_i_1__n.BLIF u01_n_80_n
+11 1
+.names control0_i_0__n.BLIF control0_i_1__n.BLIF u01_n_81_n
+11 1
+.names e0_i_3__n.BLIF control0_c_0__n.BLIF u01_n_82_n
+11 1
+.names u01_n_82_n.BLIF control0_c_1__n.BLIF u01_n_83_n
+11 1
+.names e0_i_1__n.BLIF e0_i_2__n.BLIF u01_n_84_n
+11 1
+.names e0_i_0__n.BLIF u01_n_83_n.BLIF u01_n_85_n
+11 1
+.names u01_n_84_n.BLIF control0_c_0__n.BLIF u01_n_86_n
+11 1
+.names e0_c_0__n.BLIF u01_n_83_n.BLIF u01_n_88_n
+11 1
+.names u01_n_246_n.BLIF u01_n_246_i_n
+0 1
+.names u01_n_247_n.BLIF u01_n_247_i_n
+0 1
+.names u01_n_249_n.BLIF u01_n_249_i_n
+0 1
+.names u01_n_251_n.BLIF u01_n_251_i_n
+0 1
+.names u01_n_250_n.BLIF u01_n_250_i_n
+0 1
+.names u01_n_252_n.BLIF u01_n_252_i_n
+0 1
+.names control0_c_1__n.BLIF control0_i_1__n
+0 1
+.names U01_display_1_2_.BLIF u01_display_1_i_2__n
+0 1
+.names U01_display_1_5_.BLIF u01_display_1_i_5__n
+0 1
+.names U01_display_1_0_.BLIF u01_display_1_i_0__n
+0 1
+.names U01_display_1_1_.BLIF u01_display_1_i_1__n
+0 1
+.names e0_c_0__n.BLIF e0_i_0__n
+0 1
+.names e0_c_1__n.BLIF e0_i_1__n
+0 1
+.names e0_c_2__n.BLIF e0_i_2__n
+0 1
+.names e0_c_3__n.BLIF e0_i_3__n
+0 1
+.names control0_c_0__n.BLIF control0_i_0__n
+0 1
+.names U01_display_1_9_.BLIF u01_display_1_i_9__n
+0 1
+.names U01_display_1_10_.BLIF u01_display_1_i_10__n
+0 1
+.names U01_display_1_3_.BLIF u01_display_1_i_3__n
+0 1
+.names U01_display_1_6_.BLIF u01_display_1_i_6__n
+0 1
+.names U01_display_1_7_.BLIF u01_display_1_i_7__n
+0 1
+.names U01_display_1_8_.BLIF u01_display_1_i_8__n
+0 1
+.names U01_display_1_4_.BLIF u01_display_1_i_4__n
+0 1
+.names clr0_c.BLIF clr0_i
+0 1
+.names display0_c_1_2__n.BLIF display0_c_2_2__n.BLIF display0_c_2__n
+11 1
+.names u01_display_1_i_2__n.BLIF u01_display_1_i_4__n.BLIF u01_n_32_0_n
+11 1
+.names u01_n_74_n.BLIF u01_n_74_i_n
+0 1
+.names u01_n_75_n.BLIF u01_n_75_i_n
+0 1
+.names u01_n_76_n.BLIF u01_n_76_i_n
+0 1
+.names u01_n_77_n.BLIF u01_n_77_i_n
+0 1
+.names u01_display_1_ns_0_1_9__n.BLIF u01_display_1_ns_0_2_9__n.BLIF \
+u01_display_1_ns_0_9__n
+11 1
+.names u01_n_70_n.BLIF u01_n_70_i_n
+0 1
+.names u01_n_71_n.BLIF u01_n_71_i_n
+0 1
+.names u01_n_72_n.BLIF u01_n_72_i_n
+0 1
+.names u01_n_73_n.BLIF u01_n_73_i_n
+0 1
+.names u01_display_1_ns_0_1_10__n.BLIF u01_display_1_ns_0_2_10__n.BLIF \
+u01_display_1_ns_0_10__n
+11 1
+.names u01_n_66_n.BLIF u01_n_66_i_n
+0 1
+.names u01_n_67_n.BLIF u01_n_67_i_n
+0 1
+.names u01_n_68_n.BLIF u01_n_68_i_n
+0 1
+.names u01_n_69_n.BLIF u01_n_69_i_n
+0 1
+.names u01_display_1_ns_0_1_0__n.BLIF u01_display_1_ns_0_2_0__n.BLIF \
+u01_display_1_ns_0_0__n
+11 1
+.names u01_n_62_n.BLIF u01_n_62_i_n
+0 1
+.names u01_n_63_n.BLIF u01_n_63_i_n
+0 1
+.names u01_n_64_n.BLIF u01_n_64_i_n
+0 1
+.names u01_n_65_n.BLIF u01_n_65_i_n
+0 1
+.names u01_display_1_ns_0_1_1__n.BLIF u01_display_1_ns_0_2_1__n.BLIF \
+u01_display_1_ns_0_1__n
+11 1
+.names u01_n_58_n.BLIF u01_n_58_i_n
+0 1
+.names u01_n_59_n.BLIF u01_n_59_i_n
+0 1
+.names u01_n_60_n.BLIF u01_n_60_i_n
+0 1
+.names u01_n_61_n.BLIF u01_n_61_i_n
+0 1
+.names u01_display_1_ns_0_1_2__n.BLIF u01_display_1_ns_0_2_2__n.BLIF \
+u01_display_1_ns_0_2__n
+11 1
+.names u01_n_54_n.BLIF u01_n_54_i_n
+0 1
+.names u01_n_55_n.BLIF u01_n_55_i_n
+0 1
+.names u01_n_56_n.BLIF u01_n_56_i_n
+0 1
+.names u01_n_57_n.BLIF u01_n_57_i_n
+0 1
+.names u01_display_1_ns_0_1_3__n.BLIF u01_display_1_ns_0_2_3__n.BLIF \
+u01_display_1_ns_0_3__n
+11 1
+.names u01_n_50_n.BLIF u01_n_50_i_n
+0 1
+.names u01_n_51_n.BLIF u01_n_51_i_n
+0 1
+.names u01_n_52_n.BLIF u01_n_52_i_n
+0 1
+.names u01_n_53_n.BLIF u01_n_53_i_n
+0 1
+.names u01_display_1_ns_0_1_4__n.BLIF u01_display_1_ns_0_2_4__n.BLIF \
+u01_display_1_ns_0_4__n
+11 1
+.names u01_n_46_n.BLIF u01_n_46_i_n
+0 1
+.names u01_n_47_n.BLIF u01_n_47_i_n
+0 1
+.names u01_n_48_n.BLIF u01_n_48_i_n
+0 1
+.names u01_n_49_n.BLIF u01_n_49_i_n
+0 1
+.names u01_display_1_ns_0_1_5__n.BLIF u01_display_1_ns_0_2_5__n.BLIF \
+u01_display_1_ns_0_5__n
+11 1
+.names u01_n_42_n.BLIF u01_n_42_i_n
+0 1
+.names u01_n_43_n.BLIF u01_n_43_i_n
+0 1
+.names u01_n_44_n.BLIF u01_n_44_i_n
+0 1
+.names u01_n_45_n.BLIF u01_n_45_i_n
+0 1
+.names u01_display_1_ns_0_1_6__n.BLIF u01_display_1_ns_0_2_6__n.BLIF \
+u01_display_1_ns_0_6__n
+11 1
+.names u01_n_38_n.BLIF u01_n_38_i_n
+0 1
+.names u01_n_39_n.BLIF u01_n_39_i_n
+0 1
+.names u01_n_40_n.BLIF u01_n_40_i_n
+0 1
+.names u01_n_41_n.BLIF u01_n_41_i_n
+0 1
+.names u01_display_1_ns_0_1_7__n.BLIF u01_display_1_ns_0_2_7__n.BLIF \
+u01_display_1_ns_0_7__n
+11 1
+.names u01_n_37_n.BLIF u01_n_37_i_n
+0 1
+.names u01_n_82_n.BLIF u01_n_82_i_n
+0 1
+.names u01_n_86_n.BLIF u01_n_86_i_n
+0 1
+.names u01_n_74_i_n.BLIF u01_n_75_i_n.BLIF u01_display_1_ns_0_1_9__n
+11 1
+.names u01_n_76_i_n.BLIF u01_n_77_i_n.BLIF u01_display_1_ns_0_2_9__n
+11 1
+.names u01_n_70_i_n.BLIF u01_n_71_i_n.BLIF u01_display_1_ns_0_1_10__n
+11 1
+.names u01_n_72_i_n.BLIF u01_n_73_i_n.BLIF u01_display_1_ns_0_2_10__n
+11 1
+.names u01_n_66_i_n.BLIF u01_n_67_i_n.BLIF u01_display_1_ns_0_1_0__n
+11 1
+.names u01_n_68_i_n.BLIF u01_n_69_i_n.BLIF u01_display_1_ns_0_2_0__n
+11 1
+.names u01_n_62_i_n.BLIF u01_n_63_i_n.BLIF u01_display_1_ns_0_1_1__n
+11 1
+.names u01_n_64_i_n.BLIF u01_n_65_i_n.BLIF u01_display_1_ns_0_2_1__n
+11 1
+.names u01_n_58_i_n.BLIF u01_n_59_i_n.BLIF u01_display_1_ns_0_1_2__n
+11 1
+.names u01_n_60_i_n.BLIF u01_n_61_i_n.BLIF u01_display_1_ns_0_2_2__n
+11 1
+.names u01_n_54_i_n.BLIF u01_n_55_i_n.BLIF u01_display_1_ns_0_1_3__n
+11 1
+.names u01_n_56_i_n.BLIF u01_n_57_i_n.BLIF u01_display_1_ns_0_2_3__n
+11 1
+.names u01_n_50_i_n.BLIF u01_n_51_i_n.BLIF u01_display_1_ns_0_1_4__n
+11 1
+.names u01_n_52_i_n.BLIF u01_n_53_i_n.BLIF u01_display_1_ns_0_2_4__n
+11 1
+.names u01_n_46_i_n.BLIF u01_n_47_i_n.BLIF u01_display_1_ns_0_1_5__n
+11 1
+.names u01_n_48_i_n.BLIF u01_n_49_i_n.BLIF u01_display_1_ns_0_2_5__n
+11 1
+.names u01_n_42_i_n.BLIF u01_n_43_i_n.BLIF u01_display_1_ns_0_1_6__n
+11 1
+.names u01_n_44_i_n.BLIF u01_n_45_i_n.BLIF u01_display_1_ns_0_2_6__n
+11 1
+.names u01_n_38_i_n.BLIF u01_n_39_i_n.BLIF u01_display_1_ns_0_1_7__n
+11 1
+.names u01_n_40_i_n.BLIF u01_n_41_i_n.BLIF u01_display_1_ns_0_2_7__n
+11 1
+.names u01_n_37_i_n.BLIF u01_n_82_i_n.BLIF u01_n_273_i_1_n
+11 1
+.names u01_n_86_i_n.BLIF control0_c_1__n.BLIF u01_n_273_i_2_n
+11 1
+.names e0_c_2__n.BLIF e0_i_1__n.BLIF u01_n_77_1_n
+11 1
+.names e0_c_3__n.BLIF e0_i_0__n.BLIF u01_n_69_1_n
+11 1
+.names u01_n_86_n.BLIF control0_c_1__n.BLIF u01_n_69_2_n
+11 1
+.names u01_n_81_n.BLIF U01_display_1_6_.BLIF u01_n_68_1_n
+11 1
+.names e0_c_1__n.BLIF e0_i_2__n.BLIF u01_n_61_1_n
+11 1
+.names e0_c_0__n.BLIF e0_c_3__n.BLIF u01_n_57_1_n
+11 1
+.names u01_n_86_n.BLIF control0_c_1__n.BLIF u01_n_57_2_n
+11 1
+.names u01_n_81_n.BLIF u01_n_252_n.BLIF u01_n_53_1_n
+11 1
+.names u01_display_1_i_3__n.BLIF u01_display_1_i_5__n.BLIF u01_n_53_2_n
+11 1
+.names u01_display_1_i_6__n.BLIF u01_display_1_i_7__n.BLIF u01_n_53_3_n
+11 1
+.names u01_display_1_i_8__n.BLIF u01_display_1_i_9__n.BLIF u01_n_53_4_n
+11 1
+.names u01_n_53_1_n.BLIF u01_n_53_2_n.BLIF u01_n_53_5_n
+11 1
+.names u01_n_53_3_n.BLIF u01_n_53_4_n.BLIF u01_n_53_6_n
+11 1
+.names u01_n_53_5_n.BLIF u01_n_53_6_n.BLIF u01_n_53_7_n
+11 1
+.names e0_c_1__n.BLIF e0_c_2__n.BLIF u01_n_52_1_n
+11 1
+.names e0_c_1__n.BLIF e0_i_2__n.BLIF u01_n_49_1_n
+11 1
+.names e0_c_1__n.BLIF e0_c_2__n.BLIF u01_n_45_1_n
+11 1
+.names e0_c_2__n.BLIF e0_i_1__n.BLIF u01_n_41_1_n
+11 1
+.names u01_display_1_i_0__n.BLIF u01_display_1_i_5__n.BLIF u01_n_247_1_n
+11 1
+.names u01_display_1_i_6__n.BLIF u01_display_1_i_8__n.BLIF u01_n_247_2_n
+11 1
+.names u01_n_251_n.BLIF u01_display_1_i_4__n.BLIF display0_c_1_2__n
+11 1
+.names u01_display_1_i_9__n.BLIF u01_display_1_i_10__n.BLIF display0_c_2_2__n
+11 1
+.names u01_n_252_n.BLIF u01_display_1_i_6__n.BLIF u01_n_249_1_n
+11 1
+.names u01_n_252_i_n.BLIF display0_6_
+1 1
+0 0
+.names clk0_c.BLIF clk0
+1 1
+0 0
+.names u01_n_250_i_n.BLIF display0_5_
+1 1
+0 0
+.names u01_n_251_i_n.BLIF display0_4_
+1 1
+0 0
+.names u01_n_249_i_n.BLIF display0_3_
+1 1
+0 0
+.names display0_c_2__n.BLIF display0_2_
+1 1
+0 0
+.names u01_n_247_i_n.BLIF display0_1_
+1 1
+0 0
+.names u01_n_246_i_n.BLIF display0_0_
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_4_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_4_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_3_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_3_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_2_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_2_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_1_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_1_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_0_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_0_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_10_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_10_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_9_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_9_.AP
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_8_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_8_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_7_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_7_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_6_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_6_.AR
+1 1
+0 0
+.names clk0_c.BLIF U01_display_1_5_.C
+1 1
+0 0
+.names clr0_i.BLIF U01_display_1_5_.AR
+1 1
+0 0
+.names clr0.BLIF clr0_c
+1 1
+0 0
+.names control0_0_.BLIF control0_c_0__n
+1 1
+0 0
+.names control0_1_.BLIF control0_c_1__n
+1 1
+0 0
+.names E0_0_.BLIF e0_c_0__n
+1 1
+0 0
+.names E0_1_.BLIF e0_c_1__n
+1 1
+0 0
+.names E0_2_.BLIF e0_c_2__n
+1 1
+0 0
+.names E0_3_.BLIF e0_c_3__n
+1 1
+0 0
+.end

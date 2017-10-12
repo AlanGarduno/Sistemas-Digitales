@@ -1,0 +1,18 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe  -osyn  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_hdl_.srs"  -top  top_ContB  -prodtype  synplify_pro  -nostructver -encrypt  -pro  -dmgen  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\dm"  -lite -compiler_compatible -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\package_conb.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\osc00.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_contb.vhd" -loga  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\syntax.log"  -fileorder  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\syntmp\hdlorder.tcl" 
+rc:0 success:1
+C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_hdl_.srs|o|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\contador|i|0|0
+ecuaciones\package_conb.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\contador|i|0|0
+ecuaciones\osc00.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\contador|i|0|0
+ecuaciones\contb.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\contador|i|0|0
+ecuaciones\top_contb.vhd"|i|0|0
+C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\syntax.log|o|1496426589|14855
+C:\ispLEVER_Classic2_0\synpbase\bin\c_vhdl.exe|i|1401227498|2046976
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe|i|1401227704|5533184

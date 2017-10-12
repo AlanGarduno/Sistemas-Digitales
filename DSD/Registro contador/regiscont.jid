@@ -1,0 +1,5 @@
+. top_regcont0 top_regcont0.vhd "c:\users\richie\desktop\4 semestre\dsd\registro contador\top_regcont0.vhd"
+U00.inst11 OSCTIMER  "c:\users\richie\desktop\4 semestre\dsd\registro contador\"
+U00 osc00 osc00.vhd "c:\users\richie\desktop\4 semestre\dsd\registro contador\osc00.vhd"
+U01 regcont regcont.vhd "c:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd"
+[VHDL_Package] package_regcont package_regcont.vhd "c:\users\richie\desktop\4 semestre\dsd\registro contador\package_regcont.vhd"

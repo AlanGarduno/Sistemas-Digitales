@@ -1,0 +1,41 @@
+ library ieee;
+use ieee. std_logic_1164.all;
+use ieee. std_logic_arith.all;
+use ieee. std_logic_unsigned.all;
+
+entity SR-FF is
+PORT( S,R,CLOCK,CLR,PRESET: in std_logic;
+                                         Q, QBAR: out std_logic);
+end SR-FF;
+
+Architecture behavioral of SR-FF is
+begin
+P1: PROCESS(CLOCK,CLR,PRESET)
+variable x: std_logic;
+begin
+if(CLR='0') then
+ x:='0';
+
+elsif(PRESET='0')then
+ x:='1';
+
+elsif(CLOCK='1' and CLOCK'EVENT) then
+
+if(S='0' and R='0')then
+ x:=x;
+ elsif(S='1' and R='1')then
+ x:='Z';
+
+elsif(S='0' and R='1')then
+ x:='0';
+
+else
+ x:='1';
+
+end if;
+end if;
+
+   Q<=x;
+   QBAR<=not x;
+end PROCESS;
+end behavioral;

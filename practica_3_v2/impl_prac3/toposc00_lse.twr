@@ -1,0 +1,173 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Oct 04 09:18:46 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     toposc00
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets soscout0]
+            918 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 989.088ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \OS01/sdiv_62__i6  (from soscout0 +)
+   Destination:    FD1P3AX    D              \OS01/outdiv_64  (to soscout0 +)
+
+   Delay:                  10.752ns  (36.0% logic, 64.0% route), 9 logic levels.
+
+ Constraint Details:
+
+     10.752ns data_path \OS01/sdiv_62__i6 to \OS01/outdiv_64 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 989.088ns
+
+ Path Details: \OS01/sdiv_62__i6 to \OS01/outdiv_64
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \OS01/sdiv_62__i6 (from soscout0)
+Route         2   e 1.198                                  \OS01/sdiv[6]
+LUT4        ---     0.493              D to Z              \OS01/i7_4_lut
+Route         1   e 0.941                                  \OS01/n18
+LUT4        ---     0.493              B to Z              \OS01/i9_4_lut
+Route         1   e 0.941                                  \OS01/n20
+LUT4        ---     0.493              D to Z              \OS01/i2_4_lut
+Route         1   e 0.941                                  \OS01/n30
+LUT4        ---     0.493              B to Z              \OS01/sdiv[16]_bdd_3_lut
+Route         1   e 0.941                                  \OS01/n633
+LUT4        ---     0.493              D to Z              \OS01/i1_4_lut
+Route         1   e 0.020                                  \OS01/outdiv_N_208
+MUXL5       ---     0.233           ALUT to Z              \OS01/i531
+Route         1   e 0.020                                  \OS01/n616
+MUXL5       ---     0.233             D0 to Z              \OS01/i533
+Route         1   e 0.941                                  \OS01/n618
+LUT4        ---     0.493              B to Z              \OS01/i338_2_lut
+Route         1   e 0.941                                  \OS01/outdiv_N_190
+                  --------
+                   10.752  (36.0% logic, 64.0% route), 9 logic levels.
+
+
+Passed:  The following path meets requirements by 989.088ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \OS01/sdiv_62__i3  (from soscout0 +)
+   Destination:    FD1P3AX    D              \OS01/outdiv_64  (to soscout0 +)
+
+   Delay:                  10.752ns  (36.0% logic, 64.0% route), 9 logic levels.
+
+ Constraint Details:
+
+     10.752ns data_path \OS01/sdiv_62__i3 to \OS01/outdiv_64 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 989.088ns
+
+ Path Details: \OS01/sdiv_62__i3 to \OS01/outdiv_64
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \OS01/sdiv_62__i3 (from soscout0)
+Route         2   e 1.198                                  \OS01/sdiv[3]
+LUT4        ---     0.493              C to Z              \OS01/i7_4_lut
+Route         1   e 0.941                                  \OS01/n18
+LUT4        ---     0.493              B to Z              \OS01/i9_4_lut
+Route         1   e 0.941                                  \OS01/n20
+LUT4        ---     0.493              D to Z              \OS01/i2_4_lut
+Route         1   e 0.941                                  \OS01/n30
+LUT4        ---     0.493              B to Z              \OS01/sdiv[16]_bdd_3_lut
+Route         1   e 0.941                                  \OS01/n633
+LUT4        ---     0.493              D to Z              \OS01/i1_4_lut
+Route         1   e 0.020                                  \OS01/outdiv_N_208
+MUXL5       ---     0.233           ALUT to Z              \OS01/i531
+Route         1   e 0.020                                  \OS01/n616
+MUXL5       ---     0.233             D0 to Z              \OS01/i533
+Route         1   e 0.941                                  \OS01/n618
+LUT4        ---     0.493              B to Z              \OS01/i338_2_lut
+Route         1   e 0.941                                  \OS01/outdiv_N_190
+                  --------
+                   10.752  (36.0% logic, 64.0% route), 9 logic levels.
+
+
+Passed:  The following path meets requirements by 989.088ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \OS01/sdiv_62__i8  (from soscout0 +)
+   Destination:    FD1P3AX    D              \OS01/outdiv_64  (to soscout0 +)
+
+   Delay:                  10.752ns  (36.0% logic, 64.0% route), 9 logic levels.
+
+ Constraint Details:
+
+     10.752ns data_path \OS01/sdiv_62__i8 to \OS01/outdiv_64 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 989.088ns
+
+ Path Details: \OS01/sdiv_62__i8 to \OS01/outdiv_64
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \OS01/sdiv_62__i8 (from soscout0)
+Route         2   e 1.198                                  \OS01/sdiv[8]
+LUT4        ---     0.493              A to Z              \OS01/i7_4_lut
+Route         1   e 0.941                                  \OS01/n18
+LUT4        ---     0.493              B to Z              \OS01/i9_4_lut
+Route         1   e 0.941                                  \OS01/n20
+LUT4        ---     0.493              D to Z              \OS01/i2_4_lut
+Route         1   e 0.941                                  \OS01/n30
+LUT4        ---     0.493              B to Z              \OS01/sdiv[16]_bdd_3_lut
+Route         1   e 0.941                                  \OS01/n633
+LUT4        ---     0.493              D to Z              \OS01/i1_4_lut
+Route         1   e 0.020                                  \OS01/outdiv_N_208
+MUXL5       ---     0.233           ALUT to Z              \OS01/i531
+Route         1   e 0.020                                  \OS01/n616
+MUXL5       ---     0.233             D0 to Z              \OS01/i533
+Route         1   e 0.941                                  \OS01/n618
+LUT4        ---     0.493              B to Z              \OS01/i338_2_lut
+Route         1   e 0.941                                  \OS01/outdiv_N_190
+                  --------
+                   10.752  (36.0% logic, 64.0% route), 9 logic levels.
+
+Report: 10.912 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets soscout0]                |  1000.000 ns|    10.912 ns|     9  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  918 paths, 88 nets, and 188 connections (77.0% coverage)
+
+
+Peak memory: 57741312 bytes, TRCE: 1314816 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

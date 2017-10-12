@@ -1,0 +1,24 @@
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd":6:7:6:19|Synthesizing work.top_secuencia.atop_secuencia 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":6:7:6:15|Synthesizing work.secuencia.a_secuencia 
+@N: CD231 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":17:13:17:14|Using onehot encoding for type estados (a="10000")
+Post processing for work.secuencia.a_secuencia
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd":5:7:5:23|Synthesizing work.registrouniversal.a_registro 
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd":41:15:41:20|Removed redundant assignment
+Post processing for work.registrouniversal.a_registro
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0 
+@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
+@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box 
+Post processing for work.osctimer.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.top_secuencia.atop_secuencia
+@W: CL240 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd":7:8:7:12|clks0 is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CL201 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|Trying to extract state machine for register edo_Pre
+Extracted state machine for register edo_Pre
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL159 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd":8:1:8:4|Input ent0 is unused

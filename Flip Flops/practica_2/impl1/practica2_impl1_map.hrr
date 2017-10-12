@@ -1,0 +1,49 @@
+---------------------------------------------------
+Report for cell topff00
+   Instance path: topff00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.00        100.0
+                                  LUT4	      35.00        100.0
+                                 IOBUF	         22        100.0
+                                PFUREG	         30        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        74.2
+                                 FFDRS	          1        25.8
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topff00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.00        74.2
+                                  LUT4	      24.00        68.6
+                                PFUREG	         22        73.3
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 div00	          1        74.2
+                                 osc00	          1         0.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: topff00/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.00        74.2
+                                  LUT4	      24.00        68.6
+                                PFUREG	         22        73.3
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topff00/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell FFDRS
+   Instance path: topff00/FF00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        25.8
+                                  LUT4	      11.00        31.4
+                                PFUREG	          8        26.7

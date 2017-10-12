@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/convertidor\ binario\ gray/packagedeca0.vhd" "C:/users/richie/desktop/4\ semestre/dsd/convertidor\ binario\ gray/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/convertidor\ binario\ gray/deca.vhd" "C:/users/richie/desktop/4\ semestre/dsd/convertidor\ binario\ gray/top_deca0.vhd" 

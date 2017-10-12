@@ -1,0 +1,35 @@
+#$ TOOL   ispLEVER Classic 2.0.00.17.20.15
+#$ DATE   Wed May 17 01:39:21 2017
+#$ MODULE   topdado0
+#$ PROPERTY   LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 128; 
+#$ PINS 10 display0_6_ clk0 clr0 control0 display0_3_ display0_5_ display0_4_
+ display0_2_ display0_1_ display0_0_
+#$ NODES 4 gnd_n_n clk0_c E0_OSCOUT _dup_gnd_n_n
+#$ EXTERNAL osctimer 4 DYNOSCDIS'i' TIMERRES'i' OSCOUT'o' TIMEROUT'o'
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n _dup_gnd_n_n E0_OSCOUT clk0_c
+.type f
+.i 9
+.o 28
+.ilb clr0 control0 clk0_c display0_0_.Q display0_1_.Q display0_2_.Q
+ display0_5_.Q E0_OSCOUT display0_6_.Q
+.ob display0_6_.D display0_6_.C display0_6_.CE display0_6_.AR clk0 display0_3_
+ display0_5_.D display0_5_.C display0_5_.CE display0_5_.AR display0_4_.D
+ display0_4_.C display0_4_.CE display0_4_.AR display0_2_.D- display0_2_.C
+ display0_2_.CE display0_2_.AR display0_1_.D display0_1_.C display0_1_.CE
+ display0_1_.AR display0_0_.D display0_0_.C display0_0_.CE display0_0_.AP
+ gnd_n_n _dup_gnd_n_n
+.phase 1111111111111111111111111111
+.p 12
+----11--0 1000000000000000000000000000
+----00--- 1000000000000000000000000000
+--1------ 0100100100010001000100010000
+-1------- 0010000010001000100010001000
+0-------- 0001000001000100010001000100
+--------1 0000010000000000000000000000
+----01--- 0000001000000000000000000000
+---1----1 0000000000100000000000000000
+----01--0 0000000000000010000000000000
+----1---1 0000000000000010001000000000
+-----0--- 0000000000000000001000000000
+-----01-- 0000000000000000000000100000
+.end

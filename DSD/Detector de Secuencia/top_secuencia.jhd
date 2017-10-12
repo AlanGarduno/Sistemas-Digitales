@@ -1,0 +1,12 @@
+
+
+MODULE top_secuencia
+
+	SUBMODULE osc00
+		INSTANCE U00
+
+	SUBMODULE registrouniversal
+		INSTANCE U01
+
+	SUBMODULE secuencia
+		INSTANCE U02

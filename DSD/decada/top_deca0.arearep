@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+Report for cell top_deca0.TECH
+Register bits:  7 of 880 (0.795%)
+I/O cells:      15
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DFFCR         6          100.0
+                              DFFCS         1          100.0
+                               IBUF         7          100.0
+                               OBUF         8          100.0
+SUB MODULES
+                               deca         1
+                              osc00         1
+                              TOTAL        24
+----------------------------------------------------------------------
+Report for cell osc00.v1
+Instance Path : U00
+                              TOTAL         0
+----------------------------------------------------------------------
+Report for cell deca.v1
+Instance Path : U01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DFFCR         6          100.0
+                              DFFCS         1          100.0
+                              TOTAL         7

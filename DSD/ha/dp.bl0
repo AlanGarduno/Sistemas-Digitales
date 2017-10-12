@@ -1,0 +1,506 @@
+#$ DATE Fri Jun 16 17:54:32 2017
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE dp
+#$ PINS 37 decenas_2_ clk:4'ke'  decenas_1_ decenas_0_ X_1_:96'ke'  displayu_5_ displayu_4_ ctrl_1_ displayu_3_ displayu_2_ unidades_3_ displayu_1_ displayu_0_ decenas_3_ displayd_5_ displayd_4_ displayu_6_ displayd_3_ displayd_2_ displayd_6_ displayd_1_ trans1 displayd_0_ trans2 salida_6_:87'ke'  salida_5_:86'ke'  salida_7_:88'ke'  salida_4_:85'ke'  salida_3_:84'ke'  salida_2_:83'ke'  salida_1_:81'ke'  salida_0_:80'ke'  X_0_:95'ke'  ctrl_0_ unidades_2_ unidades_1_ unidades_0_
+#$ NODES 123 n102 clk_c X_c_1 X_c_0 ctrl_c_1 ctrl_c_0 n550 n548 i1_adj_7 n394 \
+#  n372 n547 n525 salida_i0_i8reg salida_i0_i7reg salida_i0_i6reg salida_i0_i5reg salida_i0_i4reg salida_i0_i3reg salida_i0_i2reg \
+#  salida_i0_i1reg edo_presente_i2 edo_presente_i1 edo_presente_i0 n552 n546 edo_futuro_2_N_25_1 edo_futuro_2_N_25_0 n393 edo_futuro_2_N_22_0 \
+#  ctrl_1_N_3_1 n4 i1_adj_6 edo_futuro_2_N_16_2 edo_futuro_2_N_16_1 n12 n528 n235 n169 i158 \
+#  i151 i144 i137 i130 i123 n544 salida_7_N_34_0 salida_7_N_42_7 salida_7_N_42_6 salida_7_N_42_5 \
+#  salida_7_N_42_4 salida_7_N_42_3 salida_7_N_42_2 n14 n10 n6 n8 n263 n256 n249 \
+#  n447 n1 n518 n564 n561 n558 n555 n444 n442 n540 \
+#  n537 n534 n228 n531 n242 n543 n411 i1_adj_1 n379 n541 \
+#  n539 n4_adj_1 n2 n1_adj_2 n434 n432 n428 n440 n3 n3_adj_3 \
+#  n538 n6_adj_4 n536 n535 i2_adj_4 n533 n515 n395 n549 n522 \
+#  i1_adj_9 i1_adj_8 i1_adj_3 n384 n532 n530 n529 i439 n527 i1_adj_5 \
+#  n526 n524 n523 n521 n520 n519 n516 n565 n562 n559 \
+#  n514 n556 n553 
+.model dp
+.inputs clk.BLIF X_1_.BLIF X_0_.BLIF n102.BLIF clk_c.BLIF X_c_1.BLIF X_c_0.BLIF ctrl_c_1.BLIF ctrl_c_0.BLIF \
+  n550.BLIF n548.BLIF i1_adj_7.BLIF n394.BLIF n372.BLIF n547.BLIF n525.BLIF salida_i0_i8reg.BLIF salida_i0_i7reg.BLIF \
+  salida_i0_i6reg.BLIF salida_i0_i5reg.BLIF salida_i0_i4reg.BLIF salida_i0_i3reg.BLIF salida_i0_i2reg.BLIF salida_i0_i1reg.BLIF edo_presente_i2.BLIF edo_presente_i1.BLIF edo_presente_i0.BLIF \
+  n552.BLIF n546.BLIF edo_futuro_2_N_25_1.BLIF edo_futuro_2_N_25_0.BLIF n393.BLIF edo_futuro_2_N_22_0.BLIF ctrl_1_N_3_1.BLIF n4.BLIF i1_adj_6.BLIF \
+  edo_futuro_2_N_16_2.BLIF edo_futuro_2_N_16_1.BLIF n12.BLIF n528.BLIF n235.BLIF n169.BLIF i158.BLIF i151.BLIF i144.BLIF \
+  i137.BLIF i130.BLIF i123.BLIF n544.BLIF salida_7_N_34_0.BLIF salida_7_N_42_7.BLIF salida_7_N_42_6.BLIF salida_7_N_42_5.BLIF salida_7_N_42_4.BLIF \
+  salida_7_N_42_3.BLIF salida_7_N_42_2.BLIF n14.BLIF n10.BLIF n6.BLIF n8.BLIF n263.BLIF n256.BLIF n249.BLIF \
+  n447.BLIF n1.BLIF n518.BLIF n564.BLIF n561.BLIF n558.BLIF n555.BLIF n444.BLIF n442.BLIF \
+  n540.BLIF n537.BLIF n534.BLIF n228.BLIF n531.BLIF n242.BLIF n543.BLIF n411.BLIF i1_adj_1.BLIF \
+  n379.BLIF n541.BLIF n539.BLIF n4_adj_1.BLIF n2.BLIF n1_adj_2.BLIF n434.BLIF n432.BLIF n428.BLIF \
+  n440.BLIF n3.BLIF n3_adj_3.BLIF n538.BLIF n6_adj_4.BLIF n536.BLIF n535.BLIF i2_adj_4.BLIF n533.BLIF \
+  n515.BLIF n395.BLIF n549.BLIF n522.BLIF i1_adj_9.BLIF i1_adj_8.BLIF i1_adj_3.BLIF n384.BLIF n532.BLIF \
+  n530.BLIF n529.BLIF i439.BLIF n527.BLIF i1_adj_5.BLIF n526.BLIF n524.BLIF n523.BLIF n521.BLIF \
+  n520.BLIF n519.BLIF n516.BLIF n565.BLIF n562.BLIF n559.BLIF n514.BLIF n556.BLIF n553.BLIF  
+.outputs ctrl_1_ unidades_3_ decenas_3_ displayu_6_ displayd_6_ salida_7_ ctrl_0_ unidades_2_ unidades_1_ unidades_0_ decenas_2_ \
+  decenas_1_ decenas_0_ displayu_5_ displayu_4_ displayu_3_ displayu_2_ displayu_1_ displayu_0_ displayd_5_ displayd_4_ displayd_3_ \
+  displayd_2_ displayd_1_ displayd_0_ salida_6_ salida_5_ salida_4_ salida_3_ salida_2_ salida_1_ salida_0_ edo_presente_i2.D \
+  edo_presente_i2.C edo_presente_i1.D edo_presente_i1.C salida_i0_i1reg.D salida_i0_i1reg.C salida_i0_i1reg.CE salida_i0_i2reg.D salida_i0_i2reg.C salida_i0_i2reg.CE edo_presente_i0.D edo_presente_i0.C \
+  salida_i0_i3reg.D salida_i0_i3reg.C salida_i0_i3reg.CE salida_i0_i4reg.D salida_i0_i4reg.C salida_i0_i4reg.CE salida_i0_i5reg.D salida_i0_i5reg.C salida_i0_i5reg.CE salida_i0_i6reg.D salida_i0_i6reg.C \
+  salida_i0_i6reg.CE salida_i0_i7reg.D salida_i0_i7reg.C salida_i0_i7reg.CE salida_i0_i8reg.D salida_i0_i8reg.C salida_i0_i8reg.CE i1_adj_1.X1 i1_adj_1.X2 i158.X1 i158.X2 \
+  i123.X1 i123.X2 i1_adj_3.X1 i1_adj_3.X2 i137.X1 i137.X2 i2_adj_4.X1 i2_adj_4.X2 i1_adj_5.X1 i1_adj_5.X2 i130.X1 \
+  i130.X2 i144.X1 i144.X2 i151.X1 i151.X2 i1_adj_6.X1 i1_adj_6.X2 i439.X1 i439.X2 i1_adj_7.X1 i1_adj_7.X2 \
+  i1_adj_8.X1 i1_adj_8.X2 i1_adj_9.X1 i1_adj_9.X2 n102 clk_c X_c_1 X_c_0 ctrl_c_1 ctrl_c_0 n550 \
+  n548 n394 n372 n547 n525 n552 n546 edo_futuro_2_N_25_1 edo_futuro_2_N_25_0 n393 edo_futuro_2_N_22_0 \
+  ctrl_1_N_3_1 n4 edo_futuro_2_N_16_2 edo_futuro_2_N_16_1 n12 n528 n235 n169 n544 salida_7_N_34_0 salida_7_N_42_7 \
+  salida_7_N_42_6 salida_7_N_42_5 salida_7_N_42_4 salida_7_N_42_3 salida_7_N_42_2 n14 n10 n6 n8 n263 n256 \
+  n249 n447 n1 n518 n564 n561 n558 n555 n444 n442 n540 \
+  n537 n534 n228 n531 n242 n543 n411 n379 n541 n539 n4_adj_1 \
+  n2 n1_adj_2 n434 n432 n428 n440 n3 n3_adj_3 n538 n6_adj_4 n536 \
+  n535 n533 n515 n395 n549 n522 n384 n532 n530 n529 n527 \
+  n526 n524 n523 n521 n520 n519 n516 n565 n562 n559 n514 \
+  n556 n553 unidades_2_.OE unidades_3_.OE unidades_1_.OE unidades_0_.OE decenas_3_.OE decenas_2_.OE decenas_1_.OE \
+  decenas_0_.OE displayu_6_.OE displayu_5_.OE displayu_4_.OE displayu_3_.OE displayu_2_.OE displayu_1_.OE displayu_0_.OE displayd_6_.OE \
+  displayd_5_.OE displayd_4_.OE displayd_3_.OE displayd_2_.OE displayd_1_.OE displayd_0_.OE
+.names n102.BLIF unidades_2_
+1 1
+.names n102.BLIF unidades_2_.OE
+1 1
+.names n102.BLIF unidades_3_
+1 1
+.names n102.BLIF unidades_3_.OE
+1 1
+.names n102.BLIF unidades_1_
+1 1
+.names n102.BLIF unidades_1_.OE
+1 1
+.names n102.BLIF unidades_0_
+1 1
+.names n102.BLIF unidades_0_.OE
+1 1
+.names n102.BLIF decenas_3_
+1 1
+.names n102.BLIF decenas_3_.OE
+1 1
+.names n102.BLIF decenas_2_
+1 1
+.names n102.BLIF decenas_2_.OE
+1 1
+.names n102.BLIF decenas_1_
+1 1
+.names n102.BLIF decenas_1_.OE
+1 1
+.names n102.BLIF decenas_0_
+1 1
+.names n102.BLIF decenas_0_.OE
+1 1
+.names n102.BLIF displayu_6_
+1 1
+.names n102.BLIF displayu_6_.OE
+1 1
+.names n102.BLIF displayu_5_
+1 1
+.names n102.BLIF displayu_5_.OE
+1 1
+.names n102.BLIF displayu_4_
+1 1
+.names n102.BLIF displayu_4_.OE
+1 1
+.names n102.BLIF displayu_3_
+1 1
+.names n102.BLIF displayu_3_.OE
+1 1
+.names n102.BLIF displayu_2_
+1 1
+.names n102.BLIF displayu_2_.OE
+1 1
+.names n102.BLIF displayu_1_
+1 1
+.names n102.BLIF displayu_1_.OE
+1 1
+.names n102.BLIF displayu_0_
+1 1
+.names n102.BLIF displayu_0_.OE
+1 1
+.names n102.BLIF displayd_6_
+1 1
+.names n102.BLIF displayd_6_.OE
+1 1
+.names n102.BLIF displayd_5_
+1 1
+.names n102.BLIF displayd_5_.OE
+1 1
+.names n102.BLIF displayd_4_
+1 1
+.names n102.BLIF displayd_4_.OE
+1 1
+.names n102.BLIF displayd_3_
+1 1
+.names n102.BLIF displayd_3_.OE
+1 1
+.names n102.BLIF displayd_2_
+1 1
+.names n102.BLIF displayd_2_.OE
+1 1
+.names n102.BLIF displayd_1_
+1 1
+.names n102.BLIF displayd_1_.OE
+1 1
+.names n102.BLIF displayd_0_
+1 1
+.names n102.BLIF displayd_0_.OE
+1 1
+.names  clk_c.BLIF salida_i0_i6reg.C
+1 1
+.names  n411.BLIF salida_i0_i6reg.CE
+1 1
+.names  clk_c.BLIF salida_i0_i7reg.C
+1 1
+.names  n411.BLIF salida_i0_i7reg.CE
+1 1
+.names  clk_c.BLIF salida_i0_i8reg.C
+1 1
+.names  n411.BLIF salida_i0_i8reg.CE
+1 1
+.names  n6.BLIF i1_adj_1.X1
+1 1
+.names  ctrl_c_0.BLIF ctrl_0_
+1 1
+.names  salida_i0_i4reg.BLIF i1_adj_1.X2
+1 1
+.names  n12.BLIF salida_i0_i7reg.BLIF n14
+1- 1
+-1 1
+.names  n263.BLIF i158.X1
+1 1
+.names  ctrl_c_1.BLIF ctrl_1_
+1 1
+.names  n10.BLIF salida_i0_i6reg.BLIF n12
+1- 1
+-1 1
+.names  salida_i0_i8reg.BLIF i158.X2
+1 1
+.names  n384.BLIF n521.BLIF n546
+11 1
+.names  n228.BLIF i123.X1
+1 1
+.names  salida_i0_i3reg.BLIF i123.X2
+1 1
+.names  n8.BLIF salida_i0_i5reg.BLIF n10
+1- 1
+-1 1
+.names  n102
+.names  n4.BLIF i1_adj_3.X1
+1 1
+.names  n6.BLIF salida_i0_i4reg.BLIF n8
+1- 1
+-1 1
+.names  n550.BLIF n549.BLIF salida_i0_i7reg.D
+1- 1
+-1 1
+.names  salida_i0_i3reg.BLIF i1_adj_3.X2
+1 1
+.names  n3.BLIF n530.BLIF n553
+11 1
+.names  n4.BLIF salida_i0_i3reg.BLIF n6
+1- 1
+-1 1
+.names  n242.BLIF i137.X1
+1 1
+.names  n541.BLIF n540.BLIF edo_presente_i2.D
+1- 1
+-1 1
+.names  n553.BLIF n552.BLIF salida_i0_i6reg.D
+1- 1
+-1 1
+.names  salida_i0_i5reg.BLIF i137.X2
+1 1
+.names  n169.BLIF salida_7_N_42_7.BLIF n544
+11 1
+.names  n432.BLIF i158.BLIF n515
+11 1
+.names  i1_adj_5.BLIF i2_adj_4.X1
+1 1
+.names  salida_i0_i2reg.BLIF i2_adj_4.X2
+1 1
+.names  salida_i0_i1reg.BLIF salida_i0_i2reg.BLIF n4
+1- 1
+-1 1
+.names  salida_i0_i1reg.BLIF i1_adj_5.X1
+1 1
+.names  n3_adj_3.BLIF i1_adj_5.X2
+1 1
+.names  n235.BLIF i130.X1
+1 1
+.names  n384.BLIF edo_futuro_2_N_25_1.BLIF n522
+11 1
+.names  salida_i0_i4reg.BLIF i130.X2
+1 1
+.names  n249.BLIF i144.X1
+1 1
+.names  salida_i0_i6reg.BLIF i144.X2
+1 1
+.names  salida_i0_i8reg.BLIF salida_7_
+1 1
+.names  n256.BLIF i151.X1
+1 1
+.names  salida_i0_i7reg.BLIF salida_6_
+1 1
+.names  salida_i0_i6reg.BLIF salida_5_
+1 1
+.names  salida_i0_i7reg.BLIF i151.X2
+1 1
+.names  salida_i0_i5reg.BLIF salida_4_
+1 1
+.names  salida_i0_i4reg.BLIF salida_3_
+1 1
+.names  salida_i0_i3reg.BLIF salida_2_
+1 1
+.names  n8.BLIF i1_adj_6.X1
+1 1
+.names  salida_i0_i2reg.BLIF salida_1_
+1 1
+.names  salida_i0_i1reg.BLIF salida_0_
+1 1
+.names  salida_i0_i5reg.BLIF i1_adj_6.X2
+1 1
+.names  clk.BLIF clk_c
+1 1
+.names  X_1_.BLIF X_c_1
+1 1
+.names  X_0_.BLIF X_c_0
+1 1
+.names  edo_presente_i0.BLIF i439.X1
+1 1
+.names  X_c_1.BLIF i439.X2
+1 1
+.names  n10.BLIF i1_adj_7.X1
+1 1
+.names  salida_i0_i6reg.BLIF i1_adj_7.X2
+1 1
+.names  n3.BLIF n533.BLIF n556
+11 1
+.names  n12.BLIF i1_adj_8.X1
+1 1
+.names  n556.BLIF n555.BLIF salida_i0_i5reg.D
+1- 1
+-1 1
+.names  salida_i0_i7reg.BLIF i1_adj_8.X2
+1 1
+.names  n242.BLIF salida_i0_i5reg.BLIF n249
+11 1
+.names  n3.BLIF n536.BLIF n559
+11 1
+.names  n256.BLIF salida_i0_i7reg.BLIF n263
+11 1
+.names  n14.BLIF i1_adj_9.X1
+1 1
+.names  n559.BLIF n558.BLIF salida_i0_i4reg.D
+1- 1
+-1 1
+.names  n228.BLIF salida_i0_i3reg.BLIF n235
+11 1
+.names  salida_i0_i8reg.BLIF i1_adj_9.X2
+1 1
+.names  i439.BLIF n514
+0 1
+.names  n3.BLIF n539.BLIF n562
+11 1
+.names  X_c_1.BLIF X_c_0.BLIF ctrl_1_N_3_1
+11 1
+.names  n562.BLIF n561.BLIF salida_i0_i3reg.D
+1- 1
+-1 1
+.names  n3_adj_3.BLIF i158.BLIF n543
+11 1
+.names  n447.BLIF n442
+0 1
+.names  n544.BLIF n543.BLIF salida_i0_i8reg.D
+1- 1
+-1 1
+.names  n394.BLIF n434
+0 1
+.names  edo_presente_i0.BLIF edo_futuro_2_N_16_2.BLIF n379.BLIF edo_presente_i1.BLIF n540
+1111 1
+.names  n440.BLIF n6_adj_4
+0 1
+.names  i2_adj_4.BLIF n395
+0 1
+.names  i1_adj_6.BLIF salida_7_N_42_4
+0 1
+.names  n3.BLIF n395.BLIF n565
+11 1
+.names  edo_presente_i1.BLIF n384
+0 1
+.names  i1_adj_7.BLIF salida_7_N_42_5
+0 1
+.names  n3_adj_3.BLIF i123.BLIF n537
+11 1
+.names  n565.BLIF n564.BLIF salida_i0_i2reg.D
+1- 1
+-1 1
+.names  n3_adj_3.BLIF i130.BLIF n534
+11 1
+.names  n3.BLIF salida_7_N_34_0.BLIF n516
+11 1
+.names  n3_adj_3.BLIF n169
+0 1
+.names  n3_adj_3.BLIF i137.BLIF n531
+11 1
+.names  n3_adj_3.BLIF i144.BLIF n528
+11 1
+.names  n432.BLIF n3
+0 1
+.names  edo_presente_i1.BLIF edo_presente_i0.BLIF n4_adj_1
+1- 1
+-1 1
+.names  n3_adj_3.BLIF i151.BLIF n525
+11 1
+.names  n516.BLIF n515.BLIF salida_i0_i1reg.D
+1- 1
+-1 1
+.names  n518.BLIF edo_futuro_2_N_25_0.BLIF n519
+11 1
+.names  edo_presente_i0.BLIF edo_presente_i1.BLIF edo_futuro_2_N_16_1.BLIF n547
+111 1
+.names  salida_i0_i1reg.BLIF salida_i0_i2reg.BLIF n228
+11 1
+.names  edo_presente_i0.BLIF edo_futuro_2_N_22_0.BLIF n520
+11 1
+.names  n235.BLIF salida_i0_i4reg.BLIF n242
+11 1
+.names  n520.BLIF n519.BLIF n521
+1- 1
+-1 1
+.names  edo_presente_i1.BLIF n372.BLIF n523
+11 1
+.names  n547.BLIF n546.BLIF n548
+1- 1
+-1 1
+.names  n523.BLIF n522.BLIF n524
+1- 1
+-1 1
+.names  n379.BLIF n548.BLIF edo_presente_i0.D
+11 1
+.names  n169.BLIF salida_7_N_42_6.BLIF n526
+11 1
+.names  n526.BLIF n525.BLIF n527
+1- 1
+-1 1
+.names  edo_presente_i0.BLIF n384.BLIF edo_presente_i2.BLIF n394
+1-- 1
+-1- 1
+--1 1
+.names  n169.BLIF salida_7_N_42_5.BLIF n529
+11 1
+.names  n529.BLIF n528.BLIF n530
+1- 1
+-1 1
+.names  n249.BLIF salida_i0_i6reg.BLIF n256
+11 1
+.names  edo_futuro_2_N_16_1.BLIF edo_futuro_2_N_16_2
+0 1
+.names  edo_presente_i2.BLIF n379
+0 1
+.names  X_c_1.BLIF n2
+0 1
+.names  ctrl_c_1.BLIF n1_adj_2.BLIF n3_adj_3
+1- 1
+-1 1
+.names  n169.BLIF salida_7_N_42_4.BLIF n532
+11 1
+.names  i1_adj_1.BLIF salida_7_N_42_3
+0 1
+.names  n532.BLIF n531.BLIF n533
+1- 1
+-1 1
+.names  n3.BLIF n527.BLIF n550
+11 1
+.names  n169.BLIF salida_7_N_42_3.BLIF n535
+11 1
+.names  n379.BLIF n524.BLIF edo_presente_i1.D
+11 1
+.names  n428.BLIF ctrl_1_N_3_1.BLIF ctrl_c_0
+11 1
+.names  n434.BLIF ctrl_1_N_3_1.BLIF ctrl_c_1
+11 1
+.names  edo_futuro_2_N_22_0.BLIF edo_futuro_2_N_16_1.BLIF n444
+11 1
+.names  n393.BLIF n394.BLIF n447
+11 1
+.names  i1_adj_8.BLIF salida_7_N_42_6
+0 1
+.names  edo_futuro_2_N_22_0.BLIF edo_futuro_2_N_25_1
+0 1
+.names  n4_adj_1.BLIF ctrl_1_N_3_1.BLIF n440
+1- 1
+-1 1
+.names  n442.BLIF ctrl_1_N_3_1.BLIF n411
+11 1
+.names  i1_adj_3.BLIF salida_7_N_42_2
+0 1
+.names  n393.BLIF n428
+0 1
+.names  n535.BLIF n534.BLIF n536
+1- 1
+-1 1
+.names  ctrl_c_0.BLIF n1_adj_2
+0 1
+.names  n169.BLIF salida_7_N_42_2.BLIF n538
+11 1
+.names  n432.BLIF i158.BLIF n564
+11 1
+.names  n432.BLIF i158.BLIF n561
+11 1
+.names  salida_i0_i1reg.BLIF salida_7_N_34_0
+0 1
+.names  n432.BLIF i158.BLIF n558
+11 1
+.names  n444.BLIF edo_futuro_2_N_25_0
+0 1
+.names  n432.BLIF i158.BLIF n555
+11 1
+.names  n432.BLIF i158.BLIF n552
+11 1
+.names  n538.BLIF n537.BLIF n539
+1- 1
+-1 1
+.names  n432.BLIF i158.BLIF n549
+11 1
+.names  i1_adj_9.BLIF salida_7_N_42_7
+0 1
+.names  X_c_0.BLIF n1
+0 1
+.names  edo_presente_i0.BLIF n518
+0 1
+.names  n514.BLIF n1.BLIF n372
+1- 1
+-1 1
+.names  n434.BLIF ctrl_c_0.BLIF n432
+11 1
+.names  edo_presente_i2.BLIF n6_adj_4.BLIF n541
+11 1
+.names  X_c_1.BLIF n1.BLIF edo_futuro_2_N_16_1
+1- 1
+-1 1
+.names  n2.BLIF X_c_0.BLIF edo_futuro_2_N_22_0
+1- 1
+-1 1
+.names  n4_adj_1.BLIF n379.BLIF n393
+1- 1
+-1 1
+.names  clk_c.BLIF edo_presente_i2.C
+1 1
+.names  clk_c.BLIF edo_presente_i1.C
+1 1
+.names  clk_c.BLIF salida_i0_i1reg.C
+1 1
+.names  n411.BLIF salida_i0_i1reg.CE
+1 1
+.names  clk_c.BLIF salida_i0_i2reg.C
+1 1
+.names  n411.BLIF salida_i0_i2reg.CE
+1 1
+.names  clk_c.BLIF edo_presente_i0.C
+1 1
+.names  clk_c.BLIF salida_i0_i3reg.C
+1 1
+.names  n411.BLIF salida_i0_i3reg.CE
+1 1
+.names  clk_c.BLIF salida_i0_i4reg.C
+1 1
+.names  n411.BLIF salida_i0_i4reg.CE
+1 1
+.names  clk_c.BLIF salida_i0_i5reg.C
+1 1
+.names  n411.BLIF salida_i0_i5reg.CE
+1 1
+.end

@@ -1,0 +1,5 @@
+. top_teclado0 top_teclado0.vhd "c:\users\richie\desktop\4 semestre\dsd\teclado matricial\top_teclado0.vhd"
+U00.inst11 OSCTIMER  "c:\users\richie\desktop\4 semestre\dsd\teclado matricial\"
+U00 osc00 osc00.vhd "c:\users\richie\desktop\4 semestre\dsd\teclado matricial\osc00.vhd"
+U01 teclado_matricial teclado_matricial.vhd "c:\users\richie\desktop\4 semestre\dsd\teclado matricial\teclado_matricial.vhd"
+[VHDL_Package] package_teclado package_teclado.vhd "c:\users\richie\desktop\4 semestre\dsd\teclado matricial\package_teclado.vhd"

@@ -1,0 +1,3 @@
+@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\convertidor binario gray\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
+@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\convertidor binario gray\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
+

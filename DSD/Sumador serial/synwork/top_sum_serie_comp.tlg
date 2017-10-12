@@ -1,0 +1,13 @@
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.vhd":7:7:7:19|Synthesizing work.top_sum_serie.atop_sum_serie 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":6:7:6:13|Synthesizing work.sumador.a_sumador 
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":60:5:60:8|Removed redundant assignment
+Post processing for work.sumador.a_sumador
+@A: CL282 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":23:2:23:3|Feedback mux created for signal b -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":23:2:23:3|Feedback mux created for signal a -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0 
+@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
+@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box 
+Post processing for work.osctimer.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.top_sum_serie.atop_sum_serie

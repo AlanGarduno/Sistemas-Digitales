@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/contador\ ecuaciones/package_conb.vhd" "C:/users/richie/desktop/4\ semestre/dsd/contador\ ecuaciones/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/contador\ ecuaciones/contb.vhd" "C:/users/richie/desktop/4\ semestre/dsd/contador\ ecuaciones/top_contb.vhd" 

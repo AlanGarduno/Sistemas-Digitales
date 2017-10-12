@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell dp.TECH
+Register bits:  11 of 880 (1.250%)
+I/O cells:      37
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              BUFTH        22          100.0
+                                DFF         3          100.0
+                               DFFC         8          100.0
+                               IBUF         5          100.0
+                               OBUF        10          100.0
+                              TOTAL        48

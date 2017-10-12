@@ -1,0 +1,123 @@
+|--------------------------------------------------- ----------|
+|- ispLEVER Classic 2.0.00.17.20.15 Equations File            -|
+|- Copyright(C), 1992-2012, Lattice Semiconductor Corporation -|
+|- All Rights Reserved.                                       -|
+|--------------------------------------------------------------|
+
+
+Equations:
+
+
+U01_display_1_0_.D = control0_1_ & !E0_3_ & control0_0_ & !E0_2_ & !E0_1_
+       & E0_0_
+    # !control0_1_ & !control0_0_ & U01_display_1_9_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_5_.Q
+    # control0_1_ & !control0_0_ & U01_display_1_0_.Q ; (4 pterms, 9 signals)
+U01_display_1_0_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_0_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_10_.D = control0_1_ & E0_3_ & control0_0_ & !E0_2_ & !E0_1_
+       & !E0_0_
+    # !control0_1_ & !control0_0_ & !U01_display_1_10_.Q & U01_display_1_6_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_7_.Q
+    # control0_1_ & !control0_0_ & U01_display_1_10_.Q ; (4 pterms, 9 signals)
+U01_display_1_10_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_10_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_1_.D = control0_1_ & !E0_3_ & control0_0_ & E0_2_ & !E0_1_
+       & !E0_0_
+    # !control0_1_ & !control0_0_ & U01_display_1_8_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_3_.Q
+    # control0_1_ & !control0_0_ & U01_display_1_1_.Q ; (4 pterms, 9 signals)
+U01_display_1_1_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_1_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_2_.D = control0_1_ & E0_3_ & control0_0_ & E0_1_
+    # control0_1_ & E0_3_ & control0_0_ & E0_2_
+    # control0_1_ & !control0_0_ & U01_display_1_2_.Q ; (3 pterms, 6 signals)
+U01_display_1_2_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_2_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_3_.D = control0_1_ & !E0_3_ & control0_0_ & E0_2_ & !E0_1_
+       & E0_0_
+    # control0_1_ & !control0_0_ & U01_display_1_3_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_2_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_4_.Q
+    # !control0_1_ & !control0_0_ & U01_display_1_1_.Q ; (5 pterms, 10 signals)
+U01_display_1_3_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_3_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_4_.D = control0_1_ & !E0_3_ & control0_0_ & E0_2_ & E0_1_
+       & !E0_0_
+    # control0_1_ & !control0_0_ & U01_display_1_4_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_6_.Q
+    # !control0_1_ & !control0_0_ & U01_display_1_3_.Q ; (4 pterms, 9 signals)
+U01_display_1_4_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_4_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_5_.D = control0_1_ & !E0_3_ & control0_0_ & !E0_2_ & E0_1_
+       & !E0_0_
+    # control0_1_ & !control0_0_ & U01_display_1_5_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_8_.Q
+    # !control0_1_ & !control0_0_ & U01_display_1_0_.Q ; (4 pterms, 9 signals)
+U01_display_1_5_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_5_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_6_.D = !control0_1_ & !control0_0_ & !U01_display_1_10_.Q
+       & !U01_display_1_9_.Q & !U01_display_1_8_.Q & !U01_display_1_7_.Q
+       & !U01_display_1_6_.Q & !U01_display_1_5_.Q & !U01_display_1_3_.Q
+       & !U01_display_1_1_.Q & !U01_display_1_0_.Q
+    # control0_1_ & !E0_3_ & control0_0_ & E0_2_ & E0_1_ & E0_0_
+    # control0_1_ & !control0_0_ & U01_display_1_6_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_10_.Q ; (4 pterms, 15 signals)
+U01_display_1_6_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_6_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_7_.D = control0_1_ & E0_3_ & control0_0_ & !E0_2_ & !E0_1_
+       & E0_0_
+    # !control0_1_ & !control0_0_ & U01_display_1_10_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_9_.Q
+    # control0_1_ & !control0_0_ & U01_display_1_7_.Q ; (4 pterms, 9 signals)
+U01_display_1_7_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_7_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_8_.D = control0_1_ & !E0_3_ & control0_0_ & !E0_2_ & E0_1_
+       & E0_0_
+    # !control0_1_ & !control0_0_ & U01_display_1_5_.Q
+    # control0_1_ & !control0_0_ & U01_display_1_8_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_1_.Q ; (4 pterms, 9 signals)
+U01_display_1_8_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_8_.AR = !clr0 ; (1 pterm, 1 signal)
+
+U01_display_1_9_.D = control0_1_ & !E0_3_ & control0_0_ & !E0_2_ & !E0_1_
+       & !E0_0_
+    # !control0_1_ & !control0_0_ & U01_display_1_7_.Q
+    # control0_1_ & !control0_0_ & U01_display_1_9_.Q
+    # !control0_1_ & control0_0_ & U01_display_1_0_.Q ; (4 pterms, 9 signals)
+U01_display_1_9_.C = clk0_c ; (1 pterm, 1 signal)
+U01_display_1_9_.AP = !clr0 ; (1 pterm, 1 signal)
+
+_dup_gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+clk0 = clk0_c ; (1 pterm, 1 signal)
+
+display0_0_ = !( !U01_display_1_9_.Q & !U01_display_1_0_.Q ) ; (1 pterm, 2 signals)
+
+display0_1_ = !( !U01_display_1_8_.Q & !U01_display_1_6_.Q
+       & !U01_display_1_5_.Q & !U01_display_1_0_.Q ) ; (1 pterm, 4 signals)
+
+display0_2_ = !U01_display_1_10_.Q & !U01_display_1_9_.Q & !U01_display_1_5_.Q
+       & !U01_display_1_4_.Q & !U01_display_1_2_.Q ; (1 pterm, 5 signals)
+
+display0_3_ = !( !U01_display_1_7_.Q & !U01_display_1_6_.Q
+       & !U01_display_1_1_.Q & !U01_display_1_0_.Q ) ; (1 pterm, 4 signals)
+
+display0_4_ = !( !U01_display_1_5_.Q & !U01_display_1_2_.Q ) ; (1 pterm, 2 signals)
+
+display0_5_ = !( !U01_display_1_4_.Q & !U01_display_1_3_.Q
+       & !U01_display_1_2_.Q ) ; (1 pterm, 3 signals)
+
+display0_6_ = !( !U01_display_1_1_.Q & !U01_display_1_0_.Q ) ; (1 pterm, 2 signals)
+
+gnd_n_n = 0 ; (0 pterm, 0 signal)
+

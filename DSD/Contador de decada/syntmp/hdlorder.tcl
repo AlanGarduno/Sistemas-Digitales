@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/contador\ de\ decada/cont.vhd" 

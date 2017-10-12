@@ -1,0 +1,59 @@
+//
+// Software Version :  ispLEVER Classic 2.0.00.17.20.15  
+// Project Name	    :  suma_serial
+// Targeted Device  :  LC4256ZE-5TN144C
+// Date             :  Fri Jun 16 20:03:31 2017
+//
+                      GND          SYS           1
+                   VCCIO0          SYS           3
+                   q10_2_          OUT           4
+                   q10_1_          OUT           5
+                   q10_0_          OUT           6
+                   q20_3_          OUT           7
+                   q20_2_          OUT           8
+                   q20_1_          OUT           9
+                   GNDIO0          SYS           10
+                   q20_0_          OUT           11
+                   q30_3_          OUT           12
+                   q30_2_          OUT           13
+                   q30_1_          OUT           14
+                   q30_0_          OUT           15
+                       q0          OUT           16
+                   VCCIO0          SYS           19
+                     clk0          OUT           26
+                   GNDIO0          SYS           27
+                   VCCIO0          SYS           34
+                      VCC          SYS           36
+                      GND          SYS           37
+                   GNDIO0          SYS           46
+                   VCCIO0          SYS           47
+                   q10_3_          OUT           53
+                   GNDIO1          SYS           55
+                      VCC          SYS           57
+                   VCCIO1          SYS           64
+                   GNDIO1          SYS           65
+                  sel0_0_          IN            67
+                  sel0_1_          IN            68
+                     clr0          IN            69
+                      GND          SYS           73
+                   VCCIO1          SYS           75
+                dato10_3_          IN            78
+                dato10_2_          IN            79
+                dato10_1_          IN            80
+                dato10_0_          IN            81
+                   GNDIO1          SYS           82
+                dato20_3_          IN            83
+                dato20_2_          IN            84
+                dato20_1_          IN            85
+                dato20_0_          IN            86
+                   VCCIO1          SYS           91
+                   GNDIO1          SYS           99
+                   VCCIO1          SYS           106
+                      VCC          SYS           108
+                      GND          SYS           109
+                   GNDIO1          SYS           118
+                   VCCIO1          SYS           119
+                   GNDIO0          SYS           127
+                      VCC          SYS           129
+                   VCCIO0          SYS           136
+                   GNDIO0          SYS           137

@@ -1,0 +1,294 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      sel0(1:0)                     sel0                  1          2            -1
+      Port          2      dato10(3:0)                   dato10                  3          4            -1
+      Port          3      dato20(3:0)                   dato20                  3          4            -1
+      Port          4      q10(3:0)                      q10                  3          4            -1
+      Port          5      q20(3:0)                      q20                  3          4            -1
+      Port          6      q30(3:0)                      q30                  3          4            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      sel0_1_                     sel0[1]                       1            0            
+        Port      sel0_0_                     sel0[0]                       1            1            
+        Port      dato10_3_                   dato10[3]                       2            0            
+        Port      dato10_2_                   dato10[2]                       2            1            
+        Port      dato10_1_                   dato10[1]                       2            2            
+        Port      dato10_0_                   dato10[0]                       2            3            
+        Port      dato20_3_                   dato20[3]                       3            0            
+        Port      dato20_2_                   dato20[2]                       3            1            
+        Port      dato20_1_                   dato20[1]                       3            2            
+        Port      dato20_0_                   dato20[0]                       3            3            
+        Port      q10_3_                      q10[3]                       4            0            
+        Port      q10_2_                      q10[2]                       4            1            
+        Port      q10_1_                      q10[1]                       4            2            
+        Port      q10_0_                      q10[0]                       4            3            
+        Port      q20_3_                      q20[3]                       5            0            
+        Port      q20_2_                      q20[2]                       5            1            
+        Port      q20_1_                      q20[1]                       5            2            
+        Port      q20_0_                      q20[0]                       5            3            
+        Port      q30_3_                      q30[3]                       6            0            
+        Port      q30_2_                      q30[2]                       6            1            
+        Port      q30_1_                      q30[1]                       6            2            
+        Port      q30_0_                      q30[0]                       6            3            
+End
+Section Cross Reference File
+Design 'top_sum_serie' created Fri Jun 16 20:03:28 2017
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst            U01_cont_1_                               U01.cont[1]
+   Inst            U01_cont_2_                               U01.cont[2]
+   Inst            U01_cont_0_                               U01.cont[0]
+   Inst            U01_q2_1_1_                               U01.q2_1[1]
+   Inst            U01_q1_1_1_                               U01.q1_1[1]
+   Inst            U01_q2_1_0_                               U01.q2_1[0]
+   Inst            U01_q1_1_0_                               U01.q1_1[0]
+   Inst            U01_q3_1_3_                               U01.q3_1[3]
+   Inst            U01_q3_1_2_                               U01.q3_1[2]
+   Inst            U01_q3_1_1_                               U01.q3_1[1]
+   Inst            U01_q3_1_0_                               U01.q3_1[0]
+   Inst                  U01_q                                     U01.q
+   Inst            U01_q2_1_3_                               U01.q2_1[3]
+   Inst            U01_q1_1_3_                               U01.q1_1[3]
+   Inst                  U01_b                                     U01.b
+   Inst                  U01_a                                     U01.a
+   Inst            U01_q2_1_2_                               U01.q2_1[2]
+   Inst            U01_q1_1_2_                               U01.q1_1[2]
+   Inst                sel0_0_                                   sel0[0]
+   Inst                sel0_1_                                   sel0[1]
+   Inst              dato10_0_                                 dato10[0]
+   Inst              dato10_1_                                 dato10[1]
+   Inst              dato10_2_                                 dato10[2]
+   Inst              dato10_3_                                 dato10[3]
+   Inst              dato20_0_                                 dato20[0]
+   Inst              dato20_1_                                 dato20[1]
+   Inst              dato20_2_                                 dato20[2]
+   Inst              dato20_3_                                 dato20[3]
+   Inst                 q10_0_                                    q10[0]
+   Inst                 q10_1_                                    q10[1]
+   Inst                 q10_2_                                    q10[2]
+   Inst                 q10_3_                                    q10[3]
+   Inst                 q20_0_                                    q20[0]
+   Inst                 q20_1_                                    q20[1]
+   Inst                 q20_2_                                    q20[2]
+   Inst                 q20_3_                                    q20[3]
+   Inst                 q30_0_                                    q30[0]
+   Inst                 q30_1_                                    q30[1]
+   Inst                 q30_2_                                    q30[2]
+   Inst                 q30_3_                                    q30[3]
+   Inst       U01_dato1_m_i_0_                          U01.dato1_m_i[0]
+   Inst       U01_q1_6_iv_i_0_                          U01.q1_6_iv_i[0]
+   Inst            U01_un6_c_i                               U01.un6_c_i
+   Inst                U01_c_i                                   U01.c_i
+   Inst            U01_un4_c_i                               U01.un4_c_i
+   Inst            U01_un2_c_i                               U01.un2_c_i
+   Inst                U01_c_1                                   U01.c_1
+   Inst                  U01_c                                     U01.c
+   Inst   U01_loop0_un2_cont_1                      U01.loop0.un2_cont_1
+   Inst     U01_loop0_un2_cont                        U01.loop0.un2_cont
+   Inst                U01_s_1                                   U01.s_1
+   Inst                  U01_s                                     U01.s
+   Inst       U01_dato2_m_i_2_                          U01.dato2_m_i[2]
+   Inst      U01_q2_17_iv_i_2_                         U01.q2_17_iv_i[2]
+   Inst        U01_q1_1_m_i_3_                           U01.q1_1_m_i[3]
+   Inst       U01_dato1_m_i_2_                          U01.dato1_m_i[2]
+   Inst      U01_q1_18_iv_i_2_                         U01.q1_18_iv_i[2]
+   Inst        U01_q2_1_m_i_2_                           U01.q2_1_m_i[2]
+   Inst       U01_dato2_m_i_1_                          U01.dato2_m_i[1]
+   Inst       U01_q2_9_iv_i_1_                          U01.q2_9_iv_i[1]
+   Inst        U01_q1_1_m_i_2_                           U01.q1_1_m_i[2]
+   Inst       U01_dato1_m_i_1_                          U01.dato1_m_i[1]
+   Inst      U01_q1_10_iv_i_1_                         U01.q1_10_iv_i[1]
+   Inst        U01_q2_1_m_i_1_                           U01.q2_1_m_i[1]
+   Inst       U01_dato2_m_i_0_                          U01.dato2_m_i[0]
+   Inst       U01_q2_5_iv_i_0_                          U01.q2_5_iv_i[0]
+   Inst        U01_q1_1_m_i_1_                           U01.q1_1_m_i[1]
+   Inst     U01_cont_4_f1_i_0_                        U01.cont_4_f1_i[0]
+   Inst        U01_q2_1_m_i_3_                           U01.q2_1_m_i[3]
+   Inst          U01_sel0_i_1_                             U01.sel0_i[1]
+   Inst           U01_q1_18_3_                              U01.q1_18[3]
+   Inst         U01_a_1_sqmuxa                            U01.a_1_sqmuxa
+   Inst         U01_dato1_m_2_                            U01.dato1_m[2]
+   Inst          U01_q1_1_m_3_                             U01.q1_1_m[3]
+   Inst        U01_q1_18_iv_2_                           U01.q1_18_iv[2]
+   Inst         U01_dato2_m_2_                            U01.dato2_m[2]
+   Inst          U01_q2_1_m_3_                             U01.q2_1_m[3]
+   Inst        U01_q2_17_iv_2_                           U01.q2_17_iv[2]
+   Inst       U01_cont_4_f1_0_                          U01.cont_4_f1[0]
+   Inst       U01_cont_4_f0_0_                          U01.cont_4_f0[0]
+   Inst      U01_q3_1_sqmuxa_i                         U01.q3_1_sqmuxa_i
+   Inst       U01_cont_4_f0_2_                          U01.cont_4_f0[2]
+   Inst          U01_cont_i_1_                             U01.cont_i[1]
+   Inst               U01_G_19                                  U01.G_19
+   Inst               U01_G_21                                  U01.G_21
+   Inst               U01_G_20                                  U01.G_20
+   Inst           U01_q2_17_3_                              U01.q2_17[3]
+   Inst   U01_loop0_un2_cont_i                      U01.loop0.un2_cont_i
+   Inst        U01_q3_1_sqmuxa                           U01.q3_1_sqmuxa
+   Inst           U01_cont_4_1                              U01.cont_4_1
+   Inst         U01_dato1_m_0_                            U01.dato1_m[0]
+   Inst          U01_q1_1_m_1_                             U01.q1_1_m[1]
+   Inst         U01_q1_6_iv_0_                            U01.q1_6_iv[0]
+   Inst         U01_dato2_m_0_                            U01.dato2_m[0]
+   Inst          U01_q2_1_m_1_                             U01.q2_1_m[1]
+   Inst         U01_q2_5_iv_0_                            U01.q2_5_iv[0]
+   Inst         U01_dato1_m_1_                            U01.dato1_m[1]
+   Inst          U01_q1_1_m_2_                             U01.q1_1_m[2]
+   Inst        U01_q1_10_iv_1_                           U01.q1_10_iv[1]
+   Inst         U01_dato2_m_1_                            U01.dato2_m[1]
+   Inst          U01_q2_1_m_2_                             U01.q2_1_m[2]
+   Inst         U01_q2_9_iv_1_                            U01.q2_9_iv[1]
+   Inst       U01_loop0_q110_i                          U01.loop0.q110_i
+   Inst             U01_clr0_i                                U01.clr0_i
+   Inst              U01_un2_c                                 U01.un2_c
+   Inst              U01_un4_c                                 U01.un4_c
+   Inst              U01_un6_c                                 U01.un6_c
+   Inst         U01_loop0_q112                            U01.loop0.q112
+   Inst          U01_sel0_i_0_                             U01.sel0_i[0]
+   Inst         U01_loop0_q110                            U01.loop0.q110
+   Inst        U01_q3_0_sqmuxa                           U01.q3_0_sqmuxa
+   Inst       U01_loop0_q112_i                          U01.loop0.q112_i
+   Net                 gnd_n_n                                       GND
+   Net           u01_cont_1__n                               U01.cont[1]
+   Net                 u01_s_n                                     U01.s
+   Net                 u01_a_n                                     U01.a
+   Net                 u01_b_n                                     U01.b
+   Net        u01_loop0_q110_n                            U01.loop0.q110
+   Net           u01_cont_0__n                               U01.cont[0]
+   Net           u01_cont_2__n                               U01.cont[2]
+   Net        u01_a_1_sqmuxa_n                            U01.a_1_sqmuxa
+   Net       u01_q3_0_sqmuxa_n                           U01.q3_0_sqmuxa
+   Net         u01_cont_4_0__n                             U01.cont_4[0]
+   Net         u01_cont_4_1__n                             U01.cont_4[1]
+   Net         u01_cont_4_2__n                             U01.cont_4[2]
+   Net    u01_loop0_un2_cont_n                        U01.loop0.un2_cont
+   Net             u01_un2_c_n                                 U01.un2_c
+   Net             u01_un4_c_n                                 U01.un4_c
+   Net             u01_un6_c_n                                 U01.un6_c
+   Net                 u01_c_n                                     U01.c
+   Net        u01_loop0_q112_n                            U01.loop0.q112
+   Net       u01_q3_1_sqmuxa_n                           U01.q3_1_sqmuxa
+   Net       u01_un4_cont_1__n                           U01.un4_cont[1]
+   Net        u01_dato1_m_0__n                            U01.dato1_m[0]
+   Net         u01_q1_1_m_1__n                             U01.q1_1_m[1]
+   Net           u01_q1_6_0__n                               U01.q1_6[0]
+   Net        u01_dato2_m_0__n                            U01.dato2_m[0]
+   Net         u01_q2_1_m_1__n                             U01.q2_1_m[1]
+   Net           u01_q2_5_0__n                               U01.q2_5[0]
+   Net        u01_dato1_m_1__n                            U01.dato1_m[1]
+   Net         u01_q1_1_m_2__n                             U01.q1_1_m[2]
+   Net          u01_q1_10_1__n                              U01.q1_10[1]
+   Net        u01_dato2_m_1__n                            U01.dato2_m[1]
+   Net         u01_q2_1_m_2__n                             U01.q2_1_m[2]
+   Net           u01_q2_9_1__n                               U01.q2_9[1]
+   Net        u01_dato1_m_2__n                            U01.dato1_m[2]
+   Net         u01_q1_1_m_3__n                             U01.q1_1_m[3]
+   Net          u01_q1_18_2__n                              U01.q1_18[2]
+   Net        u01_dato2_m_2__n                            U01.dato2_m[2]
+   Net         u01_q2_1_m_3__n                             U01.q2_1_m[3]
+   Net          u01_q2_17_2__n                              U01.q2_17[2]
+   Net      u01_cont_4_f1_0__n                          U01.cont_4_f1[0]
+   Net       u01_un4_cont_2__n                           U01.un4_cont[2]
+   Net              u01_n_53_n                                  U01.N_53
+   Net          u01_q1_18_3__n                              U01.q1_18[3]
+   Net          u01_q2_17_3__n                              U01.q2_17[3]
+   Net             sel0_i_1__n                                 sel0_i[1]
+   Net         u01_cont_i_1__n                             U01.cont_i[1]
+   Net     u01_q3_1_sqmuxa_i_n                         U01.q3_1_sqmuxa_i
+   Net      u01_loop0_q112_i_n                          U01.loop0.q112_i
+   Net    u01_loop0_un2_cont_i_n                      U01.loop0.un2_cont_i
+   Net             sel0_i_0__n                                 sel0_i[0]
+   Net      u01_loop0_q110_i_n                          U01.loop0.q110_i
+   Net             sel0_c_0__n                                 sel0_c[0]
+   Net               sel0_0__n                                   sel0[0]
+   Net             sel0_c_1__n                                 sel0_c[1]
+   Net           dato10_c_0__n                               dato10_c[0]
+   Net             dato10_0__n                                 dato10[0]
+   Net           dato10_c_1__n                               dato10_c[1]
+   Net             dato10_1__n                                 dato10[1]
+   Net           dato10_c_2__n                               dato10_c[2]
+   Net             dato10_2__n                                 dato10[2]
+   Net           dato10_c_3__n                               dato10_c[3]
+   Net           dato20_c_0__n                               dato20_c[0]
+   Net             dato20_0__n                                 dato20[0]
+   Net           dato20_c_1__n                               dato20_c[1]
+   Net             dato20_1__n                                 dato20[1]
+   Net           dato20_c_2__n                               dato20_c[2]
+   Net             dato20_2__n                                 dato20[2]
+   Net           dato20_c_3__n                               dato20_c[3]
+   Net              q10_c_0__n                                  q10_c[0]
+   Net                q10_0__n                                    q10[0]
+   Net              q10_c_1__n                                  q10_c[1]
+   Net                q10_1__n                                    q10[1]
+   Net              q10_c_2__n                                  q10_c[2]
+   Net                q10_2__n                                    q10[2]
+   Net              q10_c_3__n                                  q10_c[3]
+   Net              q20_c_0__n                                  q20_c[0]
+   Net                q20_0__n                                    q20[0]
+   Net              q20_c_1__n                                  q20_c[1]
+   Net                q20_1__n                                    q20[1]
+   Net              q20_c_2__n                                  q20_c[2]
+   Net                q20_2__n                                    q20[2]
+   Net              q20_c_3__n                                  q20_c[3]
+   Net              q30_c_0__n                                  q30_c[0]
+   Net                q30_0__n                                    q30[0]
+   Net              q30_c_1__n                                  q30_c[1]
+   Net                q30_1__n                                    q30[1]
+   Net              q30_c_2__n                                  q30_c[2]
+   Net                q30_2__n                                    q30[2]
+   Net              q30_c_3__n                                  q30_c[3]
+   Net    u01_cont_4_f1_0_0__n                        U01.cont_4_f1_0[0]
+   Net       u01_q2_1_m_i_3__n                           U01.q2_1_m_i[3]
+   Net      u01_dato2_m_i_2__n                          U01.dato2_m_i[2]
+   Net        u01_q2_17_0_2__n                            U01.q2_17_0[2]
+   Net       u01_q1_1_m_i_3__n                           U01.q1_1_m_i[3]
+   Net      u01_dato1_m_i_2__n                          U01.dato1_m_i[2]
+   Net        u01_q1_18_0_2__n                            U01.q1_18_0[2]
+   Net       u01_q2_1_m_i_2__n                           U01.q2_1_m_i[2]
+   Net      u01_dato2_m_i_1__n                          U01.dato2_m_i[1]
+   Net         u01_q2_9_0_1__n                             U01.q2_9_0[1]
+   Net       u01_q1_1_m_i_2__n                           U01.q1_1_m_i[2]
+   Net      u01_dato1_m_i_1__n                          U01.dato1_m_i[1]
+   Net        u01_q1_10_0_1__n                            U01.q1_10_0[1]
+   Net       u01_q2_1_m_i_1__n                           U01.q2_1_m_i[1]
+   Net      u01_dato2_m_i_0__n                          U01.dato2_m_i[0]
+   Net         u01_q2_5_0_0__n                             U01.q2_5_0[0]
+   Net       u01_q1_1_m_i_1__n                           U01.q1_1_m_i[1]
+   Net      u01_dato1_m_i_0__n                          U01.dato1_m_i[0]
+   Net         u01_q1_6_0_0__n                             U01.q1_6_0[0]
+   Net           u01_un6_c_i_n                               U01.un6_c_i
+   Net               u01_c_0_n                                   U01.c_0
+   Net           u01_un4_c_i_n                               U01.un4_c_i
+   Net           u01_un2_c_i_n                               U01.un2_c_i
+   Net             u01_c_0_1_n                                 U01.c_0_1
+   Net    u01_loop0_un2_cont_1_n                      U01.loop0.un2_cont_1
+   Net               u01_s_1_n                                   U01.s_1
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     sel0_1_
+        Input     dato10_3_
+        Input     dato20_3_
+        Input     clr0
+        Input     sel0_0_
+        Input     dato10_2_
+        Input     dato10_1_
+        Input     dato10_0_
+        Input     dato20_2_
+        Input     dato20_1_
+        Input     dato20_0_
+        Output     q10_3_
+        Output     q20_3_
+        Output     q30_3_
+        Output     clk0
+        Output     q0
+        Output     q10_2_
+        Output     q10_1_
+        Output     q10_0_
+        Output     q20_2_
+        Output     q20_1_
+        Output     q20_0_
+        Output     q30_2_
+        Output     q30_1_
+        Output     q30_0_
+End

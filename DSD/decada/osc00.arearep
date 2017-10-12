@@ -1,0 +1,8 @@
+----------------------------------------------------------------------
+Report for cell osc00.TECH
+Register bits:  0 of 880 (0.000%)
+I/O cells:      1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               OBUF         1          100.0
+                              TOTAL         1

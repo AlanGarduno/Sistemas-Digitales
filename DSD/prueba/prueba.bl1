@@ -1,0 +1,21 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Fri Mar 24 19:55:13 2017
+#$ MODULE prueba
+#$ PINS 4 a b c d
+#$ NODES 2 c_c_c d_c_c
+.model prueba
+.inputs a.BLIF b.BLIF c_c_c.BLIF d_c_c.BLIF
+.outputs c d c_c_c d_c_c
+.names c_c_c.BLIF c
+1 1
+0 0
+.names d_c_c.BLIF d
+1 1
+0 0
+.names a.BLIF c_c_c
+1 1
+0 0
+.names b.BLIF d_c_c
+1 1
+0 0
+.end

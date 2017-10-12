@@ -1,0 +1,9 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones"  -part LC4064B  -package T44C  -grade -2.5   -ispmach4s -RWCheckOnRam 1 -areadelay 0 -minc -auto_constrain_io -summaryfile "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synlog\report\top_ContB_fpga_mapper.xml" -top_level_module  top_ContB  -multisrs  -ta_num_paths 3  -ta_num_points 0  -oedif  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.edi"  -freq 200.000  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_mult.srs"  -ologparam  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\syntmp\top_ContB.plg"  -osyn  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srm"  -prjdir  "c:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\"  -prjname  top_ContB  -log  "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synlog\top_ContB_fpga_mapper.srr" 
+rc:0 success:1
+C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.edi|o|1496426591|32658
+C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_mult.srs|i|1496426591|2581
+"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\syntmp\top_ContB.plg"|o|0|0
+C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srm|o|1496426591|14689
+C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synlog\top_ContB_fpga_mapper.srr|o|1496426591|1140
+C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399369284|7067648
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399372122|8049664

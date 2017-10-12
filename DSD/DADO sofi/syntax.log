@@ -1,0 +1,23 @@
+#Build: Synplify Pro I-2014.03LC , Build 063R, May 27 2014
+#install: C:\ispLEVER_Classic2_0\synpbase
+#OS: Windows 7 6.2
+#Hostname: RICARDO
+
+$ Start of Compile
+#Wed May 31 21:04:11 2017
+
+Synopsys VHDL Compiler, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.vhd":7:7:7:14|Top entity is set to topdado0.
+@W: CD266 :"C:/users/richie/desktop/4 semestre/dsd/dado sofi/dado0.vhd":30:9:30:15|display is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:/users/richie/desktop/4 semestre/dsd/dado sofi/dado0.vhd":39:15:39:21|display is not readable.  This may cause a simulation mismatch.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 31 21:04:11 2017
+
+###########################################################]

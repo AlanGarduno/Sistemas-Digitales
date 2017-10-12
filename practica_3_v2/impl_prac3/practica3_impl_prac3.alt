@@ -1,0 +1,34 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Oct 04 09:34:31 2017 *
+NOTE DESIGN NAME: registro0 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4FTBGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Q[9] : K12 : out *
+NOTE PINS Q[8] : L16 : out *
+NOTE PINS Q[7] : K15 : out *
+NOTE PINS Q[6] : K11 : out *
+NOTE PINS Q[5] : J15 : out *
+NOTE PINS Q[4] : H11 : out *
+NOTE PINS Q[3] : J13 : out *
+NOTE PINS Q[2] : J16 : out *
+NOTE PINS Q[1] : J14 : out *
+NOTE PINS Q[0] : H14 : out *
+NOTE PINS cd : H15 : in *
+NOTE PINS ci : K13 : in *
+NOTE PINS clk : L2 : in *
+NOTE PINS clr : B1 : in *
+NOTE PINS sel[1] : J11 : in *
+NOTE PINS sel[0] : L14 : in *
+NOTE PINS dato[9] : L15 : in *
+NOTE PINS dato[8] : L12 : in *
+NOTE PINS dato[7] : L13 : in *
+NOTE PINS dato[6] : M16 : in *
+NOTE PINS dato[5] : K14 : in *
+NOTE PINS dato[4] : K16 : in *
+NOTE PINS dato[3] : H13 : in *
+NOTE PINS dato[2] : H16 : in *
+NOTE PINS dato[1] : G16 : in *
+NOTE PINS dato[0] : J12 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

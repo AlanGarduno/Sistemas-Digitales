@@ -1,0 +1,20 @@
+#Start recording tcl command: 10/4/2017 09:47:27
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v3; Project name: practica_3_v3
+prj_project new -name "practica_3_v3" -impl "impl_prac_3" -dev LCMXO2-7000HE-4TG144C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v2/impl_prac3/packageosc00.vhdl"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v2/impl_prac3/toposc00.vhdl"
+prj_src remove "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v2/impl_prac3/packageosc00.vhdl"
+prj_src remove "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v2/impl_prac3/toposc00.vhdl"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v3/impl_prac_3/packageosc00.vhdl"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v3/impl_prac_3/toposc00.vhdl"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v3/impl_prac_3/osc00.vhdl"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v3/impl_prac_3/div00.vhdl"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3_v3/impl_prac_3/practica3.vhd"
+prj_run Synthesis -impl impl_prac_3
+prj_run Synthesis -impl impl_prac_3
+prj_run Map -impl impl_prac_3
+prj_run Map -impl impl_prac_3 -task MapTrace
+prj_run Synthesis -impl impl_prac_3
+prj_run PAR -impl impl_prac_3 -task IOTiming
+#Stop recording: 10/4/2017 10:31:24

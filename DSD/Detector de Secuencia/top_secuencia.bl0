@@ -1,0 +1,878 @@
+#$ DATE Sun May 28 05:15:43 2017
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ PROPERTY LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 1048576; 
+#$ MODULE top_secuencia
+#$ PINS 36 dato0_8_:79'ke'  dato0_7_:80'ke'  display0_6_:39'ke'  dato0_6_:81'ke'  dato0_5_:83'ke'  dato0_9_:78'ke'  dato0_4_:84'ke'  dato0_3_:85'ke'  sel0_2_:66'ke'  dato0_2_:86'ke'  dato0_1_:87'ke'  salida0_9_:13'ke'  dato0_0_:88'ke'  clks0 sel0_1_:76'ke'  ent0 sel0_0_:77'ke'  clk0:26'ke'  salida0_8_:12'ke'  clr0:69'ke'  salida0_7_:11'ke'  cd0:68'ke'  salida0_6_:9'ke'  ci0:67'ke'  salida0_5_:8'ke'  salida0_4_:7'ke'  salida0_3_:6'ke'  salida0_2_:5'ke'  salida0_1_:4'ke'  salida0_0_:53'ke'  display0_5_:33'ke'  display0_4_:32'ke'  display0_3_:31'ke'  display0_2_:30'ke'  display0_1_:29'ke'  display0_0_:28'ke' 
+#$ NODES 330 u01_n_103_i_n u01_n_104_i_n u01_n_95_i_n u01_n_96_i_n vcc_n_n u01_n_97_i_n gnd_n_n u01_n_98_i_n u01_n_99_i_n U02_edo_Pre_1_ \
+#  U02_edo_Pre_2_ u01_n_90_i_n U02_edo_Pre_3_ u01_n_91_i_n u01_n_92_i_n u01_n_4_n u01_n_93_i_n u01_n_7_n u01_n_94_i_n u01_n_8_n \
+#  u01_n_9_n u01_n_85_i_n u01_n_10_n u01_n_86_i_n u01_n_11_n u01_n_87_i_n u01_n_12_n u01_n_88_i_n u01_n_22_n u01_n_89_i_n \
+#  u01_n_23_n u01_n_25_n u01_n_79_i_n u01_n_26_n u01_n_80_i_n u01_n_27_n u01_n_81_i_n u01_n_28_n u01_n_82_i_n u01_n_29_n \
+#  u01_n_83_i_n u01_n_30_n u01_n_84_i_n u01_n_31_n u01_n_33_n u01_n_74_i_n u01_n_34_n u01_n_75_i_n u01_n_35_n u01_n_76_i_n \
+#  u01_n_44_n u01_n_77_i_n u01_n_45_n u01_n_78_i_n u01_n_47_n u01_n_48_n u01_n_69_i_n u01_n_49_n u01_n_70_i_n u01_n_50_n \
+#  u01_n_71_i_n u01_n_51_n u01_n_72_i_n u01_n_52_n u01_n_73_i_n u01_n_53_n u01_n_55_n u01_n_62_i_n u01_n_56_n u01_n_63_i_n \
+#  u01_n_57_n u01_n_64_i_n u01_n_227_n u01_n_65_i_n u01_n_237_n u01_n_67_i_n u01_n_238_n u01_n_239_n u01_n_238_i_n u01_n_240_n \
+#  u01_n_239_i_n u01_n_242_n u01_n_240_i_n u01_n_245_n u01_n_242_i_n u01_n_247_n u01_n_245_i_n u01_n_62_n u01_n_247_i_n u01_n_63_n \
+#  u01_n_64_n u01_n_44_i_0_n u01_n_65_n u01_n_55_i_n u01_n_67_n u01_n_56_i_n u01_n_69_n u01_n_57_0_n u01_n_70_n u01_n_48_i_0_n \
+#  u01_n_71_n u01_n_50_i_n u01_n_72_n u01_n_51_i_n u01_n_73_n u01_n_53_0_n u01_n_74_n u01_n_22_i_n u01_n_75_n u01_n_33_i_0_n \
+#  u01_n_76_n u01_n_34_i_0_n u01_n_77_n u01_n_35_0_n u01_n_78_n u01_n_26_i_n u01_n_79_n u01_n_28_i_n u01_n_80_n u01_n_29_i_n \
+#  u01_n_81_n u01_n_31_0_n u01_n_82_n u01_n_8_i_n u01_n_83_n u01_n_10_i_n u01_n_84_n u01_n_12_0_n u01_n_85_n u02_edo_pre_ns_1_1__n \
+#  u01_n_86_n u01_n_184_i_1_n u01_n_87_n u01_n_184_i_2_n u01_n_88_n u01_n_184_i_3_n u01_n_89_n u01_n_183_i_1_n u01_n_90_n u01_n_183_i_2_n \
+#  u01_n_91_n u01_n_183_i_3_n u01_n_92_n u01_n_182_i_1_n u01_n_93_n u01_n_182_i_2_n u01_n_94_n u01_n_182_i_3_n u01_n_95_n u01_n_181_i_1_n \
+#  u01_n_96_n u01_n_181_i_2_n u01_n_97_n u01_n_181_i_3_n u01_n_98_n u01_n_180_i_1_n u01_n_99_n u01_n_180_i_2_n u01_n_100_n u01_n_180_i_3_n \
+#  u01_n_101_n u01_n_17_0_1_n u01_n_102_n u01_n_17_0_2_n u01_n_103_n u01_n_17_0_3_n u01_n_104_n u01_n_17_0_4_n u01_n_105_n u01_n_152_i_1_n \
+#  u01_n_106_n u01_n_152_i_2_n u01_n_107_n u01_n_152_i_3_n u01_n_108_n u01_n_13_i_1_n u01_n_109_n u01_n_13_i_2_n u01_n_112_n u01_n_13_i_3_n \
+#  u01_n_36_n u01_n_151_i_1_n u01_n_37_n u01_n_151_i_2_n u01_n_113_n u01_n_151_i_3_n u01_n_114_n u01_n_150_i_1_n u01_n_115_n u01_n_150_i_2_n \
+#  u01_n_111_n u01_n_150_i_3_n u01_n_226_n u01_n_150_i_4_n U01_salida_11_7_i_0_x3_5_ u01_n_84_1_n u02_n_48_n u01_n_84_2_n U01_salida_11_7_i_0_x3_9_ u01_n_83_1_n \
+#  U01_salida_11_7_i_0_x3_8_ u01_n_82_1_n u01_n_59_n u01_n_81_1_n U01_salida_11_7_i_0_x3_3_ u01_n_79_1_n U01_salida_11_7_i_0_x3_1_ u01_n_79_2_n U01_salida_11_7_i_0_x3_7_ u01_n_245_1_n \
+#  U01_salida_11_7_i_0_x3_6_ u01_n_245_2_n U01_salida_11_7_i_0_x3_4_ u01_n_242_1_n U01_salida_11_7_i_0_x3_2_ u01_n_242_2_n u01_n_15_n u01_n_57_0_1_n u01_n_110_n u01_n_53_0_1_n \
+#  u01_n_58_n u01_n_53_0_2_n u01_n_14_n u01_n_51_1_n u01_n_48_i_i_0_n u01_n_50_1_n u01_n_47_i_i_0_n u01_n_50_2_n u01_n_46_i_i_0_n u01_n_35_0_1_n \
+#  u01_n_45_i_i_0_n u01_n_31_0_1_n u01_n_44_i_i_0_n u01_n_31_0_2_n u01_n_36_i_i_0_n u01_n_29_1_n u01_n_34_i_i_0_n u01_n_28_1_n u01_n_33_i_i_0_n u01_n_28_2_n \
+#  u01_n_30_i_i_0_n u01_n_12_0_1_n sel0_i_1__n u01_n_10_1_n salida0_i_0__n u02_edo_pre_i_3__n u02_edo_pre_i_1__n u02_edo_pre_i_2__n dato0_i_0__n sel0_i_2__n \
+#  sel0_i_0__n dato0_i_2__n salida0_i_1__n salida0_i_3__n dato0_i_4__n salida0_i_5__n dato0_i_5__n salida0_i_4__n salida0_i_6__n dato0_i_6__n \
+#  salida0_i_7__n dato0_i_7__n salida0_i_8__n dato0_i_1__n salida0_i_2__n dato0_i_3__n dato0_i_8__n salida0_i_9__n dato0_i_9__n cd0_i \
+#  ci0_i clr0_i dato0_c_0__n dato0_c_1__n dato0_c_2__n dato0_c_3__n dato0_c_4__n dato0_c_5__n dato0_c_6__n dato0_c_7__n \
+#  dato0_c_8__n dato0_c_9__n clk0_c clr0_c cd0_c ci0_c sel0_c_0__n sel0_c_1__n sel0_c_2__n U01_salida_0_reg \
+#  U01_salida_1_reg U01_salida_2_reg U01_salida_3_reg U01_salida_4_reg U01_salida_5_reg U01_salida_6_reg U01_salida_7_reg U01_salida_8_reg U01_salida_9_reg u01_n_11_i_n \
+#  u01_n_14_i_n u01_n_15_0_n u01_n_52_i_n u01_n_58_i_n u01_n_59_0_n u02_n_31_i_n u02_n_48_i_n u01_n_237_0_n u01_n_227_0_n u01_n_112_i_n \
+#  u01_n_226_0_n u01_n_49_0_n u01_n_47_0_n u01_n_45_0_n u01_n_30_i_0_n u01_n_36_i_0_n u01_n_37_0_n u01_n_27_0_n u01_n_25_0_n u01_n_23_0_n \
+#  u01_n_9_0_n u01_n_7_0_n u01_n_105_i_n u01_n_106_i_n u01_n_107_i_n u01_n_108_i_n u01_n_109_i_n u01_n_100_i_n u01_n_101_i_n u01_n_102_i_n \
+#  
+#$ EXTERNAL OSCTIMER 4 DYNOSCDIS'i' TIMERRES'i' OSCOUT'o' TIMEROUT'o'
+#$ NODES 1 U00_inst11>OSCOUT
+
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n U00_inst11>OSCOUT clk0_c
+.model top_secuencia
+.inputs dato0_9_.BLIF sel0_2_.BLIF clr0.BLIF cd0.BLIF ci0.BLIF dato0_8_.BLIF dato0_7_.BLIF dato0_6_.BLIF dato0_5_.BLIF \
+  dato0_4_.BLIF dato0_3_.BLIF dato0_2_.BLIF dato0_1_.BLIF dato0_0_.BLIF sel0_1_.BLIF sel0_0_.BLIF u01_n_103_i_n.BLIF u01_n_104_i_n.BLIF \
+  u01_n_95_i_n.BLIF u01_n_96_i_n.BLIF vcc_n_n.BLIF u01_n_97_i_n.BLIF gnd_n_n.BLIF u01_n_98_i_n.BLIF u01_n_99_i_n.BLIF U02_edo_Pre_1_.BLIF U02_edo_Pre_2_.BLIF \
+  u01_n_90_i_n.BLIF U02_edo_Pre_3_.BLIF u01_n_91_i_n.BLIF u01_n_92_i_n.BLIF u01_n_4_n.BLIF u01_n_93_i_n.BLIF u01_n_7_n.BLIF u01_n_94_i_n.BLIF u01_n_8_n.BLIF \
+  u01_n_9_n.BLIF u01_n_85_i_n.BLIF u01_n_10_n.BLIF u01_n_86_i_n.BLIF u01_n_11_n.BLIF u01_n_87_i_n.BLIF u01_n_12_n.BLIF u01_n_88_i_n.BLIF u01_n_22_n.BLIF \
+  u01_n_89_i_n.BLIF u01_n_23_n.BLIF u01_n_25_n.BLIF u01_n_79_i_n.BLIF u01_n_26_n.BLIF u01_n_80_i_n.BLIF u01_n_27_n.BLIF u01_n_81_i_n.BLIF u01_n_28_n.BLIF \
+  u01_n_82_i_n.BLIF u01_n_29_n.BLIF u01_n_83_i_n.BLIF u01_n_30_n.BLIF u01_n_84_i_n.BLIF u01_n_31_n.BLIF u01_n_33_n.BLIF u01_n_74_i_n.BLIF u01_n_34_n.BLIF \
+  u01_n_75_i_n.BLIF u01_n_35_n.BLIF u01_n_76_i_n.BLIF u01_n_44_n.BLIF u01_n_77_i_n.BLIF u01_n_45_n.BLIF u01_n_78_i_n.BLIF u01_n_47_n.BLIF u01_n_48_n.BLIF \
+  u01_n_69_i_n.BLIF u01_n_49_n.BLIF u01_n_70_i_n.BLIF u01_n_50_n.BLIF u01_n_71_i_n.BLIF u01_n_51_n.BLIF u01_n_72_i_n.BLIF u01_n_52_n.BLIF u01_n_73_i_n.BLIF \
+  u01_n_53_n.BLIF u01_n_55_n.BLIF u01_n_62_i_n.BLIF u01_n_56_n.BLIF u01_n_63_i_n.BLIF u01_n_57_n.BLIF u01_n_64_i_n.BLIF u01_n_227_n.BLIF u01_n_65_i_n.BLIF \
+  u01_n_237_n.BLIF u01_n_67_i_n.BLIF u01_n_238_n.BLIF u01_n_239_n.BLIF u01_n_238_i_n.BLIF u01_n_240_n.BLIF u01_n_239_i_n.BLIF u01_n_242_n.BLIF u01_n_240_i_n.BLIF \
+  u01_n_245_n.BLIF u01_n_242_i_n.BLIF u01_n_247_n.BLIF u01_n_245_i_n.BLIF u01_n_62_n.BLIF u01_n_247_i_n.BLIF u01_n_63_n.BLIF u01_n_64_n.BLIF u01_n_44_i_0_n.BLIF \
+  u01_n_65_n.BLIF u01_n_55_i_n.BLIF u01_n_67_n.BLIF u01_n_56_i_n.BLIF u01_n_69_n.BLIF u01_n_57_0_n.BLIF u01_n_70_n.BLIF u01_n_48_i_0_n.BLIF u01_n_71_n.BLIF \
+  u01_n_50_i_n.BLIF u01_n_72_n.BLIF u01_n_51_i_n.BLIF u01_n_73_n.BLIF u01_n_53_0_n.BLIF u01_n_74_n.BLIF u01_n_22_i_n.BLIF u01_n_75_n.BLIF u01_n_33_i_0_n.BLIF \
+  u01_n_76_n.BLIF u01_n_34_i_0_n.BLIF u01_n_77_n.BLIF u01_n_35_0_n.BLIF u01_n_78_n.BLIF u01_n_26_i_n.BLIF u01_n_79_n.BLIF u01_n_28_i_n.BLIF u01_n_80_n.BLIF \
+  u01_n_29_i_n.BLIF u01_n_81_n.BLIF u01_n_31_0_n.BLIF u01_n_82_n.BLIF u01_n_8_i_n.BLIF u01_n_83_n.BLIF u01_n_10_i_n.BLIF u01_n_84_n.BLIF u01_n_12_0_n.BLIF \
+  u01_n_85_n.BLIF u02_edo_pre_ns_1_1__n.BLIF u01_n_86_n.BLIF u01_n_184_i_1_n.BLIF u01_n_87_n.BLIF u01_n_184_i_2_n.BLIF u01_n_88_n.BLIF u01_n_184_i_3_n.BLIF u01_n_89_n.BLIF \
+  u01_n_183_i_1_n.BLIF u01_n_90_n.BLIF u01_n_183_i_2_n.BLIF u01_n_91_n.BLIF u01_n_183_i_3_n.BLIF u01_n_92_n.BLIF u01_n_182_i_1_n.BLIF u01_n_93_n.BLIF u01_n_182_i_2_n.BLIF \
+  u01_n_94_n.BLIF u01_n_182_i_3_n.BLIF u01_n_95_n.BLIF u01_n_181_i_1_n.BLIF u01_n_96_n.BLIF u01_n_181_i_2_n.BLIF u01_n_97_n.BLIF u01_n_181_i_3_n.BLIF u01_n_98_n.BLIF \
+  u01_n_180_i_1_n.BLIF u01_n_99_n.BLIF u01_n_180_i_2_n.BLIF u01_n_100_n.BLIF u01_n_180_i_3_n.BLIF u01_n_101_n.BLIF u01_n_17_0_1_n.BLIF u01_n_102_n.BLIF u01_n_17_0_2_n.BLIF \
+  u01_n_103_n.BLIF u01_n_17_0_3_n.BLIF u01_n_104_n.BLIF u01_n_17_0_4_n.BLIF u01_n_105_n.BLIF u01_n_152_i_1_n.BLIF u01_n_106_n.BLIF u01_n_152_i_2_n.BLIF u01_n_107_n.BLIF \
+  u01_n_152_i_3_n.BLIF u01_n_108_n.BLIF u01_n_13_i_1_n.BLIF u01_n_109_n.BLIF u01_n_13_i_2_n.BLIF u01_n_112_n.BLIF u01_n_13_i_3_n.BLIF u01_n_36_n.BLIF u01_n_151_i_1_n.BLIF \
+  u01_n_37_n.BLIF u01_n_151_i_2_n.BLIF u01_n_113_n.BLIF u01_n_151_i_3_n.BLIF u01_n_114_n.BLIF u01_n_150_i_1_n.BLIF u01_n_115_n.BLIF u01_n_150_i_2_n.BLIF u01_n_111_n.BLIF \
+  u01_n_150_i_3_n.BLIF u01_n_226_n.BLIF u01_n_150_i_4_n.BLIF U01_salida_11_7_i_0_x3_5_.BLIF u01_n_84_1_n.BLIF u02_n_48_n.BLIF u01_n_84_2_n.BLIF U01_salida_11_7_i_0_x3_9_.BLIF u01_n_83_1_n.BLIF \
+  U01_salida_11_7_i_0_x3_8_.BLIF u01_n_82_1_n.BLIF u01_n_59_n.BLIF u01_n_81_1_n.BLIF U01_salida_11_7_i_0_x3_3_.BLIF u01_n_79_1_n.BLIF U01_salida_11_7_i_0_x3_1_.BLIF u01_n_79_2_n.BLIF U01_salida_11_7_i_0_x3_7_.BLIF \
+  u01_n_245_1_n.BLIF U01_salida_11_7_i_0_x3_6_.BLIF u01_n_245_2_n.BLIF U01_salida_11_7_i_0_x3_4_.BLIF u01_n_242_1_n.BLIF U01_salida_11_7_i_0_x3_2_.BLIF u01_n_242_2_n.BLIF u01_n_15_n.BLIF u01_n_57_0_1_n.BLIF \
+  u01_n_110_n.BLIF u01_n_53_0_1_n.BLIF u01_n_58_n.BLIF u01_n_53_0_2_n.BLIF u01_n_14_n.BLIF u01_n_51_1_n.BLIF u01_n_48_i_i_0_n.BLIF u01_n_50_1_n.BLIF u01_n_47_i_i_0_n.BLIF \
+  u01_n_50_2_n.BLIF u01_n_46_i_i_0_n.BLIF u01_n_35_0_1_n.BLIF u01_n_45_i_i_0_n.BLIF u01_n_31_0_1_n.BLIF u01_n_44_i_i_0_n.BLIF u01_n_31_0_2_n.BLIF u01_n_36_i_i_0_n.BLIF u01_n_29_1_n.BLIF \
+  u01_n_34_i_i_0_n.BLIF u01_n_28_1_n.BLIF u01_n_33_i_i_0_n.BLIF u01_n_28_2_n.BLIF u01_n_30_i_i_0_n.BLIF u01_n_12_0_1_n.BLIF sel0_i_1__n.BLIF u01_n_10_1_n.BLIF salida0_i_0__n.BLIF \
+  u02_edo_pre_i_3__n.BLIF u02_edo_pre_i_1__n.BLIF u02_edo_pre_i_2__n.BLIF dato0_i_0__n.BLIF sel0_i_2__n.BLIF sel0_i_0__n.BLIF dato0_i_2__n.BLIF salida0_i_1__n.BLIF salida0_i_3__n.BLIF \
+  dato0_i_4__n.BLIF salida0_i_5__n.BLIF dato0_i_5__n.BLIF salida0_i_4__n.BLIF salida0_i_6__n.BLIF dato0_i_6__n.BLIF salida0_i_7__n.BLIF dato0_i_7__n.BLIF salida0_i_8__n.BLIF \
+  dato0_i_1__n.BLIF salida0_i_2__n.BLIF dato0_i_3__n.BLIF dato0_i_8__n.BLIF salida0_i_9__n.BLIF dato0_i_9__n.BLIF cd0_i.BLIF ci0_i.BLIF clr0_i.BLIF \
+  dato0_c_0__n.BLIF dato0_c_1__n.BLIF dato0_c_2__n.BLIF dato0_c_3__n.BLIF dato0_c_4__n.BLIF dato0_c_5__n.BLIF dato0_c_6__n.BLIF dato0_c_7__n.BLIF dato0_c_8__n.BLIF \
+  dato0_c_9__n.BLIF clk0_c.BLIF clr0_c.BLIF cd0_c.BLIF ci0_c.BLIF sel0_c_0__n.BLIF sel0_c_1__n.BLIF sel0_c_2__n.BLIF U01_salida_0_reg.BLIF \
+  U01_salida_1_reg.BLIF U01_salida_2_reg.BLIF U01_salida_3_reg.BLIF U01_salida_4_reg.BLIF U01_salida_5_reg.BLIF U01_salida_6_reg.BLIF U01_salida_7_reg.BLIF U01_salida_8_reg.BLIF U01_salida_9_reg.BLIF \
+  u01_n_11_i_n.BLIF u01_n_14_i_n.BLIF u01_n_15_0_n.BLIF u01_n_52_i_n.BLIF u01_n_58_i_n.BLIF u01_n_59_0_n.BLIF u02_n_31_i_n.BLIF u02_n_48_i_n.BLIF u01_n_237_0_n.BLIF \
+  u01_n_227_0_n.BLIF u01_n_112_i_n.BLIF u01_n_226_0_n.BLIF u01_n_49_0_n.BLIF u01_n_47_0_n.BLIF u01_n_45_0_n.BLIF u01_n_30_i_0_n.BLIF u01_n_36_i_0_n.BLIF u01_n_37_0_n.BLIF \
+  u01_n_27_0_n.BLIF u01_n_25_0_n.BLIF u01_n_23_0_n.BLIF u01_n_9_0_n.BLIF u01_n_7_0_n.BLIF u01_n_105_i_n.BLIF u01_n_106_i_n.BLIF u01_n_107_i_n.BLIF u01_n_108_i_n.BLIF \
+  u01_n_109_i_n.BLIF u01_n_100_i_n.BLIF u01_n_101_i_n.BLIF u01_n_102_i_n.BLIF   U00_inst11>OSCOUT.BLIF
+.outputs display0_6_ salida0_9_ clks0 clk0 display0_5_ display0_4_ display0_3_ display0_2_ display0_1_ display0_0_ salida0_8_ \
+  salida0_7_ salida0_6_ salida0_5_ salida0_4_ salida0_3_ salida0_2_ salida0_1_ salida0_0_ U01_salida_0_reg.D U01_salida_0_reg.C U01_salida_0_reg.AR \
+  U01_salida_1_reg.D U01_salida_1_reg.C U01_salida_1_reg.AR U01_salida_2_reg.D U01_salida_2_reg.C U01_salida_2_reg.AR U01_salida_3_reg.D U01_salida_3_reg.C U01_salida_3_reg.AR U01_salida_4_reg.D U01_salida_4_reg.C \
+  U01_salida_4_reg.AR U01_salida_5_reg.D U01_salida_5_reg.C U01_salida_5_reg.AR U01_salida_6_reg.D U01_salida_6_reg.C U01_salida_6_reg.AR U01_salida_7_reg.D U01_salida_7_reg.C U01_salida_7_reg.AR U01_salida_8_reg.D \
+  U01_salida_8_reg.C U01_salida_8_reg.AR U01_salida_9_reg.D U01_salida_9_reg.C U01_salida_9_reg.AR U02_edo_Pre_1_.D U02_edo_Pre_1_.C U02_edo_Pre_2_.D U02_edo_Pre_2_.C U02_edo_Pre_3_.D U02_edo_Pre_3_.C \
+  U01_salida_11_7_i_0_x3_9_.X1 U01_salida_11_7_i_0_x3_9_.X2 U01_salida_11_7_i_0_x3_8_.X1 U01_salida_11_7_i_0_x3_8_.X2 U01_salida_11_7_i_0_x3_3_.X1 U01_salida_11_7_i_0_x3_3_.X2 U01_salida_11_7_i_0_x3_1_.X1 U01_salida_11_7_i_0_x3_1_.X2 U01_salida_11_7_i_0_x3_7_.X1 U01_salida_11_7_i_0_x3_7_.X2 U01_salida_11_7_i_0_x3_6_.X1 \
+  U01_salida_11_7_i_0_x3_6_.X2 U01_salida_11_7_i_0_x3_4_.X1 U01_salida_11_7_i_0_x3_4_.X2 U01_salida_11_7_i_0_x3_2_.X1 U01_salida_11_7_i_0_x3_2_.X2 U01_salida_11_7_i_0_x3_5_.X1 U01_salida_11_7_i_0_x3_5_.X2 u01_n_103_i_n u01_n_104_i_n u01_n_95_i_n u01_n_96_i_n \
+  vcc_n_n u01_n_97_i_n gnd_n_n u01_n_98_i_n u01_n_99_i_n u01_n_90_i_n u01_n_91_i_n u01_n_92_i_n u01_n_4_n u01_n_93_i_n u01_n_7_n \
+  u01_n_94_i_n u01_n_8_n u01_n_9_n u01_n_85_i_n u01_n_10_n u01_n_86_i_n u01_n_11_n u01_n_87_i_n u01_n_12_n u01_n_88_i_n u01_n_22_n \
+  u01_n_89_i_n u01_n_23_n u01_n_25_n u01_n_79_i_n u01_n_26_n u01_n_80_i_n u01_n_27_n u01_n_81_i_n u01_n_28_n u01_n_82_i_n u01_n_29_n \
+  u01_n_83_i_n u01_n_30_n u01_n_84_i_n u01_n_31_n u01_n_33_n u01_n_74_i_n u01_n_34_n u01_n_75_i_n u01_n_35_n u01_n_76_i_n u01_n_44_n \
+  u01_n_77_i_n u01_n_45_n u01_n_78_i_n u01_n_47_n u01_n_48_n u01_n_69_i_n u01_n_49_n u01_n_70_i_n u01_n_50_n u01_n_71_i_n u01_n_51_n \
+  u01_n_72_i_n u01_n_52_n u01_n_73_i_n u01_n_53_n u01_n_55_n u01_n_62_i_n u01_n_56_n u01_n_63_i_n u01_n_57_n u01_n_64_i_n u01_n_227_n \
+  u01_n_65_i_n u01_n_237_n u01_n_67_i_n u01_n_238_n u01_n_239_n u01_n_238_i_n u01_n_240_n u01_n_239_i_n u01_n_242_n u01_n_240_i_n u01_n_245_n \
+  u01_n_242_i_n u01_n_247_n u01_n_245_i_n u01_n_62_n u01_n_247_i_n u01_n_63_n u01_n_64_n u01_n_44_i_0_n u01_n_65_n u01_n_55_i_n u01_n_67_n \
+  u01_n_56_i_n u01_n_69_n u01_n_57_0_n u01_n_70_n u01_n_48_i_0_n u01_n_71_n u01_n_50_i_n u01_n_72_n u01_n_51_i_n u01_n_73_n u01_n_53_0_n \
+  u01_n_74_n u01_n_22_i_n u01_n_75_n u01_n_33_i_0_n u01_n_76_n u01_n_34_i_0_n u01_n_77_n u01_n_35_0_n u01_n_78_n u01_n_26_i_n u01_n_79_n \
+  u01_n_28_i_n u01_n_80_n u01_n_29_i_n u01_n_81_n u01_n_31_0_n u01_n_82_n u01_n_8_i_n u01_n_83_n u01_n_10_i_n u01_n_84_n u01_n_12_0_n \
+  u01_n_85_n u02_edo_pre_ns_1_1__n u01_n_86_n u01_n_184_i_1_n u01_n_87_n u01_n_184_i_2_n u01_n_88_n u01_n_184_i_3_n u01_n_89_n u01_n_183_i_1_n u01_n_90_n \
+  u01_n_183_i_2_n u01_n_91_n u01_n_183_i_3_n u01_n_92_n u01_n_182_i_1_n u01_n_93_n u01_n_182_i_2_n u01_n_94_n u01_n_182_i_3_n u01_n_95_n u01_n_181_i_1_n \
+  u01_n_96_n u01_n_181_i_2_n u01_n_97_n u01_n_181_i_3_n u01_n_98_n u01_n_180_i_1_n u01_n_99_n u01_n_180_i_2_n u01_n_100_n u01_n_180_i_3_n u01_n_101_n \
+  u01_n_17_0_1_n u01_n_102_n u01_n_17_0_2_n u01_n_103_n u01_n_17_0_3_n u01_n_104_n u01_n_17_0_4_n u01_n_105_n u01_n_152_i_1_n u01_n_106_n u01_n_152_i_2_n \
+  u01_n_107_n u01_n_152_i_3_n u01_n_108_n u01_n_13_i_1_n u01_n_109_n u01_n_13_i_2_n u01_n_112_n u01_n_13_i_3_n u01_n_36_n u01_n_151_i_1_n u01_n_37_n \
+  u01_n_151_i_2_n u01_n_113_n u01_n_151_i_3_n u01_n_114_n u01_n_150_i_1_n u01_n_115_n u01_n_150_i_2_n u01_n_111_n u01_n_150_i_3_n u01_n_226_n u01_n_150_i_4_n \
+  u01_n_84_1_n u02_n_48_n u01_n_84_2_n u01_n_83_1_n u01_n_82_1_n u01_n_59_n u01_n_81_1_n u01_n_79_1_n u01_n_79_2_n u01_n_245_1_n u01_n_245_2_n \
+  u01_n_242_1_n u01_n_242_2_n u01_n_15_n u01_n_57_0_1_n u01_n_110_n u01_n_53_0_1_n u01_n_58_n u01_n_53_0_2_n u01_n_14_n u01_n_51_1_n u01_n_48_i_i_0_n \
+  u01_n_50_1_n u01_n_47_i_i_0_n u01_n_50_2_n u01_n_46_i_i_0_n u01_n_35_0_1_n u01_n_45_i_i_0_n u01_n_31_0_1_n u01_n_44_i_i_0_n u01_n_31_0_2_n u01_n_36_i_i_0_n u01_n_29_1_n \
+  u01_n_34_i_i_0_n u01_n_28_1_n u01_n_33_i_i_0_n u01_n_28_2_n u01_n_30_i_i_0_n u01_n_12_0_1_n sel0_i_1__n u01_n_10_1_n salida0_i_0__n u02_edo_pre_i_3__n u02_edo_pre_i_1__n \
+  u02_edo_pre_i_2__n dato0_i_0__n sel0_i_2__n sel0_i_0__n dato0_i_2__n salida0_i_1__n salida0_i_3__n dato0_i_4__n salida0_i_5__n dato0_i_5__n salida0_i_4__n \
+  salida0_i_6__n dato0_i_6__n salida0_i_7__n dato0_i_7__n salida0_i_8__n dato0_i_1__n salida0_i_2__n dato0_i_3__n dato0_i_8__n salida0_i_9__n dato0_i_9__n \
+  cd0_i ci0_i clr0_i dato0_c_0__n dato0_c_1__n dato0_c_2__n dato0_c_3__n dato0_c_4__n dato0_c_5__n dato0_c_6__n dato0_c_7__n \
+  dato0_c_8__n dato0_c_9__n clr0_c cd0_c ci0_c sel0_c_0__n sel0_c_1__n sel0_c_2__n u01_n_11_i_n u01_n_14_i_n u01_n_15_0_n \
+  u01_n_52_i_n u01_n_58_i_n u01_n_59_0_n u02_n_31_i_n u02_n_48_i_n u01_n_237_0_n u01_n_227_0_n u01_n_112_i_n u01_n_226_0_n u01_n_49_0_n u01_n_47_0_n \
+  u01_n_45_0_n u01_n_30_i_0_n u01_n_36_i_0_n u01_n_37_0_n u01_n_27_0_n u01_n_25_0_n u01_n_23_0_n u01_n_9_0_n u01_n_7_0_n u01_n_105_i_n u01_n_106_i_n \
+  u01_n_107_i_n u01_n_108_i_n u01_n_109_i_n u01_n_100_i_n u01_n_101_i_n u01_n_102_i_n
+.names  u01_n_227_0_n.BLIF U01_salida_1_reg.BLIF u01_n_11_n
+11 1
+.names  U01_salida_0_reg.BLIF sel0_c_2__n.BLIF u01_n_4_n
+11 1
+.names  U01_salida_2_reg.BLIF U01_salida_11_7_i_0_x3_2_.X2
+1 1
+.names  U01_salida_11_7_i_0_x3_4_.BLIF u01_n_110_n.BLIF u01_n_100_n
+11 1
+.names  U01_salida_11_7_i_0_x3_5_.BLIF u01_n_34_i_i_0_n
+0 1
+.names  u01_n_34_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_96_n
+11 1
+.names  u01_n_37_n.BLIF U01_salida_11_7_i_0_x3_5_.X1
+1 1
+.names  U01_salida_11_7_i_0_x3_5_.BLIF u01_n_110_n.BLIF u01_n_95_n
+11 1
+.names  U01_salida_11_7_i_0_x3_6_.BLIF u01_n_36_i_i_0_n
+0 1
+.names  U01_salida_5_reg.BLIF U01_salida_11_7_i_0_x3_5_.X2
+1 1
+.names  u01_n_36_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_91_n
+11 1
+.names  U01_salida_11_7_i_0_x3_6_.BLIF u01_n_110_n.BLIF u01_n_90_n
+11 1
+.names  U01_salida_11_7_i_0_x3_7_.BLIF u01_n_44_i_i_0_n
+0 1
+.names  u01_n_44_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_86_n
+11 1
+.names  U01_salida_11_7_i_0_x3_7_.BLIF u01_n_110_n.BLIF u01_n_85_n
+11 1
+.names  U01_salida_11_7_i_0_x3_1_.BLIF u01_n_45_i_i_0_n
+0 1
+.names  u01_n_45_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_75_n
+11 1
+.names  U01_salida_11_7_i_0_x3_1_.BLIF u01_n_110_n.BLIF u01_n_74_n
+11 1
+.names  U01_salida_11_7_i_0_x3_3_.BLIF u01_n_46_i_i_0_n
+0 1
+.names  u01_n_46_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_70_n
+11 1
+.names  sel0_c_1__n.BLIF sel0_i_1__n
+0 1
+.names  u01_n_227_0_n.BLIF sel0_i_1__n.BLIF u01_n_110_n
+11 1
+.names  U01_salida_11_7_i_0_x3_2_.BLIF u01_n_30_i_i_0_n
+0 1
+.names  u01_n_30_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_106_n
+11 1
+.names  gnd_n_n.BLIF clks0
+1 1
+.names  U01_salida_11_7_i_0_x3_2_.BLIF u01_n_110_n.BLIF u01_n_105_n
+11 1
+.names  U01_salida_11_7_i_0_x3_4_.BLIF u01_n_33_i_i_0_n
+0 1
+.names  u02_n_31_i_n.BLIF display0_0_
+1 1
+.names  u01_n_33_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_101_n
+11 1
+.names  gnd_n_n.BLIF display0_1_
+1 1
+.names  u01_n_112_i_n.BLIF u01_n_227_n.BLIF u01_n_226_0_n
+11 1
+.names  gnd_n_n.BLIF display0_2_
+1 1
+.names  sel0_c_2__n.BLIF sel0_i_2__n
+0 1
+.names  gnd_n_n.BLIF display0_3_
+1 1
+.names  sel0_c_0__n.BLIF sel0_i_0__n
+0 1
+.names  vcc_n_n.BLIF display0_4_
+1 1
+.names  sel0_c_0__n.BLIF sel0_c_2__n.BLIF u01_n_227_0_n
+11 1
+.names  vcc_n_n.BLIF display0_5_
+1 1
+.names  gnd_n_n.BLIF display0_6_
+1 1
+.names  dato0_c_0__n.BLIF dato0_i_0__n
+0 1
+.names  dato0_0_.BLIF dato0_c_0__n
+1 1
+.names  dato0_c_0__n.BLIF sel0_i_0__n.BLIF u01_n_237_0_n
+11 1
+.names  dato0_1_.BLIF dato0_c_1__n
+1 1
+.names  U02_edo_Pre_2_.BLIF u02_edo_pre_i_2__n
+0 1
+.names  dato0_2_.BLIF dato0_c_2__n
+1 1
+.names  U02_edo_Pre_2_.BLIF U01_salida_0_reg.BLIF U02_edo_Pre_3_.D
+11 1
+.names  dato0_3_.BLIF dato0_c_3__n
+1 1
+.names  u02_n_48_i_n.BLIF salida0_i_0__n.BLIF U02_edo_Pre_2_.D
+11 1
+.names  dato0_4_.BLIF dato0_c_4__n
+1 1
+.names  U02_edo_Pre_1_.BLIF u02_edo_pre_i_1__n
+0 1
+.names  dato0_5_.BLIF dato0_c_5__n
+1 1
+.names  u02_edo_pre_i_1__n.BLIF u02_edo_pre_i_3__n.BLIF u02_n_48_n
+11 1
+.names  dato0_6_.BLIF dato0_c_6__n
+1 1
+.names  U01_salida_0_reg.BLIF salida0_i_0__n
+0 1
+.names  dato0_7_.BLIF dato0_c_7__n
+1 1
+.names  U02_edo_Pre_3_.BLIF u02_edo_pre_i_3__n
+0 1
+.names  dato0_8_.BLIF dato0_c_8__n
+1 1
+.names  U02_edo_Pre_3_.BLIF U01_salida_0_reg.BLIF u02_n_31_i_n
+11 1
+.names  dato0_9_.BLIF dato0_c_9__n
+1 1
+.names  U01_salida_5_reg.BLIF salida0_i_5__n
+0 1
+.names  clk0_c.BLIF clk0
+1 1
+.names  u01_n_115_n.BLIF salida0_i_5__n.BLIF u01_n_103_n
+11 1
+.names  clr0.BLIF clr0_c
+1 1
+.names  dato0_c_4__n.BLIF dato0_i_4__n
+0 1
+.names  cd0.BLIF cd0_c
+1 1
+.names  u01_n_114_n.BLIF dato0_i_4__n.BLIF u01_n_104_n
+11 1
+.names  ci0.BLIF ci0_c
+1 1
+.names  U01_salida_3_reg.BLIF salida0_i_3__n
+0 1
+.names  sel0_0_.BLIF sel0_c_0__n
+1 1
+.names  u01_n_115_n.BLIF salida0_i_3__n.BLIF u01_n_107_n
+11 1
+.names  sel0_1_.BLIF sel0_c_1__n
+1 1
+.names  U01_salida_1_reg.BLIF salida0_i_1__n
+0 1
+.names  sel0_2_.BLIF sel0_c_2__n
+1 1
+.names  u01_n_113_n.BLIF salida0_i_1__n.BLIF u01_n_108_n
+11 1
+.names  U01_salida_0_reg.BLIF salida0_0_
+1 1
+.names  dato0_c_2__n.BLIF dato0_i_2__n
+0 1
+.names  U01_salida_1_reg.BLIF salida0_1_
+1 1
+.names  u01_n_114_n.BLIF dato0_i_2__n.BLIF u01_n_109_n
+11 1
+.names  U01_salida_2_reg.BLIF salida0_2_
+1 1
+.names  u01_n_226_0_n.BLIF sel0_i_1__n.BLIF u01_n_111_n
+11 1
+.names  U01_salida_3_reg.BLIF salida0_3_
+1 1
+.names  sel0_i_0__n.BLIF sel0_i_2__n.BLIF u01_n_112_n
+11 1
+.names  U01_salida_4_reg.BLIF salida0_4_
+1 1
+.names  u01_n_226_n.BLIF sel0_c_1__n.BLIF u01_n_113_n
+11 1
+.names  U01_salida_5_reg.BLIF salida0_5_
+1 1
+.names  u01_n_112_n.BLIF sel0_i_1__n.BLIF u01_n_114_n
+11 1
+.names  U01_salida_6_reg.BLIF salida0_6_
+1 1
+.names  u01_n_226_0_n.BLIF sel0_c_1__n.BLIF u01_n_115_n
+11 1
+.names  U01_salida_7_reg.BLIF salida0_7_
+1 1
+.names  u01_n_115_n.BLIF salida0_i_8__n.BLIF u01_n_88_n
+11 1
+.names  U01_salida_8_reg.BLIF salida0_8_
+1 1
+.names  dato0_c_7__n.BLIF dato0_i_7__n
+0 1
+.names  U01_salida_9_reg.BLIF salida0_9_
+1 1
+.names  u01_n_114_n.BLIF dato0_i_7__n.BLIF u01_n_89_n
+11 1
+.names  u01_n_11_i_n.BLIF u01_n_8_i_n.BLIF u01_n_12_0_1_n
+11 1
+.names  U01_salida_7_reg.BLIF salida0_i_7__n
+0 1
+.names  u01_n_12_0_1_n.BLIF u01_n_10_i_n.BLIF u01_n_12_0_n
+11 1
+.names  u01_n_115_n.BLIF salida0_i_7__n.BLIF u01_n_92_n
+11 1
+.names  u01_n_9_n.BLIF u01_n_4_n.BLIF u01_n_10_1_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_5__n.BLIF u01_n_93_n
+11 1
+.names  u01_n_10_1_n.BLIF u01_n_7_n.BLIF u01_n_10_n
+11 1
+.names  dato0_c_6__n.BLIF dato0_i_6__n
+0 1
+.names  u01_n_49_n.BLIF u01_n_44_n.BLIF u01_n_51_1_n
+11 1
+.names  u01_n_114_n.BLIF dato0_i_6__n.BLIF u01_n_94_n
+11 1
+.names  u01_n_51_1_n.BLIF u01_n_47_n.BLIF u01_n_51_n
+11 1
+.names  U01_salida_6_reg.BLIF salida0_i_6__n
+0 1
+.names  u01_n_31_n.BLIF u01_n_45_n.BLIF u01_n_50_1_n
+11 1
+.names  u01_n_115_n.BLIF salida0_i_6__n.BLIF u01_n_97_n
+11 1
+.names  u01_n_47_n.BLIF u01_n_49_n.BLIF u01_n_50_2_n
+11 1
+.names  U01_salida_4_reg.BLIF salida0_i_4__n
+0 1
+.names  u01_n_50_1_n.BLIF u01_n_50_2_n.BLIF u01_n_50_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_4__n.BLIF u01_n_98_n
+11 1
+.names  u01_n_34_i_0_n.BLIF u01_n_22_i_n.BLIF u01_n_35_0_1_n
+11 1
+.names  dato0_c_5__n.BLIF dato0_i_5__n
+0 1
+.names  u01_n_35_0_1_n.BLIF u01_n_33_i_0_n.BLIF u01_n_35_0_n
+11 1
+.names  u01_n_114_n.BLIF dato0_i_5__n.BLIF u01_n_99_n
+11 1
+.names  u01_n_26_i_n.BLIF u01_n_28_i_n.BLIF u01_n_31_0_1_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_3__n.BLIF u01_n_102_n
+11 1
+.names  u01_n_29_i_n.BLIF u01_n_30_i_0_n.BLIF u01_n_31_0_2_n
+11 1
+.names  u01_n_115_n.BLIF salida0_i_9__n.BLIF u01_n_65_n
+11 1
+.names  u01_n_31_0_1_n.BLIF u01_n_31_0_2_n.BLIF u01_n_31_0_n
+11 1
+.names  dato0_c_8__n.BLIF dato0_i_8__n
+0 1
+.names  u01_n_27_n.BLIF u01_n_22_n.BLIF u01_n_29_1_n
+11 1
+.names  u01_n_114_n.BLIF dato0_i_8__n.BLIF u01_n_67_n
+11 1
+.names  u01_n_29_1_n.BLIF u01_n_25_n.BLIF u01_n_29_n
+11 1
+.names  u01_n_115_n.BLIF salida0_i_4__n.BLIF u01_n_71_n
+11 1
+.names  u01_n_12_n.BLIF u01_n_23_n.BLIF u01_n_28_1_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_2__n.BLIF u01_n_72_n
+11 1
+.names  u01_n_25_n.BLIF u01_n_27_n.BLIF u01_n_28_2_n
+11 1
+.names  dato0_c_3__n.BLIF dato0_i_3__n
+0 1
+.names  u01_n_28_1_n.BLIF u01_n_28_2_n.BLIF u01_n_28_n
+11 1
+.names  u01_n_114_n.BLIF dato0_i_3__n.BLIF u01_n_73_n
+11 1
+.names  u01_n_81_1_n.BLIF sel0_i_1__n.BLIF u01_n_81_n
+11 1
+.names  U01_salida_2_reg.BLIF salida0_i_2__n
+0 1
+.names  u01_n_237_n.BLIF salida0_i_0__n.BLIF u01_n_79_1_n
+11 1
+.names  u01_n_115_n.BLIF salida0_i_2__n.BLIF u01_n_76_n
+11 1
+.names  sel0_i_1__n.BLIF sel0_i_2__n.BLIF u01_n_79_2_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_0__n.BLIF u01_n_77_n
+11 1
+.names  u01_n_79_1_n.BLIF u01_n_79_2_n.BLIF u01_n_79_n
+11 1
+.names  dato0_c_1__n.BLIF dato0_i_1__n
+0 1
+.names  ci0_i.BLIF sel0_c_0__n.BLIF u01_n_245_1_n
+11 1
+.names  u01_n_114_n.BLIF dato0_i_1__n.BLIF u01_n_78_n
+11 1
+.names  sel0_c_1__n.BLIF sel0_i_2__n.BLIF u01_n_245_2_n
+11 1
+.names  u01_n_115_n.BLIF salida0_i_1__n.BLIF u01_n_80_n
+11 1
+.names  u01_n_245_1_n.BLIF u01_n_245_2_n.BLIF u01_n_245_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_6__n.BLIF u01_n_87_n
+11 1
+.names  salida0_i_0__n.BLIF sel0_c_1__n.BLIF u01_n_242_1_n
+11 1
+.names  U01_salida_8_reg.BLIF salida0_i_8__n
+0 1
+.names  sel0_c_2__n.BLIF sel0_i_0__n.BLIF u01_n_242_2_n
+11 1
+.names  u01_n_12_n.BLIF U01_salida_3_reg.BLIF u01_n_34_n
+11 1
+.names  u01_n_242_1_n.BLIF u01_n_242_2_n.BLIF u01_n_242_n
+11 1
+.names  u01_n_25_n.BLIF u01_n_35_n.BLIF u01_n_36_n
+11 1
+.names  u01_n_56_i_n.BLIF u01_n_44_i_0_n.BLIF u01_n_57_0_1_n
+11 1
+.names  u01_n_30_i_0_n.BLIF u01_n_36_i_0_n.BLIF u01_n_37_0_n
+11 1
+.names  u01_n_57_0_1_n.BLIF u01_n_55_i_n.BLIF u01_n_57_0_n
+11 1
+.names  u01_n_227_0_n.BLIF U01_salida_6_reg.BLIF u01_n_44_n
+11 1
+.names  u01_n_48_i_0_n.BLIF u01_n_50_i_n.BLIF u01_n_53_0_1_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_6__n.BLIF u01_n_45_0_n
+11 1
+.names  u01_n_51_i_n.BLIF u01_n_52_i_n.BLIF u01_n_53_0_2_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_7__n.BLIF u01_n_47_0_n
+11 1
+.names  u01_n_53_0_1_n.BLIF u01_n_53_0_2_n.BLIF u01_n_53_0_n
+11 1
+.names  u01_n_227_0_n.BLIF U01_salida_8_reg.BLIF u01_n_48_n
+11 1
+.names  u01_n_151_i_1_n.BLIF u01_n_151_i_2_n.BLIF u01_n_151_i_3_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_8__n.BLIF u01_n_49_0_n
+11 1
+.names  u01_n_151_i_3_n.BLIF u01_n_65_i_n.BLIF U01_salida_8_reg.D
+11 1
+.names  u01_n_31_n.BLIF u01_n_227_0_n.BLIF u01_n_55_n
+11 1
+.names  u01_n_245_i_n.BLIF u01_n_247_i_n.BLIF u01_n_150_i_1_n
+11 1
+.names  u01_n_31_n.BLIF U01_salida_6_reg.BLIF u01_n_56_n
+11 1
+.names  u01_n_238_i_n.BLIF u01_n_239_i_n.BLIF u01_n_150_i_2_n
+11 1
+.names  u01_n_113_n.BLIF salida0_i_8__n.BLIF u01_n_240_n
+11 1
+.names  u01_n_240_i_n.BLIF u01_n_242_i_n.BLIF u01_n_150_i_3_n
+11 1
+.names  dato0_c_9__n.BLIF dato0_i_9__n
+0 1
+.names  u01_n_150_i_1_n.BLIF u01_n_150_i_2_n.BLIF u01_n_150_i_4_n
+11 1
+.names  u01_n_114_n.BLIF dato0_i_9__n.BLIF u01_n_247_n
+11 1
+.names  u01_n_150_i_4_n.BLIF u01_n_150_i_3_n.BLIF U01_salida_9_reg.D
+11 1
+.names  u01_n_113_n.BLIF salida0_i_7__n.BLIF u01_n_64_n
+11 1
+.names  dato0_i_0__n.BLIF U01_salida_0_reg.BLIF u01_n_84_1_n
+11 1
+.names  U01_salida_9_reg.BLIF salida0_i_9__n
+0 1
+.names  sel0_i_0__n.BLIF sel0_i_1__n.BLIF u01_n_84_2_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_1__n.BLIF u01_n_7_0_n
+11 1
+.names  u01_n_84_1_n.BLIF u01_n_84_2_n.BLIF u01_n_84_n
+11 1
+.names  u01_n_227_0_n.BLIF U01_salida_2_reg.BLIF u01_n_8_n
+11 1
+.names  u01_n_112_n.BLIF cd0_i.BLIF u01_n_83_1_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_2__n.BLIF u01_n_9_0_n
+11 1
+.names  u01_n_83_1_n.BLIF sel0_c_1__n.BLIF u01_n_83_n
+11 1
+.names  u01_n_227_0_n.BLIF U01_salida_3_reg.BLIF u01_n_22_n
+11 1
+.names  u01_n_227_0_n.BLIF salida0_i_9__n.BLIF u01_n_82_1_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_3__n.BLIF u01_n_23_0_n
+11 1
+.names  u01_n_82_1_n.BLIF sel0_c_1__n.BLIF u01_n_82_n
+11 1
+.names  u01_n_227_0_n.BLIF U01_salida_4_reg.BLIF u01_n_30_n
+11 1
+.names  U01_salida_0_reg.BLIF sel0_c_2__n.BLIF u01_n_81_1_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_4__n.BLIF u01_n_25_0_n
+11 1
+.names  u01_n_83_i_n.BLIF u01_n_84_i_n.BLIF u01_n_17_0_1_n
+11 1
+.names  u01_n_227_0_n.BLIF U01_salida_5_reg.BLIF u01_n_26_n
+11 1
+.names  u01_n_79_i_n.BLIF u01_n_80_i_n.BLIF u01_n_17_0_2_n
+11 1
+.names  u01_n_227_n.BLIF salida0_i_5__n.BLIF u01_n_27_0_n
+11 1
+.names  u01_n_81_i_n.BLIF u01_n_82_i_n.BLIF u01_n_17_0_3_n
+11 1
+.names  u01_n_12_n.BLIF u01_n_227_0_n.BLIF u01_n_33_n
+11 1
+.names  u01_n_17_0_1_n.BLIF u01_n_17_0_2_n.BLIF u01_n_17_0_4_n
+11 1
+.names  clr0_c.BLIF clr0_i
+0 1
+.names  u01_n_17_0_4_n.BLIF u01_n_17_0_3_n.BLIF U01_salida_0_reg.D
+11 1
+.names  ci0_c.BLIF ci0_i
+0 1
+.names  u01_n_78_i_n.BLIF u01_n_74_i_n.BLIF u01_n_152_i_1_n
+11 1
+.names  cd0_c.BLIF cd0_i
+0 1
+.names  u01_n_75_i_n.BLIF u01_n_76_i_n.BLIF u01_n_152_i_2_n
+11 1
+.names  vcc_n_n
+1
+.names  u01_n_152_i_1_n.BLIF u01_n_152_i_2_n.BLIF u01_n_152_i_3_n
+11 1
+.names  gnd_n_n
+.names  u01_n_152_i_3_n.BLIF u01_n_77_i_n.BLIF U01_salida_1_reg.D
+11 1
+.names  u01_n_69_i_n.BLIF u01_n_70_i_n.BLIF u01_n_13_i_1_n
+11 1
+.names  u01_n_71_i_n.BLIF u01_n_72_i_n.BLIF u01_n_13_i_2_n
+11 1
+.names  u01_n_13_i_1_n.BLIF u01_n_13_i_2_n.BLIF u01_n_13_i_3_n
+11 1
+.names  u01_n_13_i_3_n.BLIF u01_n_73_i_n.BLIF U01_salida_3_reg.D
+11 1
+.names  u01_n_67_i_n.BLIF u01_n_62_i_n.BLIF u01_n_151_i_1_n
+11 1
+.names  u01_n_63_i_n.BLIF u01_n_64_i_n.BLIF u01_n_151_i_2_n
+11 1
+.names  u01_n_101_i_n.BLIF u01_n_102_i_n.BLIF u01_n_183_i_2_n
+11 1
+.names  u01_n_183_i_1_n.BLIF u01_n_183_i_2_n.BLIF u01_n_183_i_3_n
+11 1
+.names  u01_n_183_i_3_n.BLIF u01_n_103_i_n.BLIF U01_salida_4_reg.D
+11 1
+.names  u01_n_99_i_n.BLIF u01_n_95_i_n.BLIF u01_n_182_i_1_n
+11 1
+.names  u01_n_96_i_n.BLIF u01_n_97_i_n.BLIF u01_n_182_i_2_n
+11 1
+.names  u01_n_182_i_1_n.BLIF u01_n_182_i_2_n.BLIF u01_n_182_i_3_n
+11 1
+.names  u01_n_182_i_3_n.BLIF u01_n_98_i_n.BLIF U01_salida_5_reg.D
+11 1
+.names  u01_n_94_i_n.BLIF u01_n_90_i_n.BLIF u01_n_181_i_1_n
+11 1
+.names  u01_n_91_i_n.BLIF u01_n_92_i_n.BLIF u01_n_181_i_2_n
+11 1
+.names  u01_n_181_i_1_n.BLIF u01_n_181_i_2_n.BLIF u01_n_181_i_3_n
+11 1
+.names  u01_n_181_i_3_n.BLIF u01_n_93_i_n.BLIF U01_salida_6_reg.D
+11 1
+.names  u01_n_89_i_n.BLIF u01_n_85_i_n.BLIF u01_n_180_i_1_n
+11 1
+.names  u01_n_86_i_n.BLIF u01_n_87_i_n.BLIF u01_n_180_i_2_n
+11 1
+.names  u01_n_180_i_1_n.BLIF u01_n_180_i_2_n.BLIF u01_n_180_i_3_n
+11 1
+.names  u01_n_180_i_3_n.BLIF u01_n_88_i_n.BLIF U01_salida_7_reg.D
+11 1
+.names  u01_n_35_0_n.BLIF u01_n_35_n
+0 1
+.names  u01_n_26_n.BLIF u01_n_26_i_n
+0 1
+.names  u01_n_28_n.BLIF u01_n_28_i_n
+0 1
+.names  u01_n_29_n.BLIF u01_n_29_i_n
+0 1
+.names  u01_n_31_0_n.BLIF u01_n_31_n
+0 1
+.names  u01_n_8_n.BLIF u01_n_8_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_0_reg.C
+1 1
+.names  u01_n_10_n.BLIF u01_n_10_i_n
+0 1
+.names  u01_n_12_0_n.BLIF u01_n_12_n
+0 1
+.names  clr0_i.BLIF U01_salida_0_reg.AR
+1 1
+.names  u02_edo_pre_i_2__n.BLIF u02_edo_pre_i_3__n.BLIF u02_edo_pre_ns_1_1__n
+11 1
+.names  u02_edo_pre_ns_1_1__n.BLIF U01_salida_0_reg.BLIF U02_edo_Pre_1_.D
+11 1
+.names  u01_n_109_i_n.BLIF u01_n_105_i_n.BLIF u01_n_184_i_1_n
+11 1
+.names  u01_n_106_i_n.BLIF u01_n_107_i_n.BLIF u01_n_184_i_2_n
+11 1
+.names  clk0_c.BLIF U01_salida_1_reg.C
+1 1
+.names  u01_n_184_i_1_n.BLIF u01_n_184_i_2_n.BLIF u01_n_184_i_3_n
+11 1
+.names  u01_n_184_i_3_n.BLIF u01_n_108_i_n.BLIF U01_salida_2_reg.D
+11 1
+.names  clr0_i.BLIF U01_salida_1_reg.AR
+1 1
+.names  u01_n_104_i_n.BLIF u01_n_100_i_n.BLIF u01_n_183_i_1_n
+11 1
+.names  u01_n_240_n.BLIF u01_n_240_i_n
+0 1
+.names  u01_n_242_n.BLIF u01_n_242_i_n
+0 1
+.names  u01_n_245_n.BLIF u01_n_245_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_2_reg.C
+1 1
+.names  u01_n_247_n.BLIF u01_n_247_i_n
+0 1
+.names  u01_n_44_n.BLIF u01_n_44_i_0_n
+0 1
+.names  clr0_i.BLIF U01_salida_2_reg.AR
+1 1
+.names  u01_n_55_n.BLIF u01_n_55_i_n
+0 1
+.names  u01_n_56_n.BLIF u01_n_56_i_n
+0 1
+.names  u01_n_57_0_n.BLIF u01_n_57_n
+0 1
+.names  u01_n_48_n.BLIF u01_n_48_i_0_n
+0 1
+.names  clk0_c.BLIF U01_salida_3_reg.C
+1 1
+.names  u01_n_50_n.BLIF u01_n_50_i_n
+0 1
+.names  u01_n_51_n.BLIF u01_n_51_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_3_reg.AR
+1 1
+.names  u01_n_53_0_n.BLIF u01_n_53_n
+0 1
+.names  u01_n_22_n.BLIF u01_n_22_i_n
+0 1
+.names  u01_n_33_n.BLIF u01_n_33_i_0_n
+0 1
+.names  u01_n_34_n.BLIF u01_n_34_i_0_n
+0 1
+.names  clk0_c.BLIF U01_salida_4_reg.C
+1 1
+.names  u01_n_76_n.BLIF u01_n_76_i_n
+0 1
+.names  u01_n_77_n.BLIF u01_n_77_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_4_reg.AR
+1 1
+.names  u01_n_78_n.BLIF u01_n_78_i_n
+0 1
+.names  u01_n_69_n.BLIF u01_n_69_i_n
+0 1
+.names  u01_n_70_n.BLIF u01_n_70_i_n
+0 1
+.names  u01_n_71_n.BLIF u01_n_71_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_5_reg.C
+1 1
+.names  u01_n_72_n.BLIF u01_n_72_i_n
+0 1
+.names  u01_n_73_n.BLIF u01_n_73_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_5_reg.AR
+1 1
+.names  u01_n_62_n.BLIF u01_n_62_i_n
+0 1
+.names  u01_n_63_n.BLIF u01_n_63_i_n
+0 1
+.names  u01_n_64_n.BLIF u01_n_64_i_n
+0 1
+.names  u01_n_65_n.BLIF u01_n_65_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_6_reg.C
+1 1
+.names  u01_n_67_n.BLIF u01_n_67_i_n
+0 1
+.names  u01_n_238_n.BLIF u01_n_238_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_6_reg.AR
+1 1
+.names  u01_n_239_n.BLIF u01_n_239_i_n
+0 1
+.names  u01_n_93_n.BLIF u01_n_93_i_n
+0 1
+.names  u01_n_94_n.BLIF u01_n_94_i_n
+0 1
+.names  u01_n_85_n.BLIF u01_n_85_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_7_reg.C
+1 1
+.names  u01_n_86_n.BLIF u01_n_86_i_n
+0 1
+.names  u01_n_87_n.BLIF u01_n_87_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_7_reg.AR
+1 1
+.names  u01_n_88_n.BLIF u01_n_88_i_n
+0 1
+.names  u01_n_89_n.BLIF u01_n_89_i_n
+0 1
+.names  u01_n_79_n.BLIF u01_n_79_i_n
+0 1
+.names  u01_n_80_n.BLIF u01_n_80_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_8_reg.C
+1 1
+.names  u01_n_81_n.BLIF u01_n_81_i_n
+0 1
+.names  u01_n_82_n.BLIF u01_n_82_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_8_reg.AR
+1 1
+.names  u01_n_83_n.BLIF u01_n_83_i_n
+0 1
+.names  u01_n_84_n.BLIF u01_n_84_i_n
+0 1
+.names  u01_n_74_n.BLIF u01_n_74_i_n
+0 1
+.names  u01_n_75_n.BLIF u01_n_75_i_n
+0 1
+.names  clk0_c.BLIF U01_salida_9_reg.C
+1 1
+.names  u01_n_108_n.BLIF u01_n_108_i_n
+0 1
+.names  u01_n_109_n.BLIF u01_n_109_i_n
+0 1
+.names  clr0_i.BLIF U01_salida_9_reg.AR
+1 1
+.names  u01_n_100_n.BLIF u01_n_100_i_n
+0 1
+.names  u01_n_101_n.BLIF u01_n_101_i_n
+0 1
+.names  u01_n_102_n.BLIF u01_n_102_i_n
+0 1
+.names  u01_n_103_n.BLIF u01_n_103_i_n
+0 1
+.names  clk0_c.BLIF U02_edo_Pre_1_.C
+1 1
+.names  u01_n_104_n.BLIF u01_n_104_i_n
+0 1
+.names  u01_n_95_n.BLIF u01_n_95_i_n
+0 1
+.names  u01_n_96_n.BLIF u01_n_96_i_n
+0 1
+.names  u01_n_97_n.BLIF u01_n_97_i_n
+0 1
+.names  clk0_c.BLIF U02_edo_Pre_2_.C
+1 1
+.names  u01_n_98_n.BLIF u01_n_98_i_n
+0 1
+.names  u01_n_99_n.BLIF u01_n_99_i_n
+0 1
+.names  u01_n_90_n.BLIF u01_n_90_i_n
+0 1
+.names  u01_n_91_n.BLIF u01_n_91_i_n
+0 1
+.names  clk0_c.BLIF U02_edo_Pre_3_.C
+1 1
+.names  u01_n_92_n.BLIF u01_n_92_i_n
+0 1
+.names  u01_n_226_0_n.BLIF u01_n_226_n
+0 1
+.names  u01_n_49_0_n.BLIF u01_n_49_n
+0 1
+.names  u01_n_53_n.BLIF U01_salida_11_7_i_0_x3_9_.X1
+1 1
+.names  u01_n_47_0_n.BLIF u01_n_47_n
+0 1
+.names  u01_n_45_0_n.BLIF u01_n_45_n
+0 1
+.names  U01_salida_9_reg.BLIF U01_salida_11_7_i_0_x3_9_.X2
+1 1
+.names  u01_n_30_n.BLIF u01_n_30_i_0_n
+0 1
+.names  u01_n_36_n.BLIF u01_n_36_i_0_n
+0 1
+.names  u01_n_37_0_n.BLIF u01_n_37_n
+0 1
+.names  u01_n_59_n.BLIF U01_salida_11_7_i_0_x3_8_.X1
+1 1
+.names  u01_n_27_0_n.BLIF u01_n_27_n
+0 1
+.names  u01_n_25_0_n.BLIF u01_n_25_n
+0 1
+.names  U01_salida_8_reg.BLIF U01_salida_11_7_i_0_x3_8_.X2
+1 1
+.names  u01_n_23_0_n.BLIF u01_n_23_n
+0 1
+.names  u01_n_9_0_n.BLIF u01_n_9_n
+0 1
+.names  u01_n_7_0_n.BLIF u01_n_7_n
+0 1
+.names  u01_n_12_n.BLIF U01_salida_11_7_i_0_x3_3_.X1
+1 1
+.names  u01_n_105_n.BLIF u01_n_105_i_n
+0 1
+.names  u01_n_106_n.BLIF u01_n_106_i_n
+0 1
+.names  U01_salida_3_reg.BLIF U01_salida_11_7_i_0_x3_3_.X2
+1 1
+.names  u01_n_107_n.BLIF u01_n_107_i_n
+0 1
+.names  u01_n_11_n.BLIF u01_n_11_i_n
+0 1
+.names  u01_n_14_n.BLIF u01_n_14_i_n
+0 1
+.names  u01_n_4_n.BLIF U01_salida_11_7_i_0_x3_1_.X1
+1 1
+.names  u01_n_15_0_n.BLIF u01_n_15_n
+0 1
+.names  u01_n_52_n.BLIF u01_n_52_i_n
+0 1
+.names  U01_salida_1_reg.BLIF U01_salida_11_7_i_0_x3_1_.X2
+1 1
+.names  u01_n_58_n.BLIF u01_n_58_i_n
+0 1
+.names  u01_n_59_0_n.BLIF u01_n_59_n
+0 1
+.names  u02_n_48_n.BLIF u02_n_48_i_n
+0 1
+.names  u01_n_57_n.BLIF U01_salida_11_7_i_0_x3_7_.X1
+1 1
+.names  u01_n_237_0_n.BLIF u01_n_237_n
+0 1
+.names  u01_n_227_0_n.BLIF u01_n_227_n
+0 1
+.names  U01_salida_7_reg.BLIF U01_salida_11_7_i_0_x3_7_.X2
+1 1
+.names  u01_n_112_n.BLIF u01_n_112_i_n
+0 1
+.names  U01_salida_11_7_i_0_x3_3_.BLIF u01_n_110_n.BLIF u01_n_69_n
+11 1
+.names  U01_salida_11_7_i_0_x3_8_.BLIF u01_n_47_i_i_0_n
+0 1
+.names  u01_n_31_n.BLIF U01_salida_11_7_i_0_x3_6_.X1
+1 1
+.names  u01_n_47_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_63_n
+11 1
+.names  U01_salida_11_7_i_0_x3_8_.BLIF u01_n_110_n.BLIF u01_n_62_n
+11 1
+.names  U01_salida_6_reg.BLIF U01_salida_11_7_i_0_x3_6_.X2
+1 1
+.names  U01_salida_11_7_i_0_x3_9_.BLIF u01_n_48_i_i_0_n
+0 1
+.names  u01_n_48_i_i_0_n.BLIF u01_n_111_n.BLIF u01_n_239_n
+11 1
+.names  U01_salida_11_7_i_0_x3_9_.BLIF u01_n_110_n.BLIF u01_n_238_n
+11 1
+.names  u01_n_35_n.BLIF U01_salida_11_7_i_0_x3_4_.X1
+1 1
+.names  u01_n_52_i_n.BLIF u01_n_58_i_n.BLIF u01_n_59_0_n
+11 1
+.names  u01_n_47_n.BLIF u01_n_57_n.BLIF u01_n_58_n
+11 1
+.names  U01_salida_4_reg.BLIF U01_salida_11_7_i_0_x3_4_.X2
+1 1
+.names  u01_n_227_0_n.BLIF U01_salida_7_reg.BLIF u01_n_52_n
+11 1
+.names  u01_n_11_i_n.BLIF u01_n_14_i_n.BLIF u01_n_15_0_n
+11 1
+.names  u01_n_4_n.BLIF u01_n_7_n.BLIF u01_n_14_n
+11 1
+.names  u01_n_15_n.BLIF U01_salida_11_7_i_0_x3_2_.X1
+1 1
+.end

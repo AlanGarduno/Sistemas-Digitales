@@ -1,0 +1,42 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|topdado0|-prodtype|synplify_pro|-nostructver|-encrypt|-pro|-lite|-compiler_compatible|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\bin64\\c_vhdl.exe":1401227704
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\location.map":1310460974
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\std.vhd":1401227322
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1401227322
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\std1164.vhd":1401227322
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\numeric.vhd":1401227322
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\umr_capim.vhd":1401227568
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\arith.vhd":1401227322
+#CUR:"C:\\ispLEVER_Classic2_0\\synpbase\\lib\\vhd\\unsigned.vhd":1401227322
+#CUR:"C:\\users\\richie\\desktop\\4 semestre\\dsd\\dado\\packagedado.vhd":1493667963
+#CUR:"C:\\users\\richie\\desktop\\4 semestre\\dsd\\dado\\osc00.vhd":1494977939
+#CUR:"C:\\users\\richie\\desktop\\4 semestre\\dsd\\dado\\dado0.vhd":1493667190
+#CUR:"C:\\users\\richie\\desktop\\4 semestre\\dsd\\dado\\topdado0.vhd":1493667896
+0 "C:\users\richie\desktop\4 semestre\dsd\dado\packagedado.vhd" vhdl
+1 "C:\users\richie\desktop\4 semestre\dsd\dado\osc00.vhd" vhdl
+2 "C:\users\richie\desktop\4 semestre\dsd\dado\dado0.vhd" vhdl
+3 "C:\users\richie\desktop\4 semestre\dsd\dado\topdado0.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 1 2 0 
+
+# Dependency Lists (Users Of)
+0 3 
+1 3 
+2 3 
+3 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work dado0 a_dado 2
+module work dado0 2
+arch work topdado0 topdado 3
+module work topdado0 3
+
+
+# Configuration files used

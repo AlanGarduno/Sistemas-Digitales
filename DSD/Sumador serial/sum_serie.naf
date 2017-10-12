@@ -1,0 +1,16 @@
+clk  i
+clr  i
+control  i
+carry  o
+a[3]  i
+a[2]  i
+a[1]  i
+a[0]  i
+b[3]  i
+b[2]  i
+b[1]  i
+b[0]  i
+output[3]  o
+output[2]  o
+output[1]  o
+output[0]  o

@@ -1,0 +1,84 @@
+|--------------------------------------------------- ----------|
+|- ispLEVER Classic 2.0.00.17.20.15 Equations File            -|
+|- Copyright(C), 1992-2012, Lattice Semiconductor Corporation -|
+|- All Rights Reserved.                                       -|
+|--------------------------------------------------------------|
+
+
+Equations:
+
+
+U01_j1.D = c0 & !q00.Q
+    # !c0 & q00.Q ; (2 pterms, 2 signals)
+U01_j1.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j2.D = c0 & !q00.Q & !q10.Q
+    # !c0 & q00.Q & q10.Q ; (2 pterms, 3 signals)
+U01_j2.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j3.D = c0 & !q00.Q & !q10.Q & !q20.Q
+    # !c0 & q00.Q & q10.Q & q20.Q ; (2 pterms, 4 signals)
+U01_j3.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j4.D = c0 & !q00.Q & !q10.Q & !q20.Q & !q30.Q
+    # !c0 & q00.Q & q10.Q & q20.Q & q30.Q ; (2 pterms, 5 signals)
+U01_j4.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j5.D = c0 & !q00.Q & !q10.Q & !q20.Q & !q30.Q & !q40.Q
+    # !c0 & q00.Q & q10.Q & q20.Q & q30.Q & q40.Q ; (2 pterms, 6 signals)
+U01_j5.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j6.D = c0 & !q00.Q & !q10.Q & !q20.Q & !q30.Q & !q40.Q & !q50.Q
+    # !c0 & q00.Q & q10.Q & q20.Q & q30.Q & q40.Q & q50.Q ; (2 pterms, 7 signals)
+U01_j6.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j7.D = c0 & !q00.Q & !q10.Q & !q20.Q & !q30.Q & !q40.Q & !q50.Q & !q60.Q
+    # !c0 & q00.Q & q10.Q & q20.Q & q30.Q & q40.Q & q50.Q & q60.Q ; (2 pterms, 8 signals)
+U01_j7.C = clk0_c ; (1 pterm, 1 signal)
+
+U01_j8.D = c0 & !q00.Q & !q10.Q & !q20.Q & !q30.Q & !q40.Q & !q50.Q & !q60.Q
+       & !q70.Q
+    # !c0 & q00.Q & q10.Q & q20.Q & q30.Q & q40.Q & q50.Q & q60.Q & q70.Q ; (2 pterms, 9 signals)
+U01_j8.C = clk0_c ; (1 pterm, 1 signal)
+
+_dup_gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+clk0 = clk0_c ; (1 pterm, 1 signal)
+
+gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+q00.D = !q00.Q ; (1 pterm, 1 signal)
+q00.C = clk0_c ; (1 pterm, 1 signal)
+
+q10.D = !q10.Q & U01_j1.Q
+    # q10.Q & !U01_j1.Q ; (2 pterms, 2 signals)
+q10.C = clk0_c ; (1 pterm, 1 signal)
+
+q20.D = !q20.Q & U01_j2.Q
+    # q20.Q & !U01_j2.Q ; (2 pterms, 2 signals)
+q20.C = clk0_c ; (1 pterm, 1 signal)
+
+q30.D = !q30.Q & U01_j3.Q
+    # q30.Q & !U01_j3.Q ; (2 pterms, 2 signals)
+q30.C = clk0_c ; (1 pterm, 1 signal)
+
+q40.D = !q40.Q & U01_j4.Q
+    # q40.Q & !U01_j4.Q ; (2 pterms, 2 signals)
+q40.C = clk0_c ; (1 pterm, 1 signal)
+
+q50.D = !q50.Q & U01_j5.Q
+    # q50.Q & !U01_j5.Q ; (2 pterms, 2 signals)
+q50.C = clk0_c ; (1 pterm, 1 signal)
+
+q60.D = !q60.Q & U01_j6.Q
+    # q60.Q & !U01_j6.Q ; (2 pterms, 2 signals)
+q60.C = clk0_c ; (1 pterm, 1 signal)
+
+q70.D = !q70.Q & U01_j7.Q
+    # q70.Q & !U01_j7.Q ; (2 pterms, 2 signals)
+q70.C = clk0_c ; (1 pterm, 1 signal)
+
+q80.D = !q80.Q & U01_j8.Q
+    # q80.Q & !U01_j8.Q ; (2 pterms, 2 signals)
+q80.C = clk0_c ; (1 pterm, 1 signal)
+

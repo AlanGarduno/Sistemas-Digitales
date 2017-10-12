@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/4/2017 09:06:19
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/DSD/registro practica 3; Project name: practica3
+prj_project new -name "practica3" -impl "impl_prac3" -dev LCMXO2-7000HE-5TG144C -synthesis "lse"
+prj_project save
+prj_project close
+#Stop recording: 10/4/2017 09:08:19

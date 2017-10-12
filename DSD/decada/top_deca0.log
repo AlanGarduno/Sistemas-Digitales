@@ -1,0 +1,36 @@
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit osc00
+    Number of input ports   : 1
+    Number of output ports  : 1
+    Number of bidir ports   : 0
+    Number of instances     : 1
+    Number of nets          : 2
+
+No design errors found in circuit osc00
+
+
+Inspect circuit deca
+    Number of input ports   : 4
+    Number of output ports  : 7
+    Number of bidir ports   : 0
+    Number of instances     : 8
+    Number of nets          : 18
+
+No design errors found in circuit deca
+
+
+EDIF2BLIF: Warning: Remove floating instance: :
+	i818
+
+Inspect circuit top_deca0
+    Number of input ports   : 3
+    Number of output ports  : 2
+    Number of bidir ports   : 0
+    Number of instances     : 207
+    Number of nets          : 214
+
+No design errors found in circuit top_deca0
+
+WriteBLIF ended normally.

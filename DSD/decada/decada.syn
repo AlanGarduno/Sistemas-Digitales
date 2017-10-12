@@ -1,0 +1,17 @@
+JDF B
+// Created by Version 2.0 
+PROJECT decada
+DESIGN decada Normal
+DEVKIT LC4064ZE-5UMN64C
+ENTRY Pure VHDL
+MODULE top_deca0.vhd
+MODSTYLE top_deca0 Normal
+MODULE deca.vhd
+MODSTYLE deca Normal
+MODULE package_deca0.vhd
+MODSTYLE package_deca0 Normal
+MODULE osc00.vhd
+MODSTYLE osc00 Normal
+SYNTHESIS_TOOL LSE
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE top_deca0

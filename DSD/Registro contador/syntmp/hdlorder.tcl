@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/registro\ contador/package_regcont.vhd" "C:/users/richie/desktop/4\ semestre/dsd/registro\ contador/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/registro\ contador/regcont.vhd" "C:/users/richie/desktop/4\ semestre/dsd/registro\ contador/top_regcont0.vhd" 

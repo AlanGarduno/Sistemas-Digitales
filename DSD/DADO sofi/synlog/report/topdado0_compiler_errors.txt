@@ -1,0 +1,4 @@
+@E: CD607 :"C:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.vhd":5:19:5:19|Identifier packagedado is not declared
+@E: CD879 :"C:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.vhd":28:13:28:16|Illegal concurrent statement. Possible missing component declaration for osc00
+@E|Parse errors encountered - exiting
+

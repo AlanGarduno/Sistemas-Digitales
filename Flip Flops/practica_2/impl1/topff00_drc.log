@@ -1,0 +1,32 @@
+Results of NGD DRC are available in topff00_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'Qtd0' has no load.
+WARNING - synthesis: input pad net 'Qtd0' has no legal load.
+WARNING - synthesis: logical net 'NQt1d' has no load.
+WARNING - synthesis: input pad net 'NQt1d' has no legal load.
+WARNING - synthesis: logical net 'Qtt0' has no load.
+WARNING - synthesis: input pad net 'Qtt0' has no legal load.
+WARNING - synthesis: logical net 'NQt1t0' has no load.
+WARNING - synthesis: input pad net 'NQt1t0' has no legal load.
+WARNING - synthesis: logical net 'QSR0' has no load.
+WARNING - synthesis: input pad net 'QSR0' has no legal load.
+WARNING - synthesis: logical net 'NQSR0' has no load.
+WARNING - synthesis: input pad net 'NQSR0' has no legal load.
+WARNING - synthesis: logical net 'QJK0' has no load.
+WARNING - synthesis: input pad net 'QJK0' has no legal load.
+WARNING - synthesis: logical net 'NQJK0' has no load.
+WARNING - synthesis: input pad net 'NQJK0' has no legal load.
+WARNING - synthesis: DRC complete with 16 warnings.
+
+Design Results:
+    106 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file practica2_impl1.ngd.

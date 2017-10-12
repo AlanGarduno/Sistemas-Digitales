@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\users\richie\desktop\4 semestre\dsd\rotaciones\top_reguni.vhd":7:7:7:16|Top entity is set to top_regUni.
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\top_reguni.vhd":7:7:7:16|Synthesizing work.top_reguni.behavioral 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd":5:7:5:23|Synthesizing work.registrouniversal.a_registro 
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd":41:15:41:20|Removed redundant assignment
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\osc00o.vhd":6:7:6:11|Synthesizing work.osc00.osc0 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\osc00o.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box 
+

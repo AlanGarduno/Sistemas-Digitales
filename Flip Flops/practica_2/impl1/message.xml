@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>Qtd0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQt1d</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>Qtt0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQt1t0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>QSR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQSR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>QJK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQJK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Qtd0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>NQt1d</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Qtt0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>NQt1t0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>QSR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>NQSR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>QJK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>NQJK0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/Flip Flops/practica_2/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/div00.vhd(6): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/div00.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/div00.vhd(10): </Dynamic>
+            <Dynamic>div00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/div00.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/div00.vhd(17): </Dynamic>
+            <Dynamic>div0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/div00.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/ffdrs.vhd(3): </Dynamic>
+            <Dynamic>ffdrs</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/ffdrs.vhd</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/ffdrs.vhd(11): </Dynamic>
+            <Dynamic>a_ffdrs</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/ffdrs.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/osc00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/osc00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/osc00.vhd(8): </Dynamic>
+            <Dynamic>osc00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/osc00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/osc00.vhd(13): </Dynamic>
+            <Dynamic>osc0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/osc00.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packagediv00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packagediv00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packagediv00.vhd(8): </Dynamic>
+            <Dynamic>packagediv00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packagediv00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packageff00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packageff00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packageff00.vhd(8): </Dynamic>
+            <Dynamic>packageff00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/packageff00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topdiv00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topdiv00.vhd(9): </Dynamic>
+            <Dynamic>topdiv00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topdiv00.vhd(17): </Dynamic>
+            <Dynamic>topdiv0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd(9): </Dynamic>
+            <Dynamic>topff00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd(24): </Dynamic>
+            <Dynamic>topff0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd(22): </Dynamic>
+            <Dynamic>topff00</Dynamic>
+            <Dynamic>topff0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/flip flops/practica_2/impl1/source/topff00.vhd</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Qtd0</Dynamic>
+            <Navigation>Qtd0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>Qtd0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>NQt1d</Dynamic>
+            <Navigation>NQt1d</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQt1d</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Qtt0</Dynamic>
+            <Navigation>Qtt0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>Qtt0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>NQt1t0</Dynamic>
+            <Navigation>NQt1t0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQt1t0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>QSR0</Dynamic>
+            <Navigation>QSR0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>QSR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>NQSR0</Dynamic>
+            <Navigation>NQSR0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQSR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>QJK0</Dynamic>
+            <Navigation>QJK0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>QJK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>NQJK0</Dynamic>
+            <Navigation>NQJK0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>NQJK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>16</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

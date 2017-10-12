@@ -1,0 +1,127 @@
+
+[Device]
+Family = lc4k;
+PartNumber = LC4256ZE-7TN144C;
+Package = 144TQFP;
+PartType = LC4256ZE;
+Speed = -7.5;
+Operating_condition = COM;
+Status = Production;
+
+[Revision]
+Parent = lc4k256e.lci;
+DATE = 04/28/2017;
+TIME = 07:04:33;
+Source_Format = Pure_VHDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+
+[Location Assignments]
+layer = OFF;
+control0_1_ = pin, 68, -, -, -;
+E0_3_ = pin, 66, -, -, -;
+display0_6_ = pin, 39, -, -, -;
+clk0 = pin, 26, -, -, -;
+clr0 = pin, 69, -, -, -;
+control0_0_ = pin, 67, -, -, -;
+E0_2_ = pin, 76, -, -, -;
+E0_1_ = pin, 77, -, -, -;
+E0_0_ = pin, 78, -, -, -;
+display0_5_ = pin, 33, -, -, -;
+display0_4_ = pin, 32, -, -, -;
+display0_3_ = pin, 31, -, -, -;
+display0_2_ = pin, 30, -, -, -;
+display0_1_ = pin, 29, -, -, -;
+display0_0_ = pin, 28, -, -, -;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+
+[HSI Attributes]
+
+[Input Delay]
+
+[Pin attributes list]
+
+[Attributes list setting]
+
+[Power Guard]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Timing Analyzer]
+
+[ORP Bypass]
+
+[PLL Assignments]
+
+[Register Powerup]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[OSCTIMER Assignments]
+layer = OFF;
+OSCTIMER = -, -, -, clk0_c, 1048576;

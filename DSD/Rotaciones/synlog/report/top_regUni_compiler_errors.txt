@@ -1,0 +1,2 @@
+@E: CD326 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\top_reguni.vhd":33:0:33:2|Port dato of entity work.registrouniversal is unconnected
+

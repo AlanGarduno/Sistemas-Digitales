@@ -1,0 +1,42 @@
+Running in Lattice mode
+
+
+Starting:    C:\ispLEVER_Classic2_0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\ispLEVER_Classic2_0\synpbase
+Date:        Fri May 26 05:04:06 2017
+Version:     I-2014.03LC 
+
+Arguments:   -product synplify_pro  -batch c:/users/richie/desktop/4 semestre/dsd/registro contador\top_regcont0.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\users\richie\desktop\4 semestre\dsd\registro contador\top_regcont0.srr"
+
+Generating HDL info...
+Job: "hdl_info_gen" terminated with error status: 2.
+See log file: "C:\users\richie\desktop\4 semestre\dsd\registro contador\syntax.log"
+Return Code: 2
+Run Time:0h:00m:00s
+log file: "C:\users\richie\desktop\4 semestre\dsd\registro contador\top_regcont0.srr"
+
+Running top_regcont0|registro contador
+
+Running: Compile on top_regcont0|registro contador
+
+Running: Compile Process on top_regcont0|registro contador
+
+Running: Compile Input on top_regcont0|registro contador
+compiler exited with errors
+Job: "compiler" terminated with error status: 2.
+See log file: "C:\users\richie\desktop\4 semestre\dsd\registro contador\top_regcont0.srr"
+Return Code: 2
+Run Time:0h:00m:00s
+Copied C:\users\richie\desktop\4 semestre\dsd\registro contador\top_regcont0.srr to C:\users\richie\desktop\4 semestre\dsd\registro contador\top_regcont0.srf
+
+exit status=2
+
+exit status=2
+

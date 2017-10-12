@@ -1,0 +1,3 @@
+@E: CD192 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd":41:21:41:24|target of assignment is not writeable
+@E|Parse errors encountered - exiting
+

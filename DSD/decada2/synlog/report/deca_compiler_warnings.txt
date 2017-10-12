@@ -1,0 +1,3 @@
+@W: CD274 :"C:\users\richie\desktop\4 semestre\dsd\decada2\deca.vhd":40:4:40:7|Incomplete case statement - add more cases or a when others
+@W: CD274 :"C:\users\richie\desktop\4 semestre\dsd\decada2\deca.vhd":53:4:53:7|Incomplete case statement - add more cases or a when others
+

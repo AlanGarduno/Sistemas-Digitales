@@ -1,0 +1,14 @@
+
+fsm_encoding {10591591} original
+
+fsm_state_encoding {10591591} a {00001}
+
+fsm_state_encoding {10591591} b {00010}
+
+fsm_state_encoding {10591591} c {00100}
+
+fsm_state_encoding {10591591} d {01000}
+
+fsm_state_encoding {10591591} e {10000}
+
+fsm_registers {10591591} {edo_Pre[4]}  {edo_Pre[3]}  {edo_Pre[2]}  {edo_Pre[1]}  {edo_Pre[0]} 

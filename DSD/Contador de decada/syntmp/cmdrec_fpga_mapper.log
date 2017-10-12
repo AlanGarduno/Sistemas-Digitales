@@ -1,0 +1,9 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\richie\desktop\4 semestre\dsd\contador de decada"  -part LC4064B  -package T44C  -grade -2.5   -ispmach4s -RWCheckOnRam 1 -areadelay 0 -minc -auto_constrain_io -summaryfile "C:\users\richie\desktop\4 semestre\dsd\contador de decada\synlog\report\Cont_fpga_mapper.xml" -top_level_module  Cont  -multisrs  -ta_num_paths 3  -ta_num_points 0  -oedif  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\Cont.edi"  -freq 200.000  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\synwork\Cont_mult.srs"  -ologparam  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\syntmp\Cont.plg"  -osyn  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\Cont.srm"  -prjdir  "c:\users\richie\desktop\4 semestre\dsd\contador de decada\"  -prjname  Cont  -log  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\synlog\Cont_fpga_mapper.srr" 
+rc:0 success:1
+C:\users\richie\desktop\4 semestre\dsd\contador de decada\Cont.edi|o|1492537406|13660
+C:\users\richie\desktop\4 semestre\dsd\contador de decada\synwork\Cont_mult.srs|i|1492537405|1647
+"C:\users\richie\desktop\4 semestre\dsd\contador de decada\syntmp\Cont.plg"|o|0|0
+C:\users\richie\desktop\4 semestre\dsd\contador de decada\Cont.srm|o|1492537406|7572
+C:\users\richie\desktop\4 semestre\dsd\contador de decada\synlog\Cont_fpga_mapper.srr|o|1492537406|1116
+C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399369284|7067648
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399372122|8049664

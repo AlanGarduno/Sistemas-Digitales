@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":3:7:3:11|Top entity is set to ContB.
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":3:7:3:11|Synthesizing work.contb.a_b 
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":27:3:27:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":32:3:32:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":38:3:38:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":43:3:43:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":47:3:47:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":51:3:51:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":55:3:55:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":59:3:59:4|Removed redundant assignment
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\contb.vhd":63:3:63:4|Removed redundant assignment
+

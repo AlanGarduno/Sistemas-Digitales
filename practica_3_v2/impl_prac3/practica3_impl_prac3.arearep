@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell registro0.TECH
+Register bits:  10 of 7485 (0.134%)
+I/O cells:      26
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        10          100.0
+                                GSR         1          100.0
+                                 IB        16          100.0
+                               LUT4        22          100.0
+                                 OB        10          100.0
+                              TOTAL        59

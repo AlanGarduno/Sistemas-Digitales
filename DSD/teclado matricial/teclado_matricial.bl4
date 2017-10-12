@@ -1,0 +1,254 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Thu Jun 01 04:39:54 2017
+#$ PROPERTY LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 128; 
+#$ MODULE teclado_matricial
+#$ PINS 16 F0_3_:117'ke'  F0_2_:120'ke'  F0_1_:121'ke'  F0_0_:122'ke'  clk0:26'ke'  clr0:69'ke'  \
+#  C0_2_:123'ke'  display0_6_:39'ke'  C0_1_:124'ke'  C0_0_:125'ke'  display0_5_:33'ke'  \
+#  display0_4_:32'ke'  display0_3_:31'ke'  display0_2_:30'ke'  display0_1_:29'ke'  \
+#  display0_0_:28'ke' 
+#$ NODES 4 gnd_n_n clk0_c u01_n_16_i_n E0_OSCOUT
+#$ EXTERNAL osctimer  4 DYNOSCDIS'i'  TIMERRES'i'  OSCOUT'o'  TIMEROUT'o' 
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n E0_OSCOUT clk0_c
+.model top_teclado0
+.inputs F0_3_.BLIF clr0.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF clk0_c.BLIF \
+C0_0_.Q C0_1_.Q C0_2_.Q u01_n_16_i_n.BLIF E0_OSCOUT.BLIF
+.outputs clk0 C0_0_.C C0_0_.AR C0_1_.C C0_1_.AP C0_2_.C C0_2_.AP \
+display0_0_.CE display0_0_.C display0_0_.AR display0_1_.CE display0_1_.C \
+display0_1_.AP display0_2_.CE display0_2_.C display0_2_.AP display0_3_.CE \
+display0_3_.C display0_3_.AP display0_4_.CE display0_4_.C display0_4_.AP \
+display0_5_.CE display0_5_.C display0_5_.AP display0_6_.CE display0_6_.C \
+display0_6_.AP gnd_n_n u01_n_16_i_n C0_0_.D C0_1_.D C0_2_.D display0_0_.D \
+display0_1_.D display0_2_.D display0_3_.D display0_4_.D display0_5_.D \
+display0_6_.D
+.names clr0.BLIF C0_0_.AR
+0 1
+1 0
+.names clr0.BLIF C0_1_.AP
+0 1
+1 0
+.names clr0.BLIF C0_2_.AP
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_0_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_0_.AR
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_1_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_1_.AP
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_2_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_2_.AP
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_3_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_3_.AP
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_4_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_4_.AP
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_5_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_5_.AP
+0 1
+1 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF display0_6_.CE
+--0- 1
+-0-- 1
+0--- 1
+---0 1
+1111 0
+.names clr0.BLIF display0_6_.AP
+0 1
+1 0
+.names gnd_n_n
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF u01_n_16_i_n
+1-1- 1
+-111 1
+11-1 1
+-00- 0
+00-- 0
+0-0- 0
+--00 0
+0--0 0
+.names clk0_c.BLIF clk0
+1 1
+0 0
+.names clk0_c.BLIF C0_0_.C
+1 1
+0 0
+.names clk0_c.BLIF C0_1_.C
+1 1
+0 0
+.names clk0_c.BLIF C0_2_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_0_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_1_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_2_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_3_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_4_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_5_.C
+1 1
+0 0
+.names clk0_c.BLIF display0_6_.C
+1 1
+0 0
+.names C0_1_.Q C0_0_.D
+1 1
+0 0
+.names C0_2_.Q C0_1_.D
+1 1
+0 0
+.names C0_0_.Q C0_2_.D
+1 1
+0 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q \
+display0_0_.D
+-111110 1
+111-101 1
+---0--0 0
+0-----1 0
+-----00 0
+-----11 0
+----0-- 0
+--0---- 0
+-0----- 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q \
+display0_1_.D
+---0--0 1
+--0---0 1
+----111 1
+----00- 1
+-0-0--- 1
+-00---- 1
+--00--- 1
+-----00 1
+----0-0 1
+0------ 1
+1-11110 0
+11-1101 0
+111-101 0
+11-1011 0
+111-011 0
+1-11101 0
+1-11011 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q \
+display0_2_.D
+--0--1- 1
+0----1- 1
+-0--1-- 1
+----00- 1
+----111 1
+-0-0--- 1
+0--0--- 1
+--00--- 1
+0-0---- 1
+-----00 1
+----0-0 1
+111-110 0
+1-11011 0
+-111101 0
+11-1101 0
+111-011 0
+111-101 0
+.names F0_3_.BLIF F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q \
+u01_n_16_i_n.BLIF display0_3_.D
+---00--- 1
+-0----0- 1
+0-----0- 1
+--0--1-- 1
+----111- 1
+-0-0---- 1
+----00-- 1
+-----00- 1
+----0-0- 1
+-------0 1
+111-1101 0
+--110111 0
+---11011 0
+-1--1011 0
+.names F0_3_.BLIF F0_2_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q \
+u01_n_16_i_n.BLIF display0_4_.D
+0---0-- 1
+---111- 1
+-00---- 1
+---0-0- 1
+----00- 1
+---00-- 1
+------0 1
+1-11011 0
+11-1011 0
+--11101 0
+-1-1101 0
+--10111 0
+-1-0111 0
+.names F0_2_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q u01_n_16_i_n.BLIF \
+display0_5_.D
+-0--0- 1
+0---1- 1
+--111- 1
+--00-- 1
+---00- 1
+--0-0- 1
+-----0 1
+-11101 0
+1-1011 0
+1-0111 0
+.names F0_2_.BLIF F0_1_.BLIF F0_0_.BLIF C0_0_.Q C0_1_.Q C0_2_.Q \
+u01_n_16_i_n.BLIF display0_6_.D
+--00--- 1
+-1---0- 1
+---111- 1
+0-0---- 1
+----00- 1
+---00-- 1
+---0-0- 1
+------0 1
+10-1101 0
+-011101 0
+--10111 0
+1--1011 0
+--11011 0
+.end

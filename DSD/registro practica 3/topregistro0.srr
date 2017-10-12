@@ -1,0 +1,80 @@
+#Build: Synplify Pro I-2014.03LC , Build 063R, May 27 2014
+#install: C:\ispLEVER_Classic2_0\synpbase
+#OS: Windows 7 6.2
+#Hostname: RICARDO
+
+#Implementation: registro practica 3
+
+$ Start of Compile
+#Tue Apr 25 22:50:19 2017
+
+Synopsys VHDL Compiler, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\topregistro0.vhd":7:7:7:18|Top entity is set to topregistro0.
+File C:\users\richie\desktop\4 semestre\dsd\registro practica 3\topregistro0.vhd changed - recompiling
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":23:25:23:25|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":28:15:28:15|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":33:16:33:16|q is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+File C:\users\richie\desktop\4 semestre\dsd\registro practica 3\topregistro0.vhd changed - recompiling
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\topregistro0.vhd":7:7:7:18|Synthesizing work.topregistro0.topregistro 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":6:7:6:15|Synthesizing work.registro0.registro 
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":23:17:23:17|Removed redundant assignment
+Post processing for work.registro0.registro
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0 
+@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
+@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\osc00.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box 
+Post processing for work.osctimer.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topregistro0.topregistro
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Apr 25 22:50:19 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+File C:\users\richie\desktop\4 semestre\dsd\registro practica 3\synwork\topregistro0_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Apr 25 22:50:20 2017
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys CPLD Technology Mapper, Version maplat, Build 923R, Built May  6 2014
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2014.03LC 
+@N: MF248 |Running in 64-bit mode.
+---------------------------------------
+Resource Usage Report
+
+Simple gate primitives:
+OSCTIMER        1 use
+DFFRH           10 uses
+OBUF            11 uses
+IBUF            15 uses
+INV             30 uses
+AND2            60 uses
+OR2             30 uses
+
+
+@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.
+I-2014.03LC 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 39MB peak: 103MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Apr 25 22:50:21 2017
+
+###########################################################]

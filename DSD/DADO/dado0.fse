@@ -1,0 +1,22 @@
+
+fsm_encoding {7252251} original
+
+fsm_state_encoding {7252251} dig0 {0000001}
+
+fsm_state_encoding {7252251} 0000010 {0000010}
+
+fsm_state_encoding {7252251} dig3 {0000110}
+
+fsm_state_encoding {7252251} dig2 {0010010}
+
+fsm_state_encoding {7252251} dig6 {0100000}
+
+fsm_state_encoding {7252251} dig5 {0100100}
+
+fsm_state_encoding {7252251} dig4 {1001100}
+
+fsm_state_encoding {7252251} 1001110 {1001110}
+
+fsm_state_encoding {7252251} dig1 {1001111}
+
+fsm_registers {7252251} {display_1[6]}  {display_1[5]}  {display_1[4]}  {display_1[3]}  {display_1[2]}  {display_1[1]}  {display_1[0]} 

@@ -1,0 +1,4 @@
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":23:25:23:25|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":28:15:28:15|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":33:16:33:16|q is not readable.  This may cause a simulation mismatch.
+

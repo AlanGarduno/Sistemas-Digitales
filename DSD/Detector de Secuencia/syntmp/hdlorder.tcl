@@ -1,0 +1,1 @@
+project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/detector\ de\ secuencia/package_secuencia.vhd" "C:/users/richie/desktop/4\ semestre/dsd/detector\ de\ secuencia/secuencia.vhd" 

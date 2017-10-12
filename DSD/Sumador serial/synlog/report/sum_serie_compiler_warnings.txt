@@ -1,0 +1,8 @@
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":28:17:28:26|Index value 0 to 5 could be out of prefix range 3 downto 0 
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":28:32:28:41|Index value 0 to 5 could be out of prefix range 3 downto 0 
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":29:27:29:36|Index value 0 to 5 could be out of prefix range 3 downto 0 
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":29:12:29:21|Index value 0 to 5 could be out of prefix range 3 downto 0 
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":29:64:29:73|Index value 0 to 5 could be out of prefix range 3 downto 0 
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":29:50:29:59|Index value 0 to 5 could be out of prefix range 3 downto 0 
+@W: CD610 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sum_serie.vhd":31:7:31:21|Index value 0 to 5 could be out of prefix range 3 downto 0 
+

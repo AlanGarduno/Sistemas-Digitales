@@ -1,0 +1,95 @@
+<html><body><samp><pre>
+<!@TC:1496256932>
+#Build: Synplify Pro I-2014.03LC , Build 063R, May 27 2014
+#install: C:\ispLEVER_Classic2_0\synpbase
+#OS: Windows 7 6.2
+#Hostname: RICARDO
+
+#Implementation: dado sofi
+
+<a name=compilerReport1>$ Start of Compile</a>
+#Wed May 31 20:55:32 2017
+
+Synopsys VHDL Compiler, version comp201403rcp1, Build 060R, built May 27 2014
+@N: : <!@TM:1496256933> | Running in 64-bit mode 
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:<a href="@N:CD720:@XP_HELP">CD720</a> : <a href="C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd:123:18:123:22:@N:CD720:@XP_MSG">std.vhd(123)</a><!@TM:1496256933> | Setting time resolution to ns
+@N: : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:6:7:6:12:@N::@XP_MSG">dado0.vhd(6)</a><!@TM:1496256933> | Top entity is set to dado0.
+<font color=#A52A2A>@W:<a href="@W:CD266:@XP_HELP">CD266</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:30:9:30:16:@W:CD266:@XP_MSG">dado0.vhd(30)</a><!@TM:1496256933> | display is not readable.  This may cause a simulation mismatch.</font>
+<font color=#A52A2A>@W:<a href="@W:CD266:@XP_HELP">CD266</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:39:15:39:22:@W:CD266:@XP_MSG">dado0.vhd(39)</a><!@TM:1496256933> | display is not readable.  This may cause a simulation mismatch.</font>
+VHDL syntax check successful!
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:6:7:6:12:@N:CD630:@XP_MSG">dado0.vhd(6)</a><!@TM:1496256933> | Synthesizing work.dado0.a_dado 
+<font color=#A52A2A>@W:<a href="@W:CD274:@XP_HELP">CD274</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:30:4:30:8:@W:CD274:@XP_MSG">dado0.vhd(30)</a><!@TM:1496256933> | Incomplete case statement - add more cases or a when others</font>
+@N:<a href="@N:CD364:@XP_HELP">CD364</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:39:4:39:11:@N:CD364:@XP_MSG">dado0.vhd(39)</a><!@TM:1496256933> | Removed redundant assignment
+Post processing for work.dado0.a_dado
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd:25:2:25:4:@N:CL201:@XP_MSG">dado0.vhd(25)</a><!@TM:1496256933> | Trying to extract state machine for register display
+Extracted state machine for register display
+State machine has 9 reachable states with original encodings of:
+   0000001
+   0000010
+   0000110
+   0010010
+   0100000
+   0100100
+   1001100
+   1001110
+   1001111
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 31 20:55:33 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403rcp1, Build 060R, built May 27 2014
+@N: : <!@TM:1496256935> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 31 20:55:34 2017
+
+###########################################################]
+Map & Optimize Report
+
+<a name=mapperReport2>Synopsys CPLD Technology Mapper, Version maplat, Build 923R, Built May  6 2014</a>
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2014.03LC 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1496256936> | Running in 64-bit mode. 
+Encoding state machine display_1[0:8] (view:work.dado0(a_dado))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000110 -> 0000110
+   0010010 -> 0010010
+   0100000 -> 0100000
+   0100100 -> 0100100
+   1001100 -> 1001100
+   1001110 -> 1001110
+   1001111 -> 1001111
+---------------------------------------
+<a name=resourceUsage3>Resource Usage Report</a>
+
+Simple gate primitives:
+DFFCRH          5 uses
+DFFCSH          1 use
+IBUF            3 uses
+OBUF            7 uses
+INV             10 uses
+AND2            11 uses
+
+
+@N:<a href="@N:FC100:@XP_HELP">FC100</a> : <!@TM:1496256936> | Timing Report not generated for this device, please use place and route tools for timing analysis. 
+I-2014.03LC 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 37MB peak: 102MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 31 20:55:35 2017
+
+###########################################################]
+
+</pre></samp></body></html>

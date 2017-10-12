@@ -1,0 +1,113 @@
+(edif root
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2017 4 28 5 48 16)
+      (author "Lattice Semiconductor Corp.")
+      (program "EDIF Writer"(version "lse"))
+    )
+  )
+  (external mach
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell GND
+      (cellType generic)
+      (view (rename uNoName_ "<NoName>")
+        (viewType netlist)
+        (interface
+          (port X (direction OUTPUT))
+        )
+      )
+    )
+    (cell OBUF
+      (cellType generic)
+      (view (rename INTERFACE_c "INTERFACE")
+        (viewType netlist)
+        (interface
+          (port O (direction OUTPUT))
+          (port I0 (direction INPUT))
+        )
+        (property black_box_pad_pin (string "O"))
+      )
+    )
+    (cell VCC
+      (cellType generic)
+      (view (rename uNoName_ "<NoName>")
+        (viewType netlist)
+        (interface
+          (port X (direction OUTPUT))
+        )
+      )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell (rename OSCTIMER__1048576___1_7_ "OSCTIMER(%34%1048576%34%)(1,7)")
+      (cellType generic)
+      (view (rename uNoName_ "<NoName>")
+        (viewType netlist)
+        (interface
+          (port DYNOSCDIS (direction INPUT))
+          (port TIMERRES (direction INPUT))
+          (port OSCOUT (direction OUTPUT))
+          (port TIMEROUT (direction OUTPUT))
+        )
+        (property TIMER_DIV (string "1048576"))
+      )
+    )
+    (cell osc00
+      (cellType generic)
+      (view TECH
+        (viewType netlist)
+        (interface
+          (port tmr_out (direction OUTPUT))
+        )
+        (contents
+          (instance inst11
+            (viewRef uNoName_ (cellRef OSCTIMER__1048576___1_7_))
+            (property TIMER_DIV (string "1048576"))
+          )
+          (instance i1
+            (viewRef uNoName_ (cellRef GND (libraryref mach)))
+          )
+          (instance tmr_out_pad
+            (viewRef INTERFACE_c (cellRef OBUF (libraryref mach)))
+          )
+          (instance i17
+            (viewRef uNoName_ (cellRef VCC (libraryref mach)))
+          )
+          (net n5
+            (joined
+              (portRef X (instanceRef i1))
+              (portRef TIMERRES (instanceRef inst11))
+              (portRef DYNOSCDIS (instanceRef inst11))
+            )
+          )
+          (net tmr_out_c
+            (joined
+              (portRef TIMEROUT (instanceRef inst11))
+              (portRef I0 (instanceRef tmr_out_pad))
+            )
+          )
+          (net pwr
+            (joined
+              (portRef X (instanceRef i17))
+            )
+          )
+          (net tmr_out
+            (joined
+              (portRef tmr_out)
+              (portRef O (instanceRef tmr_out_pad))
+            )
+          )
+        )
+      )
+    )
+  )
+  (design TECH
+    (cellRef osc00 (libraryref work))
+  )
+)

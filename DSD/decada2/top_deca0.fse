@@ -1,0 +1,26 @@
+
+fsm_encoding {9352351} onehot
+
+fsm_state_encoding {9352351} dig8 {00000000001}
+
+fsm_state_encoding {9352351} dig0 {00000000010}
+
+fsm_state_encoding {9352351} dig3 {00000000100}
+
+fsm_state_encoding {9352351} dig9 {00000001000}
+
+fsm_state_encoding {9352351} dig7 {00000010000}
+
+fsm_state_encoding {9352351} dig2 {00000100000}
+
+fsm_state_encoding {9352351} dig6 {00001000000}
+
+fsm_state_encoding {9352351} dig5 {00010000000}
+
+fsm_state_encoding {9352351} 0110000 {00100000000}
+
+fsm_state_encoding {9352351} dig4 {01000000000}
+
+fsm_state_encoding {9352351} dig1 {10000000000}
+
+fsm_registers {9352351} {display_1[0]}  {display_1[1]}  {display_1[2]}  {display_1[3]}  {display_1[4]}  {display_1[5]}  {display_1[6]}  {display_1[7]}  {display_1[8]}  {display_1[9]}  {display_1[10]} 

@@ -1,0 +1,99 @@
+<html><body><samp><pre>
+<!@TC:1495941295>
+#Build: Synplify Pro I-2014.03LC , Build 063R, May 27 2014
+#install: C:\ispLEVER_Classic2_0\synpbase
+#OS: Windows 7 6.2
+#Hostname: RICARDO
+
+#Implementation: detector de secuencia
+
+<a name=compilerReport1>$ Start of Compile</a>
+#Sun May 28 05:14:55 2017
+
+Synopsys VHDL Compiler, version comp201403rcp1, Build 060R, built May 27 2014
+@N: : <!@TM:1495941295> | Running in 64-bit mode 
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:<a href="@N:CD720:@XP_HELP">CD720</a> : <a href="C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd:123:18:123:22:@N:CD720:@XP_MSG">std.vhd(123)</a><!@TM:1495941295> | Setting time resolution to ns
+@N: : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd:6:7:6:20:@N::@XP_MSG">top_secuencia.vhd(6)</a><!@TM:1495941295> | Top entity is set to top_secuencia.
+VHDL syntax check successful!
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd:6:7:6:20:@N:CD630:@XP_MSG">top_secuencia.vhd(6)</a><!@TM:1495941295> | Synthesizing work.top_secuencia.atop_secuencia 
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd:6:7:6:16:@N:CD630:@XP_MSG">secuencia.vhd(6)</a><!@TM:1495941295> | Synthesizing work.secuencia.a_secuencia 
+@N:<a href="@N:CD231:@XP_HELP">CD231</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd:17:13:17:15:@N:CD231:@XP_MSG">secuencia.vhd(17)</a><!@TM:1495941295> | Using onehot encoding for type estados (a="10000")
+Post processing for work.secuencia.a_secuencia
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd:5:7:5:24:@N:CD630:@XP_MSG">registrouniversal.vhd(5)</a><!@TM:1495941295> | Synthesizing work.registrouniversal.a_registro 
+@N:<a href="@N:CD364:@XP_HELP">CD364</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd:41:15:41:21:@N:CD364:@XP_MSG">registrouniversal.vhd(41)</a><!@TM:1495941295> | Removed redundant assignment
+Post processing for work.registrouniversal.a_registro
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd:6:7:6:12:@N:CD630:@XP_MSG">osc00.vhd(6)</a><!@TM:1495941295> | Synthesizing work.osc00.osc0 
+<font color=#A52A2A>@W:<a href="@W:CD280:@XP_HELP">CD280</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd:13:10:13:18:@W:CD280:@XP_MSG">osc00.vhd(13)</a><!@TM:1495941295> | Unbound component OSCTIMER mapped to black box</font>
+<font color=#A52A2A>@W:<a href="@W:CD326:@XP_HELP">CD326</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd:25:0:25:6:@W:CD326:@XP_MSG">osc00.vhd(25)</a><!@TM:1495941295> | Port oscout of entity work.osctimer is unconnected</font>
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd:13:10:13:18:@N:CD630:@XP_MSG">osc00.vhd(13)</a><!@TM:1495941295> | Synthesizing work.osctimer.syn_black_box 
+Post processing for work.osctimer.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.top_secuencia.atop_secuencia
+<font color=#A52A2A>@W:<a href="@W:CL240:@XP_HELP">CL240</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd:7:8:7:13:@W:CL240:@XP_MSG">top_secuencia.vhd(7)</a><!@TM:1495941295> | clks0 is not assigned a value (floating) -- simulation mismatch possible. </font>
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd:59:1:59:3:@N:CL201:@XP_MSG">secuencia.vhd(59)</a><!@TM:1495941295> | Trying to extract state machine for register edo_Pre
+Extracted state machine for register edo_Pre
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd:8:1:8:5:@W:CL159:@XP_MSG">top_secuencia.vhd(8)</a><!@TM:1495941295> | Input ent0 is unused</font>
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 28 05:14:55 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403rcp1, Build 060R, built May 27 2014
+@N: : <!@TM:1495941296> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 28 05:14:56 2017
+
+###########################################################]
+Map & Optimize Report
+
+<a name=mapperReport2>Synopsys CPLD Technology Mapper, Version maplat, Build 923R, Built May  6 2014</a>
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2014.03LC 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1495941297> | Running in 64-bit mode. 
+Encoding state machine edo_Pre[0:4] (view:work.secuencia(a_secuencia))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+---------------------------------------
+<a name=resourceUsage3>Resource Usage Report</a>
+
+Simple gate primitives:
+OSCTIMER        1 use
+DFFRH           10 uses
+DFF             3 uses
+OBUF            19 uses
+IBUF            17 uses
+AND2            171 uses
+INV             131 uses
+XOR2            9 uses
+
+
+@N:<a href="@N:FC100:@XP_HELP">FC100</a> : <!@TM:1495941297> | Timing Report not generated for this device, please use place and route tools for timing analysis. 
+I-2014.03LC 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 38MB peak: 103MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 28 05:14:57 2017
+
+###########################################################]
+
+</pre></samp></body></html>

@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.vhd":7:7:7:19|Top entity is set to top_sum_serie.
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.vhd":7:7:7:19|Synthesizing work.top_sum_serie.atop_sum_serie 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":6:7:6:13|Synthesizing work.sumador.a_sumador 
+@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":60:5:60:8|Removed redundant assignment
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0 
+@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box 
+

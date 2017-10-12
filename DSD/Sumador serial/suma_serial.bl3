@@ -1,0 +1,376 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Fri Jun 16 20:03:28 2017
+#$ PROPERTY LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 1048576; 
+#$ MODULE suma_serial
+#$ PINS 25 sel0_1_:68'ke'  dato10_3_:78'ke'  sel0_0_:67'ke'  dato20_3_:83'ke'  dato10_2_:79'ke'  \
+#  dato10_1_:80'ke'  q10_3_:53'ke'  dato10_0_:81'ke'  dato20_2_:84'ke'  q20_3_:7'ke'  dato20_1_:85'ke'  \
+#  dato20_0_:86'ke'  q30_3_:12'ke'  q10_2_:4'ke'  clk0:26'ke'  q10_1_:5'ke'  clr0:69'ke'  q10_0_:6'ke'  \
+#  q0:16'ke'  q20_2_:8'ke'  q20_1_:9'ke'  q20_0_:11'ke'  q30_2_:13'ke'  q30_1_:14'ke'  q30_0_:15'ke' 
+#$ NODES 21 gnd_n_n U01_cont_1_ U01_a U01_b U01_cont_0_ U01_cont_2_ clk0_c \
+#  U01_q1_1_0_reg U01_q1_1_1_reg U01_q1_1_2_reg U01_q1_1_3_reg U01_q2_1_0_reg \
+#  U01_q2_1_1_reg U01_q2_1_2_reg U01_q2_1_3_reg U01_q3_1_0_reg U01_q3_1_1_reg \
+#  U01_q3_1_2_reg U01_q3_1_3_reg U01_qreg U00_inst11>OSCOUT
+#$ EXTERNAL osctimer  4 DYNOSCDIS'i'  TIMERRES'i'  OSCOUT'o'  TIMEROUT'o' 
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n U00_inst11>OSCOUT clk0_c
+.model top_sum_serie
+.inputs sel0_1_.BLIF dato10_3_.BLIF dato20_3_.BLIF clr0.BLIF sel0_0_.BLIF \
+dato10_2_.BLIF dato10_1_.BLIF dato10_0_.BLIF dato20_2_.BLIF dato20_1_.BLIF \
+dato20_0_.BLIF U01_cont_1_.BLIF U01_a.BLIF U01_b.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF clk0_c.BLIF U01_q1_1_0_reg.BLIF U01_q1_1_1_reg.BLIF \
+U01_q1_1_2_reg.BLIF U01_q1_1_3_reg.BLIF U01_q2_1_0_reg.BLIF \
+U01_q2_1_1_reg.BLIF U01_q2_1_2_reg.BLIF U01_q2_1_3_reg.BLIF \
+U01_q3_1_0_reg.BLIF U01_q3_1_1_reg.BLIF U01_q3_1_2_reg.BLIF \
+U01_q3_1_3_reg.BLIF U01_qreg.BLIF U00_inst11>OSCOUT.BLIF
+.outputs q10_3_ q20_3_ q30_3_ clk0 q0 q10_2_ q10_1_ q10_0_ q20_2_ q20_1_ \
+q20_0_ q30_2_ q30_1_ q30_0_ U01_cont_1_.D U01_cont_1_.C U01_cont_1_.AR \
+U01_cont_2_.D U01_cont_2_.C U01_cont_2_.AR U01_cont_0_.D U01_cont_0_.C \
+U01_cont_0_.AR U01_q2_1_1_reg.D U01_q2_1_1_reg.CE U01_q2_1_1_reg.C \
+U01_q2_1_1_reg.AR U01_q1_1_1_reg.D U01_q1_1_1_reg.CE U01_q1_1_1_reg.C \
+U01_q1_1_1_reg.AR U01_q2_1_0_reg.D U01_q2_1_0_reg.CE U01_q2_1_0_reg.C \
+U01_q2_1_0_reg.AR U01_q1_1_0_reg.D U01_q1_1_0_reg.CE U01_q1_1_0_reg.C \
+U01_q1_1_0_reg.AR U01_q3_1_3_reg.D U01_q3_1_3_reg.CE U01_q3_1_3_reg.C \
+U01_q3_1_3_reg.AR U01_q3_1_2_reg.D U01_q3_1_2_reg.CE U01_q3_1_2_reg.C \
+U01_q3_1_2_reg.AR U01_q3_1_1_reg.D U01_q3_1_1_reg.CE U01_q3_1_1_reg.C \
+U01_q3_1_1_reg.AR U01_q3_1_0_reg.D U01_q3_1_0_reg.CE U01_q3_1_0_reg.C \
+U01_q3_1_0_reg.AR U01_qreg.D U01_qreg.CE U01_qreg.C U01_qreg.AR \
+U01_q2_1_3_reg.D U01_q2_1_3_reg.CE U01_q2_1_3_reg.C U01_q2_1_3_reg.AR \
+U01_q1_1_3_reg.D U01_q1_1_3_reg.CE U01_q1_1_3_reg.C U01_q1_1_3_reg.AR U01_b.D \
+U01_b.CE U01_b.C U01_a.D U01_a.CE U01_a.C U01_q2_1_2_reg.D U01_q2_1_2_reg.CE \
+U01_q2_1_2_reg.C U01_q2_1_2_reg.AR U01_q1_1_2_reg.D U01_q1_1_2_reg.CE \
+U01_q1_1_2_reg.C U01_q1_1_2_reg.AR gnd_n_n
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_cont_1_.D
+11010 1
+1110- 1
+---11 0
+--00- 0
+--11- 0
+-0--- 0
+0---- 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_cont_2_.D
+11110 1
+11-01 1
+--011 1
+0---0 0
+-0--0 0
+--111 0
+-0-0- 0
+0--0- 0
+--0-0 0
+---00 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_cont_0_.D
+11-0- 1
+--011 1
+--11- 0
+-0-0- 0
+0--0- 0
+---10 0
+.names sel0_1_.BLIF sel0_0_.BLIF dato20_1_.BLIF U01_q2_1_2_reg.BLIF \
+U01_q2_1_1_reg.D
+11-1 1
+0-1- 1
+10-- 0
+0-0- 0
+1--0 0
+.names sel0_1_.BLIF sel0_0_.BLIF dato10_1_.BLIF U01_q1_1_2_reg.BLIF \
+U01_q1_1_1_reg.D
+11-1 1
+0-1- 1
+10-- 0
+0-0- 0
+1--0 0
+.names sel0_1_.BLIF sel0_0_.BLIF dato20_0_.BLIF U01_q2_1_1_reg.BLIF \
+U01_q2_1_0_reg.D
+11-1 1
+0-1- 1
+10-- 0
+0-0- 0
+1--0 0
+.names sel0_1_.BLIF sel0_0_.BLIF dato10_0_.BLIF U01_q1_1_1_reg.BLIF \
+U01_q1_1_0_reg.D
+11-1 1
+0-1- 1
+10-- 0
+0-0- 0
+1--0 0
+.names U01_a.BLIF U01_b.BLIF U01_qreg.BLIF U01_qreg.D
+11- 1
+-11 1
+1-1 1
+00- 0
+-00 0
+0-0 0
+.names sel0_1_.BLIF dato20_3_.BLIF U01_q2_1_3_reg.D
+01 1
+1- 0
+-0 0
+.names sel0_1_.BLIF dato10_3_.BLIF U01_q1_1_3_reg.D
+01 1
+1- 0
+-0 0
+.names sel0_1_.BLIF sel0_0_.BLIF dato20_2_.BLIF U01_q2_1_3_reg.BLIF \
+U01_q2_1_2_reg.D
+11-1 1
+0-1- 1
+10-- 0
+0-0- 0
+1--0 0
+.names sel0_1_.BLIF sel0_0_.BLIF dato10_2_.BLIF U01_q1_1_3_reg.BLIF \
+U01_q1_1_2_reg.D
+11-1 1
+0-1- 1
+10-- 0
+0-0- 0
+1--0 0
+.names gnd_n_n
+ 0
+.names U01_q1_1_3_reg.BLIF q10_3_
+1 1
+0 0
+.names U01_q2_1_3_reg.BLIF q20_3_
+1 1
+0 0
+.names U01_q3_1_3_reg.BLIF q30_3_
+1 1
+0 0
+.names clk0_c.BLIF clk0
+1 1
+0 0
+.names U01_qreg.BLIF q0
+1 1
+0 0
+.names U01_q1_1_2_reg.BLIF q10_2_
+1 1
+0 0
+.names U01_q1_1_1_reg.BLIF q10_1_
+1 1
+0 0
+.names U01_q1_1_0_reg.BLIF q10_0_
+1 1
+0 0
+.names U01_q2_1_2_reg.BLIF q20_2_
+1 1
+0 0
+.names U01_q2_1_1_reg.BLIF q20_1_
+1 1
+0 0
+.names U01_q2_1_0_reg.BLIF q20_0_
+1 1
+0 0
+.names U01_q3_1_2_reg.BLIF q30_2_
+1 1
+0 0
+.names U01_q3_1_1_reg.BLIF q30_1_
+1 1
+0 0
+.names U01_q3_1_0_reg.BLIF q30_0_
+1 1
+0 0
+.names clk0_c.BLIF U01_cont_1_.C
+1 1
+0 0
+.names clr0.BLIF U01_cont_1_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_cont_2_.C
+1 1
+0 0
+.names clr0.BLIF U01_cont_2_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_cont_0_.C
+1 1
+0 0
+.names clr0.BLIF U01_cont_0_.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q2_1_1_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q2_1_1_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q2_1_1_reg.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q1_1_1_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q1_1_1_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q1_1_1_reg.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q2_1_0_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q2_1_0_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q2_1_0_reg.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q1_1_0_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q1_1_0_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q1_1_0_reg.AR
+0 1
+1 0
+.names U01_a.BLIF U01_b.BLIF U01_qreg.BLIF U01_q3_1_3_reg.D
+100 1
+010 1
+001 1
+111 1
+000 0
+110 0
+101 0
+011 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_q3_1_3_reg.CE
+11-0- 1
+111-- 1
+11--0 1
+--011 0
+-0--- 0
+0---- 0
+.names clk0_c.BLIF U01_q3_1_3_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q3_1_3_reg.AR
+0 1
+1 0
+.names U01_q3_1_3_reg.BLIF U01_q3_1_2_reg.D
+1 1
+0 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_q3_1_2_reg.CE
+11-0- 1
+111-- 1
+11--0 1
+--011 0
+-0--- 0
+0---- 0
+.names clk0_c.BLIF U01_q3_1_2_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q3_1_2_reg.AR
+0 1
+1 0
+.names U01_q3_1_2_reg.BLIF U01_q3_1_1_reg.D
+1 1
+0 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_q3_1_1_reg.CE
+11-0- 1
+111-- 1
+11--0 1
+--011 0
+-0--- 0
+0---- 0
+.names clk0_c.BLIF U01_q3_1_1_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q3_1_1_reg.AR
+0 1
+1 0
+.names U01_q3_1_1_reg.BLIF U01_q3_1_0_reg.D
+1 1
+0 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_cont_1_.BLIF U01_cont_0_.BLIF \
+U01_cont_2_.BLIF U01_q3_1_0_reg.CE
+11-0- 1
+111-- 1
+11--0 1
+--011 0
+-0--- 0
+0---- 0
+.names clk0_c.BLIF U01_q3_1_0_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q3_1_0_reg.AR
+0 1
+1 0
+.names U01_cont_1_.BLIF U01_cont_0_.BLIF U01_cont_2_.BLIF U01_qreg.CE
+-0- 1
+1-- 1
+--0 1
+011 0
+.names clk0_c.BLIF U01_qreg.C
+1 1
+0 0
+.names clr0.BLIF U01_qreg.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q2_1_3_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q2_1_3_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q2_1_3_reg.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q1_1_3_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q1_1_3_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q1_1_3_reg.AR
+0 1
+1 0
+.names U01_q2_1_0_reg.BLIF U01_b.D
+1 1
+0 0
+.names sel0_1_.BLIF clr0.BLIF sel0_0_.BLIF U01_b.CE
+111 1
+-0- 0
+0-- 0
+--0 0
+.names clk0_c.BLIF U01_b.C
+1 1
+0 0
+.names U01_q1_1_0_reg.BLIF U01_a.D
+1 1
+0 0
+.names sel0_1_.BLIF clr0.BLIF sel0_0_.BLIF U01_a.CE
+111 1
+-0- 0
+0-- 0
+--0 0
+.names clk0_c.BLIF U01_a.C
+1 1
+0 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q2_1_2_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q2_1_2_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q2_1_2_reg.AR
+0 1
+1 0
+.names sel0_1_.BLIF sel0_0_.BLIF U01_q1_1_2_reg.CE
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_q1_1_2_reg.C
+1 1
+0 0
+.names clr0.BLIF U01_q1_1_2_reg.AR
+0 1
+1 0
+.end

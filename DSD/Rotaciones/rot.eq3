@@ -1,0 +1,199 @@
+|--------------------------------------------------- ----------|
+|- ispLEVER Classic 2.0.00.17.20.15 Equations File            -|
+|- Copyright(C), 1992-2012, Lattice Semiconductor Corporation -|
+|- All Rights Reserved.                                       -|
+|--------------------------------------------------------------|
+
+
+Equations:
+
+
+_dup_gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+clk0 = clk0_c ; (1 pterm, 1 signal)
+
+gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+salida0_0_.D = !( !sel0_2_ & !dato0_0_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !cd0 & sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_0_.Q
+    # sel0_2_ & sel0_1_ & sel0_0_ & !salida0_9_.Q
+    # sel0_2_ & !sel0_1_ & salida0_0_.Q
+    # !salida0_1_.Q & u01_n_115_n ) ; (6 pterms, 9 signals)
+salida0_0_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_0_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_1_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_1_.Q & !salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !dato0_1_ & !sel0_1_ & !sel0_0_
+    # !sel0_1_ & sel0_0_ & !salida0_1_.Q & salida0_0_.Q
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_1_.Q
+    # !salida0_0_.Q & u01_n_113_n
+    # !salida0_2_.Q & u01_n_115_n ) ; (8 pterms, 9 signals)
+salida0_1_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_1_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_2_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_2_.Q
+       & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_2_.Q & salida0_1_.Q & !salida0_0_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_2_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_2_.Q & salida0_1_.Q
+       & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_2_.Q & !salida0_1_.Q
+       & !salida0_0_.Q
+    # !sel0_2_ & !dato0_2_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_2_.Q
+    # !salida0_1_.Q & u01_n_113_n
+    # !salida0_3_.Q & u01_n_115_n ) ; (9 pterms, 10 signals)
+salida0_2_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_2_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_3_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_3_.Q
+       & !salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_3_.Q & salida0_2_.Q & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_3_.Q & salida0_1_.Q & !salida0_0_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_3_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_3_.Q & salida0_2_.Q
+       & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_3_.Q & !salida0_2_.Q
+       & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !dato0_3_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_3_.Q
+    # !salida0_2_.Q & u01_n_113_n
+    # !salida0_4_.Q & u01_n_115_n ) ; (10 pterms, 11 signals)
+salida0_3_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_3_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_4_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_4_.Q
+       & !salida0_3_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_4_.Q & salida0_3_.Q & !salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_4_.Q & salida0_2_.Q & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_4_.Q & salida0_1_.Q & !salida0_0_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_4_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_4_.Q & salida0_3_.Q
+       & salida0_2_.Q & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_4_.Q & !salida0_3_.Q
+       & !salida0_2_.Q & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !dato0_4_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_4_.Q
+    # !salida0_3_.Q & u01_n_113_n
+    # !salida0_5_.Q & u01_n_115_n ) ; (11 pterms, 12 signals)
+salida0_4_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_4_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_5_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_5_.Q
+       & !salida0_4_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_5_.Q & salida0_4_.Q & !salida0_3_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_5_.Q & salida0_3_.Q & !salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_5_.Q & salida0_2_.Q & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_5_.Q & salida0_1_.Q & !salida0_0_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_5_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_5_.Q & salida0_4_.Q
+       & salida0_3_.Q & salida0_2_.Q & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_5_.Q & !salida0_4_.Q
+       & !salida0_3_.Q & !salida0_2_.Q & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !dato0_5_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_5_.Q
+    # !salida0_4_.Q & u01_n_113_n
+    # !salida0_6_.Q & u01_n_115_n ) ; (12 pterms, 13 signals)
+salida0_5_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_5_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_6_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_6_.Q
+       & !salida0_5_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_6_.Q & salida0_5_.Q & !salida0_4_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_6_.Q & salida0_4_.Q & !salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_6_.Q & !salida0_3_.Q & salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_6_.Q & salida0_3_.Q & !salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_6_.Q & !salida0_1_.Q & salida0_0_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_6_.Q & salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_6_.Q & salida0_5_.Q
+       & salida0_4_.Q & salida0_3_.Q & salida0_2_.Q & salida0_1_.Q
+       & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_6_.Q & !salida0_5_.Q
+       & !salida0_4_.Q & !salida0_3_.Q & !salida0_2_.Q & !salida0_1_.Q
+       & !salida0_0_.Q
+    # !sel0_2_ & !dato0_6_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_6_.Q
+    # !salida0_5_.Q & u01_n_113_n
+    # !salida0_7_.Q & u01_n_115_n ) ; (13 pterms, 14 signals)
+salida0_6_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_6_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_7_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_7_.Q
+       & !salida0_6_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_7_.Q & salida0_6_.Q & !salida0_5_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_7_.Q & salida0_5_.Q & !salida0_3_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_7_.Q & !salida0_4_.Q & salida0_3_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_7_.Q & salida0_4_.Q & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_7_.Q & !salida0_2_.Q & salida0_0_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_7_.Q & salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_7_.Q & salida0_1_.Q & !salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_7_.Q & salida0_6_.Q
+       & salida0_5_.Q & salida0_4_.Q & salida0_3_.Q & salida0_2_.Q
+       & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_7_.Q & !salida0_6_.Q
+       & !salida0_5_.Q & !salida0_4_.Q & !salida0_3_.Q & !salida0_2_.Q
+       & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !dato0_7_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_7_.Q
+    # !salida0_6_.Q & u01_n_113_n
+    # !salida0_8_.Q & u01_n_115_n ) ; (14 pterms, 15 signals)
+salida0_7_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_7_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_8_.D = !( sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_8_.Q
+       & !salida0_7_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & salida0_7_.Q & !salida0_6_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & salida0_6_.Q & !salida0_5_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & salida0_5_.Q & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & !salida0_4_.Q & salida0_3_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_8_.Q & salida0_4_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & !salida0_3_.Q & salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & !salida0_2_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_8_.Q & salida0_1_.Q & !salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_8_.Q & salida0_7_.Q
+       & salida0_6_.Q & salida0_5_.Q & salida0_4_.Q & salida0_3_.Q
+       & salida0_2_.Q & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_8_.Q & !salida0_7_.Q
+       & !salida0_6_.Q & !salida0_5_.Q & !salida0_4_.Q & !salida0_3_.Q
+       & !salida0_2_.Q & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !dato0_8_ & !sel0_1_ & !sel0_0_
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_8_.Q
+    # !salida0_7_.Q & u01_n_113_n
+    # !salida0_9_.Q & u01_n_115_n ) ; (15 pterms, 16 signals)
+salida0_8_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_8_.AR = !clr0 ; (1 pterm, 1 signal)
+
+salida0_9_.D = !( sel0_2_ & !sel0_1_ & !salida0_9_.Q & !salida0_8_.Q
+       & salida0_5_.Q
+    # !sel0_1_ & sel0_0_ & !salida0_9_.Q & salida0_8_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & !salida0_7_.Q & salida0_4_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & salida0_7_.Q & !salida0_5_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & !salida0_6_.Q & salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & salida0_6_.Q & !salida0_3_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & !salida0_4_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & salida0_3_.Q & !salida0_1_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & !salida0_9_.Q & !salida0_2_.Q
+    # sel0_2_ & !sel0_1_ & !salida0_9_.Q & salida0_1_.Q & !salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & !sel0_0_ & salida0_9_.Q & salida0_8_.Q
+       & salida0_7_.Q & salida0_6_.Q & salida0_5_.Q & salida0_4_.Q
+       & salida0_3_.Q & salida0_2_.Q & salida0_1_.Q & salida0_0_.Q
+    # sel0_2_ & !sel0_1_ & sel0_0_ & salida0_9_.Q & !salida0_8_.Q
+       & !salida0_7_.Q & !salida0_6_.Q & !salida0_5_.Q & !salida0_4_.Q
+       & !salida0_3_.Q & !salida0_2_.Q & !salida0_1_.Q & !salida0_0_.Q
+    # !sel0_2_ & !ci0 & sel0_1_ & sel0_0_
+    # sel0_2_ & sel0_1_ & !sel0_0_ & !salida0_0_.Q
+    # !dato0_9_ & !sel0_2_ & !sel0_1_ & !sel0_0_
+    # !salida0_8_.Q & u01_n_113_n
+    # !sel0_2_ & !sel0_1_ & sel0_0_ & !salida0_9_.Q ) ; (17 pterms, 16 signals)
+salida0_9_.C = clk0_c ; (1 pterm, 1 signal)
+salida0_9_.AR = !clr0 ; (1 pterm, 1 signal)
+
+u01_n_113_n = !sel0_2_ & sel0_1_ & !sel0_0_
+    # sel0_2_ & sel0_1_ & sel0_0_ ; (2 pterms, 3 signals)
+
+u01_n_115_n = sel0_2_ & sel0_1_ & !sel0_0_
+    # !sel0_2_ & sel0_1_ & sel0_0_ ; (2 pterms, 3 signals)
+

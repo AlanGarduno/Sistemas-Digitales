@@ -1,0 +1,369 @@
+<top name = "registro0"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+    <clockitem name = "clk"  type = "port" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 1
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "registro0">
+
+    <!--
+        Top Level Pins: 26
+    -->
+
+    <pins>
+        <pitem  name = "cd"  direction = "in"  />
+        <pitem  name = "ci"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "clr"  direction = "in"  />
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "dato[9]"  direction = "in"  />
+        <pitem  name = "dato[8]"  direction = "in"  />
+        <pitem  name = "dato[7]"  direction = "in"  />
+        <pitem  name = "dato[6]"  direction = "in"  />
+        <pitem  name = "dato[5]"  direction = "in"  />
+        <pitem  name = "dato[4]"  direction = "in"  />
+        <pitem  name = "dato[3]"  direction = "in"  />
+        <pitem  name = "dato[2]"  direction = "in"  />
+        <pitem  name = "dato[1]"  direction = "in"  />
+        <pitem  name = "dato[0]"  direction = "in"  />
+        <pitem  name = "Q[9]"  direction = "inout"  />
+        <pitem  name = "Q[8]"  direction = "inout"  />
+        <pitem  name = "Q[7]"  direction = "inout"  />
+        <pitem  name = "Q[6]"  direction = "inout"  />
+        <pitem  name = "Q[5]"  direction = "inout"  />
+        <pitem  name = "Q[4]"  direction = "inout"  />
+        <pitem  name = "Q[3]"  direction = "inout"  />
+        <pitem  name = "Q[2]"  direction = "inout"  />
+        <pitem  name = "Q[1]"  direction = "inout"  />
+        <pitem  name = "Q[0]"  direction = "inout"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 11
+    -->
+
+    <instance  name = "sel_1__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[1]"  />
+        <nitem  name = "cd"  />
+        <nitem  name = "dato[0]"  />
+        <nitem  name = "Q[0]"  />
+        <nitem  name = "Q_9__N_10"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_24"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[2]"  />
+        <nitem  name = "Q[0]"  />
+        <nitem  name = "dato[1]"  />
+        <nitem  name = "Q[1]"  />
+        <nitem  name = "Q_9__N_9"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_23"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[3]"  />
+        <nitem  name = "Q[1]"  />
+        <nitem  name = "dato[2]"  />
+        <nitem  name = "Q[2]"  />
+        <nitem  name = "Q_9__N_8"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_22"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[4]"  />
+        <nitem  name = "Q[2]"  />
+        <nitem  name = "dato[3]"  />
+        <nitem  name = "Q[3]"  />
+        <nitem  name = "Q_9__N_7"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_21"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[5]"  />
+        <nitem  name = "Q[3]"  />
+        <nitem  name = "dato[4]"  />
+        <nitem  name = "Q[4]"  />
+        <nitem  name = "Q_9__N_6"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_20"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[6]"  />
+        <nitem  name = "Q[4]"  />
+        <nitem  name = "dato[5]"  />
+        <nitem  name = "Q[5]"  />
+        <nitem  name = "Q_9__N_5"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_19"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[7]"  />
+        <nitem  name = "Q[5]"  />
+        <nitem  name = "dato[6]"  />
+        <nitem  name = "Q[6]"  />
+        <nitem  name = "Q_9__N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_18"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[8]"  />
+        <nitem  name = "Q[6]"  />
+        <nitem  name = "dato[7]"  />
+        <nitem  name = "Q[7]"  />
+        <nitem  name = "Q_9__N_3"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_17"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "Q[9]"  />
+        <nitem  name = "Q[7]"  />
+        <nitem  name = "dato[8]"  />
+        <nitem  name = "Q[8]"  />
+        <nitem  name = "Q_9__N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "sel_1__I_0_16"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "ci"  />
+        <nitem  name = "Q[8]"  />
+        <nitem  name = "dato[9]"  />
+        <nitem  name = "Q[9]"  />
+        <nitem  name = "Q_9__N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Q"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "d[9]"  direction = "in"  />
+        <pitem  name = "d[8]"  direction = "in"  />
+        <pitem  name = "d[7]"  direction = "in"  />
+        <pitem  name = "d[6]"  direction = "in"  />
+        <pitem  name = "d[5]"  direction = "in"  />
+        <pitem  name = "d[4]"  direction = "in"  />
+        <pitem  name = "d[3]"  direction = "in"  />
+        <pitem  name = "d[2]"  direction = "in"  />
+        <pitem  name = "d[1]"  direction = "in"  />
+        <pitem  name = "d[0]"  direction = "in"  />
+        <pitem  name = "set[9]"  direction = "in"  />
+        <pitem  name = "set[8]"  direction = "in"  />
+        <pitem  name = "set[7]"  direction = "in"  />
+        <pitem  name = "set[6]"  direction = "in"  />
+        <pitem  name = "set[5]"  direction = "in"  />
+        <pitem  name = "set[4]"  direction = "in"  />
+        <pitem  name = "set[3]"  direction = "in"  />
+        <pitem  name = "set[2]"  direction = "in"  />
+        <pitem  name = "set[1]"  direction = "in"  />
+        <pitem  name = "set[0]"  direction = "in"  />
+        <pitem  name = "reset[9]"  direction = "in"  />
+        <pitem  name = "reset[8]"  direction = "in"  />
+        <pitem  name = "reset[7]"  direction = "in"  />
+        <pitem  name = "reset[6]"  direction = "in"  />
+        <pitem  name = "reset[5]"  direction = "in"  />
+        <pitem  name = "reset[4]"  direction = "in"  />
+        <pitem  name = "reset[3]"  direction = "in"  />
+        <pitem  name = "reset[2]"  direction = "in"  />
+        <pitem  name = "reset[1]"  direction = "in"  />
+        <pitem  name = "reset[0]"  direction = "in"  />
+        <pitem  name = "clock"  direction = "in"  />
+        <pitem  name = "q[9]"  direction = "out"  />
+        <pitem  name = "q[8]"  direction = "out"  />
+        <pitem  name = "q[7]"  direction = "out"  />
+        <pitem  name = "q[6]"  direction = "out"  />
+        <pitem  name = "q[5]"  direction = "out"  />
+        <pitem  name = "q[4]"  direction = "out"  />
+        <pitem  name = "q[3]"  direction = "out"  />
+        <pitem  name = "q[2]"  direction = "out"  />
+        <pitem  name = "q[1]"  direction = "out"  />
+        <pitem  name = "q[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Q_9__N_1"  />
+        <nitem  name = "Q_9__N_2"  />
+        <nitem  name = "Q_9__N_3"  />
+        <nitem  name = "Q_9__N_4"  />
+        <nitem  name = "Q_9__N_5"  />
+        <nitem  name = "Q_9__N_6"  />
+        <nitem  name = "Q_9__N_7"  />
+        <nitem  name = "Q_9__N_8"  />
+        <nitem  name = "Q_9__N_9"  />
+        <nitem  name = "Q_9__N_10"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "clr"  />
+        <nitem  name = "clk"  />
+        <nitem  name = "Q[9]"  />
+        <nitem  name = "Q[8]"  />
+        <nitem  name = "Q[7]"  />
+        <nitem  name = "Q[6]"  />
+        <nitem  name = "Q[5]"  />
+        <nitem  name = "Q[4]"  />
+        <nitem  name = "Q[3]"  />
+        <nitem  name = "Q[2]"  />
+        <nitem  name = "Q[1]"  />
+        <nitem  name = "Q[0]"  />
+        </nets>
+    </instance>
+
+    <!--
+        REG instances in netlist: 1
+    -->
+
+    <regs>
+        <reg  name = "Q"  />
+    </regs>
+
+    <!--
+        Views in design "registro0": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

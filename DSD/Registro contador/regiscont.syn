@@ -1,0 +1,17 @@
+JDF B
+// Created by Version 2.0 
+PROJECT regiscont
+DESIGN regiscont Normal
+DEVKIT LC4256ZE-5TN144C
+ENTRY Pure VHDL
+MODULE regcont.vhd
+MODSTYLE regcont Normal
+MODULE package_regcont.vhd
+MODSTYLE package_regcont Normal
+MODULE osc00.vhd
+MODSTYLE osc00 Normal
+MODULE top_regcont0.vhd
+MODSTYLE top_regcont0 Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE regcont

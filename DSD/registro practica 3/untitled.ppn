@@ -1,0 +1,60 @@
+//
+// Software Version :  ispLEVER Classic 2.0.00.17.20.15  
+// Project Name	    :  untitled
+// Targeted Device  :  LC4256ZE-5TN144C
+// Date             :  Tue Apr 25 22:50:29 2017
+//
+                      GND          SYS           1
+                   VCCIO0          SYS           3
+                    Q0_1_          OUT           4
+                    Q0_2_          OUT           5
+                    Q0_3_          OUT           6
+                    Q0_4_          OUT           7
+                    Q0_5_          OUT           8
+                    Q0_6_          OUT           9
+                   GNDIO0          SYS           10
+                    Q0_7_          OUT           11
+                    Q0_8_          OUT           12
+                    Q0_9_          OUT           13
+                   VCCIO0          SYS           19
+                     clk0          OUT           26
+                   GNDIO0          SYS           27
+                   VCCIO0          SYS           34
+                      VCC          SYS           36
+                      GND          SYS           37
+                   GNDIO0          SYS           46
+                   VCCIO0          SYS           47
+                    Q0_0_          OUT           53
+                   GNDIO1          SYS           55
+                      VCC          SYS           57
+                   VCCIO1          SYS           64
+                   GNDIO1          SYS           65
+                  sel0_1_          IN            66
+                      ci0          IN            67
+                      cd0          IN            68
+                     clr0          IN            69
+                      GND          SYS           73
+                   VCCIO1          SYS           75
+                  sel0_0_          IN            76
+                 dato0_9_          IN            77
+                 dato0_8_          IN            78
+                 dato0_7_          IN            79
+                 dato0_6_          IN            80
+                 dato0_5_          IN            81
+                   GNDIO1          SYS           82
+                 dato0_4_          IN            83
+                 dato0_3_          IN            84
+                 dato0_2_          IN            85
+                 dato0_1_          IN            86
+                 dato0_0_          IN            87
+                   VCCIO1          SYS           91
+                   GNDIO1          SYS           99
+                   VCCIO1          SYS           106
+                      VCC          SYS           108
+                      GND          SYS           109
+                   GNDIO1          SYS           118
+                   VCCIO1          SYS           119
+                   GNDIO0          SYS           127
+                      VCC          SYS           129
+                   VCCIO0          SYS           136
+                   GNDIO0          SYS           137

@@ -1,0 +1,5 @@
+. topdado0 topdado0.vhd "c:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.vhd"
+U00.inst11 OSCTIMER  "c:\users\richie\desktop\4 semestre\dsd\dado sofi\"
+U00 osc00 osc00.vhd "c:\users\richie\desktop\4 semestre\dsd\dado sofi\osc00.vhd"
+U01 dado0 dado0.vhd "c:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd"
+[VHDL_Package] package_dado package_dado.vhd "c:\users\richie\desktop\4 semestre\dsd\dado sofi\package_dado.vhd"

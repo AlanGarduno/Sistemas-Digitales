@@ -1,0 +1,5 @@
+. top_deca0 top_deca0.vhd "c:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.vhd"
+U00.inst11 OSCTIMER  "c:\users\richie\desktop\4 semestre\dsd\decada2\"
+U00 osc00 osc00.vhd "c:\users\richie\desktop\4 semestre\dsd\decada2\osc00.vhd"
+U01 deca deca.vhd "c:\users\richie\desktop\4 semestre\dsd\decada2\deca.vhd"
+[VHDL_Package] package_deca0 package_deca0.vhd "c:\users\richie\desktop\4 semestre\dsd\decada2\package_deca0.vhd"

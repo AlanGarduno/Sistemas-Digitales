@@ -1,0 +1,107 @@
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Mar 24 19:54:47 2017
+
+
+Command Line:  C:\ispLEVER_Classic2_0\lse/bin/nt/synthesis -f prueba.synproj 
+
+Synthesis options:
+The -a option is ispMACH400ZE.
+The -t option is not used.
+The -d option is LC4256ZE.
+Using default performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : ispMACH400ZE
+
+### Device  : LC4256ZE
+
+### Package : 
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = prueba.
+WARNING - synthesis: Ignoring Frequency option in Area Mode. Setting to default frequency of 1.0 MHz.
+WARNING - synthesis: Ignoring SDC constraints in Area Mode!
+Target frequency = 1.000000 MHz.
+Timing path count = 3
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+Use IO Insertion = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = prueba.edi.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+The -comp option is FALSE.
+The -syn option is FALSE.
+VHDL library = work
+VHDL design file = prueba.vhd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is not used.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/ispLEVER_Classic2_0/lse/userware/NT/SYNTHESIS_HEADERS/mach.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/Users/Richie/Desktop/4 semestre/DSD/prueba". VHDL-1504
+Analyzing VHDL file prueba.vhd. VHDL-1481
+INFO - synthesis: prueba.vhd(6): analyzing entity prueba. VHDL-1012
+INFO - synthesis: prueba.vhd(12): analyzing architecture behavioral. VHDL-1010
+unit prueba is not yet analyzed. VHDL-1485
+prueba.vhd(6): executing prueba(behavioral)
+
+WARNING - synthesis: prueba.vhd(10): replacing existing netlist prueba(behavioral). VHDL-1205
+Top module name (VHDL): prueba
+Loading NGL library 'C:/ispLEVER_Classic2_0/lse/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/ispLEVER_Classic2_0/lse/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c640.nph' in environment: C:/ispLEVER_Classic2_0/lse.
+Package Status:                     Final          Version 1.36.
+Top-level module name = prueba.
+
+
+
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No .lpf file will be written because the -lpf option is not used or is set to zero.
+Results of NGD DRC are available in prueba_drc.log.
+
+################### Begin Area Report (prueba)######################
+Number of register bits => 0 of 880 (0 % )
+GND => 1
+IBUF => 2
+OBUF => 2
+VCC => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : c_c_c, loads : 1
+  Net : d_c_c, loads : 1
+  Net : d, loads : 0
+  Net : c, loads : 0
+  Net : pwr, loads : 0
+  Net : gnd, loads : 0
+################### End Clock Report ##################
+
+Peak Memory Usage: 55.441  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 2.172  secs
+--------------------------------------------------------------

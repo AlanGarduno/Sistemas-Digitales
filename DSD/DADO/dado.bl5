@@ -1,0 +1,75 @@
+#$ TOOL  ispLEVER Classic 2.0.00.17.20.15
+#$ DATE  Wed May 17 01:39:18 2017
+#$ MODULE  topdado0
+#$ PROPERTY  LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 128; 
+#$ PINS 10 display0_6_:13 clk0:26 clr0:69 control0:68 display0_3_:9
+ display0_5_:12 display0_4_:11 display0_2_:8 display0_1_:7 display0_0_:6
+#$ NODES 3 gnd_n_n clk0_c E0_OSCOUT
+#$ EXTERNAL osctimer 4 DYNOSCDIS'i' TIMERRES'i' OSCOUT'o' TIMEROUT'o'
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n E0_OSCOUT clk0_c
+.model topdado0 
+.inputs clr0.BLIF control0.BLIF clk0_c.BLIF display0_0_.Q display0_1_.Q \
+ display0_2_.Q display0_5_.Q E0_OSCOUT.BLIF display0_6_.Q
+.outputs display0_6_.D display0_6_.C display0_6_.CE display0_6_.AR clk0 \
+ display0_3_ display0_5_.D display0_5_.C display0_5_.CE display0_5_.AR \
+ display0_4_.D display0_4_.C display0_4_.CE display0_4_.AR display0_2_.D- \
+ display0_2_.C display0_2_.CE display0_2_.AR display0_1_.D display0_1_.C \
+ display0_1_.CE display0_1_.AR display0_0_.D display0_0_.C display0_0_.CE \
+ display0_0_.AP gnd_n_n
+.names display0_1_.Q display0_2_.Q display0_6_.Q display0_6_.D
+110 1
+00- 1
+.names clk0_c.BLIF display0_6_.C
+1 1
+.names control0.BLIF display0_6_.CE
+1 1
+.names clr0.BLIF display0_6_.AR
+0 1
+.names clk0_c.BLIF clk0
+1 1
+.names display0_6_.Q display0_3_
+1 1
+.names display0_1_.Q display0_2_.Q display0_5_.D
+01 1
+.names clk0_c.BLIF display0_5_.C
+1 1
+.names control0.BLIF display0_5_.CE
+1 1
+.names clr0.BLIF display0_5_.AR
+0 1
+.names display0_0_.Q display0_6_.Q display0_4_.D
+11 1
+.names clk0_c.BLIF display0_4_.C
+1 1
+.names control0.BLIF display0_4_.CE
+1 1
+.names clr0.BLIF display0_4_.AR
+0 1
+.names display0_1_.Q display0_2_.Q display0_6_.Q display0_2_.D-
+010 1
+1-1 1
+.names clk0_c.BLIF display0_2_.C
+1 1
+.names control0.BLIF display0_2_.CE
+1 1
+.names clr0.BLIF display0_2_.AR
+0 1
+.names display0_1_.Q display0_2_.Q display0_6_.Q display0_1_.D
+-0- 1
+1-1 1
+.names clk0_c.BLIF display0_1_.C
+1 1
+.names control0.BLIF display0_1_.CE
+1 1
+.names clr0.BLIF display0_1_.AR
+0 1
+.names display0_2_.Q display0_5_.Q display0_0_.D
+01 1
+.names clk0_c.BLIF display0_0_.C
+1 1
+.names control0.BLIF display0_0_.CE
+1 1
+.names clr0.BLIF display0_0_.AP
+0 1
+.names gnd_n_n
+.end

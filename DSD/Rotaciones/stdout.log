@@ -1,0 +1,58 @@
+Running in Lattice mode
+
+
+Starting:    C:\ispLEVER_Classic2_0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\ispLEVER_Classic2_0\synpbase
+Date:        Fri May 26 05:36:31 2017
+Version:     I-2014.03LC 
+
+Arguments:   -product synplify_pro  -batch c:/users/richie/desktop/4 semestre/dsd/rotaciones\registrouniversal.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.srr"
+
+Generating HDL info...
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+log file: "C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.srr"
+
+Running registrouniversal|rotaciones
+
+Running: Compile on registrouniversal|rotaciones
+
+Running: Compile Process on registrouniversal|rotaciones
+
+Running: Compile Input on registrouniversal|rotaciones
+Copied C:\users\richie\desktop\4 semestre\dsd\rotaciones\synwork\registrouniversal_comp.srs to C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.srs
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Running: Multi-srs Generator on registrouniversal|rotaciones
+Copied C:\users\richie\desktop\4 semestre\dsd\rotaciones\synwork\registrouniversal_comp.srs to C:\users\richie\desktop\4 semestre\dsd\rotaciones\synwork\registrouniversal_s.srs
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+Copied C:\users\richie\desktop\4 semestre\dsd\rotaciones\synwork\registrouniversal_mult.srs to C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.srs
+Copied C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.srr to C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.srf
+Complete: Compile Process on registrouniversal|rotaciones
+Complete: Compile on registrouniversal|rotaciones
+
+Running: Map on registrouniversal|rotaciones
+
+Running: Map & Optimize on registrouniversal|rotaciones
+fpga_mapper Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Complete: Map on registrouniversal|rotaciones
+Complete: Logic Synthesis on registrouniversal|rotaciones
+
+exit status=0
+
+exit status=0
+

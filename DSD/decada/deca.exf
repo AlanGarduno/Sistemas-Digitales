@@ -1,0 +1,55 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      control[1:0]                  control                  1          2            -1
+      Port          2      E[3:0]                        E                  3          4            -1
+      Port          3      display[6:0]                  display                  6          7            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      control_1_                  control[1]                       1            0            
+        Port      control_0_                  control[0]                       1            1            
+        Port      E_3_                        E[3]                       2            0            
+        Port      E_2_                        E[2]                       2            1            
+        Port      E_1_                        E[1]                       2            2            
+        Port      E_0_                        E[0]                       2            3            
+        Port      display_6_                  display[6]                       3            0            
+        Port      display_5_                  display[5]                       3            1            
+        Port      display_4_                  display[4]                       3            2            
+        Port      display_3_                  display[3]                       3            3            
+        Port      display_2_                  display[2]                       3            4            
+        Port      display_1_                  display[1]                       3            5            
+        Port      display_0_                  display[0]                       3            6            
+End
+Section Cross Reference File
+Design 'deca' created Fri Apr 28 05:33:23 2017
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Net            display_3__n                                display[3]
+   Net            display_5__n                                display[5]
+   Net            control_0__n                                control[0]
+   Net            display_0__n                                display[0]
+   Net            display_2__n                                display[2]
+   Net                  e_2__n                                      E[2]
+   Net                  e_0__n                                      E[0]
+   Net                  e_1__n                                      E[1]
+   Net            display_4__n                                display[4]
+   Net            display_1__n                                display[1]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     clk
+        Input     clr
+        Input     control_1_
+        Input     E_3_
+        Input     control_0_
+        Input     E_2_
+        Input     E_1_
+        Input     E_0_
+        Output     display_6_
+        Output     display_5_
+        Output     display_4_
+        Output     display_3_
+        Output     display_2_
+        Output     display_1_
+        Output     display_0_
+End

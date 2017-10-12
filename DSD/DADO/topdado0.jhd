@@ -1,0 +1,9 @@
+
+
+MODULE topdado0
+
+	SUBMODULE osc00
+		INSTANCE U00
+
+	SUBMODULE dado0
+		INSTANCE U01

@@ -1,0 +1,58 @@
+Running in Lattice mode
+
+
+Starting:    C:\ispLEVER_Classic2_0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\ispLEVER_Classic2_0\synpbase
+Date:        Fri Jun 02 20:03:09 2017
+Version:     I-2014.03LC 
+
+Arguments:   -product synplify_pro  -batch c:/users/richie/desktop/4 semestre/dsd/contador ecuaciones\top_ContB.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srr"
+
+Generating HDL info...
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+log file: "C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srr"
+
+Running top_ContB|contador ecuaciones
+
+Running: Compile on top_ContB|contador ecuaciones
+
+Running: Compile Process on top_ContB|contador ecuaciones
+
+Running: Compile Input on top_ContB|contador ecuaciones
+Copied C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_comp.srs to C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srs
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+Running: Multi-srs Generator on top_ContB|contador ecuaciones
+Copied C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_comp.srs to C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_s.srs
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Copied C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\synwork\top_ContB_mult.srs to C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srs
+Copied C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_ContB.srr to C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_contb.srf
+Complete: Compile Process on top_ContB|contador ecuaciones
+Complete: Compile on top_ContB|contador ecuaciones
+
+Running: Map on top_ContB|contador ecuaciones
+
+Running: Map & Optimize on top_ContB|contador ecuaciones
+fpga_mapper Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Complete: Map on top_ContB|contador ecuaciones
+Complete: Logic Synthesis on top_ContB|contador ecuaciones
+
+exit status=0
+
+exit status=0
+

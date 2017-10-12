@@ -1,0 +1,106 @@
+#$ TOOL  ispLEVER Classic 2.0.00.17.20.15
+#$ DATE  Fri Jun 02 20:03:22 2017
+#$ MODULE  top_ContB
+#$ PROPERTY  LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 1048576; 
+#$ PINS 11 clk0:26 c0:68 q00:13 q10:12 q20:11 q30:9 q40:8 q50:7 q60:6 q70:5
+ q80:4
+#$ NODES 11 gnd_n_n U01_j1 U01_j2 U01_j3 U01_j4 U01_j5 U01_j6 U01_j7 U01_j8
+ clk0_c E0_OSCOUT
+#$ EXTERNAL osctimer 4 DYNOSCDIS'i' TIMERRES'i' OSCOUT'o' TIMEROUT'o'
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n E0_OSCOUT clk0_c
+.model top_contb 
+.inputs c0.BLIF U01_j1.Q U01_j2.Q U01_j3.Q U01_j4.Q U01_j5.Q U01_j6.Q U01_j7.Q \
+ U01_j8.Q clk0_c.BLIF q00.Q q10.Q q20.Q q30.Q q40.Q q50.Q q60.Q q70.Q q80.Q \
+ E0_OSCOUT.BLIF
+.outputs clk0 q00.D q00.C q10.D q10.C q20.D q20.C q30.D q30.C q40.D q40.C q50.D \
+ q50.C q60.D q60.C q70.D q70.C q80.D q80.C gnd_n_n U01_j1.D U01_j1.C U01_j2.D \
+ U01_j2.C U01_j3.D U01_j3.C U01_j4.D U01_j4.C U01_j5.D U01_j5.C U01_j6.D U01_j6.C \
+ U01_j7.D U01_j7.C U01_j8.D U01_j8.C
+.names clk0_c.BLIF clk0
+1 1
+.names q00.Q q00.D
+0 1
+.names clk0_c.BLIF q00.C
+1 1
+.names U01_j1.Q q10.Q q10.D
+10 1
+01 1
+.names clk0_c.BLIF q10.C
+1 1
+.names U01_j2.Q q20.Q q20.D
+10 1
+01 1
+.names clk0_c.BLIF q20.C
+1 1
+.names U01_j3.Q q30.Q q30.D
+10 1
+01 1
+.names clk0_c.BLIF q30.C
+1 1
+.names U01_j4.Q q40.Q q40.D
+10 1
+01 1
+.names clk0_c.BLIF q40.C
+1 1
+.names U01_j5.Q q50.Q q50.D
+10 1
+01 1
+.names clk0_c.BLIF q50.C
+1 1
+.names U01_j6.Q q60.Q q60.D
+10 1
+01 1
+.names clk0_c.BLIF q60.C
+1 1
+.names U01_j7.Q q70.Q q70.D
+10 1
+01 1
+.names clk0_c.BLIF q70.C
+1 1
+.names U01_j8.Q q80.Q q80.D
+10 1
+01 1
+.names clk0_c.BLIF q80.C
+1 1
+.names gnd_n_n
+.names c0.BLIF q00.Q U01_j1.D
+10 1
+01 1
+.names clk0_c.BLIF U01_j1.C
+1 1
+.names c0.BLIF q00.Q q10.Q U01_j2.D
+100 1
+011 1
+.names clk0_c.BLIF U01_j2.C
+1 1
+.names c0.BLIF q00.Q q10.Q q20.Q U01_j3.D
+1000 1
+0111 1
+.names clk0_c.BLIF U01_j3.C
+1 1
+.names c0.BLIF q00.Q q10.Q q20.Q q30.Q U01_j4.D
+10000 1
+01111 1
+.names clk0_c.BLIF U01_j4.C
+1 1
+.names c0.BLIF q00.Q q10.Q q20.Q q30.Q q40.Q U01_j5.D
+100000 1
+011111 1
+.names clk0_c.BLIF U01_j5.C
+1 1
+.names c0.BLIF q00.Q q10.Q q20.Q q30.Q q40.Q q50.Q U01_j6.D
+1000000 1
+0111111 1
+.names clk0_c.BLIF U01_j6.C
+1 1
+.names c0.BLIF q00.Q q10.Q q20.Q q30.Q q40.Q q50.Q q60.Q U01_j7.D
+10000000 1
+01111111 1
+.names clk0_c.BLIF U01_j7.C
+1 1
+.names c0.BLIF q00.Q q10.Q q20.Q q30.Q q40.Q q50.Q q60.Q q70.Q U01_j8.D
+100000000 1
+011111111 1
+.names clk0_c.BLIF U01_j8.C
+1 1
+.end

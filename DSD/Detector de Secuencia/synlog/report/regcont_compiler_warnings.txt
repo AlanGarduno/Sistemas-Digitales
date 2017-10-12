@@ -1,0 +1,7 @@
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd":23:24:23:24|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd":27:14:27:14|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd":32:15:32:15|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd":34:24:34:24|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd":35:21:35:21|q is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\registro contador\regcont.vhd":36:21:36:21|q is not readable.  This may cause a simulation mismatch.
+

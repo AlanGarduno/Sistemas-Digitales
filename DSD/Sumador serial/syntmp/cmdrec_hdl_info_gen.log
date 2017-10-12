@@ -1,0 +1,18 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe  -osyn  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_hdl_.srs"  -top  top_sum_serie  -prodtype  synplify_pro  -nostructver -encrypt  -pro  -dmgen  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\dm"  -lite -compiler_compatible -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work "C:\users\richie\desktop\4 semestre\dsd\sumador serial\package_suma_serial.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\sumador serial\osc00.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.vhd" -loga  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\syntax.log"  -fileorder  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\syntmp\hdlorder.tcl" 
+rc:0 success:1
+C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_hdl_.srs|o|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\sumador|i|0|0
+serial\package_suma_serial.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\sumador|i|0|0
+serial\osc00.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\sumador|i|0|0
+serial\sumador.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\sumador|i|0|0
+serial\top_sum_serie.vhd"|i|0|0
+C:\users\richie\desktop\4 semestre\dsd\sumador serial\syntax.log|o|1497636202|1129
+C:\ispLEVER_Classic2_0\synpbase\bin\c_vhdl.exe|i|1401227498|2046976
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe|i|1401227704|5533184

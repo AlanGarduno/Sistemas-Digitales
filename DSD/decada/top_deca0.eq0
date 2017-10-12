@@ -1,0 +1,821 @@
+EDIF2BLIF version IspLever 1.0  Linked Equations File
+Copyright(C), 1992-2015, Lattice Semiconductor Corp.
+All Rights Reserved.
+
+Design top_deca0 created Fri Apr 28 05:48:50 2017
+
+
+ P-Terms   Fan-in  Fan-out  Type  Name (attributes)
+---------  ------  -------  ----  -----------------
+   1/1        1        1    Pin   clk0 
+   1/1        1        1    Pin   display0_6_ 
+   1/1        1        1    Pin   display0_5_ 
+   1/1        1        1    Pin   display0_4_ 
+   1/1        1        1    Pin   display0_3_ 
+   1/1        1        1    Pin   display0_2_ 
+   1/1        1        1    Pin   display0_1_ 
+   1/1        1        1    Pin   display0_0_ 
+   1/1        1        1    Node  clr0_c 
+   1/1        1        1    Node  control0_c_1 
+   1/1        1        1    Node  control0_c_0 
+   1/1        1        1    Node  E0_c_3 
+   1/1        1        1    Node  E0_c_2 
+   1/1        1        1    Node  E0_c_1 
+   1/1        1        1    Node  E0_c_0 
+   1/1        1        1    Node  U01__display_i7reg.CE 
+   1          1        1    Node  U01__display_i7reg.AR 
+   2          2        1    Node  U01__display_i7reg.D 
+   1/1        1        1    Node  U01__display_i7reg.C 
+   1/1        1        1    Node  U01__display_i6reg.CE 
+   1          1        1    Node  U01__display_i6reg.AR 
+   2          2        1    Node  U01__display_i6reg.D 
+   1/1        1        1    Node  U01__display_i6reg.C 
+   1/1        1        1    Node  U01__display_i5reg.CE 
+   1          1        1    Node  U01__display_i5reg.AR 
+   2          2        1    Node  U01__display_i5reg.D 
+   1/1        1        1    Node  U01__display_i5reg.C 
+   1/1        1        1    Node  U01__display_i4reg.CE 
+   1          1        1    Node  U01__display_i4reg.AR 
+   2          2        1    Node  U01__display_i4reg.D 
+   1/1        1        1    Node  U01__display_i4reg.C 
+   1/1        1        1    Node  U01__display_i3reg.CE 
+   1          1        1    Node  U01__display_i3reg.AR 
+   2          2        1    Node  U01__display_i3reg.D 
+   1/1        1        1    Node  U01__display_i3reg.C 
+   1/1        1        1    Node  U01__display_i2reg.CE 
+   1          1        1    Node  U01__display_i2reg.AR 
+   2          2        1    Node  U01__display_i2reg.D 
+   1/1        1        1    Node  U01__display_i2reg.C 
+   1/1        1        1    Node  U01__display_i1reg.CE 
+   2          2        1    Node  U01__display_i1reg.D 
+   1          1        1    Node  U01__display_i1reg.AP 
+   1/1        1        1    Node  U01__display_i1reg.C 
+   1          1        1    Node  n21 
+   1          1        1    Node  n17 
+   0          0        1    Node  n63 
+   1          1        1    Node  n118 
+   2          2        1    Node  display_6_N_24_2 
+   2          2        1    Node  display_6_N_24_1 
+   1          1        1    Node  n6 
+   1          2        1    Node  n4 
+   1          2        1    Node  n5 
+   2          2        1    Node  n182 
+   1          1        1    Node  n7 
+   1          1        1    Node  n6_adj_31 
+   2          2        1    Node  display_6_N_17_2 
+   1          2        1    Node  n13 
+   1          2        1    Node  n7_adj_32 
+   1          2        1    Node  n829 
+   1          3        1    Node  n832 
+   1          2        1    Node  n29 
+   1          2        1    Node  n173 
+   1          4        1    Node  n823 
+   1          3        1    Node  n826 
+   1          1        1    Node  n22 
+   1          1        1    Node  n12 
+   1          1        1    Node  n16 
+   2          2        1    Node  n33 
+   1          2        1    Node  n838 
+   1          1        1    Node  n24 
+   1          2        1    Node  n835 
+   1          1        1    Node  n177 
+   1          3        1    Node  n845 
+   1          1        1    Node  n20 
+   1          2        1    Node  n6_adj_33 
+   1          2        1    Node  n11 
+   1          2        1    Node  n12_adj_34 
+   1          3        1    Node  n833 
+   1          2        1    Node  n921 
+   1          3        1    Node  n878 
+   1          2        1    Node  n851 
+   1          2        1    Node  n848 
+   1          2        1    Node  n854 
+   1          2        1    Node  n174 
+   2          2        1    Node  n26 
+   2          2        1    Node  n919 
+   1          3        1    Node  n918 
+   1          2        1    Node  n881 
+   1          4        1    Node  n917 
+   2          2        1    Node  n124 
+   1          3        1    Node  n915 
+   2          2        1    Node  n913 
+   1          1        1    Node  n12_adj_35 
+   2          2        1    Node  n47 
+   1          2        1    Node  n5_adj_36 
+   1          1        1    Node  n6_adj_37 
+   1          3        1    Node  n912 
+   1          2        1    Node  n908 
+   1          1        1    Node  n104 
+   1          3        1    Node  n671 
+   1/1        1        1    NodeX1  i99.X1 
+   1/1        1        1    NodeX2  i99.X2 
+   1          2        1    Node  n896 
+   6          6        1    Node  n669 
+   1          1        1    Node  n4_adj_38 
+   1          3        1    Node  n658 
+   1          2        1    Node  n172 
+   2          2        1    Node  n4_adj_39 
+   2          2        1    Node  n661 
+   1          1        1    Node  n171 
+   2          2        1    Node  n910 
+   1          4        1    Node  n909 
+   2          2        1    Node  n907 
+   1          4        1    Node  n906 
+   1          3        1    Node  n905 
+   2          2        1    Node  n831 
+   1          2        1    Node  n903 
+   1          2        1    Node  n830 
+   2          2        1    Node  n828 
+   1          2        1    Node  n893 
+   2          2        1    Node  n60 
+   1          3        1    Node  n902 
+   1          4        1    Node  n827 
+   1          2        1    Node  n900 
+   1          1        1    Node  n109 
+   2          2        1    Node  n898 
+   1          4        1    Node  n869 
+   1/1        1        1    NodeX1  i819.X1 
+   1/1        1        1    NodeX2  i819.X2 
+   1          2        1    Node  n806 
+   1          1        1    Node  n796 
+   1          1        1    Node  n16_adj_40 
+   1          2        1    Node  n797 
+   1          2        1    Node  n39 
+   1          1        1    Node  n48 
+   1/1        1        1    NodeX1  i80.X1 
+   1/1        1        1    NodeX2  i80.X2 
+   1          2        1    Node  n42 
+   1          3        1    Node  n890 
+   1          1        1    Node  n819 
+   2          2        1    Node  n809 
+   1          2        1    Node  n872 
+   1          3        1    Node  n897 
+   2          2        1    Node  n825 
+   2          2        1    Node  n895 
+   1          3        1    Node  n824 
+   1          2        1    Node  n894 
+   2          2        1    Node  n892 
+   1          2        1    Node  n891 
+   2          2        1    Node  n822 
+   2          2        1    Node  n889 
+   3          3        1    Node  n659 
+   1/1        1        1    NodeX1  i116.X1 
+   1/1        1        1    NodeX2  i116.X2 
+   1          3        1    Node  n820 
+   2          2        1    Node  n27 
+   1          1        1    Node  n150 
+   1          3        1    Node  n888 
+   1          3        1    Node  n887 
+   1          2        1    Node  n885 
+   2          2        1    Node  n883 
+   1          3        1    Node  n821 
+   1          2        1    Node  n882 
+   1          3        1    Node  n884 
+   1          3        1    Node  n793 
+   2          2        1    Node  n816 
+   2          2        1    Node  n880 
+   1          1        1    Node  n536 
+   1          2        1    Node  n879 
+   2          2        1    Node  n877 
+   1          3        1    Node  n876 
+   1          2        1    Node  n875 
+   2          2        1    Node  n53 
+   2          2        1    Node  n810 
+   1          2        1    Node  n899 
+   1          2        1    Node  n873 
+   2          2        1    Node  n871 
+   1          2        1    Node  n870 
+   2          2        1    Node  n868 
+   1          2        1    Node  n867 
+   1          2        1    Node  n911 
+   2          2        1    Node  n513 
+   2          2        1    Node  n865 
+   1          3        1    Node  n864 
+   2          2        1    Node  n490 
+   2          2        1    Node  n862 
+   2          2        1    Node  n812 
+   1          1        1    Node  n501 
+   2          2        1    Node  n511 
+   1          3        1    Node  n861 
+   2          2        1    Node  n49 
+   1          2        1    Node  n914 
+   1          3        1    Node  n860 
+   2          2        1    Node  n523 
+   1          4        1    Node  n858 
+   1          3        1    Node  n857 
+   1          2        1    Node  n855 
+   2          2        1    Node  n853 
+   1          1        1    Node  n4_adj_41 
+   1          1        1    Node  n4_adj_42 
+   1          3        1    Node  n852 
+   2          2        1    Node  n494 
+   2          2        1    Node  n850 
+   2          2        1    Node  n492 
+   1          3        1    Node  n849 
+   2          2        1    Node  n847 
+   1          3        1    Node  n846 
+   2          2        1    Node  n521 
+   1          2        1    Node  n920 
+   1          2        1    Node  n866 
+   1          3        1    Node  n863 
+   1          2        1    Node  n802 
+   1          1        1    Node  n49_adj_43 
+   1          1        1    Node  n61 
+   1          2        1    Node  n843 
+   1          2        1    Node  n842 
+   1          1        1    Node  n841 
+   1          2        1    Node  n839 
+   2          2        1    Node  n837 
+   1          2        1    Node  n836 
+   2          2        1    Node  n834 
+=========
+ 283/37         Best P-Term Total: 283
+                       Total Pins: 15
+                      Total Nodes: 190
+            Average P-Term/Output: 1
+
+
+Equations:
+
+clk0 = (clk0_c);
+
+display0_6_ = (U01__display_i7reg);
+
+display0_5_ = (U01__display_i6reg);
+
+display0_4_ = (U01__display_i5reg);
+
+display0_3_ = (U01__display_i4reg);
+
+display0_2_ = (U01__display_i3reg);
+
+display0_1_ = (U01__display_i2reg);
+
+display0_0_ = (U01__display_i1reg);
+
+clr0_c = (clr0);
+
+control0_c_1 = (control0_1_);
+
+control0_c_0 = (control0_0_);
+
+E0_c_3 = (E0_3_);
+
+E0_c_2 = (E0_2_);
+
+E0_c_1 = (E0_1_);
+
+E0_c_0 = (E0_0_);
+
+U01__display_i7reg.CE = (n182);
+
+U01__display_i7reg.AR = (!clr0_c);
+
+U01__display_i7reg.D = (n858
+     # n857);
+
+U01__display_i7reg.C = (clk0_c);
+
+U01__display_i6reg.CE = (n182);
+
+U01__display_i6reg.AR = (!clr0_c);
+
+U01__display_i6reg.D = (n885
+     # n884);
+
+U01__display_i6reg.C = (clk0_c);
+
+U01__display_i5reg.CE = (n182);
+
+U01__display_i5reg.AR = (!clr0_c);
+
+U01__display_i5reg.D = (n873
+     # n872);
+
+U01__display_i5reg.C = (clk0_c);
+
+U01__display_i4reg.CE = (n182);
+
+U01__display_i4reg.AR = (!clr0_c);
+
+U01__display_i4reg.D = (n903
+     # n902);
+
+U01__display_i4reg.C = (clk0_c);
+
+U01__display_i3reg.CE = (n182);
+
+U01__display_i3reg.AR = (!clr0_c);
+
+U01__display_i3reg.D = (n900
+     # n899);
+
+U01__display_i3reg.C = (clk0_c);
+
+U01__display_i2reg.CE = (n182);
+
+U01__display_i2reg.AR = (!clr0_c);
+
+U01__display_i2reg.D = (n915
+     # n914);
+
+U01__display_i2reg.C = (clk0_c);
+
+U01__display_i1reg.CE = (n182);
+
+U01__display_i1reg.D = (n921
+     # n920);
+
+U01__display_i1reg.AP = (!clr0_c);
+
+U01__display_i1reg.C = (clk0_c);
+
+n21 = (!U01__display_i6reg);
+
+n17 = (!U01__display_i3reg);
+
+n63 = (0);
+
+n118 = (!E0_c_2);
+
+display_6_N_24_2 = (n797
+     # n793);
+
+display_6_N_24_1 = (n29
+     # n172);
+
+n6 = (!n4_adj_39);
+
+n4 = (U01__display_i2reg & n21);
+
+n5 = (U01__display_i4reg & n22);
+
+n182 = (n177
+     # control0_c_0);
+
+n7 = (!n490);
+
+n6_adj_31 = (!n492);
+
+display_6_N_17_2 = (n671
+     # n173);
+
+n13 = (n12 & U01__display_i2reg);
+
+n7_adj_32 = (U01__display_i1reg & n24);
+
+n829 = (n22 & n7_adj_32);
+
+n832 = (n33 & n16_adj_40 & n16);
+
+n29 = (n828 & n22);
+
+n173 = (n171 & n26);
+
+n823 = (U01__display_i5reg & n16 & n16_adj_40 & n6);
+
+n826 = (n20 & n16_adj_40 & n6_adj_33);
+
+n22 = (!U01__display_i5reg);
+
+n12 = (!U01__display_i1reg);
+
+n16 = (!U01__display_i4reg);
+
+n33 = (n839
+     # n838);
+
+n838 = (n17 & n24);
+
+n24 = (!U01__display_i2reg);
+
+n835 = (n22 & n24);
+
+n177 = (!control0_c_1);
+
+n845 = (n850 & n16_adj_40 & n16);
+
+n20 = (!n661);
+
+n6_adj_33 = (n16 & U01__display_i6reg);
+
+n11 = (U01__display_i4reg & n21);
+
+n12_adj_34 = (n21 & n33);
+
+n833 = (n6_adj_37 & U01__display_i7reg & n5_adj_36);
+
+n921 = (control0_c_1 & n61);
+
+n878 = (n27 & n841 & n22);
+
+n851 = (n16_adj_40 & n6_adj_33);
+
+n848 = (n22 & n104);
+
+n854 = (n22 & n24);
+
+n174 = (U01__display_i1reg & U01__display_i3reg);
+
+n26 = (n855
+     # n854);
+
+n919 = (n918
+     # n917);
+
+n918 = (n4 & control0_c_0 & n825);
+
+n881 = (n841 & display_6_N_24_2);
+
+n917 = (n822 & n6_adj_31 & n841 & n7);
+
+n124 = (n118
+     # E0_c_1);
+
+n915 = (n536 & control0_c_1 & n913);
+
+n913 = (n912
+     # n911);
+
+n12_adj_35 = (!n521);
+
+n47 = (n42
+     # n39);
+
+n5_adj_36 = (U01__display_i3reg & U01__display_i4reg);
+
+n6_adj_37 = (!n494);
+
+n912 = (E0_c_1 & E0_c_2 & E0_c_0);
+
+n908 = (n841 & display_6_N_24_1);
+
+n104 = (!i99);
+
+n671 = (n7 & n853 & n12);
+
+i99.X1 = (U01__display_i3reg);
+
+i99.X2 = (U01__display_i2reg);
+
+n896 = (n536 & n53);
+
+n669 = (U01__display_i6reg
+     # n24
+     # n843
+     # U01__display_i5reg
+     # n17
+     # n842);
+
+n4_adj_38 = (!n511);
+
+n658 = (U01__display_i1reg & U01__display_i7reg & U01__display_i4reg);
+
+n172 = (n171 & n831);
+
+n4_adj_39 = (U01__display_i3reg
+     # U01__display_i1reg);
+
+n661 = (n4_adj_39
+     # U01__display_i2reg);
+
+n171 = (!n523);
+
+n910 = (n909
+     # n908);
+
+n909 = (n847 & n12 & control0_c_0 & n21);
+
+n907 = (n906
+     # n905);
+
+n906 = (U01__display_i3reg & n6_adj_37 & U01__display_i6reg & n22);
+
+n905 = (n26 & n21 & n17);
+
+n831 = (n830
+     # n829);
+
+n903 = (control0_c_1 & n877);
+
+n830 = (U01__display_i5reg & n13);
+
+n828 = (n827
+     # n826);
+
+n893 = (n16_adj_40 & n6_adj_33);
+
+n60 = (E0_c_2
+     # E0_c_1);
+
+n902 = (n4_adj_38 & n177 & n880);
+
+n827 = (U01__display_i2reg & n174 & U01__display_i7reg & n11);
+
+n900 = (control0_c_1 & n898);
+
+n109 = (!n669);
+
+n898 = (n897
+     # n896);
+
+n869 = (E0_c_1 & n48 & n536 & n118);
+
+i819.X1 = (E0_c_1);
+
+i819.X2 = (E0_c_0);
+
+n806 = (n49_adj_43 & E0_c_0);
+
+n796 = (!n816);
+
+n16_adj_40 = (!U01__display_i7reg);
+
+n797 = (n796 & n834);
+
+n39 = (n60 & E0_c_3);
+
+n48 = (!E0_c_0);
+
+i80.X1 = (E0_c_0);
+
+i80.X2 = (E0_c_1);
+
+n42 = (i80 & E0_c_2);
+
+n890 = (n5_adj_36 & n21 & U01__display_i2reg);
+
+n819 = (!i819);
+
+n809 = (n60
+     # E0_c_3);
+
+n872 = (n177 & n109);
+
+n897 = (n806 & E0_c_3 & n118);
+
+n825 = (n824
+     # n823);
+
+n895 = (n894
+     # n893);
+
+n824 = (n174 & U01__display_i7reg & n5);
+
+n894 = (U01__display_i7reg & n11);
+
+n892 = (n891
+     # n890);
+
+n891 = (U01__display_i6reg & n12_adj_35);
+
+n822 = (n821
+     # n820);
+
+n889 = (n888
+     # n887);
+
+n659 = (U01__display_i1reg
+     # U01__display_i7reg
+     # U01__display_i4reg);
+
+i116.X1 = (E0_c_2);
+
+i116.X2 = (E0_c_0);
+
+n820 = (U01__display_i1reg & n16 & n17);
+
+n27 = (n12_adj_34
+     # n20);
+
+n150 = (!n658);
+
+n888 = (n892 & control0_c_0 & n16_adj_40);
+
+n887 = (n802 & n841 & n895);
+
+n885 = (control0_c_1 & n47);
+
+n883 = (n882
+     # n881);
+
+n821 = (n12 & U01__display_i4reg & U01__display_i3reg);
+
+n882 = (control0_c_0 & display_6_N_17_2);
+
+n884 = (n4_adj_41 & n177 & n889);
+
+n793 = (n837 & n4_adj_38 & n6);
+
+n816 = (U01__display_i5reg
+     # U01__display_i6reg);
+
+n880 = (n879
+     # n878);
+
+n536 = (!E0_c_3);
+
+n879 = (control0_c_0 & n907);
+
+n877 = (n876
+     # n875);
+
+n876 = (n819 & E0_c_2 & n536);
+
+n875 = (n118 & n806);
+
+n53 = (n501
+     # E0_c_0);
+
+n810 = (U01__display_i3reg
+     # U01__display_i6reg);
+
+n899 = (n177 & n883);
+
+n873 = (control0_c_1 & n871);
+
+n871 = (n870
+     # n869);
+
+n870 = (E0_c_3 & n60);
+
+n868 = (n867
+     # n866);
+
+n867 = (U01__display_i3reg & n13);
+
+n911 = (n118 & n49);
+
+n513 = (U01__display_i3reg
+     # U01__display_i4reg);
+
+n865 = (n864
+     # n863);
+
+n864 = (n862 & control0_c_0 & n12);
+
+n490 = (U01__display_i2reg
+     # U01__display_i5reg);
+
+n862 = (n861
+     # n860);
+
+n812 = (U01__display_i1reg
+     # U01__display_i5reg);
+
+n501 = (!n124);
+
+n511 = (U01__display_i4reg
+     # U01__display_i7reg);
+
+n861 = (n4_adj_42 & U01__display_i5reg & U01__display_i2reg);
+
+n49 = (E0_c_1
+     # E0_c_0);
+
+n914 = (n177 & n910);
+
+n860 = (n802 & n22 & U01__display_i6reg);
+
+n523 = (n513
+     # n492);
+
+n858 = (n49_adj_43 & i116 & control0_c_1 & n536);
+
+n857 = (n4_adj_38 & n177 & n865);
+
+n855 = (U01__display_i5reg & n13);
+
+n853 = (n852
+     # n851);
+
+n4_adj_41 = (!n812);
+
+n4_adj_42 = (!n810);
+
+n852 = (n11 & U01__display_i7reg & U01__display_i3reg);
+
+n494 = (U01__display_i1reg
+     # U01__display_i2reg);
+
+n850 = (n849
+     # n848);
+
+n492 = (U01__display_i6reg
+     # U01__display_i7reg);
+
+n849 = (U01__display_i2reg & U01__display_i5reg & n17);
+
+n847 = (n846
+     # n845);
+
+n846 = (n802 & U01__display_i7reg & n5);
+
+n521 = (n513
+     # U01__display_i2reg);
+
+n920 = (n177 & n919);
+
+n866 = (n17 & n7_adj_32);
+
+n863 = (n796 & n841 & n868);
+
+n802 = (n24 & U01__display_i3reg);
+
+n49_adj_43 = (!E0_c_1);
+
+n61 = (!n809);
+
+n843 = (control0_c_0 & n659);
+
+n842 = (n841 & n150);
+
+n841 = (!control0_c_0);
+
+n839 = (U01__display_i3reg & n13);
+
+n837 = (n836
+     # n835);
+
+n836 = (U01__display_i5reg & n4);
+
+n834 = (n833
+     # n832);
+
+
+Reverse-Polarity Equations:
+
+!clk0 = (!clk0_c);
+
+!display0_6_ = (!U01__display_i7reg);
+
+!display0_5_ = (!U01__display_i6reg);
+
+!display0_4_ = (!U01__display_i5reg);
+
+!display0_3_ = (!U01__display_i4reg);
+
+!display0_2_ = (!U01__display_i3reg);
+
+!display0_1_ = (!U01__display_i2reg);
+
+!display0_0_ = (!U01__display_i1reg);
+
+!clr0_c = (!clr0);
+
+!control0_c_1 = (!control0_1_);
+
+!control0_c_0 = (!control0_0_);
+
+!E0_c_3 = (!E0_3_);
+
+!E0_c_2 = (!E0_2_);
+
+!E0_c_1 = (!E0_1_);
+
+!E0_c_0 = (!E0_0_);
+
+!U01__display_i7reg.CE = (!n182);
+
+!U01__display_i7reg.C = (!clk0_c);
+
+!U01__display_i6reg.CE = (!n182);
+
+!U01__display_i6reg.C = (!clk0_c);
+
+!U01__display_i5reg.CE = (!n182);
+
+!U01__display_i5reg.C = (!clk0_c);
+
+!U01__display_i4reg.CE = (!n182);
+
+!U01__display_i4reg.C = (!clk0_c);
+
+!U01__display_i3reg.CE = (!n182);
+
+!U01__display_i3reg.C = (!clk0_c);
+
+!U01__display_i2reg.CE = (!n182);
+
+!U01__display_i2reg.C = (!clk0_c);
+
+!U01__display_i1reg.CE = (!n182);
+
+!U01__display_i1reg.C = (!clk0_c);
+
+!i99.X1 = (!U01__display_i3reg);
+
+!i99.X2 = (!U01__display_i2reg);
+
+!i819.X1 = (!E0_c_1);
+
+!i819.X2 = (!E0_c_0);
+
+!i80.X1 = (!E0_c_0);
+
+!i80.X2 = (!E0_c_1);
+
+!i116.X1 = (!E0_c_2);
+
+!i116.X2 = (!E0_c_0);
+

@@ -1,0 +1,3 @@
+@E: CD879 :"C:\users\richie\desktop\4 semestre\dsd\dado\topdado0.vhd":30:13:30:16|Illegal concurrent statement. Possible missing component declaration for dado0
+@E|Parse errors encountered - exiting
+

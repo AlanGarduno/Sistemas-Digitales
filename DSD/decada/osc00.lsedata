@@ -1,0 +1,56 @@
+<top name = "osc00"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "osc00">
+
+    <!--
+        Top Level Pins: 1
+    -->
+
+    <pins>
+        <pitem  name = "tmr_out"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 1
+    -->
+
+    <instance  name = "inst11"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "DYNOSCDIS"  direction = "in"  />
+        <pitem  name = "TIMERRES"  direction = "in"  />
+        <pitem  name = "TIMEROUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "tmr_out"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "osc00": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

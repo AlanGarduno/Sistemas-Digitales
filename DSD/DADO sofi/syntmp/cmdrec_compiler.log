@@ -1,0 +1,18 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe  -osyn  "C:\users\richie\desktop\4 semestre\dsd\dado sofi\synwork\topdado0_comp.srs"  -top  topdado0  -prodtype  synplify_pro  -nostructver -encrypt  -pro  -dmgen  "C:\users\richie\desktop\4 semestre\dsd\dado sofi\dm"  -lite -compiler_compatible -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work "C:\users\richie\desktop\4 semestre\dsd\dado sofi\package_dado.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\dado sofi\osc00.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd" -lib work "C:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.vhd" -loga  "C:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.srr" 
+rc:0 success:1
+C:\users\richie\desktop\4 semestre\dsd\dado sofi\synwork\topdado0_comp.srs|o|1496257451|4062
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\dado|i|0|0
+sofi\package_dado.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\dado|i|0|0
+sofi\osc00.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\dado|i|0|0
+sofi\dado0.vhd"|i|0|0
+"C:\users\richie\desktop\4|i|0|0
+semestre\dsd\dado|i|0|0
+sofi\topdado0.vhd"|i|0|0
+C:\users\richie\desktop\4 semestre\dsd\dado sofi\topdado0.srr|o|1496257451|3178
+C:\ispLEVER_Classic2_0\synpbase\bin\c_vhdl.exe|i|1401227498|2046976
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe|i|1401227704|5533184

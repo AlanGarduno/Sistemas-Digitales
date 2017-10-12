@@ -1,0 +1,1 @@
+-nodal -src p1.bl5 -type BLIF -presrc p1.bl3 -crf p1.crf -sif p1.sif -devfile "C:/ispLEVER_Classic2_0/ispcpld/dat/lc4k/m4e_256_96.dev" -lci p1.lct

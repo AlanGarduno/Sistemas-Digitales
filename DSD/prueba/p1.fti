@@ -1,0 +1,26 @@
+#PLAFILE     p1.bl5
+#DATE        Fri Mar 24 19:57:46 2017
+
+#DESIGN      p1
+#DEVICE      MACH4S-256
+
+
+// Default settings.
+DATA GLOBAL tINDIO:0
+
+
+// Signal locations
+DATA LOCATION a:L_*_84
+DATA LOCATION b:L_*_85
+DATA LOCATION c:E_9_22
+DATA LOCATION d:E_3_21
+
+// Signals direction
+DATA IO_DIR a:IN
+DATA IO_DIR b:IN
+DATA IO_DIR c:OUT
+DATA IO_DIR d:OUT
+
+// Signals using OSM or fast 5-PTs path
+DATA tOSM c
+DATA tOSM d

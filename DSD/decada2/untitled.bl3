@@ -1,0 +1,304 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Fri May 26 02:47:26 2017
+#$ PROPERTY LATTICE OSCTIMER U00_inst11= -, -, -, clk0_c, 1048576; 
+#$ MODULE untitled
+#$ PINS 15 control0_1_:68'ke'  E0_3_:66'ke'  display0_6_:39'ke'  clk0:26'ke'  clr0:69'ke'  \
+#  control0_0_:67'ke'  E0_2_:76'ke'  E0_1_:77'ke'  E0_0_:78'ke'  display0_5_:33'ke'  display0_4_:32'ke'  \
+#  display0_3_:31'ke'  display0_2_:30'ke'  display0_1_:29'ke'  display0_0_:28'ke' 
+#$ NODES 14 gnd_n_n U01_display_1_10_ U01_display_1_9_ U01_display_1_8_ \
+#  U01_display_1_7_ U01_display_1_6_ U01_display_1_5_ U01_display_1_4_ \
+#  U01_display_1_3_ U01_display_1_2_ U01_display_1_1_ U01_display_1_0_ clk0_c \
+#  U00_inst11>OSCOUT
+#$ EXTERNAL osctimer  4 DYNOSCDIS'i'  TIMERRES'i'  OSCOUT'o'  TIMEROUT'o' 
+#$ INSTANCE U00_inst11 OSCTIMER 4 gnd_n_n gnd_n_n U00_inst11>OSCOUT clk0_c
+.model top_deca0
+.inputs control0_1_.BLIF E0_3_.BLIF clr0.BLIF control0_0_.BLIF E0_2_.BLIF \
+E0_1_.BLIF E0_0_.BLIF U01_display_1_10_.BLIF U01_display_1_9_.BLIF \
+U01_display_1_8_.BLIF U01_display_1_7_.BLIF U01_display_1_6_.BLIF \
+U01_display_1_5_.BLIF U01_display_1_4_.BLIF U01_display_1_3_.BLIF \
+U01_display_1_2_.BLIF U01_display_1_1_.BLIF U01_display_1_0_.BLIF clk0_c.BLIF \
+U00_inst11>OSCOUT.BLIF
+.outputs display0_6_ clk0 display0_5_ display0_4_ display0_3_ display0_2_ \
+display0_1_ display0_0_ U01_display_1_4_.D U01_display_1_4_.C \
+U01_display_1_4_.AR U01_display_1_3_.D U01_display_1_3_.C U01_display_1_3_.AR \
+U01_display_1_2_.D U01_display_1_2_.C U01_display_1_2_.AR U01_display_1_1_.D \
+U01_display_1_1_.C U01_display_1_1_.AR U01_display_1_0_.D U01_display_1_0_.C \
+U01_display_1_0_.AR U01_display_1_10_.D U01_display_1_10_.C \
+U01_display_1_10_.AR U01_display_1_9_.D U01_display_1_9_.C U01_display_1_9_.AP \
+U01_display_1_8_.D U01_display_1_8_.C U01_display_1_8_.AR U01_display_1_7_.D \
+U01_display_1_7_.C U01_display_1_7_.AR U01_display_1_6_.D U01_display_1_6_.C \
+U01_display_1_6_.AR U01_display_1_5_.D U01_display_1_5_.C U01_display_1_5_.AR \
+gnd_n_n
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_6_.BLIF U01_display_1_4_.BLIF U01_display_1_3_.BLIF \
+U01_display_1_4_.D
+101110--- 1
+1-0----1- 1
+0-1---1-- 1
+0-0-----1 1
+1-0----0- 0
+0-1---0-- 0
+0-0-----0 0
+1-1--1--- 0
+1-1-0---- 0
+1-10----- 0
+111------ 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_4_.BLIF U01_display_1_3_.BLIF U01_display_1_2_.BLIF \
+U01_display_1_1_.BLIF U01_display_1_3_.D
+101101---- 1
+1-0----1-- 1
+0-1-----1- 1
+0-1---1--- 1
+0-0------1 1
+0-1---0-0- 0
+1-0----0-- 0
+0-0------0 0
+1-1--0---- 0
+1-1-1----- 0
+1-10------ 0
+111------- 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+U01_display_1_2_.BLIF U01_display_1_2_.D
+111-1- 1
+1111-- 1
+1-0--1 1
+--100- 0
+-01--- 0
+--0--0 0
+0----- 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_8_.BLIF U01_display_1_3_.BLIF U01_display_1_1_.BLIF \
+U01_display_1_1_.D
+101100--- 1
+0-0---1-- 1
+0-1----1- 1
+1-0-----1 1
+0-0---0-- 0
+0-1----0- 0
+1-1--1--- 0
+1-1-1---- 0
+1-10----- 0
+111------ 0
+1-0-----0 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_9_.BLIF U01_display_1_5_.BLIF U01_display_1_0_.BLIF \
+U01_display_1_0_.D
+101001--- 1
+0-0---1-- 1
+0-1----1- 1
+1-0-----1 1
+0-0---0-- 0
+0-1----0- 0
+1-1--0--- 0
+1-1-1---- 0
+1-11----- 0
+111------ 0
+1-0-----0 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_10_.BLIF U01_display_1_7_.BLIF U01_display_1_6_.BLIF \
+U01_display_1_10_.D
+111000--- 1
+0-0---0-1 1
+0-1----1- 1
+1-0---1-- 1
+--0---0-0 0
+0-0---1-- 0
+0-1----0- 0
+1-0---0-- 0
+1-1--1--- 0
+1-1-1---- 0
+1-11----- 0
+101------ 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_9_.BLIF U01_display_1_7_.BLIF U01_display_1_0_.BLIF \
+U01_display_1_9_.D
+101000--- 1
+0-0----1- 1
+1-0---1-- 1
+0-1-----1 1
+0-0----0- 0
+1-0---0-- 0
+1-1--1--- 0
+1-1-1---- 0
+1-11----- 0
+111------ 0
+0-1-----0 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_8_.BLIF U01_display_1_5_.BLIF U01_display_1_1_.BLIF \
+U01_display_1_8_.D
+101011--- 1
+0-0----1- 1
+1-0---1-- 1
+0-1-----1 1
+0-0----0- 0
+1-0---0-- 0
+1-1--0--- 0
+1-1-0---- 0
+1-11----- 0
+111------ 0
+0-1-----0 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_10_.BLIF U01_display_1_9_.BLIF U01_display_1_7_.BLIF \
+U01_display_1_7_.D
+111001--- 1
+0-0---1-- 1
+0-1----1- 1
+1-0-----1 1
+0-0---0-- 0
+0-1----0- 0
+1-1--0--- 0
+1-1-1---- 0
+1-11----- 0
+101------ 0
+1-0-----0 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_10_.BLIF U01_display_1_9_.BLIF U01_display_1_8_.BLIF \
+U01_display_1_7_.BLIF U01_display_1_6_.BLIF U01_display_1_5_.BLIF \
+U01_display_1_3_.BLIF U01_display_1_1_.BLIF U01_display_1_0_.BLIF \
+U01_display_1_6_.D
+0-0---000000000 1
+101111--------- 1
+1-0-------1---- 1
+0-1---1-------- 1
+--0---1---0---- 0
+--0----1--0---- 0
+--0-----1-0---- 0
+--0------10---- 0
+0-0-------1---- 0
+0-0--------1--- 0
+0-0---------1-- 0
+0-0----------1- 0
+0-0-----------1 0
+1-1--0--------- 0
+1-1-0---------- 0
+1-10----------- 0
+111------------ 0
+1-0-------0---- 0
+0-1---0-------- 0
+.names control0_1_.BLIF E0_3_.BLIF control0_0_.BLIF E0_2_.BLIF E0_1_.BLIF \
+E0_0_.BLIF U01_display_1_8_.BLIF U01_display_1_5_.BLIF U01_display_1_0_.BLIF \
+U01_display_1_5_.D
+101010--- 1
+1-0----1- 1
+0-1---1-- 1
+0-0-----1 1
+1-0----0- 0
+0-1---0-- 0
+0-0-----0 0
+1-1--1--- 0
+1-1-0---- 0
+1-11----- 0
+111------ 0
+.names gnd_n_n
+ 0
+.names U01_display_1_1_.BLIF U01_display_1_0_.BLIF display0_6_
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF clk0
+1 1
+0 0
+.names U01_display_1_4_.BLIF U01_display_1_3_.BLIF U01_display_1_2_.BLIF \
+display0_5_
+-1- 1
+1-- 1
+--1 1
+000 0
+.names U01_display_1_5_.BLIF U01_display_1_2_.BLIF display0_4_
+1- 1
+-1 1
+00 0
+.names U01_display_1_7_.BLIF U01_display_1_6_.BLIF U01_display_1_1_.BLIF \
+U01_display_1_0_.BLIF display0_3_
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.names U01_display_1_10_.BLIF U01_display_1_9_.BLIF U01_display_1_5_.BLIF \
+U01_display_1_4_.BLIF U01_display_1_2_.BLIF display0_2_
+00000 1
+---1- 0
+--1-- 0
+-1--- 0
+1---- 0
+----1 0
+.names U01_display_1_8_.BLIF U01_display_1_6_.BLIF U01_display_1_5_.BLIF \
+U01_display_1_0_.BLIF display0_1_
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.names U01_display_1_9_.BLIF U01_display_1_0_.BLIF display0_0_
+1- 1
+-1 1
+00 0
+.names clk0_c.BLIF U01_display_1_4_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_4_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_3_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_3_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_2_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_2_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_1_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_1_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_0_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_0_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_10_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_10_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_9_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_9_.AP
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_8_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_8_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_7_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_7_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_6_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_6_.AR
+0 1
+1 0
+.names clk0_c.BLIF U01_display_1_5_.C
+1 1
+0 0
+.names clr0.BLIF U01_display_1_5_.AR
+0 1
+1 0
+.end

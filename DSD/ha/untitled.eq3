@@ -1,0 +1,173 @@
+|--------------------------------------------------- ----------|
+|- ispLEVER Classic 2.0.00.17.20.15 Equations File            -|
+|- Copyright(C), 1992-2012, Lattice Semiconductor Corporation -|
+|- All Rights Reserved.                                       -|
+|--------------------------------------------------------------|
+
+
+Equations:
+
+ctrl_0_ = X_1_ & X_0_ & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (1 pterm, 5 signals)
+
+ctrl_1_ = X_1_ & X_0_ & !edo_presente_i2.Q & edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (1 pterm, 5 signals)
+
+decenas_0_ = 0 ; (0 pterm, 0 signal)
+decenas_0_.OE = 0 ; (0 pterm, 0 signal)
+
+decenas_1_ = 0 ; (0 pterm, 0 signal)
+decenas_1_.OE = 0 ; (0 pterm, 0 signal)
+
+decenas_2_ = 0 ; (0 pterm, 0 signal)
+decenas_2_.OE = 0 ; (0 pterm, 0 signal)
+
+decenas_3_ = 0 ; (0 pterm, 0 signal)
+decenas_3_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_0_ = 0 ; (0 pterm, 0 signal)
+displayd_0_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_1_ = 0 ; (0 pterm, 0 signal)
+displayd_1_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_2_ = 0 ; (0 pterm, 0 signal)
+displayd_2_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_3_ = 0 ; (0 pterm, 0 signal)
+displayd_3_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_4_ = 0 ; (0 pterm, 0 signal)
+displayd_4_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_5_ = 0 ; (0 pterm, 0 signal)
+displayd_5_.OE = 0 ; (0 pterm, 0 signal)
+
+displayd_6_ = 0 ; (0 pterm, 0 signal)
+displayd_6_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_0_ = 0 ; (0 pterm, 0 signal)
+displayu_0_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_1_ = 0 ; (0 pterm, 0 signal)
+displayu_1_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_2_ = 0 ; (0 pterm, 0 signal)
+displayu_2_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_3_ = 0 ; (0 pterm, 0 signal)
+displayu_3_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_4_ = 0 ; (0 pterm, 0 signal)
+displayu_4_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_5_ = 0 ; (0 pterm, 0 signal)
+displayu_5_.OE = 0 ; (0 pterm, 0 signal)
+
+displayu_6_ = 0 ; (0 pterm, 0 signal)
+displayu_6_.OE = 0 ; (0 pterm, 0 signal)
+
+edo_presente_i0.D.X1 = !X_1_ & !X_0_ & !edo_presente_i2.Q & edo_presente_i0.Q
+    # X_1_ & !edo_presente_i2.Q & edo_presente_i1.Q & edo_presente_i0.Q
+    # X_1_ & !edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q ; (3 pterms, 5 signals)
+edo_presente_i0.D.X2 = X_0_ & !edo_presente_i2.Q & !edo_presente_i1.Q ; (1 pterm, 3 signals)
+edo_presente_i0.C = clk ; (1 pterm, 1 signal)
+
+edo_presente_i1.D = !X_1_ & !edo_presente_i2.Q & edo_presente_i1.Q
+       & !edo_presente_i0.Q
+    # X_1_ & !X_0_ & !edo_presente_i2.Q
+    # X_1_ & !edo_presente_i2.Q & edo_presente_i1.Q & edo_presente_i0.Q
+    # !X_0_ & !edo_presente_i2.Q & edo_presente_i1.Q ; (4 pterms, 5 signals)
+edo_presente_i1.C = clk ; (1 pterm, 1 signal)
+
+edo_presente_i2.D = !X_1_ & X_0_ & !edo_presente_i2.Q & edo_presente_i1.Q
+       & edo_presente_i0.Q
+    # !X_0_ & edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q
+    # !X_1_ & edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q ; (3 pterms, 5 signals)
+edo_presente_i2.C = clk ; (1 pterm, 1 signal)
+
+salida_0_.D = !salida_0_.Q ; (1 pterm, 1 signal)
+salida_0_.C = clk ; (1 pterm, 1 signal)
+salida_0_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_1_.T.X1 = salida_0_.Q ; (1 pterm, 1 signal)
+salida_1_.T.X2 = X_1_ & X_0_ & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (1 pterm, 5 signals)
+salida_1_.C = clk ; (1 pterm, 1 signal)
+salida_1_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_2_.T.X1 = salida_1_.Q & salida_0_.Q
+    # X_1_ & X_0_ & !salida_0_.Q & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (2 pterms, 7 signals)
+salida_2_.T.X2 = X_1_ & X_0_ & salida_1_.Q & edo_presente_i2.Q
+       & !edo_presente_i1.Q & !edo_presente_i0.Q ; (1 pterm, 6 signals)
+salida_2_.C = clk ; (1 pterm, 1 signal)
+salida_2_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_3_.T.X1 = X_1_ & X_0_ & salida_2_.Q & salida_1_.Q & salida_0_.Q
+       & edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q
+    # X_1_ & X_0_ & !salida_2_.Q & !salida_1_.Q & !salida_0_.Q
+       & edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q ; (2 pterms, 8 signals)
+salida_3_.T.X2 = salida_2_.Q & salida_1_.Q & salida_0_.Q ; (1 pterm, 3 signals)
+salida_3_.C = clk ; (1 pterm, 1 signal)
+salida_3_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_4_.T.X1 = X_1_ & X_0_ & salida_3_.Q & salida_2_.Q & salida_1_.Q
+       & salida_0_.Q & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q
+    # X_1_ & X_0_ & !salida_3_.Q & !salida_2_.Q & !salida_1_.Q & !salida_0_.Q
+       & edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q ; (2 pterms, 9 signals)
+salida_4_.T.X2 = salida_3_.Q & salida_2_.Q & salida_1_.Q & salida_0_.Q ; (1 pterm, 4 signals)
+salida_4_.C = clk ; (1 pterm, 1 signal)
+salida_4_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_5_.T.X1 = X_1_ & X_0_ & salida_4_.Q & salida_3_.Q & salida_2_.Q
+       & salida_1_.Q & salida_0_.Q & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q
+    # X_1_ & X_0_ & !salida_4_.Q & !salida_3_.Q & !salida_2_.Q & !salida_1_.Q
+       & !salida_0_.Q & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (2 pterms, 10 signals)
+salida_5_.T.X2 = salida_4_.Q & salida_3_.Q & salida_2_.Q & salida_1_.Q
+       & salida_0_.Q ; (1 pterm, 5 signals)
+salida_5_.C = clk ; (1 pterm, 1 signal)
+salida_5_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_6_.T.X1 = X_1_ & X_0_ & salida_5_.Q & salida_4_.Q & salida_3_.Q
+       & salida_2_.Q & salida_1_.Q & salida_0_.Q & edo_presente_i2.Q
+       & !edo_presente_i1.Q & !edo_presente_i0.Q
+    # X_1_ & X_0_ & !salida_5_.Q & !salida_4_.Q & !salida_3_.Q & !salida_2_.Q
+       & !salida_1_.Q & !salida_0_.Q & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (2 pterms, 11 signals)
+salida_6_.T.X2 = salida_5_.Q & salida_4_.Q & salida_3_.Q & salida_2_.Q
+       & salida_1_.Q & salida_0_.Q ; (1 pterm, 6 signals)
+salida_6_.C = clk ; (1 pterm, 1 signal)
+salida_6_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+salida_6__0 = X_1_ & X_0_ & !edo_presente_i2.Q & edo_presente_i1.Q
+       & !edo_presente_i0.Q
+    # X_1_ & X_0_ & edo_presente_i2.Q & !edo_presente_i1.Q
+       & !edo_presente_i0.Q ; (2 pterms, 5 signals)
+
+salida_7_.T.X1 = X_1_ & X_0_ & salida_6_.Q & salida_5_.Q & salida_4_.Q
+       & salida_3_.Q & salida_2_.Q & salida_1_.Q & salida_0_.Q
+       & edo_presente_i2.Q & !edo_presente_i1.Q & !edo_presente_i0.Q
+    # X_1_ & X_0_ & !salida_6_.Q & !salida_5_.Q & !salida_4_.Q & !salida_3_.Q
+       & !salida_2_.Q & !salida_1_.Q & !salida_0_.Q & edo_presente_i2.Q
+       & !edo_presente_i1.Q & !edo_presente_i0.Q ; (2 pterms, 12 signals)
+salida_7_.T.X2 = salida_6_.Q & salida_5_.Q & salida_4_.Q & salida_3_.Q
+       & salida_2_.Q & salida_1_.Q & salida_0_.Q ; (1 pterm, 7 signals)
+salida_7_.C = clk ; (1 pterm, 1 signal)
+salida_7_.CE = salida_6__0 ; (1 pterm, 1 signal)
+
+unidades_0_ = 0 ; (0 pterm, 0 signal)
+unidades_0_.OE = 0 ; (0 pterm, 0 signal)
+
+unidades_1_ = 0 ; (0 pterm, 0 signal)
+unidades_1_.OE = 0 ; (0 pterm, 0 signal)
+
+unidades_2_ = 0 ; (0 pterm, 0 signal)
+unidades_2_.OE = 0 ; (0 pterm, 0 signal)
+
+unidades_3_ = 0 ; (0 pterm, 0 signal)
+unidades_3_.OE = 0 ; (0 pterm, 0 signal)
+

@@ -1,0 +1,75 @@
+Loading design for application iotiming from file practica_3_v3_impl_prac_3.ncd.
+Design name: registro0
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file practica_3_v3_impl_prac_3.ncd.
+Design name: registro0
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file practica_3_v3_impl_prac_3.ncd.
+Design name: registro0
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: registro0
+// Package: TQFP144
+// ncd File: practica_3_v3_impl_prac_3.ncd
+// Version: Diamond Version 3.9.1.119
+// Written on Wed Oct 04 10:13:57 2017
+// M: Minimum Performance Grade
+// iotiming practica_3_v3_impl_prac_3.ncd practica_3_v3_impl_prac_3.prf -gui
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port    Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+cd      clk   R     0.941      4       0.980     4
+ci      clk   R     1.062      4       0.969     4
+dato[0] clk   R    -0.189      M       2.315     4
+dato[1] clk   R    -0.032      M       1.869     4
+dato[2] clk   R    -0.098      M       2.091     4
+dato[3] clk   R    -0.101      M       2.100     4
+dato[4] clk   R    -0.312      M       2.557     4
+dato[5] clk   R    -0.362      M       2.788     4
+dato[6] clk   R    -0.223      M       2.368     4
+dato[7] clk   R    -0.479      M       2.998     4
+dato[8] clk   R    -0.259      M       2.546     4
+dato[9] clk   R    -0.259      M       2.546     4
+sel[0]  clk   R     2.060      4       1.610     4
+sel[1]  clk   R     1.618      4       2.214     4
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+Q[0]  clk   R    11.912         4        3.402          M
+Q[1]  clk   R    11.928         4        3.406          M
+Q[2]  clk   R    11.774         4        3.333          M
+Q[3]  clk   R    11.746         4        3.349          M
+Q[4]  clk   R    11.774         4        3.333          M
+Q[5]  clk   R    11.651         4        3.306          M
+Q[6]  clk   R    11.341         4        3.227          M
+Q[7]  clk   R    11.650         4        3.309          M
+Q[8]  clk   R    12.077         4        3.414          M
+Q[9]  clk   R    11.532         4        3.292          M
+WARNING: you must also run trce with hold speed: 4
+WARNING: you must also run trce with setup speed: M
