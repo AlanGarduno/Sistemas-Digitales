@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/6/2017 22:36:34
+#Project Location: C:/Users/Lacho/Desktop/toposcdiv00; Project name: toposcdiv00
+prj_project new -name "toposcdiv00" -impl "toposcdiv00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Lacho/Desktop/toposcdiv00/div00.vhd"
+prj_src add "C:/Users/Lacho/Desktop/toposcdiv00/osc00.vhd"
+prj_src add "C:/Users/Lacho/Desktop/toposcdiv00/packagediv00.vhd"
+prj_src add "C:/Users/Lacho/Desktop/toposcdiv00/topdiv00.vhd"
+prj_run Export -impl toposcdiv00 -task Jedecgen
+#Stop recording: 9/6/2017 22:51:38

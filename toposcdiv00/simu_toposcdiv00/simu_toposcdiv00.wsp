@@ -1,0 +1,25 @@
+[COMPILESTATUS|.\..\packagediv00.vhd]
+FileTimeLow=30615434
+Status=Compiled
+
+[COMPILESTATUS|.\..\div00.vhd]
+FileTimeLow=30615434
+Status=Compiled
+
+[COMPILESTATUS|.\..\osc00.vhd]
+FileTimeLow=30615434
+Status=Compiled
+
+[COMPILESTATUS|.\..\topdiv00.vhd]
+FileTimeLow=30615435
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\simu_toposcdiv00.adf|]
+Path=
+
+[Gui config]
+RunFor=1000 ns
+

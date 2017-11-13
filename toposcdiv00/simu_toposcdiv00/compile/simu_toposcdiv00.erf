@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\Lacho\Desktop\toposcdiv00\topdiv00.vhd" 
+MESSAGE "Compile Entity "topdiv00"" 
+MESSAGE "Compile Architecture "topdiv0" of Entity "topdiv00"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

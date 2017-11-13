@@ -1,0 +1,1 @@
+run_tcl -fg toposcdiv00_toposcdiv00_synplify.tcl

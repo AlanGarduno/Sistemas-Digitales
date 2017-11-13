@@ -36,7 +36,8 @@
 "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/osc00.vhd"
 "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/packageReg0.vhd"
 "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/topReg0.vhd"
--top topdiv00
+"C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/registro0.vhd"
+-top topReg0
 
 
 -p "C:/lscc/diamond/3.9/ispfpga/xo2c00/data" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3"

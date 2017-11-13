@@ -6,30 +6,36 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1508335930"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="0">
-            <Task name="Map" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="Map" build_result="0" build_time="1508335910">
+            <Task name="Map" build_result="0" update_result="2" update_time="1508335910"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="0">
-            <Task name="PAR" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="PAR" build_result="0" build_time="1508335924">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1508335924"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="0" build_time="0">
-            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="0"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1508021588"/>
+        <Milestone name="Synthesis" build_result="0" build_time="1508335019">
+            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="1508335019"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1508335019"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1508021910"/>
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1510175959"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Report name="practica3_impl1.lsedata" last_build_time="1508020629" last_build_size="144070"/>
+        <Report name=".vdbs/practica3_impl1_map.vdb" last_build_time="1508335910" last_build_size="48176"/>
+        <Report name="practica3_impl1.bgn" last_build_time="1508335930" last_build_size="4277"/>
+        <Report name="practica3_impl1.jed" last_build_time="1508335930" last_build_size="1465376"/>
+        <Report name="practica3_impl1.lsedata" last_build_time="1508335016" last_build_size="162503"/>
+        <Report name="practica3_impl1.ncd" last_build_time="1508335924" last_build_size="88762"/>
+        <Report name="practica3_impl1.ngd" last_build_time="1508335019" last_build_size="74460"/>
+        <Report name="practica3_impl1_map.ncd" last_build_time="1508335909" last_build_size="64112"/>
     </Strategy>
 </BuildStatus>

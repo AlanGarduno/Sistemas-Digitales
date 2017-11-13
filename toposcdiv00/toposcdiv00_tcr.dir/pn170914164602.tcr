@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/14/2017 15:05:11
+#Project Location: C:/Users/Lacho/Desktop/toposcdiv00; Project name: toposcdiv00
+prj_project open "C:/Users/Lacho/Desktop/toposcdiv00/toposcdiv00.ldf"
+prj_src add "C:/Users/Lacho/Desktop/toposcdiv00/simu_toposcdiv00/simu_toposcdiv00.spf"
+#Stop recording: 9/14/2017 16:46:02

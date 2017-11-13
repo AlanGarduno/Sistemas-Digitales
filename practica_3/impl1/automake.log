@@ -1,119 +1,404 @@
 
-synthesis -comp -f "practica3_impl1_lattice.synproj"
-synthesis:  version Diamond Version 3.9.1.119
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial   "practica3_impl1.ngd" -o "practica3_impl1_map.ncd" -pr "practica3_impl1.prf" -mp "practica3_impl1.mrp" -lpf "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/practica3_impl1.lpf" -lpf "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/practica3.lpf" -c 0            
+map:  version Diamond Version 3.9.1.119
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Sat Oct 14 17:53:08 2017
+   Process the file: practica3_impl1.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 5.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
 
 
-Command Line:  synthesis -comp -f practica3_impl1_lattice.synproj -gui 
 
-    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
-Synthesis options:
-The -a option is MachXO2.
-The -s option is 5.
-The -t option is TQFP144.
-The -d option is LCMXO2-7000HE.
-Using package TQFP144.
-Using performance grade 5.
-                                                          
 
-##########################################################
+Design Summary:
+   Number of registers:     32 out of  7209 (0%)
+      PFU registers:           32 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        35 out of  3432 (1%)
+      SLICEs as Logic/ROM:     35 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         70 out of  6864 (1%)
+      Number used as logic LUTs:         48
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 32 + 4(JTAG) out of 115 (31%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  2
+     Net oscdiv0_c: 5 loads, 5 rising, 0 falling (Driver: OS00/OS01/outdiv_58 )
+     Net oscraw0_c: 12 loads, 0 rising, 12 falling (Driver: OS00/OS00/OSCInst0 )
+   Number of Clock Enables:  3
+     Net REG00/oscdiv0_c_enable_10: 5 loads, 5 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads, 11 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_10: 1 loads, 1 LSLICEs
+   Number of LSRs:  1
+     Net OS00/OS01/n416: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net OS00/OS01/clkdiv_N_23_enable_22: 12 loads
+     Net OS00/OS01/n416: 11 loads
+     Net sel0_c_0: 11 loads
+     Net sel0_c_1: 11 loads
+     Net indiv0_c_1: 8 loads
+     Net indiv0_c_2: 8 loads
+     Net indiv0_c_0: 7 loads
+     Net indiv0_c_3: 7 loads
+     Net OS00/OS01/sdiv_19: 7 loads
+     Net OS00/OS01/sdiv_20: 6 loads
+ 
 
-### Lattice Family : MachXO2
+   Number of warnings:  0
+   Number of errors:    0
 
-### Device  : LCMXO2-7000HE
 
-### Package : TQFP144
 
-### Speed   : 5
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 51 MB
 
-##########################################################
+Dumping design to file practica3_impl1_map.ncd.
 
-                                                          
+ncd2vdb "practica3_impl1_map.ncd" ".vdbs/practica3_impl1_map.vdb"
 
-    <postMsg mid="35001781" type="Info"    dynamic="0" navigation="0"  />
-Optimization goal = Balanced
-Top-level module name = topdiv00.
-Target frequency = 1.000000 MHz.
-Maximum fanout = 1000.
-Timing path count = 3
-BRAM utilization = 100.000000 %
-DSP usage = true
-DSP utilization = 100.000000 %
-fsm_encoding_style = auto
-resolve_mixed_drivers = 0
-fix_gated_clocks = 1
+Loading device for application ncd2vdb from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
 
-Mux style = Auto
-Use Carry Chain = true
-carry_chain_length = 0
-Loop Limit = 1950.
-Use IO Insertion = TRUE
-Use IO Reg = AUTO
+mpartrce -p "practica3_impl1.p2t" -f "practica3_impl1.p3t" -tf "practica3_impl1.pt" "practica3_impl1_map.ncd" "practica3_impl1.ncd"
 
-Resource Sharing = TRUE
-Propagate Constants = TRUE
-Remove Duplicate Registers = TRUE
-force_gsr = auto
-ROM style = auto
-RAM style = auto
-The -comp option is TRUE.
-The -syn option is FALSE.
--p C:/lscc/diamond/3.9/ispfpga/xo2c00/data (searchpath added)
--p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1 (searchpath added)
--p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3 (searchpath added)
-VHDL library = work
-VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/div00.vhd
-VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/packagediv00.vhd
-VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/topdiv00.vhd
-VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/osc00.vhd
-VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/packageReg0.vhd
-VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/topReg0.vhd
-NGD file = practica3_impl1.ngd
--sdc option: SDC file input not used.
--lpf option: Output file option is ON.
-Hardtimer checking is enabled (default). The -dt option is not used.
-The -r option is OFF. [ Remove LOC Properties is OFF. ]
-Technology check ok...
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
 
-Analyzing Verilog file C:/lscc/diamond/3.9/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
-Compile design.
-Compile Design Begin
-    <postMsg mid="35921504" type="Info"    dynamic="2" navigation="0" arg0="" arg1="C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1"  />
-Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd. VHDL-1481
-    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd(6): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd" arg4="6"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd(10): " arg1="div00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd" arg3="10"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd(17): " arg1="div0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd" arg3="17"  />
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
-Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd. VHDL-1481
-    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd" arg4="4"  />
-    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd(8): " arg1="packagediv00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd" arg3="8"  />
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
-Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd. VHDL-1481
-    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd" arg4="4"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd(9): " arg1="topdiv00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd" arg3="9"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd(17): " arg1="topdiv0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd" arg3="17"  />
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
-Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd. VHDL-1481
-    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd" arg4="4"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd(8): " arg1="osc00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd" arg3="8"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd(13): " arg1="osc0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd" arg3="13"  />
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
-Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd. VHDL-1481
-    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd" arg4="4"  />
-    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd(8): " arg1="packagereg0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd" arg3="8"  />
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
-Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd. VHDL-1481
-    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd" arg4="4"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(9): " arg1="topreg0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd" arg3="9"  />
-    <postMsg mid="35921261" type="Error"   dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(21): " arg1=")" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd" arg3="21"  />
+Lattice Place and Route Report for Design "practica3_impl1_map.ncd"
+Wed Oct 18 09:11:50 2017
+
+PAR: Place And Route Diamond Version 3.9.1.119.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF practica3_impl1_map.ncd practica3_impl1.dir/5_1.ncd practica3_impl1.prf
+Preference file: practica3_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file practica3_impl1_map.ncd.
+Design name: topReg0
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   32+4(JTAG)/336     11% used
+                  32+4(JTAG)/115     31% bonded
+
+   SLICE             35/3432          1% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+
+
+Number of Signals: 129
+Number of Connections: 274
+
+Pin Constraint Summary:
+   29 out of 32 pins locked (90% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    oscraw0_c (driver: OS00/OS00/OSCInst0, clk load #: 12)
+
+
+The following 3 signals are selected to use the secondary clock routing resources:
+    OS00/OS01/clkdiv_N_23_enable_22 (driver: OS00/OS01/SLICE_22, clk load #: 0, sr load #: 0, ce load #: 11)
+    OS00/OS01/n416 (driver: OS00/OS01/SLICE_22, clk load #: 0, sr load #: 11, ce load #: 0)
+    oscdiv0_c (driver: OS00/OS01/SLICE_16, clk load #: 5, sr load #: 0, ce load #: 0)
+
+Signal clr0_c is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 4 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 29644.
+Finished Placer Phase 1.  REAL time: 10 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  29644
+Finished Placer Phase 2.  REAL time: 10 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "oscraw0_c" from OSC on comp "OS00/OS00/OSCInst0" on site "OSC", clk load = 12
+  SECONDARY "OS00/OS01/clkdiv_N_23_enable_22" from F0 on comp "OS00/OS01/SLICE_22" on site "R21C20A", clk load = 0, ce load = 11, sr load = 0
+  SECONDARY "OS00/OS01/n416" from F1 on comp "OS00/OS01/SLICE_22" on site "R21C20A", clk load = 0, ce load = 0, sr load = 11
+  SECONDARY "oscdiv0_c" from Q0 on comp "OS00/OS01/SLICE_16" on site "R21C18A", clk load = 5, ce load = 0, sr load = 0
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 3 out of 8 (37%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   32 + 4(JTAG) out of 336 (10.7%) PIO sites used.
+   32 + 4(JTAG) out of 115 (31.3%) bonded PIO sites used.
+   Number of PIO comps: 32; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 10 / 28 ( 35%) | 2.5V       | -         |
+| 1        | 1 / 29 (  3%)  | 2.5V       | -         |
+| 2        | 21 / 29 ( 72%) | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 0 / 10 (  0%)  | -          | -         |
+| 5        | 0 / 10 (  0%)  | -          | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 7 secs 
+
+Dumping design to file practica3_impl1.dir/5_1.ncd.
+
+0 connections routed; 274 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 13 secs 
+
+Start NBR router at 09:12:03 10/18/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 09:12:03 10/18/17
+
+Start NBR section for initial routing at 09:12:03 10/18/17
+Level 4, iteration 1
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 471.124ns/0.000ns; real time: 13 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 09:12:03 10/18/17
+Level 4, iteration 1
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 471.124ns/0.000ns; real time: 13 secs 
+Level 4, iteration 2
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 471.124ns/0.000ns; real time: 13 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 471.124ns/0.000ns; real time: 13 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 09:12:03 10/18/17
+
+Start NBR section for re-routing at 09:12:04 10/18/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 471.124ns/0.000ns; real time: 14 secs 
+
+Start NBR section for post-routing at 09:12:04 10/18/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 471.124ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 10 secs 
+Total REAL time: 14 secs 
+Completely routed.
+End of route.  274 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file practica3_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 471.124
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 10 secs 
+Total REAL time to completion: 14 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "practica3_impl1.t2b" -w "practica3_impl1.ncd" -jedec "practica3_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond Version 3.9.1.119
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file practica3_impl1.ncd.
+Design name: topReg0
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from practica3_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "practica3_impl1.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

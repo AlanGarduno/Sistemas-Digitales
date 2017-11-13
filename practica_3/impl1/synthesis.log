@@ -1,3 +1,15 @@
+synthesis:  version Diamond Version 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Oct 18 08:56:55 2017
+
+
+Command Line:  synthesis -f practica3_impl1_lattice.synproj -gui -msgset C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/promote.xml 
+
 Synthesis options:
 The -a option is MachXO2.
 The -s option is 5.
@@ -23,7 +35,7 @@ Using performance grade 5.
 
 INFO - synthesis: User-Selected Strategy Settings
 Optimization goal = Balanced
-Top-level module name = topdiv00.
+Top-level module name = topReg0.
 Target frequency = 1.000000 MHz.
 Maximum fanout = 1000.
 Timing path count = 3
@@ -47,7 +59,7 @@ Remove Duplicate Registers = TRUE
 force_gsr = auto
 ROM style = auto
 RAM style = auto
-The -comp option is TRUE.
+The -comp option is FALSE.
 The -syn option is FALSE.
 -p C:/lscc/diamond/3.9/ispfpga/xo2c00/data (searchpath added)
 -p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1 (searchpath added)
@@ -59,6 +71,7 @@ VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl
 VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/osc00.vhd
 VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/packageReg0.vhd
 VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/topReg0.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/impl1/source/registro0.vhd
 NGD file = practica3_impl1.ngd
 -sdc option: SDC file input not used.
 -lpf option: Output file option is ON.
@@ -74,31 +87,144 @@ Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/imp
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd(6): 'components' is not compiled in library lattice. VHDL-1240
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd(10): analyzing entity div00. VHDL-1012
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/div00.vhd(17): analyzing architecture div0. VHDL-1010
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
 Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd. VHDL-1481
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagediv00.vhd(8): analyzing package packagediv00. VHDL-1014
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
 Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd. VHDL-1481
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd(9): analyzing entity topdiv00. VHDL-1012
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topdiv00.vhd(17): analyzing architecture topdiv0. VHDL-1010
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
 Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd. VHDL-1481
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd(8): analyzing entity osc00. VHDL-1012
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/osc00.vhd(13): analyzing architecture osc0. VHDL-1010
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
 Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd. VHDL-1481
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/packagereg0.vhd(8): analyzing package packagereg0. VHDL-1014
-unit topdiv00 is not yet analyzed. VHDL-1485
-unit topdiv00 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
 Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd. VHDL-1481
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
 INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(9): analyzing entity topreg0. VHDL-1012
-ERROR - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(21): syntax error near ). VHDL-1261
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(24): analyzing architecture a_topreg0. VHDL-1010
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/registro0.vhd. VHDL-1481
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/registro0.vhd(6): analyzing entity registro0. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/registro0.vhd(14): analyzing architecture registro. VHDL-1010
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+unit topReg0 is not yet analyzed. VHDL-1485
+c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(9): executing topReg0(a_topReg0)
+
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_3/impl1/source/topreg0.vhd(22): replacing existing netlist topReg0(a_topReg0). VHDL-1205
+Top module name (VHDL): topReg0
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Top-level module name = topReg0.
+######## Converting I/O port oscraw0 to output.
+######## Converting I/O port oscdiv0 to output.
+######## Converting I/O port Q0[9] to output.
+######## Converting I/O port Q0[8] to output.
+######## Converting I/O port Q0[7] to output.
+######## Converting I/O port Q0[6] to output.
+######## Converting I/O port Q0[5] to output.
+######## Converting I/O port Q0[4] to output.
+######## Converting I/O port Q0[3] to output.
+######## Converting I/O port Q0[2] to output.
+######## Converting I/O port Q0[1] to output.
+######## Converting I/O port Q0[0] to output.
+######## Missing driver on net clk0. Patching with GND.
+
+
+
+GSR instance connected to net n413.
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in topReg0_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file practica3_impl1.ngd.
+
+################### Begin Area Report (topReg0)######################
+Number of register bits => 32 of 7209 (0 % )
+CCU2D => 11
+FD1P3AX => 11
+FD1P3IX => 21
+GSR => 1
+IB => 19
+INV => 1
+LUT4 => 47
+OB => 13
+PFUMX => 4
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+OSCH("2.08")(1,4) => 1
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : OS00/OS01/oscdiv0_c, loads : 16
+  Net : OS00/OS00/oscraw0_c, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 3
+Top 3 highest fanout Clock Enables:
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 22
+  Net : REG00/oscdiv0_c_enable_10, loads : 10
+  Net : OS00/OS01/clkdiv_N_23_enable_10, loads : 1
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 22
+  Net : OS00/OS00/clkdiv_N_23, loads : 21
+  Net : OS00/OS01/n416, loads : 21
+  Net : sel0_c_1, loads : 11
+  Net : sel0_c_0, loads : 11
+  Net : REG00/oscdiv0_c_enable_10, loads : 10
+  Net : indiv0_c_2, loads : 8
+  Net : indiv0_c_1, loads : 8
+  Net : indiv0_c_3, loads : 7
+  Net : indiv0_c_0, loads : 7
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets oscdiv0_c]               |    1.000 MHz|  242.718 MHz|     3  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets oscraw0_c]               |    1.000 MHz|  110.816 MHz|     6  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 55.238  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.078  secs
+--------------------------------------------------------------

@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/11/2017 08:16:58
+#Project Location: C:/Users/JCVELMON/Desktop/toposcdiv00; Project name: toposcdiv00
+prj_project open "C:/Users/JCVELMON/Desktop/toposcdiv00/toposcdiv00.ldf"
+prj_run Synthesis -impl toposcdiv00
+prj_run Synthesis -impl toposcdiv00
+#Stop recording: 10/11/2017 08:49:23

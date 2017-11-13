@@ -1,0 +1,7 @@
+4
+~E 1 "./../../div00.vhd" 10 div00
+~A 1 "./../../div00.vhd" 17 div0
+~E 1 "./../../osc00.vhd" 8 osc00
+~A 1 "./../../osc00.vhd" 13 osc0
+~E 1 "./../../topdiv00.vhd" 9 topdiv00
+~A 1 "./../../topdiv00.vhd" 17 topdiv0

@@ -1,0 +1,13 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Lacho\Desktop\toposcdiv00\topff00.vhd":9:7:9:13|Top entity is set to topff00.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\topff00.vhd":9:7:9:13|Synthesizing work.topff00.topff0.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\FFDRS.vhd":3:7:3:11|Synthesizing work.ffdrs.a_ffdrs.
+@N: CD364 :"C:\Users\Lacho\Desktop\toposcdiv00\FFDRS.vhd":38:2:38:3|Removing redundant assignment.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

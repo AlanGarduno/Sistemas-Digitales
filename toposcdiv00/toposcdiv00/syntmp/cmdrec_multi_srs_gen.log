@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topff00  -multisrs  C:\Users\Lacho\Desktop\toposcdiv00\toposcdiv00\synwork\toposcdiv00_toposcdiv00_comp.srs  -osyn  C:\Users\Lacho\Desktop\toposcdiv00\toposcdiv00\synwork\toposcdiv00_toposcdiv00_mult.srs  -log  C:\Users\Lacho\Desktop\toposcdiv00\toposcdiv00\synlog\toposcdiv00_toposcdiv00_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\Lacho\Desktop\toposcdiv00\toposcdiv00\synwork\toposcdiv00_toposcdiv00_comp.srs|io:i|time:1507659639|size:8252|exec:0
+file:C:\Users\Lacho\Desktop\toposcdiv00\toposcdiv00\synwork\toposcdiv00_toposcdiv00_mult.srs|io:o|time:1507659640|size:2737|exec:0
+file:C:\Users\Lacho\Desktop\toposcdiv00\toposcdiv00\synlog\toposcdiv00_toposcdiv00_multi_srs_gen.srr|io:o|time:1507659640|size:525|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

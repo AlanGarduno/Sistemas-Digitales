@@ -1,0 +1,52 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9\synpbase
+Hostname:    AGVIII
+Date:        Wed Oct 11 08:48:59 2017
+Version:     L-2016.09L-1
+
+Arguments:   -product synplify_pro -batch toposcdiv00_toposcdiv00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\JCVELMON\Desktop\toposcdiv00\toposcdiv00\toposcdiv00_toposcdiv00.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "C:\Users\JCVELMON\Desktop\toposcdiv00\toposcdiv00\syntax.log"
+# Wed Oct 11 08:48:59 2017
+
+Return Code: 2
+Run Time:00h:00m:00s
+
+Copied C:\Users\JCVELMON\Desktop\toposcdiv00\toposcdiv00\toposcdiv00_toposcdiv00.srr to C:\Users\JCVELMON\Desktop\toposcdiv00\toposcdiv00\toposcdiv00_toposcdiv00.srf
+
+Error: At line 68 while processing "toposcdiv00_toposcdiv00_synplify.tcl"
+2
+
+TCL script complete: "toposcdiv00_toposcdiv00_synplify.tcl"
+
+TCL script had errors: "toposcdiv00_toposcdiv00_synplify.tcl"
+
+exit status=9
+
+exit status=9
+
+Save changes for project:
+C:\Users\JCVELMON\Desktop\toposcdiv00\toposcdiv00\proj_1.prj
+
+batch mode default:no
+

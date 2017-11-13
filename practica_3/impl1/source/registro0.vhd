@@ -30,7 +30,7 @@ process(clr,clk,sel)
 				when others => if(i = 9)then --Corrimiento a la izquierda 
 						  Q(i) <= ci;
 					       else
-						  Q(i) <= Q(i+1);
+						  Q(i) <= Q(i+1);  
 					       end if;
 			end case;
 		end loop;

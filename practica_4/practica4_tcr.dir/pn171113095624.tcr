@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/13/2017 09:33:50
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4; Project name: practica4
+prj_project new -name "practica4" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "lse"
+file copy -force -- "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/toposcdiv00/packagediv00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/toposcdiv00/topdiv00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/toposcdiv00/div00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/toposcdiv00/osc00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/packagediv00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/topdiv00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/div00.vhd" "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/osc00.vhd"
+prj_project save
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/packageContador.vhd"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/topContador.vhd"
+prj_src add "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/contador.vhd"
+#Stop recording: 11/13/2017 09:56:24

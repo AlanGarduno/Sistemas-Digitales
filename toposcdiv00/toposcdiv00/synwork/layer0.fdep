@@ -1,0 +1,65 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lacho\\Desktop\\toposcdiv00\\toposcdiv00\\synwork\\toposcdiv00_toposcdiv00_comp.srs|-top|topff00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1481010008
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1480973228
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\FFDRS.vhd":1507646795
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\div00.vhd":1504755468
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\cpld\\lattice.vhd":1481007224
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1481007224
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\osc00.vhd":1504755547
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\packagediv00.vhd":1504755577
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\topdiv00.vhd":1504755844
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\packageff00.vhd":1507646814
+#CUR:"C:\\Users\\Lacho\\Desktop\\toposcdiv00\\topff00.vhd":1507659612
+0 "C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Lacho\Desktop\toposcdiv00\FFDRS.vhd" vhdl
+2 "C:\Users\Lacho\Desktop\toposcdiv00\div00.vhd" vhdl
+3 "C:\Users\Lacho\Desktop\toposcdiv00\osc00.vhd" vhdl
+4 "C:\Users\Lacho\Desktop\toposcdiv00\packagediv00.vhd" vhdl
+5 "C:\Users\Lacho\Desktop\toposcdiv00\topdiv00.vhd" vhdl
+6 "C:\Users\Lacho\Desktop\toposcdiv00\packageff00.vhd" vhdl
+7 "C:\Users\Lacho\Desktop\toposcdiv00\topff00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 
+3 0 
+4 0 
+5 3 2 0 4 
+6 0 
+7 5 1 0 6 
+
+# Dependency Lists (Users Of)
+0 7 6 5 4 3 2 
+1 7 
+2 5 
+3 5 
+4 5 
+5 7 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work ffdrs a_ffdrs 1
+module work ffdrs 1
+arch work div00 div0 2
+module work div00 2
+arch work osc00 osc0 3
+module work osc00 3
+arch work topdiv00 topdiv0 5
+module work topdiv00 5
+arch work topff00 topff0 7
+module work topff00 7
+
+
+# Configuration files used

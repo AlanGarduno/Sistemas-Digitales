@@ -1,0 +1,26 @@
+PAR: Place And Route Diamond Version 3.9.1.119.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Oct 18 09:11:50 2017
+
+C:/lscc/diamond/3.9/ispfpga\bin\nt\par -f practica3_impl1.p2t
+practica3_impl1_map.ncd practica3_impl1.dir practica3_impl1.prf -gui -msgset
+C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_3/promote.xml
+
+
+Preference file: practica3_impl1.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            471.124      0            0.377        0            14           Complete
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 14 secs 
+
+par done!

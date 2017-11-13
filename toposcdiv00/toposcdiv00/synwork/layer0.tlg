@@ -1,0 +1,15 @@
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\topff00.vhd":9:7:9:13|Synthesizing work.topff00.topff0.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\FFDRS.vhd":3:7:3:11|Synthesizing work.ffdrs.a_ffdrs.
+@N: CD364 :"C:\Users\Lacho\Desktop\toposcdiv00\FFDRS.vhd":38:2:38:3|Removing redundant assignment.
+Post processing for work.ffdrs.a_ffdrs
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@W: CD638 :"C:\Users\Lacho\Desktop\toposcdiv00\topdiv00.vhd":18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Lacho\Desktop\toposcdiv00\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topff00.topff0

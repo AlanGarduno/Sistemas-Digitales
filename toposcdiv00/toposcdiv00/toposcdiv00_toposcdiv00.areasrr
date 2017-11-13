@@ -1,0 +1,81 @@
+----------------------------------------------------------------------
+Report for cell topff00.topff0
+
+Register bits: 26 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       15
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1P3DX        1       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB        9       100.0
+                                INV        2       100.0
+                                 OB        6       100.0
+                           OFS1P3BX        2       100.0
+                           OFS1P3DX        1       100.0
+                           ORCALUT4       23       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                              FFDRS        1       100.0
+                              div00        1       100.0
+                              osc00        1       100.0
+                           topdiv00        1       100.0
+                            
+                         TOTAL            91           
+----------------------------------------------------------------------
+Report for cell FFDRS.netlist
+     Instance path:  FF00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        1       100.0
+                                INV        1        50.0
+                           ORCALUT4        5        21.7
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL             9           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       18        78.3
+                               OSCH        1       100.0
+                                VHI        1        33.3
+                                VLO        2        50.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            57           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  OS00.OS01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       18        78.3
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            53           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  OS00.OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        25.0
+                            
+                         TOTAL             2           

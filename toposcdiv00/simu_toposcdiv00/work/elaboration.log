@@ -1,0 +1,44 @@
+Active-HDL 10.3.3558.6081  2017-09-14 15:07:08
+
+Elaboration top modules:
+Architecture                  topdiv0(topdiv00)
+
+
+-------------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+topdiv00 | topdiv0      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+osc00    | osc0         | work    |      | 10.3.3558.6081  (Windows) | -dbg
+div00    | div0         | work    |      | 10.3.3558.6081  (Windows) | -dbg
+osch     | v            | machxo2 |      | 10.3.3558.6081  (Windows) | -vendor lattice
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+standard                | std     |      |                           | <unavailable>
+TEXTIO                  | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164          | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith         | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+components              | lattice |      | 10.3.3558.6081  (Windows) | -vendor lattice
+packagediv00            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+VITAL_Timing            | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+VITAL_Primitives        | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+lattice                 | LATTICE ispLEVER Classic 2.0, lattice VHDL LIBRARY
+machxo2                 | LATTICE Diamond 3.9, MACHXO2 VHDL LIBRARY
+std                     | Standard VHDL library
+work                    | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r topdiv00 -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition
