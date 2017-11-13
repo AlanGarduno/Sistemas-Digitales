@@ -1,0 +1,159 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Nov 08 15:27:17 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     deca
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_c]
+            132 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 991.465ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             display_i2  (from clk_c +)
+   Destination:    FD1P3AX    D              display_i2  (to clk_c +)
+
+   Delay:                   8.389ns  (34.0% logic, 66.0% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.389ns data_path display_i2 to display_i2 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 991.465ns
+
+ Path Details: display_i2 to display_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              display_i2 (from clk_c)
+Route        20   e 1.574                                  display_c_1
+LUT4        ---     0.448              B to Z              i1_2_lut_adj_3
+Route         1   e 0.788                                  n496
+LUT4        ---     0.448              D to Z              i2_3_lut_4_lut
+Route         1   e 0.788                                  n497
+LUT4        ---     0.448              C to Z              n6_bdd_4_lut
+Route         1   e 0.788                                  n596
+LUT4        ---     0.448              B to Z              i1_4_lut_4_lut_adj_4
+Route         1   e 0.020                                  display_6__N_24[1]
+MUXL5       ---     0.212           BLUT to Z              mux_33_Mux_1_i31
+Route         1   e 0.788                                  n31_adj_2
+LUT4        ---     0.448              A to Z              mux_33_Mux_1_i63_4_lut
+Route         1   e 0.788                                  display_6__N_1[1]
+                  --------
+                    8.389  (34.0% logic, 66.0% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 991.465ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             display_i3  (from clk_c +)
+   Destination:    FD1P3AX    D              display_i2  (to clk_c +)
+
+   Delay:                   8.389ns  (34.0% logic, 66.0% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.389ns data_path display_i3 to display_i2 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 991.465ns
+
+ Path Details: display_i3 to display_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              display_i3 (from clk_c)
+Route        20   e 1.574                                  display_c_2
+LUT4        ---     0.448              A to Z              i1_2_lut_adj_3
+Route         1   e 0.788                                  n496
+LUT4        ---     0.448              D to Z              i2_3_lut_4_lut
+Route         1   e 0.788                                  n497
+LUT4        ---     0.448              C to Z              n6_bdd_4_lut
+Route         1   e 0.788                                  n596
+LUT4        ---     0.448              B to Z              i1_4_lut_4_lut_adj_4
+Route         1   e 0.020                                  display_6__N_24[1]
+MUXL5       ---     0.212           BLUT to Z              mux_33_Mux_1_i31
+Route         1   e 0.788                                  n31_adj_2
+LUT4        ---     0.448              A to Z              mux_33_Mux_1_i63_4_lut
+Route         1   e 0.788                                  display_6__N_1[1]
+                  --------
+                    8.389  (34.0% logic, 66.0% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 992.701ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             display_i2  (from clk_c +)
+   Destination:    FD1P3AX    D              display_i2  (to clk_c +)
+
+   Delay:                   7.153ns  (33.7% logic, 66.3% route), 6 logic levels.
+
+ Constraint Details:
+
+      7.153ns data_path display_i2 to display_i2 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 992.701ns
+
+ Path Details: display_i2 to display_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              display_i2 (from clk_c)
+Route        20   e 1.574                                  display_c_1
+LUT4        ---     0.448              C to Z              i519_2_lut_3_lut
+Route         1   e 0.788                                  n290
+LUT4        ---     0.448              B to Z              n6_bdd_4_lut
+Route         1   e 0.788                                  n596
+LUT4        ---     0.448              B to Z              i1_4_lut_4_lut_adj_4
+Route         1   e 0.020                                  display_6__N_24[1]
+MUXL5       ---     0.212           BLUT to Z              mux_33_Mux_1_i31
+Route         1   e 0.788                                  n31_adj_2
+LUT4        ---     0.448              A to Z              mux_33_Mux_1_i63_4_lut
+Route         1   e 0.788                                  display_6__N_1[1]
+                  --------
+                    7.153  (33.7% logic, 66.3% route), 6 logic levels.
+
+Report: 8.535 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_c]                   |  1000.000 ns|     8.535 ns|     7  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  132 paths, 64 nets, and 182 connections (72.2% coverage)
+
+
+Peak memory: 56401920 bytes, TRCE: 1183744 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
