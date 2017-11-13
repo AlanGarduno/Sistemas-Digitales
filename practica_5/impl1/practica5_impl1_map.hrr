@@ -1,0 +1,49 @@
+---------------------------------------------------
+Report for cell topContador
+   Instance path: topContador
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.00        100.0
+                                  LUT4	      31.00        100.0
+                                 IOBUF	         13        100.0
+                                PFUREG	         26        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  Cont	          1         9.3
+                              topdiv00	          1        87.0
+---------------------------------------------------
+Report for cell Cont
+   Instance path: topContador/REG00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.50         9.3
+                                  LUT4	       5.00        16.1
+                                PFUREG	          4        15.4
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topContador/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.50        87.0
+                                  LUT4	      25.00        80.6
+                                PFUREG	         22        84.6
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        87.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: topContador/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.50        87.0
+                                  LUT4	      25.00        80.6
+                                PFUREG	         22        84.6
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topContador/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
