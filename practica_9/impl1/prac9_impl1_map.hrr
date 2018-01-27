@@ -1,0 +1,49 @@
+---------------------------------------------------
+Report for cell topSumador
+   Instance path: topSumador
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.00        100.0
+                                  LUT4	      36.00        100.0
+                                 IOBUF	         30        100.0
+                                PFUREG	         38        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        68.3
+                               sumador	          1        31.7
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topSumador/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.50        68.3
+                                  LUT4	      20.00        55.6
+                                PFUREG	         22        57.9
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        68.3
+---------------------------------------------------
+Report for cell div00
+   Instance path: topSumador/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.50        68.3
+                                  LUT4	      20.00        55.6
+                                PFUREG	         22        57.9
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topSumador/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell sumador
+   Instance path: topSumador/CONT00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50        31.7
+                                  LUT4	      16.00        44.4
+                                PFUREG	         16        42.1

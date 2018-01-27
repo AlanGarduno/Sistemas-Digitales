@@ -1,3 +1,0 @@
-@E: CD128 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\topregistro0.vhd":23:25:23:25|Expecting : before class of object(s)
-@E|Parse errors encountered - exiting
-

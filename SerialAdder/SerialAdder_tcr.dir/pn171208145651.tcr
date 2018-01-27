@@ -1,0 +1,9 @@
+#Start recording tcl command: 12/8/2017 20:07:00
+#Project Location: C:/Users/JCVELMON/Desktop/SerialAdder; Project name: SerialAdder
+prj_project open "C:/Users/JCVELMON/Desktop/SerialAdder/SerialAdder.ldf"
+prj_run Export -impl SerialAdder -task Jedecgen
+pgr_project open "C:/Users/JCVELMON/Desktop/SerialAdder/SerialAdder/SerialAdder.xcf"
+pgr_program run
+pgr_project save "C:/Users/JCVELMON/Desktop/SerialAdder/SerialAdder/SerialAdder.xcf"
+pgr_project close
+#Stop recording: 12/8/2017 14:56:51

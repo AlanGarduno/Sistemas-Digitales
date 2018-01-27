@@ -1,1 +1,0 @@
-project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/decada2/package_deca0.vhd" "C:/users/richie/desktop/4\ semestre/dsd/decada2/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/decada2/deca.vhd" "C:/users/richie/desktop/4\ semestre/dsd/decada2/top_deca0.vhd" 

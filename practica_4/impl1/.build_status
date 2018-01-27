@@ -19,16 +19,18 @@
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="0" build_time="0">
-            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="0"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="0"/>
+        <Milestone name="Synthesis" build_result="1" build_time="1511554688">
+            <Task name="Lattice_Synthesis" build_result="1" update_result="2" update_time="1511554688"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1511554688"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1510588093"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1511554555"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
+        <Report name="practica4_impl1.lsedata" last_build_time="0" last_build_size="0"/>
+        <Report name="practica4_impl1.ngd" last_build_time="0" last_build_size="0"/>
     </Strategy>
 </BuildStatus>

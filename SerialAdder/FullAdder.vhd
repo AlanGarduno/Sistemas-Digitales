@@ -1,0 +1,20 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY FullAdder IS
+	PORT( A,B:	IN STD_LOGIC;
+		  CLR:	IN STD_LOGIC;
+		  Ci:	IN STD_LOGIC;
+		  S,Cf:		OUT STD_LOGIC);
+END ENTITY;
+ARCHITECTURE Behavioral OF FullAdder IS
+BEGIN
+	PROCESS(CLR) BEGIN
+		IF CLR = '0' THEN
+			S <= '0';
+			Cf <= '0';
+		ELSE
+			S <= A XOR B XOR Ci;
+			Cf <= (A AND B) OR (A AND Ci) OR (B AND Ci);
+		END IF;
+	END PROCESS;
+END Behavioral;

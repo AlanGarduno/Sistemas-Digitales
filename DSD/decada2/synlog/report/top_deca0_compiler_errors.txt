@@ -1,4 +1,0 @@
-@E: CD134 :"C:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.vhd":19:21:19:28|No such identifier, control0, of proper type in current declarative region
-@E: CD255 :"C:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.vhd":35:24:35:24|No identifier "control0" in scope
-@E|Parse errors encountered - exiting
-

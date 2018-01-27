@@ -24,7 +24,7 @@ begin
 		oscout0 => oscraw0,
 		outdiv0 => oscdiv0);
 		
-	REG00: cont port map(
+	REG00: dado0 port map(
 			 clk => oscdiv0,
 			  clr => clr0,
 			  control => control0,

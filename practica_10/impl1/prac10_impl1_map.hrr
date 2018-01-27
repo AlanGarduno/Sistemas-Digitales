@@ -1,0 +1,49 @@
+---------------------------------------------------
+Report for cell topSecuencia
+   Instance path: topSecuencia
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.00        100.0
+                                  LUT4	      27.00        100.0
+                                 IOBUF	         14        100.0
+                                PFUREG	         25        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        88.0
+                             secuencia	          1        10.7
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topSecuencia/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        88.0
+                                  LUT4	      22.00        81.5
+                                PFUREG	         22        88.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        88.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: topSecuencia/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        88.0
+                                  LUT4	      22.00        81.5
+                                PFUREG	         22        88.0
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topSecuencia/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell secuencia
+   Instance path: topSecuencia/CONT00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.67        10.7
+                                  LUT4	       4.00        14.8
+                                PFUREG	          3        12.0

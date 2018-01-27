@@ -1,2 +1,0 @@
-@E: CD752 :"C:\users\richie\desktop\4 semestre\dsd\registro practica 3\registro0.vhd":33:16:33:16|Index 10 is out of range: [9 downto 0]
-

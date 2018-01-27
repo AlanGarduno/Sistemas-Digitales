@@ -1,0 +1,451 @@
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/JCVELMON/Desktop/Counts/Counts" -path "C:/Users/JCVELMON/Desktop/Counts"   "C:/Users/JCVELMON/Desktop/Counts/Counts/Counts_Counts.edi" "Counts_Counts.ngo"   
+edif2ngd:  version Diamond Version 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to Counts_Counts.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.9/ispfpga/xo2c00/data"  -p "C:/Users/JCVELMON/Desktop/Counts/Counts" -p "C:/Users/JCVELMON/Desktop/Counts"  "Counts_Counts.ngo" "Counts_Counts.ngd"  	
+ngdbuild:  version Diamond Version 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'Counts_Counts.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="OS00/OS01/un1_sdiv_1_cry_19_0_COUT" arg2="OS00/OS01/un1_sdiv_1_cry_19_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="OS00/OS01/un1_sdiv_1_cry_0_0_S0" arg2="OS00/OS01/un1_sdiv_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="OS00/OS00/OSCInst0_SEDSTDBY" arg2="OS00/OS00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_Q_s_3_0_COUT" arg2="REG0/un1_Q_s_3_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_Q_s_3_0_S1" arg2="REG0/un1_Q_s_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_Q_cry_0_0_S0" arg2="REG0/un1_Q_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_Q_cry_0_0_S1" arg2="REG0/un1_Q_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_AUX_s_3_0_COUT" arg2="REG0/un1_AUX_s_3_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_AUX_s_3_0_S1" arg2="REG0/un1_AUX_s_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_AUX_cry_0_0_S0" arg2="REG0/un1_AUX_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="REG0/un1_AUX_cry_0_0_S1" arg2="REG0/un1_AUX_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="DERECHA" arg2="DERECHA"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="IZQUIERDA" arg2="IZQUIERDA"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="13"  />
+
+Design Results:
+    140 blocks expanded
+Complete the first expansion.
+Writing 'Counts_Counts.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "Counts_Counts.ngd" -o "Counts_Counts_map.ncd" -pr "Counts_Counts.prf" -mp "Counts_Counts.mrp" -lpf "C:/Users/JCVELMON/Desktop/Counts/Counts/Counts_Counts_synplify.lpf" -lpf "C:/Users/JCVELMON/Desktop/Counts/Counts.lpf" -c 0            
+map:  version Diamond Version 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: Counts_Counts.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 4.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="CLR_c"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="DERECHA"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="IZQUIERDA"  />
+
+
+
+Design Summary:
+   Number of registers:     34 out of  7209 (0%)
+      PFU registers:           34 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        40 out of  3432 (1%)
+      SLICEs as Logic/ROM:     40 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         17 out of  3432 (0%)
+   Number of LUT4s:         80 out of  6864 (1%)
+      Number used as logic LUTs:         46
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       34
+      Number used as shift registers:     0
+   Number of PIO sites used: 29 + 4(JTAG) out of 115 (29%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net oscraw0_c: 20 loads, 0 rising, 20 falling (Driver: OS00/OS00/OSCInst0 )
+   Number of Clock Enables:  3
+     Net outdiv_RNI55EK9: 4 loads, 4 LSLICEs
+     Net REG0/AUX_cnv[0]: 2 loads, 2 LSLICEs
+     Net REG0/G_cnv[0]: 2 loads, 2 LSLICEs
+   Number of local set/reset loads for net CLR_c merged into GSR:  4
+   Number of LSRs:  1
+     Net OS00.OS01.un1_outdiv_0_sqmuxa_1: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net CRTL_c[1]: 17 loads
+     Net CRTL_c[0]: 14 loads
+     Net OS00.OS01.un1_outdiv_0_sqmuxa_1: 14 loads
+     Net Q_c[0]: 13 loads
+     Net Q_c[1]: 12 loads
+     Net Q_c[2]: 12 loads
+     Net Q_c[3]: 12 loads
+     Net CRTL_c[2]: 9 loads
+     Net indiv0_c[0]: 7 loads
+     Net indiv0_c[2]: 7 loads
+ 
+
+   Number of warnings:  3
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 3 secs  
+Peak Memory Usage: 51 MB
+
+Dumping design to file Counts_Counts_map.ncd.
+
+mpartrce -p "Counts_Counts.p2t" -f "Counts_Counts.p3t" -tf "Counts_Counts.pt" "Counts_Counts_map.ncd" "Counts_Counts.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "Counts_Counts_map.ncd"
+Wed Nov 29 09:12:18 2017
+
+PAR: Place And Route Diamond Version 3.9.1.119.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/JCVELMON/Desktop/Counts/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Counts_Counts_map.ncd Counts_Counts.dir/5_1.ncd Counts_Counts.prf
+Preference file: Counts_Counts.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Counts_Counts_map.ncd.
+Design name: topMOD
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   29+4(JTAG)/336     10% used
+                  29+4(JTAG)/115     29% bonded
+
+   SLICE             40/3432          1% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+
+
+Number of Signals: 130
+Number of Connections: 306
+
+Pin Constraint Summary:
+   29 out of 29 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    oscraw0_c (driver: OS00/OS00/OSCInst0, clk load #: 20)
+
+
+The following 1 signal is selected to use the secondary clock routing resources:
+    OS00.OS01.un1_outdiv_0_sqmuxa_1 (driver: OS00/OS01/SLICE_26, clk load #: 0, sr load #: 11, ce load #: 0)
+
+Signal CLR_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+
+Finished Placer Phase 0.  REAL time: 4 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 29837.
+Finished Placer Phase 1.  REAL time: 9 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  29837
+Finished Placer Phase 2.  REAL time: 9 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "oscraw0_c" from OSC on comp "OS00/OS00/OSCInst0" on site "OSC", clk load = 20
+  SECONDARY "OS00.OS01.un1_outdiv_0_sqmuxa_1" from F0 on comp "OS00/OS01/SLICE_26" on site "R21C18C", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 1 out of 8 (12%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   29 + 4(JTAG) out of 336 (9.8%) PIO sites used.
+   29 + 4(JTAG) out of 115 (28.7%) bonded PIO sites used.
+   Number of PIO comps: 29; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 11 / 28 ( 39%) | 2.5V       | -         |
+| 1        | 0 / 29 (  0%)  | -          | -         |
+| 2        | 14 / 29 ( 48%) | 2.5V       | -         |
+| 3        | 3 / 9 ( 33%)   | 2.5V       | -         |
+| 4        | 1 / 10 ( 10%)  | 2.5V       | -         |
+| 5        | 0 / 10 (  0%)  | -          | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 6 secs 
+
+Dumping design to file Counts_Counts.dir/5_1.ncd.
+
+0 connections routed; 306 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 12 secs 
+
+Start NBR router at 09:12:30 11/29/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 09:12:30 11/29/17
+
+Start NBR section for initial routing at 09:12:30 11/29/17
+Level 4, iteration 1
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 470.060ns/0.000ns; real time: 12 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 09:12:30 11/29/17
+Level 4, iteration 1
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 470.060ns/0.000ns; real time: 13 secs 
+Level 4, iteration 2
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 470.060ns/0.000ns; real time: 13 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 09:12:31 11/29/17
+
+Start NBR section for re-routing at 09:12:31 11/29/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 470.060ns/0.000ns; real time: 13 secs 
+
+Start NBR section for post-routing at 09:12:31 11/29/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 470.060ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 9 secs 
+Total REAL time: 13 secs 
+Completely routed.
+End of route.  306 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file Counts_Counts.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 470.060
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 9 secs 
+Total REAL time to completion: 13 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "Counts_Counts.t2b" -w "Counts_Counts.ncd" -jedec "Counts_Counts.prf"
+
+
+BITGEN: Bitstream Generator Diamond Version 3.9.1.119
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Counts_Counts.ncd.
+Design name: topMOD
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Counts_Counts.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "Counts_Counts.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

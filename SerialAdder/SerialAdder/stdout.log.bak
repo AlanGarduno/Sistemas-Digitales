@@ -1,0 +1,130 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9_x64\synpbase
+Hostname:    LETINGZEIT-X555
+Date:        Tue Nov 28 21:38:01 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch SerialAdder_SerialAdder_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Tue Nov 28 21:38:01 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srr to C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srf
+
+log file: "C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srr"
+
+Running: SerialAdder in foreground
+
+
+
+Running proj_1|SerialAdder
+
+
+Running: compile (Compile) on proj_1|SerialAdder
+# Tue Nov 28 21:38:01 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|SerialAdder
+# Tue Nov 28 21:38:01 2017
+
+
+Running: compiler (Compile Input) on proj_1|SerialAdder
+# Tue Nov 28 21:38:01 2017
+
+Copied C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_comp.srs to C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srs
+
+
+compiler completed
+# Tue Nov 28 21:38:02 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|SerialAdder
+# Tue Nov 28 21:38:02 2017
+
+
+multi_srs_gen completed
+# Tue Nov 28 21:38:03 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_mult.srs to C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srs
+
+Copied C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srr to C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srf
+
+Complete: Compile Process on proj_1|SerialAdder
+
+
+Running: premap (Pre-mapping) on proj_1|SerialAdder
+# Tue Nov 28 21:38:03 2017
+
+
+premap completed with warnings
+# Tue Nov 28 21:38:03 2017
+
+Return Code: 1
+Run Time:00h:00m:00s
+
+Complete: Compile on proj_1|SerialAdder
+
+
+Running: map (Map) on proj_1|SerialAdder
+# Tue Nov 28 21:38:03 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|SerialAdder
+# Tue Nov 28 21:38:03 2017
+
+Copied C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_m.srm to C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srm
+
+
+fpga_mapper completed with warnings
+# Tue Nov 28 21:38:05 2017
+
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Map on proj_1|SerialAdder
+
+Copied C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srr to C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\SerialAdder_SerialAdder.srf
+
+Complete: Logic Synthesis on proj_1|SerialAdder
+
+TCL script complete: "SerialAdder_SerialAdder_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\proj_1.prj
+
+batch mode default:no
+

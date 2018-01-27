@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>CLK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLK0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practicca_8_v3/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/div00.vhd(6): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/div00.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/div00.vhd(10): </Dynamic>
+            <Dynamic>div00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/div00.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/div00.vhd(17): </Dynamic>
+            <Dynamic>div0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/div00.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/osc00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/osc00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/osc00.vhd(8): </Dynamic>
+            <Dynamic>osc00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/osc00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/osc00.vhd(13): </Dynamic>
+            <Dynamic>osc0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/osc00.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packagediv00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packagediv00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packagediv00.vhd(8): </Dynamic>
+            <Dynamic>packagediv00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packagediv00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packageteclado.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packageteclado.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packageteclado.vhd(8): </Dynamic>
+            <Dynamic>packagecontador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/packageteclado.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/teclado.vhd(4): </Dynamic>
+            <Dynamic>teclado</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/teclado.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/teclado.vhd(11): </Dynamic>
+            <Dynamic>a_teclado</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/teclado.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topdiv00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topdiv00.vhd(9): </Dynamic>
+            <Dynamic>topdiv00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topdiv00.vhd(17): </Dynamic>
+            <Dynamic>topdiv0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd(9): </Dynamic>
+            <Dynamic>topcontador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd(20): </Dynamic>
+            <Dynamic>a_topcontador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd(18): </Dynamic>
+            <Dynamic>topContador</Dynamic>
+            <Dynamic>a_topContador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practicca_8_v3/impl1/source/topteclado.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CLK0</Dynamic>
+            <Navigation>CLK0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>CLK0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

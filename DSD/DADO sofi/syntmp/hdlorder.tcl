@@ -1,1 +1,0 @@
-project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/dado\ sofi/package_dado.vhd" "C:/users/richie/desktop/4\ semestre/dsd/dado\ sofi/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/dado\ sofi/dado0.vhd" "C:/users/richie/desktop/4\ semestre/dsd/dado\ sofi/topdado0.vhd" 

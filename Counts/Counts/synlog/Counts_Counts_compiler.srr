@@ -1,0 +1,73 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd":6:7:6:12|Top entity is set to topMOD.
+File C:\Users\JCVELMON\Desktop\Counts\Registry.vhd changed - recompiling
+File C:\lscc\diamond\3.9\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.9\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\JCVELMON\Desktop\Counts\osc00.vhd changed - recompiling
+File C:\Users\JCVELMON\Desktop\Counts\packagediv00.vhd changed - recompiling
+File C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd changed - recompiling
+File C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\JCVELMON\Desktop\Counts\Registry.vhd changed - recompiling
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd":6:7:6:12|Synthesizing work.topmod.behavioral.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd":6:7:6:14|Synthesizing work.bcd_7seg.behavioral.
+@N: CD604 :"C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd":52:3:52:16|OTHERS clause is not synthesized.
+Post processing for work.bcd_7seg.behavioral
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":5:7:5:14|Synthesizing work.registry.behavioral.
+@N: CD364 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":27:17:27:17|Removing redundant assignment.
+Post processing for work.registry.behavioral
+@A: CL282 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":18:2:18:3|Feedback mux created for signal AUX[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":18:2:18:3|Feedback mux created for signal G[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@W: CD638 :"C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd":18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topmod.behavioral
+@W: CL240 :"C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd":18:2:18:3|Signal CD is floating; a simulation mismatch is possible.
+@N: CL159 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":7:12:7:13|Input CD is unused.
+@N: CL159 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":7:16:7:17|Input CI is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 29 08:58:22 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
+@N|Running in 64-bit mode
+File C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 29 08:58:22 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 29 08:58:22 2017
+
+###########################################################]

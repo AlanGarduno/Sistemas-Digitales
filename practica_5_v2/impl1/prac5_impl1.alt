@@ -1,28 +1,28 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Wed Nov 08 15:33:37 2017 *
+NOTE DATE CREATED: Wed Nov 15 09:52:43 2017 *
 NOTE DESIGN NAME: topContador *
 NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
 NOTE PIN ASSIGNMENTS *
-NOTE PINS display0[4] : 27 : out *
-NOTE PINS display0[5] : 28 : out *
+NOTE PINS oscdiv0 : 100 : out *
+NOTE PINS oscraw0 : 99 : out *
 NOTE PINS display0[6] : 25 : out *
-NOTE PINS E0[1] : 50 : in *
-NOTE PINS E0[2] : 48 : in *
-NOTE PINS E0[3] : 55 : in *
-NOTE PINS control0[0] : 38 : in *
-NOTE PINS control0[1] : 41 : in *
-NOTE PINS clr0 : 40 : in *
-NOTE PINS indiv0[0] : 62 : in *
-NOTE PINS indiv0[1] : 67 : in *
-NOTE PINS indiv0[2] : 61 : in *
-NOTE PINS indiv0[3] : 65 : in *
-NOTE PINS oscraw0 : 97 : out *
-NOTE PINS display0[0] : 34 : out *
-NOTE PINS oscdiv0 : 121 : out *
-NOTE PINS display0[1] : 35 : out *
-NOTE PINS display0[2] : 32 : out *
+NOTE PINS display0[5] : 28 : out *
+NOTE PINS display0[4] : 27 : out *
 NOTE PINS display0[3] : 33 : out *
+NOTE PINS display0[2] : 32 : out *
+NOTE PINS display0[1] : 35 : out *
+NOTE PINS display0[0] : 34 : out *
+NOTE PINS indiv0[3] : 65 : in *
+NOTE PINS indiv0[2] : 61 : in *
+NOTE PINS indiv0[1] : 67 : in *
+NOTE PINS indiv0[0] : 62 : in *
+NOTE PINS clr0 : 40 : in *
+NOTE PINS control0[1] : 41 : in *
+NOTE PINS control0[0] : 38 : in *
+NOTE PINS E0[3] : 55 : in *
+NOTE PINS E0[2] : 48 : in *
+NOTE PINS E0[1] : 50 : in *
 NOTE PINS E0[0] : 47 : in *
 NOTE CONFIGURATION MODE: NONE *
 NOTE COMPRESSION: on *

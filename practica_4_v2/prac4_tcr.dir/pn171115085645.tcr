@@ -1,0 +1,9 @@
+#Start recording tcl command: 11/15/2017 08:51:13
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4_v2; Project name: prac4
+prj_project open "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4_v2/prac4.ldf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project open "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4_v2/impl1/impl1.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 11/15/2017 08:56:45

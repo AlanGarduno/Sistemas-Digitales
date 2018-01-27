@@ -1,152 +1,0 @@
-<HTML>
-<HEAD><TITLE>Synthesis Report</TITLE>
-<STYLE TYPE="text/css">
-<!--
- body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
--->
-</STYLE>
-</HEAD>
-<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
-#Build: Synplify Pro L-2016.09L-1, Build 147R, Mar  7 2017
-#install: C:\lscc\diamond\3.9\synpbase
-#OS: Windows 8 6.2
-#Hostname: AGVIII
-
-# Wed Oct 04 09:04:18 2017
-
-#Implementation: impl1
-
-Synopsys HDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
-@N|Running in 64-bit mode
-Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-
-Synopsys VHDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
-@N|Running in 64-bit mode
-Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-
-@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\topregistro0.vhd":7:7:7:18|Top entity is set to topregistro0.
-
-File Dependency file is up to date.  It will not be rewritten.
-
-@W: CD266 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\registro0.vhd":23:25:23:25|q is not readable.  This may cause a simulation mismatch.
-@W: CD266 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\registro0.vhd":28:15:28:15|q is not readable.  This may cause a simulation mismatch.
-@W: CD266 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\registro0.vhd":33:16:33:16|q is not readable.  This may cause a simulation mismatch.
-VHDL syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
-@N: CD630 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\topregistro0.vhd":7:7:7:18|Synthesizing work.topregistro0.topregistro.
-@N: CD630 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\registro0.vhd":6:7:6:15|Synthesizing work.registro0.registro.
-@N: CD364 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\registro0.vhd":23:17:23:17|Removing redundant assignment.
-Post processing for work.registro0.registro
-@N: CD630 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
-@W: CD280 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
-@W: CD326 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected. If a port needs to remain unconnected, use the keyword open.
-@N: CD630 :"C:\Users\JCVELMON\Desktop\Semestre Actual\DSD\DSD\registro practica 3\impl1\source\osc00.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box.
-Post processing for work.osctimer.syn_black_box
-Post processing for work.osc00.osc0
-Post processing for work.topregistro0.topregistro
-
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Wed Oct 04 09:04:18 2017
-
-###########################################################]
-Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
-@N|Running in 64-bit mode
-
-Linker output is up to date. No re-linking necessary
-
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Wed Oct 04 09:04:19 2017
-
-###########################################################]
-@END
-
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Wed Oct 04 09:04:19 2017
-
-###########################################################]
-Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
-@N|Running in 64-bit mode
-
-Linker output is up to date. No re-linking necessary
-
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Wed Oct 04 09:04:19 2017
-
-###########################################################]
-
-
-
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-</PRE></FONT>
-</BODY>
-</HTML>

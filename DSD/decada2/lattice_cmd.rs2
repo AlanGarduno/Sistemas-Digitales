@@ -1,1 +1,0 @@
--src untitled.bl5 -type BLIF -devfile "C:/ispLEVER_Classic2_0/ispcpld/dat/lc4k/m4e_64_48u.dev" -lci untitled.lct -prc untitled.lco -log untitled.log -touch untitled.fti

@@ -188,6 +188,14 @@
             <Navigation>17</Navigation>
         </Message>
         <Message>
+            <ID>35935014</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4_v2/impl1/contador0.vhd(78): </Dynamic>
+            <Dynamic>\contador0/j0_179</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4_v2/impl1/contador0.vhd</Navigation>
+            <Navigation>78</Navigation>
+        </Message>
+        <Message>
             <ID>35001611</ID>
             <Severity>Warning</Severity>
         </Message>

@@ -6,36 +6,36 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="2" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1510176818"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1510761163"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1510176804">
-            <Task name="Map" build_result="2" update_result="0" update_time="1510176804"/>
+        <Milestone name="Map" build_result="2" build_time="1510761149">
+            <Task name="Map" build_result="2" update_result="0" update_time="1510761149"/>
             <Task name="MapTrace" build_result="0" update_result="2" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="2" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1510176812">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1510176812"/>
+        <Milestone name="PAR" build_result="2" build_time="1510761158">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1510761158"/>
             <Task name="PARTrace" build_result="0" update_result="2" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1510176558">
-            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1510176558"/>
-            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1510176558"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1510761109">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1510761109"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1510761109"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1510176552"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1510761094"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/prac5_impl1_map.vdb" last_build_time="1510176804" last_build_size="46904"/>
-        <Report name="prac5_impl1.bgn" last_build_time="1510176817" last_build_size="4267"/>
-        <Report name="prac5_impl1.jed" last_build_time="1510176817" last_build_size="1465048"/>
-        <Report name="prac5_impl1.lsedata" last_build_time="1510176557" last_build_size="190835"/>
-        <Report name="prac5_impl1.ncd" last_build_time="1510176812" last_build_size="105104"/>
-        <Report name="prac5_impl1.ngd" last_build_time="1510176558" last_build_size="91096"/>
-        <Report name="prac5_impl1_map.ncd" last_build_time="1510176803" last_build_size="73583"/>
+        <Report name=".vdbs/prac5_impl1_map.vdb" last_build_time="1510761149" last_build_size="46881"/>
+        <Report name="prac5_impl1.bgn" last_build_time="1510761163" last_build_size="4267"/>
+        <Report name="prac5_impl1.jed" last_build_time="1510761163" last_build_size="1465048"/>
+        <Report name="prac5_impl1.lsedata" last_build_time="1510761108" last_build_size="188859"/>
+        <Report name="prac5_impl1.ncd" last_build_time="1510761158" last_build_size="102726"/>
+        <Report name="prac5_impl1.ngd" last_build_time="1510761109" last_build_size="89011"/>
+        <Report name="prac5_impl1_map.ncd" last_build_time="1510761148" last_build_size="71673"/>
     </Strategy>
 </BuildStatus>

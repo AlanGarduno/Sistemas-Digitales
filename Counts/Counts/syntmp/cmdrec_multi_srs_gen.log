@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9\synpbase\bin64\syn_nfilter.exe  -link  -top  topMOD  -multisrs  C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_comp.srs  -osyn  C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_mult.srs  -log  C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\Counts_Counts_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_comp.srs|io:i|time:1511967502|size:9572|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_mult.srs|io:o|time:1511967504|size:3244|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\Counts_Counts_multi_srs_gen.srr|io:o|time:1511967504|size:508|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin\syn_nfilter.exe|io:i|time:1489043252|size:3128320|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin64\syn_nfilter.exe|io:i|time:1489043520|size:3947520|exec:1

@@ -1,5 +1,0 @@
-@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":6:7:6:13|Synthesizing work.sumador.a_sumador 
-@N: CD364 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":69:5:69:8|Removed redundant assignment
-Post processing for work.sumador.a_sumador
-@A: CL282 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":32:2:32:3|Feedback mux created for signal b -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
-@A: CL282 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\sumador.vhd":32:2:32:3|Feedback mux created for signal a -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.

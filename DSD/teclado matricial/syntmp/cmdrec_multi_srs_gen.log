@@ -1,7 +1,0 @@
-C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  top_teclado0  -multisrs  "C:\users\richie\desktop\4 semestre\dsd\teclado matricial\synwork\top_teclado0_comp.srs"  -osyn  "C:\users\richie\desktop\4 semestre\dsd\teclado matricial\synwork\top_teclado0_mult.srs"  -log  "C:\users\richie\desktop\4 semestre\dsd\teclado matricial\synlog\top_teclado0_multi_srs_gen.srr" 
-rc:0 success:1
-C:\users\richie\desktop\4 semestre\dsd\teclado matricial\synwork\top_teclado0_comp.srs|i|1496284788|4579
-C:\users\richie\desktop\4 semestre\dsd\teclado matricial\synwork\top_teclado0_mult.srs|o|1496284789|2606
-C:\users\richie\desktop\4 semestre\dsd\teclado matricial\synlog\top_teclado0_multi_srs_gen.srr|o|1496284789|491
-C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401227536|2741760
-C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401227732|6337536

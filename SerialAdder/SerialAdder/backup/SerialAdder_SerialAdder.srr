@@ -1,0 +1,34 @@
+#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
+#install: C:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LETINGZEIT-X555
+
+# Sun Nov 26 22:39:03 2017
+
+#Implementation: SerialAdder
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":7:7:7:14|Top entity is set to topAdder.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":7:7:7:14|Synthesizing work.topadder.behavioral.
+@E: CD326 :"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":76:1:76:4|Port ci of entity work.registry is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":36:7:36:12|Signal s_crtl is undriven. Either assign the signal a value or remove the signal declaration.
+Synthesis failed
+1 errors during synthesis
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 26 22:39:03 2017
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 26 22:39:03 2017
+
+###########################################################]

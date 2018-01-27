@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topAdder  -multisrs  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_comp.srs  -osyn  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_mult.srs  -log  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synlog\SerialAdder_SerialAdder_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_comp.srs|io:i|time:1511926785|size:11200|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_mult.srs|io:o|time:1511926786|size:4512|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synlog\SerialAdder_SerialAdder_multi_srs_gen.srr|io:o|time:1511926786|size:525|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

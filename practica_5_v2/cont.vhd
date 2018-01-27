@@ -24,7 +24,7 @@ constant dig3: std_logic_vector(6 downto 0):="0000110";
 constant dig4: std_logic_vector(6 downto 0):="1001100"; 
 constant dig5: std_logic_vector(6 downto 0):="0100100"; 
 constant dig6: std_logic_vector(6 downto 0):="0100000"; 
-constant dig7: std_logic_vector(6 downto 0):="0001110"; 
+constant dig7: std_logic_vector(6 downto 0):="0001110";    
 constant dig8: std_logic_vector(6 downto 0):="0000000"; 
 constant dig9: std_logic_vector(6 downto 0):="0001100"; 
 constant apa: std_logic_vector(6 downto 0):="1111111";
@@ -37,16 +37,22 @@ begin
 			case control is
 			when "00" =>
 				case display is 
-				when dig0 => display <= dig1;
-				when dig1 => display <= dig2;
-				when dig2 => display <= dig3;
-				when dig3 => display <= dig4;
-				when dig4 => display <= dig5;
-				when dig5 => display <= dig6;
-				when dig6 => display <= dig7;
-				when dig7 => display <= dig8;
-				when dig8 => display <= dig9;
-				when dig9 => display <= dig0;
+				--when dig0 => display <= dig1;
+				--when dig1 => display <= dig2;
+				--when dig2 => display <= dig3;
+				--when dig3 => display <= dig4;
+				--when dig4 => display <= dig5;
+				--when dig5 => display <= dig6;
+				--when dig6 => display <= dig7;
+				--when dig7 => display <= dig8;
+				--when dig8 => display <= dig9;
+				--when dig9 => display <= dig0;
+						when dig1 => display <= dig2;
+						when dig2 => display <= dig3;
+						when dig3 => display <= dig4;
+						when dig4 => display <= dig5;
+						when dig5 => display <= dig6;
+						when dig6 => display <= dig1;
 				end case;
 			when "01" =>
 				case display is 

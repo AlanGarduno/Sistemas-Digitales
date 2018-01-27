@@ -1,0 +1,316 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Fri Dec 08 15:35:17 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     topSecuencia
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets oscraw0_c]
+            787 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 991.870ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_62__i19  (from oscraw0_c +)
+   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_62__i13  (to oscraw0_c -)
+
+   Delay:                   7.984ns  (32.8% logic, 67.2% route), 7 logic levels.
+
+ Constraint Details:
+
+      7.984ns data_path \OS00/OS01/sdiv_62__i19 to \OS00/OS01/sdiv_62__i13 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 991.870ns
+
+ Path Details: \OS00/OS01/sdiv_62__i19 to \OS00/OS01/sdiv_62__i13
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_62__i19 (from oscraw0_c)
+Route         6   e 1.266                                  \OS00/OS01/sdiv[19]
+LUT4        ---     0.448              C to Z              \OS00/OS01/i4_4_lut
+Route         1   e 0.788                                  \OS00/OS01/n10
+LUT4        ---     0.448              C to Z              \OS00/OS01/i5_3_lut_4_lut
+Route         2   e 0.954                                  \OS00/OS01/n664
+LUT4        ---     0.448              B to Z              \OS00/OS01/i2_3_lut
+Route         1   e 0.788                                  \OS00/OS01/n11
+LUT4        ---     0.448              B to Z              \OS00/OS01/i1_4_lut_adj_8
+Route         1   e 0.020                                  \OS00/OS01/n38
+MUXL5       ---     0.212           ALUT to Z              \OS00/OS01/i58
+Route         1   e 0.020                                  \OS00/OS01/n25
+MUXL5       ---     0.212             D0 to Z              \OS00/OS01/i56
+Route        21   e 1.529                                  \OS00/OS01/n405
+                  --------
+                    7.984  (32.8% logic, 67.2% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 991.870ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_62__i19  (from oscraw0_c +)
+   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_62__i8  (to oscraw0_c -)
+
+   Delay:                   7.984ns  (32.8% logic, 67.2% route), 7 logic levels.
+
+ Constraint Details:
+
+      7.984ns data_path \OS00/OS01/sdiv_62__i19 to \OS00/OS01/sdiv_62__i8 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 991.870ns
+
+ Path Details: \OS00/OS01/sdiv_62__i19 to \OS00/OS01/sdiv_62__i8
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_62__i19 (from oscraw0_c)
+Route         6   e 1.266                                  \OS00/OS01/sdiv[19]
+LUT4        ---     0.448              C to Z              \OS00/OS01/i4_4_lut
+Route         1   e 0.788                                  \OS00/OS01/n10
+LUT4        ---     0.448              C to Z              \OS00/OS01/i5_3_lut_4_lut
+Route         2   e 0.954                                  \OS00/OS01/n664
+LUT4        ---     0.448              B to Z              \OS00/OS01/i2_3_lut
+Route         1   e 0.788                                  \OS00/OS01/n11
+LUT4        ---     0.448              B to Z              \OS00/OS01/i1_4_lut_adj_8
+Route         1   e 0.020                                  \OS00/OS01/n38
+MUXL5       ---     0.212           ALUT to Z              \OS00/OS01/i58
+Route         1   e 0.020                                  \OS00/OS01/n25
+MUXL5       ---     0.212             D0 to Z              \OS00/OS01/i56
+Route        21   e 1.529                                  \OS00/OS01/n405
+                  --------
+                    7.984  (32.8% logic, 67.2% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 991.870ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_62__i19  (from oscraw0_c +)
+   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_62__i1  (to oscraw0_c -)
+
+   Delay:                   7.984ns  (32.8% logic, 67.2% route), 7 logic levels.
+
+ Constraint Details:
+
+      7.984ns data_path \OS00/OS01/sdiv_62__i19 to \OS00/OS01/sdiv_62__i1 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 991.870ns
+
+ Path Details: \OS00/OS01/sdiv_62__i19 to \OS00/OS01/sdiv_62__i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_62__i19 (from oscraw0_c)
+Route         6   e 1.266                                  \OS00/OS01/sdiv[19]
+LUT4        ---     0.448              C to Z              \OS00/OS01/i4_4_lut
+Route         1   e 0.788                                  \OS00/OS01/n10
+LUT4        ---     0.448              C to Z              \OS00/OS01/i5_3_lut_4_lut
+Route         2   e 0.954                                  \OS00/OS01/n664
+LUT4        ---     0.448              B to Z              \OS00/OS01/i2_3_lut
+Route         1   e 0.788                                  \OS00/OS01/n11
+LUT4        ---     0.448              B to Z              \OS00/OS01/i1_4_lut_adj_8
+Route         1   e 0.020                                  \OS00/OS01/n38
+MUXL5       ---     0.212           ALUT to Z              \OS00/OS01/i58
+Route         1   e 0.020                                  \OS00/OS01/n25
+MUXL5       ---     0.212             D0 to Z              \OS00/OS01/i56
+Route        21   e 1.529                                  \OS00/OS01/n405
+                  --------
+                    7.984  (32.8% logic, 67.2% route), 7 logic levels.
+
+Report: 8.130 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets oscdiv0_c]
+            9 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 996.881ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \CONT00/edo_Pre_i2  (from oscdiv0_c +)
+   Destination:    FD1S3AX    D              \CONT00/edo_Pre_i2  (to oscdiv0_c +)
+
+   Delay:                   2.973ns  (28.6% logic, 71.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      2.973ns data_path \CONT00/edo_Pre_i2 to \CONT00/edo_Pre_i2 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 996.881ns
+
+ Path Details: \CONT00/edo_Pre_i2 to \CONT00/edo_Pre_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \CONT00/edo_Pre_i2 (from oscdiv0_c)
+Route         4   e 1.168                                  \CONT00/edo_Pre[2]
+LUT4        ---     0.448              C to Z              \CONT00/i3_4_lut
+Route         2   e 0.954                                  display0_c_0
+                  --------
+                    2.973  (28.6% logic, 71.4% route), 2 logic levels.
+
+
+Passed:  The following path meets requirements by 996.881ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \CONT00/edo_Pre_i0  (from oscdiv0_c +)
+   Destination:    FD1S3AX    D              \CONT00/edo_Pre_i2  (to oscdiv0_c +)
+
+   Delay:                   2.973ns  (28.6% logic, 71.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      2.973ns data_path \CONT00/edo_Pre_i0 to \CONT00/edo_Pre_i2 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 996.881ns
+
+ Path Details: \CONT00/edo_Pre_i0 to \CONT00/edo_Pre_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \CONT00/edo_Pre_i0 (from oscdiv0_c)
+Route         4   e 1.168                                  \CONT00/edo_Pre[0]
+LUT4        ---     0.448              B to Z              \CONT00/i3_4_lut
+Route         2   e 0.954                                  display0_c_0
+                  --------
+                    2.973  (28.6% logic, 71.4% route), 2 logic levels.
+
+
+Passed:  The following path meets requirements by 996.881ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \CONT00/edo_Pre_i1  (from oscdiv0_c +)
+   Destination:    FD1S3AX    D              \CONT00/edo_Pre_i2  (to oscdiv0_c +)
+
+   Delay:                   2.973ns  (28.6% logic, 71.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      2.973ns data_path \CONT00/edo_Pre_i1 to \CONT00/edo_Pre_i2 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 996.881ns
+
+ Path Details: \CONT00/edo_Pre_i1 to \CONT00/edo_Pre_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \CONT00/edo_Pre_i1 (from oscdiv0_c)
+Route         4   e 1.168                                  \CONT00/edo_Pre[1]
+LUT4        ---     0.448              D to Z              \CONT00/i3_4_lut
+Route         2   e 0.954                                  display0_c_0
+                  --------
+                    2.973  (28.6% logic, 71.4% route), 2 logic levels.
+
+Report: 3.119 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets oscraw0_c]               |  1000.000 ns|     8.130 ns|     7  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets oscdiv0_c]               |  1000.000 ns|     3.119 ns|     2  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  796 paths, 86 nets, and 176 connections (74.3% coverage)
+
+
+Peak memory: 57184256 bytes, TRCE: 1138688 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

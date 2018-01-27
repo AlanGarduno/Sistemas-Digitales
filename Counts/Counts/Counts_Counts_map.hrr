@@ -1,0 +1,58 @@
+---------------------------------------------------
+Report for cell topMOD
+   Instance path: topMOD
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      40.00        100.0
+                                  LUT4	      46.00        100.0
+                                 IOBUF	         29        100.0
+                                PFUREG	         34        100.0
+                                RIPPLE	         17        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        49.2
+                              Registry	          1        41.5
+                              BCD_7SEG	          1         8.1
+---------------------------------------------------
+Report for cell BCD_7SEG
+   Instance path: topMOD/BCD
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.25         8.1
+                                  LUT4	       7.00        15.2
+---------------------------------------------------
+Report for cell Registry
+   Instance path: topMOD/REG0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.58        41.5
+                                  LUT4	      21.00        45.7
+                                PFUREG	         12        35.3
+                                RIPPLE	          6        35.3
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topMOD/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.67        49.2
+                                  LUT4	      17.00        37.0
+                                PFUREG	         22        64.7
+                                RIPPLE	         11        64.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        49.2
+---------------------------------------------------
+Report for cell div00
+   Instance path: topMOD/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.67        49.2
+                                  LUT4	      17.00        37.0
+                                PFUREG	         22        64.7
+                                RIPPLE	         11        64.7
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topMOD/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

@@ -1,0 +1,336 @@
+
+         Lattice Mapping Report File for Design Module 'topContador'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     prac8_impl1.ngd -o prac8_impl1_map.ncd -pr prac8_impl1.prf -mp
+     prac8_impl1.mrp -lpf C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practicca_8_v3/impl1/prac8_impl1.lpf -lpf
+     C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practicca_8_v3/prac8.lpf -c 0
+     -gui -msgset C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practicca_8_v3/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond Version 3.9.1.119
+Mapped on:  12/06/17  10:13:50
+
+Design Summary
+--------------
+
+   Number of registers:     32 out of  7209 (0%)
+      PFU registers:           32 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        38 out of  3432 (1%)
+      SLICEs as Logic/ROM:     38 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         75 out of  6864 (1%)
+      Number used as logic LUTs:         53
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 21 + 4(JTAG) out of 115 (22%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+     Net oscdiv0_c: 6 loads, 6 rising, 0 falling (Driver: OS00/OS01/outdiv_58 )
+
+                                    Page 1
+
+
+
+
+Design:  topContador                                   Date:  12/06/17  10:13:50
+
+Design Summary (cont)
+---------------------
+     Net oscraw0_c: 12 loads, 0 rising, 12 falling (Driver: OS00/OS00/OSCInst0 )
+     
+   Number of Clock Enables:  3
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads, 11 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_21: 1 loads, 1 LSLICEs
+     Net CONT00/oscdiv0_c_enable_7: 4 loads, 4 LSLICEs
+   Number of LSRs:  1
+     Net OS00/OS01/n505: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net OS00/OS01/clkdiv_N_23_enable_22: 12 loads
+     Net OS00/OS01/n505: 11 loads
+     Net c0_c_1: 9 loads
+     Net F0_c_1: 9 loads
+     Net c0_c_0: 8 loads
+     Net c0_c_2: 8 loads
+     Net F0_c_2: 8 loads
+     Net F0_c_3: 8 loads
+     Net indiv0_c_0: 8 loads
+     Net indiv0_c_1: 8 loads
+
+
+
+
+   Number of warnings:  2
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: input pad net 'CLK0' has no legal load.
+WARNING - map: IO buffer missing for top level port CLK0...logic will be
+     discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| oscraw0             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| oscdiv0             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| c0[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| c0[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| c0[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  topContador                                   Date:  12/06/17  10:13:50
+
+IO (PIO) Attributes (cont)
+--------------------------
+| display0[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F0[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F0[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F0[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F0[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLR0                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block i853 undriven or does not drive anything - clipped.
+Signal OS00/clkdiv_N_23 was merged into signal oscraw0_c
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal OS00/OS01/sdiv_71_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal OS00/OS01/sdiv_71_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal OS00/OS01/sdiv_71_add_4_21/CO undriven or does not drive anything -
+     clipped.
+Block OS00/OS00/i855 was optimized away.
+Block i1 was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OS00/OS00/OSCInst0
+
+                                    Page 3
+
+
+
+
+Design:  topContador                                   Date:  12/06/17  10:13:50
+
+OSC Summary (cont)
+------------------
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              PIN,NODE oscraw0_c
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: OS00/OS00/OSCInst0
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'CLR0_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'CLR0_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 22 
+
+     Type and instance name of component: 
+   Register : OS00/OS01/sdiv_71__i4
+   Register : OS00/OS01/sdiv_71__i8
+   Register : OS00/OS01/sdiv_71__i15
+   Register : OS00/OS01/sdiv_71__i16
+   Register : OS00/OS01/sdiv_71__i17
+   Register : OS00/OS01/sdiv_71__i9
+   Register : OS00/OS01/sdiv_71__i5
+   Register : OS00/OS01/sdiv_71__i13
+   Register : OS00/OS01/sdiv_71__i14
+   Register : OS00/OS01/sdiv_71__i0
+   Register : OS00/OS01/sdiv_71__i10
+   Register : OS00/OS01/sdiv_71__i6
+   Register : OS00/OS01/sdiv_71__i11
+   Register : OS00/OS01/sdiv_71__i2
+   Register : OS00/OS01/sdiv_71__i12
+   Register : OS00/OS01/sdiv_71__i1
+   Register : OS00/OS01/sdiv_71__i3
+   Register : OS00/OS01/sdiv_71__i18
+   Register : OS00/OS01/sdiv_71__i19
+   Register : OS00/OS01/sdiv_71__i20
+   Register : OS00/OS01/outdiv_58
+
+                                    Page 4
+
+
+
+
+Design:  topContador                                   Date:  12/06/17  10:13:50
+
+GSR Usage (cont)
+----------------
+   Register : OS00/OS01/sdiv_71__i7
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 51 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

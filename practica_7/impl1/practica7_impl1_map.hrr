@@ -1,0 +1,49 @@
+---------------------------------------------------
+Report for cell topDado
+   Instance path: topDado
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.00        100.0
+                                  LUT4	      43.00        100.0
+                                 IOBUF	         16        100.0
+                                PFUREG	         28        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        72.7
+                                 dado0	          1        24.2
+---------------------------------------------------
+Report for cell dado0
+   Instance path: topDado/REG00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        24.2
+                                  LUT4	      16.00        37.2
+                                PFUREG	          6        21.4
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topDado/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00        72.7
+                                  LUT4	      26.00        60.5
+                                PFUREG	         22        78.6
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        72.7
+---------------------------------------------------
+Report for cell div00
+   Instance path: topDado/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00        72.7
+                                  LUT4	      26.00        60.5
+                                PFUREG	         22        78.6
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topDado/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

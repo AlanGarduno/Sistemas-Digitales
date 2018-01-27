@@ -1,8 +1,8 @@
 <top name = "topReg0"  library = "work"  arch = "RTL"  entry = "VHDL">
 
 <clocks>
-    <clockitem name = "oscraw0"  type = "net" />
     <clockitem name = "oscdiv0"  type = "net" />
+    <clockitem name = "oscraw0"  type = "net" />
 </clocks>
 
 <!--

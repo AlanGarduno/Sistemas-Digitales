@@ -1,0 +1,93 @@
+----------------------------------------------------------------------
+Report for cell topMOD.behavioral
+
+Register bits: 34 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       29
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       17       100.0
+                            FD1P3AX        8       100.0
+                            FD1P3DX        4       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB       12       100.0
+                                INV        2       100.0
+                                 OB       17       100.0
+                           ORCALUT4       45       100.0
+                               OSCH        1       100.0
+                              PFUMX        4       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                           BCD_7SEG        1       100.0
+                           Registry        1       100.0
+                              div00        1       100.0
+                              osc00        1       100.0
+                           topdiv00        1       100.0
+                            
+                         TOTAL           146           
+----------------------------------------------------------------------
+Report for cell BCD_7SEG.netlist
+     Instance path:  BCD
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        7        15.6
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell Registry.netlist
+     Instance path:  REG0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        6        35.3
+                            FD1P3AX        8       100.0
+                            FD1P3DX        4       100.0
+                                INV        1        50.0
+                           ORCALUT4       21        46.7
+                              PFUMX        4       100.0
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            46           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        64.7
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       17        37.8
+                               OSCH        1       100.0
+                                VHI        1        33.3
+                                VLO        2        50.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            56           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  OS00.OS01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        64.7
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       17        37.8
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            52           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  OS00.OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        25.0
+                            
+                         TOTAL             2           

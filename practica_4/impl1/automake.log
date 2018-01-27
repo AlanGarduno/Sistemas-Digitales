@@ -1,0 +1,121 @@
+
+synthesis -f "practica4_impl1_lattice.synproj"
+synthesis:  version Diamond Version 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Nov 24 14:18:07 2017
+
+
+Command Line:  synthesis -f practica4_impl1_lattice.synproj -gui -msgset C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/promote.xml 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 5.
+The -t option is TQFP144.
+The -d option is LCMXO2-7000HE.
+Using package TQFP144.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-7000HE
+
+### Package : TQFP144
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+    <postMsg mid="35001781" type="Info"    dynamic="0" navigation="0"  />
+Optimization goal = Balanced
+Top-level module name = topdiv00.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.9/ispfpga/xo2c00/data (searchpath added)
+-p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1 (searchpath added)
+-p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4 (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/packagediv00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/topdiv00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/div00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1/source/osc00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/packageContador.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/topContador.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/contador.vhd
+NGD file = practica4_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.9/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+    <postMsg mid="35921504" type="Info"    dynamic="2" navigation="0" arg0="" arg1="C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1"  />
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd. VHDL-1481
+    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd" arg4="4"  />
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd(8): " arg1="packagediv00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd" arg3="8"  />
+unit topdiv00 is not yet analyzed. VHDL-1485
+unit topdiv00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd. VHDL-1481
+    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd" arg4="4"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd(9): " arg1="topdiv00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd" arg3="9"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd(17): " arg1="topdiv0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd" arg3="17"  />
+unit topdiv00 is not yet analyzed. VHDL-1485
+unit topdiv00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd. VHDL-1481
+    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd(6): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd" arg4="6"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd(10): " arg1="div00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd" arg3="10"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd(17): " arg1="div0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd" arg3="17"  />
+unit topdiv00 is not yet analyzed. VHDL-1485
+unit topdiv00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd. VHDL-1481
+    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd" arg4="4"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd(8): " arg1="osc00" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd" arg3="8"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd(13): " arg1="osc0" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd" arg3="13"  />
+unit topdiv00 is not yet analyzed. VHDL-1485
+unit topdiv00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd. VHDL-1481
+    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd" arg4="4"  />
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd(8): " arg1="packagecontador" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd" arg3="8"  />
+unit topdiv00 is not yet analyzed. VHDL-1485
+unit topdiv00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd. VHDL-1481
+    <postMsg mid="35921240" type="Warning" dynamic="3" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(4): " arg1="components" arg2="lattice" arg3="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd" arg4="4"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(9): " arg1="topcontador" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd" arg3="9"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(19): " arg1="a_topcontador" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd" arg3="19"  />
+    <postMsg mid="35921261" type="Error"   dynamic="2" navigation="2" arg0="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(25): " arg1="port" arg2="c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd" arg3="25"  />

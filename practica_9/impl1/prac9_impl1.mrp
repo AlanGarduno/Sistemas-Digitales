@@ -1,0 +1,402 @@
+
+          Lattice Mapping Report File for Design Module 'topSumador'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     prac9_impl1.ngd -o prac9_impl1_map.ncd -pr prac9_impl1.prf -mp
+     prac9_impl1.mrp -lpf C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practica_9/impl1/prac9_impl1.lpf -lpf
+     C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_9/prac9.lpf -c 0
+     -gui -msgset C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practica_9/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond Version 3.9.1.119
+Mapped on:  12/12/17  10:25:20
+
+Design Summary
+--------------
+
+   Number of registers:     38 out of  7209 (1%)
+      PFU registers:           38 out of  6864 (1%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        30 out of  3432 (1%)
+      SLICEs as Logic/ROM:     30 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         58 out of  6864 (1%)
+      Number used as logic LUTs:         36
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 30 + 4(JTAG) out of 115 (30%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+     Net oscdiv0_c: 10 loads, 10 rising, 0 falling (Driver: OS00/OS01/outdiv_58
+
+                                    Page 1
+
+
+
+
+Design:  topSumador                                    Date:  12/12/17  10:25:20
+
+Design Summary (cont)
+---------------------
+     )
+     Net oscraw0_c: 12 loads, 0 rising, 12 falling (Driver: OS00/OS00/OSCInst0 )
+     
+   Number of Clock Enables:  6
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads, 11 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_2: 1 loads, 1 LSLICEs
+     Net CONT00/oscdiv0_c_enable_9: 3 loads, 3 LSLICEs
+     Net CONT00/oscdiv0_c_enable_13: 4 loads, 4 LSLICEs
+     Net y0_c_1: 2 loads, 2 LSLICEs
+     Net CONT00/oscdiv0_c_enable_7: 1 loads, 1 LSLICEs
+   Number of LSRs:  3
+     Net OS00/OS01/n537: 11 loads, 11 LSLICEs
+     Net y0_c_0: 5 loads, 5 LSLICEs
+     Net CONT00/n551: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net y0_c_0: 14 loads
+     Net y0_c_1: 12 loads
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads
+     Net OS00/OS01/n537: 11 loads
+     Net indiv0_c_1: 8 loads
+     Net indiv0_c_3: 8 loads
+     Net CONT00/contador_0: 7 loads
+     Net OS00/OS01/sdiv_20: 7 loads
+     Net indiv0_c_2: 6 loads
+     Net OS00/OS01/sdiv_18: 6 loads
+
+
+
+
+   Number of warnings:  2
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: input pad net 'clk0' has no legal load.
+WARNING - map: IO buffer missing for top level port clk0...logic will be
+     discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| oscdiv0             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| oscraw0             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| S0[3]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| S0[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  topSumador                                    Date:  12/12/17  10:25:20
+
+IO (PIO) Attributes (cont)
+--------------------------
+| S0[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| S0[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| c0                  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| A0[3]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| A0[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| A0[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| A0[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B0[3]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B0[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B0[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| B0[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat10[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat10[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat10[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat10[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat20[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat20[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat20[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dat20[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clr0                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| y0[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| y0[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+
+
+                                    Page 3
+
+
+
+
+Design:  topSumador                                    Date:  12/12/17  10:25:20
+
+Removed logic
+-------------
+
+Block i958 undriven or does not drive anything - clipped.
+Signal OS00/clkdiv_N_23 was merged into signal oscraw0_c
+Signal n529 was merged into signal clr0_c
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal OS00/OS01/sdiv_89_add_4_21/CO undriven or does not drive anything -
+     clipped.
+Signal OS00/OS01/sdiv_89_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal OS00/OS01/sdiv_89_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Block OS00/OS00/i960 was optimized away.
+Block i421_1_lut was optimized away.
+Block i1 was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OS00/OS00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              PIN,NODE oscraw0_c
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: OS00/OS00/OSCInst0
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'clr0_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+
+                                    Page 4
+
+
+
+
+Design:  topSumador                                    Date:  12/12/17  10:25:20
+
+GSR Usage (cont)
+----------------
+     not respond to the reset signal 'clr0_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 22 
+
+     Type and instance name of component: 
+   Register : OS00/OS01/sdiv_89__i10
+   Register : OS00/OS01/outdiv_58
+   Register : OS00/OS01/sdiv_89__i11
+   Register : OS00/OS01/sdiv_89__i12
+   Register : OS00/OS01/sdiv_89__i13
+   Register : OS00/OS01/sdiv_89__i14
+   Register : OS00/OS01/sdiv_89__i15
+   Register : OS00/OS01/sdiv_89__i16
+   Register : OS00/OS01/sdiv_89__i17
+   Register : OS00/OS01/sdiv_89__i18
+   Register : OS00/OS01/sdiv_89__i19
+   Register : OS00/OS01/sdiv_89__i20
+   Register : OS00/OS01/sdiv_89__i0
+   Register : OS00/OS01/sdiv_89__i1
+   Register : OS00/OS01/sdiv_89__i2
+   Register : OS00/OS01/sdiv_89__i3
+   Register : OS00/OS01/sdiv_89__i4
+   Register : OS00/OS01/sdiv_89__i5
+   Register : OS00/OS01/sdiv_89__i6
+   Register : OS00/OS01/sdiv_89__i7
+   Register : OS00/OS01/sdiv_89__i8
+   Register : OS00/OS01/sdiv_89__i9
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'clr0_c' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 10 
+
+     Type and instance name of component: 
+   Register : CONT00/c_28
+   Register : CONT00/S_i1
+   Register : CONT00/contador_i0
+   Register : CONT00/S_i4
+   Register : CONT00/A_i4
+   Register : CONT00/B_i4
+   Register : CONT00/S_i3
+   Register : CONT00/S_i2
+   Register : CONT00/contador_i2
+   Register : CONT00/contador_i1
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+
+                                    Page 5
+
+
+
+
+Design:  topSumador                                    Date:  12/12/17  10:25:20
+
+Run Time and Memory Usage (cont)
+--------------------------------
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 51 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 6
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

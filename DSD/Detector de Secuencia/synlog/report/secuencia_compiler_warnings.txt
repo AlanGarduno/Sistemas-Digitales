@@ -1,8 +1,0 @@
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(0) assign '0'; register removed by optimization
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(1) assign '0'; register removed by optimization
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(2) assign '0'; register removed by optimization
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(3) assign '0'; register removed by optimization
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(4) assign '0'; register removed by optimization
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(5) assign '0'; register removed by optimization
-@W: CL111 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:2|All reachable assignments to display(6) assign '0'; register removed by optimization
-

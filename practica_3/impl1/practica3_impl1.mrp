@@ -16,7 +16,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond Version 3.9.1.119
-Mapped on:  10/18/17  09:11:47
+Mapped on:  11/23/17  10:15:05
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  topReg0                                       Date:  10/18/17  09:11:47
+Design:  topReg0                                       Date:  11/23/17  10:15:05
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  topReg0                                       Date:  10/18/17  09:11:47
+Design:  topReg0                                       Date:  11/23/17  10:15:05
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -198,7 +198,7 @@ Signal VCC_net undriven or does not drive anything - clipped.
 
 
 
-Design:  topReg0                                       Date:  10/18/17  09:11:47
+Design:  topReg0                                       Date:  11/23/17  10:15:05
 
 Removed logic (cont)
 --------------------
@@ -264,7 +264,7 @@ GSR Component:
 
 
 
-Design:  topReg0                                       Date:  10/18/17  09:11:47
+Design:  topReg0                                       Date:  11/23/17  10:15:05
 
 GSR Usage (cont)
 ----------------

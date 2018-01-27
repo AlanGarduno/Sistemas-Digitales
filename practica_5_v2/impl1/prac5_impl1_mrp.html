@@ -24,19 +24,19 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond Version 3.9.1.119
-Mapped on:  11/08/17  15:33:22
+Mapped on:  11/15/17  09:52:28
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
    Number of registers:     29 out of  7209 (0%)
       PFU registers:           29 out of  6864 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        50 out of  3432 (1%)
-      SLICEs as Logic/ROM:     50 out of  3432 (1%)
+   Number of SLICEs:        48 out of  3432 (1%)
+      SLICEs as Logic/ROM:     48 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         11 out of  3432 (0%)
-   Number of LUT4s:         98 out of  6864 (1%)
-      Number used as logic LUTs:         76
+   Number of LUT4s:         95 out of  6864 (1%)
+      Number used as logic LUTs:         73
       Number used as distributed RAM:     0
       Number used as ripple logic:       22
       Number used as shift registers:     0
@@ -66,27 +66,28 @@ Mapped on:  11/08/17  15:33:22
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  2
-     Net oscraw0_c: 12 loads, 0 rising, 12 falling (Driver: OS00/OS00/OSCInst0 )
+     Net oscdiv0_c: 7 loads, 7 rising, 0 falling (Driver: OS00/OS01/outdiv_58 )
 
+     Net oscraw0_c: 12 loads, 0 rising, 12 falling (Driver: OS00/OS00/OSCInst0 )
      
-     Net oscdiv0_c: 6 loads, 6 rising, 0 falling (Driver: OS00/OS01/outdiv_58 )
-   Number of Clock Enables:  2
-     Net clkdiv_N_23_enable_22: 12 loads, 12 LSLICEs
-     Net REG00/oscdiv0_c_enable_7: 6 loads, 6 LSLICEs
+   Number of Clock Enables:  3
+     Net OS00/OS01/clkdiv_N_23_enable_1: 1 loads, 1 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads, 11 LSLICEs
+     Net REG00/oscdiv0_c_enable_7: 7 loads, 7 LSLICEs
    Number of LSRs:  1
-     Net OS00/OS01/n580: 11 loads, 11 LSLICEs
+     Net OS00/OS01/n581: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net display0_c_1: 19 loads
-     Net display0_c_4: 19 loads
-     Net display0_c_0: 18 loads
-     Net display0_c_2: 18 loads
-     Net display0_c_5: 18 loads
-     Net display0_c_3: 17 loads
-     Net display0_c_6: 17 loads
-     Net clkdiv_N_23_enable_22: 13 loads
-     Net OS00/OS01/n580: 11 loads
-     Net control0_c_0: 8 loads
+     Net display0_c_2: 22 loads
+     Net display0_c_4: 20 loads
+     Net display0_c_1: 18 loads
+     Net display0_c_3: 18 loads
+     Net display0_c_0: 17 loads
+     Net display0_c_5: 16 loads
+     Net display0_c_6: 14 loads
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads
+     Net OS00/OS01/n581: 11 loads
+     Net control0_c_1: 9 loads
 
 
 
@@ -112,44 +113,44 @@ WARNING - map: IO buffer missing for top level port clk0...logic will be
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| display0[4]         | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| display0[5]         | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| display0[6]         | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| E0[1]               | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| E0[2]               | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| E0[3]               | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| control0[0]         | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| control0[1]         | INPUT     | LVCMOS25  |            |
-
-+---------------------+-----------+-----------+------------+
-| clr0                | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| indiv0[0]           | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| indiv0[1]           | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| indiv0[2]           | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| indiv0[3]           | INPUT     | LVCMOS25  |            |
+| oscdiv0             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | oscraw0             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| display0[0]         | OUTPUT    | LVCMOS25  |            |
+| display0[6]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| oscdiv0             | OUTPUT    | LVCMOS25  |            |
+| display0[5]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| display0[1]         | OUTPUT    | LVCMOS25  |            |
+| display0[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[3]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | display0[2]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| display0[3]         | OUTPUT    | LVCMOS25  |            |
+
+| display0[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| display0[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clr0                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| control0[1]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| control0[0]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| E0[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| E0[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| E0[1]               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | E0[0]               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -158,19 +159,17 @@ WARNING - map: IO buffer missing for top level port clk0...logic will be
 
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
-Block i1508 undriven or does not drive anything - clipped.
+Block i1441 undriven or does not drive anything - clipped.
 Signal OS00/clkdiv_N_23 was merged into signal oscraw0_c
-Signal n844 was merged into signal indiv0_c_0
 Signal GND_net undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
-Signal OS00/OS01/sdiv_106_add_4_1/S0 undriven or does not drive anything -
+Signal OS00/OS01/sdiv_105_add_4_21/CO undriven or does not drive anything -
      clipped.
-Signal OS00/OS01/sdiv_106_add_4_1/CI undriven or does not drive anything -
+Signal OS00/OS01/sdiv_105_add_4_1/S0 undriven or does not drive anything -
      clipped.
-Signal OS00/OS01/sdiv_106_add_4_21/CO undriven or does not drive anything -
+Signal OS00/OS01/sdiv_105_add_4_1/CI undriven or does not drive anything -
      clipped.
-Block OS00/OS00/i1506 was optimized away.
-Block i746_1_lut was optimized away.
+Block OS00/OS00/i1443 was optimized away.
 Block i1 was optimized away.
 
 
@@ -186,8 +185,8 @@ OSC Summary
 OSC 1:                                     Pin/Node Value
   OSC Instance Name:                                OS00/OS00/OSCInst0
   OSC Type:                                         OSCH
-
   STDBY Input:                                      NONE
+
   OSC Output:                              PIN,NODE oscraw0_c
   OSC Nominal Frequency (MHz):                      2.08
 
@@ -225,28 +224,28 @@ GSR Component:
    Register = 22 
 
      Type and instance name of component: 
-   Register : OS00/OS01/sdiv_106__i9
-   Register : OS00/OS01/sdiv_106__i16
-   Register : OS00/OS01/sdiv_106__i17
-   Register : OS00/OS01/sdiv_106__i18
-   Register : OS00/OS01/sdiv_106__i19
    Register : OS00/OS01/outdiv_58
-   Register : OS00/OS01/sdiv_106__i10
-   Register : OS00/OS01/sdiv_106__i11
-   Register : OS00/OS01/sdiv_106__i2
-   Register : OS00/OS01/sdiv_106__i3
-   Register : OS00/OS01/sdiv_106__i7
-   Register : OS00/OS01/sdiv_106__i8
-   Register : OS00/OS01/sdiv_106__i12
-   Register : OS00/OS01/sdiv_106__i13
-   Register : OS00/OS01/sdiv_106__i4
-   Register : OS00/OS01/sdiv_106__i5
-   Register : OS00/OS01/sdiv_106__i14
-   Register : OS00/OS01/sdiv_106__i6
-   Register : OS00/OS01/sdiv_106__i1
-   Register : OS00/OS01/sdiv_106__i15
-   Register : OS00/OS01/sdiv_106__i20
-   Register : OS00/OS01/sdiv_106__i0
+   Register : OS00/OS01/sdiv_105__i15
+   Register : OS00/OS01/sdiv_105__i16
+   Register : OS00/OS01/sdiv_105__i17
+   Register : OS00/OS01/sdiv_105__i8
+   Register : OS00/OS01/sdiv_105__i9
+   Register : OS00/OS01/sdiv_105__i10
+   Register : OS00/OS01/sdiv_105__i11
+   Register : OS00/OS01/sdiv_105__i12
+   Register : OS00/OS01/sdiv_105__i1
+   Register : OS00/OS01/sdiv_105__i2
+   Register : OS00/OS01/sdiv_105__i6
+   Register : OS00/OS01/sdiv_105__i7
+   Register : OS00/OS01/sdiv_105__i0
+   Register : OS00/OS01/sdiv_105__i3
+   Register : OS00/OS01/sdiv_105__i4
+   Register : OS00/OS01/sdiv_105__i18
+   Register : OS00/OS01/sdiv_105__i13
+   Register : OS00/OS01/sdiv_105__i5
+   Register : OS00/OS01/sdiv_105__i14
+   Register : OS00/OS01/sdiv_105__i19
+   Register : OS00/OS01/sdiv_105__i20
 
 
 
@@ -258,6 +257,7 @@ GSR Component:
    Total REAL Time: 0 secs  
    Peak Memory Usage: 51 MB
         
+
 
 
 

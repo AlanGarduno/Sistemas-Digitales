@@ -1,0 +1,130 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9\synpbase
+Hostname:    AGVIII
+Date:        Wed Nov 29 08:58:21 2017
+Version:     L-2016.09L-1
+
+Arguments:   -product synplify_pro -batch Counts_Counts_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Wed Nov 29 08:58:21 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srr to C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srf
+
+log file: "C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srr"
+
+Running: Counts in foreground
+
+
+
+Running proj_1|Counts
+
+
+Running: compile (Compile) on proj_1|Counts
+# Wed Nov 29 08:58:22 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|Counts
+# Wed Nov 29 08:58:22 2017
+
+
+Running: compiler (Compile Input) on proj_1|Counts
+# Wed Nov 29 08:58:22 2017
+
+Copied C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_comp.srs to C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srs
+
+
+compiler completed
+# Wed Nov 29 08:58:24 2017
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|Counts
+# Wed Nov 29 08:58:24 2017
+
+
+multi_srs_gen completed
+# Wed Nov 29 08:58:24 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_mult.srs to C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srs
+
+Copied C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srr to C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srf
+
+Complete: Compile Process on proj_1|Counts
+
+
+Running: premap (Pre-mapping) on proj_1|Counts
+# Wed Nov 29 08:58:24 2017
+
+
+premap completed with warnings
+# Wed Nov 29 08:58:25 2017
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Compile on proj_1|Counts
+
+
+Running: map (Map) on proj_1|Counts
+# Wed Nov 29 08:58:25 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|Counts
+# Wed Nov 29 08:58:25 2017
+
+Copied C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_m.srm to C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srm
+
+
+fpga_mapper completed with warnings
+# Wed Nov 29 08:58:28 2017
+
+Return Code: 1
+Run Time:00h:00m:03s
+
+Complete: Map on proj_1|Counts
+
+Copied C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srr to C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.srf
+
+Complete: Logic Synthesis on proj_1|Counts
+
+TCL script complete: "Counts_Counts_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\JCVELMON\Desktop\Counts\Counts\proj_1.prj
+
+batch mode default:no
+

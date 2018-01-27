@@ -10,12 +10,13 @@ Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
      prac4_impl1.mrp -lpf C:/Users/JCVELMON/Desktop/Semestre
      Actual/DSD/practica_4_v2/impl1/prac4_impl1.lpf -lpf
      C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4_v2/prac4.lpf -c 0
-     -gui 
+     -gui -msgset C:/Users/JCVELMON/Desktop/Semestre
+     Actual/DSD/practica_4_v2/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond Version 3.9.1.119
-Mapped on:  11/13/17  10:21:58
+Mapped on:  11/23/17  10:00:52
 
 Design Summary
 --------------
@@ -34,7 +35,7 @@ Design Summary
       Number used as shift registers:     0
    Number of PIO sites used: 16 + 4(JTAG) out of 115 (17%)
    Number of block RAMs:  0 out of 26 (0%)
-   Number of GSRs:  0 out of 1 (0%)
+   Number of GSRs:  1 out of 1 (100%)
    EFB used :       No
    JTAG used :      No
    Readback used :  No
@@ -58,36 +59,38 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  2
-     Net oscdiv0_c: 14 loads, 14 rising, 0 falling (Driver: OS00/OS01/outdiv_58
-     )
+     Net oscdiv0_c: 13 loads, 13 rising, 0 falling (Driver: OS00/OS01/outdiv_58
 
                                     Page 1
 
 
 
 
-Design:  topContador                                   Date:  11/13/17  10:21:58
+Design:  topContador                                   Date:  11/23/17  10:00:52
 
 Design Summary (cont)
 ---------------------
+     )
      Net oscraw0_c: 12 loads, 0 rising, 12 falling (Driver: OS00/OS00/OSCInst0 )
      
-   Number of Clock Enables:  1
-     Net clkdiv_N_23_enable_22: 12 loads, 12 LSLICEs
+   Number of Clock Enables:  3
+     Net c0_c: 5 loads, 5 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads, 11 LSLICEs
+     Net OS00/OS01/clkdiv_N_23_enable_3: 1 loads, 1 LSLICEs
    Number of LSRs:  1
-     Net OS00/OS01/n429: 11 loads, 11 LSLICEs
+     Net OS00/OS01/n464: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net clkdiv_N_23_enable_22: 13 loads
-     Net OS00/OS01/n429: 11 loads
-     Net q0t_c: 11 loads
+     Net c0_c: 11 loads
+     Net OS00/OS01/clkdiv_N_23_enable_22: 11 loads
+     Net OS00/OS01/n464: 11 loads
+     Net q0t_c: 10 loads
      Net q3t_c: 9 loads
      Net q4t_c: 9 loads
+     Net indiv0_c_0: 8 loads
+     Net indiv0_c_1: 8 loads
      Net q1t_c: 7 loads
      Net q5t_c: 7 loads
-     Net indiv0_c_1: 6 loads
-     Net indiv0_c_2: 6 loads
-     Net indiv0_c_3: 6 loads
 
 
 
@@ -123,19 +126,19 @@ IO (PIO) Attributes
 | q3t                 | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | q4t                 | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| q5t                 | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
 
                                     Page 2
 
 
 
 
-Design:  topContador                                   Date:  11/13/17  10:21:58
+Design:  topContador                                   Date:  11/23/17  10:00:52
 
 IO (PIO) Attributes (cont)
 --------------------------
++---------------------+-----------+-----------+------------+
+| q5t                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 | q6t                 | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | q7t                 | OUTPUT    | LVCMOS25  |            |
@@ -156,18 +159,17 @@ IO (PIO) Attributes (cont)
 Removed logic
 -------------
 
-Block i5 undriven or does not drive anything - clipped.
-Block GSR_INST undriven or does not drive anything - clipped.
+Block i725 undriven or does not drive anything - clipped.
 Signal OS00/clkdiv_N_23 was merged into signal oscraw0_c
 Signal GND_net undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
-Signal OS00/OS01/sdiv_59_add_4_1/S0 undriven or does not drive anything -
+Signal OS00/OS01/sdiv_60_add_4_1/S0 undriven or does not drive anything -
      clipped.
-Signal OS00/OS01/sdiv_59_add_4_1/CI undriven or does not drive anything -
+Signal OS00/OS01/sdiv_60_add_4_1/CI undriven or does not drive anything -
      clipped.
-Signal OS00/OS01/sdiv_59_add_4_21/CO undriven or does not drive anything -
+Signal OS00/OS01/sdiv_60_add_4_21/CO undriven or does not drive anything -
      clipped.
-Block OS00/OS00/i711 was optimized away.
+Block OS00/OS00/i727 was optimized away.
 Block i1 was optimized away.
 
 Memory Usage
@@ -190,15 +192,80 @@ ASIC Components
 ---------------
 
 Instance Name: OS00/OS00/OSCInst0
-         Type: OSCH
-
 
                                     Page 3
 
 
 
 
-Design:  topContador                                   Date:  11/13/17  10:21:58
+Design:  topContador                                   Date:  11/23/17  10:00:52
+
+ASIC Components (cont)
+----------------------
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'c0_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'c0_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 30 
+
+     Type and instance name of component: 
+   Register : contador0/j3_182
+   Register : contador0/j1_180
+   Register : contador0/j4_183
+   Register : contador0/j5_184
+   Register : contador0/j6_185
+   Register : contador0/j7_186
+   Register : contador0/j8_187
+   Register : contador0/j2_181
+   Register : OS00/OS01/sdiv_60__i15
+   Register : OS00/OS01/sdiv_60__i16
+   Register : OS00/OS01/outdiv_58
+   Register : OS00/OS01/sdiv_60__i17
+   Register : OS00/OS01/sdiv_60__i5
+   Register : OS00/OS01/sdiv_60__i1
+   Register : OS00/OS01/sdiv_60__i13
+   Register : OS00/OS01/sdiv_60__i3
+   Register : OS00/OS01/sdiv_60__i4
+   Register : OS00/OS01/sdiv_60__i6
+   Register : OS00/OS01/sdiv_60__i8
+   Register : OS00/OS01/sdiv_60__i0
+   Register : OS00/OS01/sdiv_60__i14
+   Register : OS00/OS01/sdiv_60__i9
+   Register : OS00/OS01/sdiv_60__i2
+   Register : OS00/OS01/sdiv_60__i10
+   Register : OS00/OS01/sdiv_60__i11
+   Register : OS00/OS01/sdiv_60__i7
+   Register : OS00/OS01/sdiv_60__i12
+   Register : OS00/OS01/sdiv_60__i18
+   Register : OS00/OS01/sdiv_60__i19
+   Register : OS00/OS01/sdiv_60__i20
+
+                                    Page 4
+
+
+
+
+Design:  topContador                                   Date:  11/23/17  10:00:52
+
 
 Run Time and Memory Usage
 -------------------------
@@ -258,8 +325,7 @@ Run Time and Memory Usage
 
 
 
-
-                                    Page 4
+                                    Page 5
 
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.

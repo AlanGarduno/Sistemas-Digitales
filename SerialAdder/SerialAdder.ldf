@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="SerialAdder" device="LCMXO2-7000HE-4TG144C" default_implementation="SerialAdder">
+    <Options/>
+    <Implementation title="SerialAdder" dir="SerialAdder" description="SerialAdder" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topAdder"/>
+        <Source name="osc00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagediv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topdiv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FullAdder.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="Registry.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="X_FF.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="ffSR"/>
+        </Source>
+        <Source name="BCD_7SEG.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="pkgTop.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topMOD.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="topAdder"/>
+        </Source>
+        <Source name="SerialAdder.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="SerialAdder/SerialAdder.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="SerialAdder1.sty"/>
+</BaliProject>

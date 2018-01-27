@@ -1,5 +1,0 @@
-@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
-@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
-@W: CL240 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd":7:8:7:12|clks0 is not assigned a value (floating) -- simulation mismatch possible. 
-@W: CL159 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd":8:1:8:4|Input ent0 is unused
-

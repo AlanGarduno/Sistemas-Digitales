@@ -1,0 +1,87 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lacho\\Desktop\\SerialAdder\\SerialAdder\\synwork\\SerialAdder_SerialAdder_comp.srs|-top|topAdder|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1481010008
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1480973228
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\FullAdder.vhd":1511925546
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\Registry.vhd":1511456838
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\BCD_7SEG.vhd":1510758268
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\pkgTop.vhd":1511925295
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\osc00.vhd":1504755547
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\cpld\\lattice.vhd":1481007224
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1481007224
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\div00.vhd":1504755468
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\packagediv00.vhd":1504755577
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\topdiv00.vhd":1504755844
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\X_FF.vhd":1511756164
+#CUR:"C:\\Users\\Lacho\\Desktop\\SerialAdder\\topMOD.vhd":1511926780
+0 "C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd" vhdl
+2 "C:\Users\Lacho\Desktop\SerialAdder\Registry.vhd" vhdl
+3 "C:\Users\Lacho\Desktop\SerialAdder\BCD_7SEG.vhd" vhdl
+4 "C:\Users\Lacho\Desktop\SerialAdder\pkgTop.vhd" vhdl
+5 "C:\Users\Lacho\Desktop\SerialAdder\osc00.vhd" vhdl
+6 "C:\Users\Lacho\Desktop\SerialAdder\div00.vhd" vhdl
+7 "C:\Users\Lacho\Desktop\SerialAdder\packagediv00.vhd" vhdl
+8 "C:\Users\Lacho\Desktop\SerialAdder\topdiv00.vhd" vhdl
+9 "C:\Users\Lacho\Desktop\SerialAdder\X_FF.vhd" vhdl
+10 "C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 0 
+6 0 
+7 0 
+8 5 6 0 7 
+9 0 
+10 8 2 1 9 3 4 
+
+# Dependency Lists (Users Of)
+0 9 8 7 6 5 
+1 10 
+2 10 
+3 10 
+4 10 
+5 8 
+6 8 
+7 8 
+8 10 
+9 10 
+10 -1
+
+# Design Unit to File Association
+arch work fulladder behavioral 1
+module work fulladder 1
+arch work registry behavioral 2
+module work registry 2
+arch work bcd_7seg behavioral 3
+module work bcd_7seg 3
+arch work osc00 osc0 5
+module work osc00 5
+arch work div00 div0 6
+module work div00 6
+arch work topdiv00 topdiv0 8
+module work topdiv00 8
+arch work ffd behavioral 9
+module work ffd 9
+arch work ffsr behavioral 9
+module work ffsr 9
+arch work ffjk behavioral 9
+module work ffjk 9
+arch work topadder behavioral 10
+module work topadder 10
+
+
+# Configuration files used

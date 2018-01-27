@@ -1,6 +1,0 @@
-@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\dado\dado0.vhd":30:9:30:15|display is not readable.  This may cause a simulation mismatch.
-@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\dado\dado0.vhd":39:15:39:21|display is not readable.  This may cause a simulation mismatch.
-@W: CD274 :"C:\users\richie\desktop\4 semestre\dsd\dado\dado0.vhd":30:4:30:7|Incomplete case statement - add more cases or a when others
-@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\dado\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
-@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\dado\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
-

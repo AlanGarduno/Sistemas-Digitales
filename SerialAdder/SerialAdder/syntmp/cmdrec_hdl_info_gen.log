@@ -1,0 +1,17 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_hdl_.srs  -top  topAdder  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\osc00.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\div00.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\packagediv00.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\topdiv00.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\Registry.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\X_FF.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\BCD_7SEG.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\pkgTop.vhd -lib work C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd  -log  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\syntax.log  -fileorder  C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\syntmp\hdlorder.tcl 
+rc:0 success:1 runtime:0
+file:C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\synwork\SerialAdder_SerialAdder_hdl_.srs|io:o|time:0|size:0|exec:0
+file:C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\osc00.vhd|io:i|time:1504755547|size:527|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\div00.vhd|io:i|time:1504755468|size:2096|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\packagediv00.vhd|io:i|time:1504755577|size:387|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\topdiv00.vhd|io:i|time:1504755844|size:600|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd|io:i|time:1511925546|size:423|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\Registry.vhd|io:i|time:1511456838|size:807|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\X_FF.vhd|io:i|time:1511756164|size:2251|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\BCD_7SEG.vhd|io:i|time:1510758268|size:2129|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\pkgTop.vhd|io:i|time:1511925295|size:809|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd|io:i|time:1511926780|size:2346|exec:0
+file:C:\Users\Lacho\Desktop\SerialAdder\SerialAdder\syntax.log|io:o|time:1511926784|size:1004|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_vhdl.exe|io:i|time:1481009758|size:2416640|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1481010008|size:3082752|exec:1

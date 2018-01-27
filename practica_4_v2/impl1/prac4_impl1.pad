@@ -6,7 +6,7 @@ Performance Grade:      4
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Mon Nov 13 10:22:05 2017
+Thu Nov 23 10:01:00 2017
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -17,8 +17,8 @@ Pinout by Port Name:
 | indiv0[1] | 67/2     | LVCMOS25_IN  | PB35B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | indiv0[2] | 61/2     | LVCMOS25_IN  | PB31A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | indiv0[3] | 65/2     | LVCMOS25_IN  | PB35A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| oscdiv0   | 94/1     | LVCMOS25_OUT | PR11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| oscraw0   | 76/1     | LVCMOS25_OUT | PR23A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| oscdiv0   | 86/1     | LVCMOS25_OUT | PR16A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| oscraw0   | 38/2     | LVCMOS25_OUT | PB4A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | q0t       | 10/5     | LVCMOS25_OUT | PL8B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | q1t       | 9/5      | LVCMOS25_OUT | PL8A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | q2t       | 12/5     | LVCMOS25_OUT | PL9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
@@ -79,7 +79,7 @@ Pinout by Pin Number:
 | 33/3     |     unused, PULL:DOWN |            |              | PL24B |                |           |           |
 | 34/3     |     unused, PULL:DOWN |            |              | PL25A |                |           |           |
 | 35/3     |     unused, PULL:DOWN |            |              | PL25B |                |           |           |
-| 38/2     |     unused, PULL:DOWN |            |              | PB4A  |                |           |           |
+| 38/2     | oscraw0               |            | LVCMOS25_OUT | PB4A  |                |           |           |
 | 39/2     |     unused, PULL:DOWN |            |              | PB4B  |                |           |           |
 | 40/2     | c0                    | LOCATED    | LVCMOS25_IN  | PB6A  | CSSPIN         |           |           |
 | 41/2     |     unused, PULL:DOWN |            |              | PB6B  |                |           |           |
@@ -111,7 +111,7 @@ Pinout by Pin Number:
 | 73/1     |     unused, PULL:DOWN |            |              | PR24B | DQ1            |           |           |
 | 74/1     |     unused, PULL:DOWN |            |              | PR24A | DQ1            |           |           |
 | 75/1     |     unused, PULL:DOWN |            |              | PR23B | DQ1            |           |           |
-| 76/1     | oscraw0               |            | LVCMOS25_OUT | PR23A | DQ1            |           |           |
+| 76/1     |     unused, PULL:DOWN |            |              | PR23A | DQ1            |           |           |
 | 77/1     |     unused, PULL:DOWN |            |              | PR21B | DQ1            |           |           |
 | 78/1     |     unused, PULL:DOWN |            |              | PR21A | DQ1            |           |           |
 | 81/1     |     unused, PULL:DOWN |            |              | PR18B | DQ1            |           |           |
@@ -119,13 +119,13 @@ Pinout by Pin Number:
 | 83/1     |     unused, PULL:DOWN |            |              | PR17B | DQ1            |           |           |
 | 84/1     |     unused, PULL:DOWN |            |              | PR17A | DQ1            |           |           |
 | 85/1     |     unused, PULL:DOWN |            |              | PR16B | DQS1N          |           |           |
-| 86/1     |     unused, PULL:DOWN |            |              | PR16A | DQS1           |           |           |
+| 86/1     | oscdiv0               |            | LVCMOS25_OUT | PR16A | DQS1           |           |           |
 | 87/1     |     unused, PULL:DOWN |            |              | PR15B |                |           |           |
 | 89/1     |     unused, PULL:DOWN |            |              | PR15A |                |           |           |
 | 91/1     |     unused, PULL:DOWN |            |              | PR12B | PCLKC1_0/DQ0   |           |           |
 | 92/1     |     unused, PULL:DOWN |            |              | PR12A | PCLKT1_0/DQ0   |           |           |
 | 93/1     |     unused, PULL:DOWN |            |              | PR11B | DQS0N          |           |           |
-| 94/1     | oscdiv0               |            | LVCMOS25_OUT | PR11A | DQS0           |           |           |
+| 94/1     |     unused, PULL:DOWN |            |              | PR11A | DQS0           |           |           |
 | 95/1     |     unused, PULL:DOWN |            |              | PR9B  | DQ0            |           |           |
 | 96/1     |     unused, PULL:DOWN |            |              | PR9A  | DQ0            |           |           |
 | 97/1     |     unused, PULL:DOWN |            |              | PR7B  | DQ0            |           |           |
@@ -409,8 +409,8 @@ LOCATE  COMP  "indiv0[0]"  SITE  "62";
 LOCATE  COMP  "indiv0[1]"  SITE  "67";
 LOCATE  COMP  "indiv0[2]"  SITE  "61";
 LOCATE  COMP  "indiv0[3]"  SITE  "65";
-LOCATE  COMP  "oscdiv0"  SITE  "94";
-LOCATE  COMP  "oscraw0"  SITE  "76";
+LOCATE  COMP  "oscdiv0"  SITE  "86";
+LOCATE  COMP  "oscraw0"  SITE  "38";
 LOCATE  COMP  "q0t"  SITE  "10";
 LOCATE  COMP  "q1t"  SITE  "9";
 LOCATE  COMP  "q2t"  SITE  "12";
@@ -431,5 +431,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Nov 13 10:22:05 2017
+Thu Nov 23 10:01:00 2017
 

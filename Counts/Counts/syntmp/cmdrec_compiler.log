@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_comp.srs  -top  topMOD  -hdllog  C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\Counts_Counts_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\JCVELMON\Desktop\Counts\Counts\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\Registry.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\pkgTop.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\div00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\osc00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\packagediv00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd 
+rc:0 success:1 runtime:2
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_comp.srs|io:o|time:1511967502|size:9572|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\Counts_Counts_compiler.srr|io:o|time:1511967502|size:5255|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Registry.vhd|io:i|time:1511967477|size:1537|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\pkgTop.vhd|io:i|time:1511271888|size:649|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd|io:i|time:1510758270|size:2129|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\div00.vhd|io:i|time:1504755470|size:2096|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\osc00.vhd|io:i|time:1504755548|size:527|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\packagediv00.vhd|io:i|time:1504755578|size:387|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd|io:i|time:1504755846|size:600|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd|io:i|time:1511967212|size:947|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin\c_hdl.exe|io:i|time:1489222768|size:1338368|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_hdl.exe|io:i|time:1489222974|size:1754112|exec:1

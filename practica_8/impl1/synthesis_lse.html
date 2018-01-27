@@ -1,0 +1,304 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond Version 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Dec 06 12:14:21 2017
+
+
+Command Line:  synthesis -f practica8_impl1_lattice.synproj -gui -msgset C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/promote.xml 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 5.
+The -t option is TQFP144.
+The -d option is LCMXO2-7000HE.
+Using package TQFP144.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-7000HE
+
+### Package : TQFP144
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = topkey00.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.9/ispfpga/xo2c00/data (searchpath added)
+-p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/impl1 (searchpath added)
+-p C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8 (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/impl1/source/div00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/impl1/source/osc00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/impl1/source/packagediv00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/impl1/source/topdiv00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/coder00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/contring0.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/packagekey00.vhd
+VHDL design file = C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/topkey00.vhd
+NGD file = practica8_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.9/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_8/impl1". VHDL-1504
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/div00.vhd. VHDL-1481
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/div00.vhd(6): 'components' is not compiled in library lattice. VHDL-1240
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/div00.vhd(10): analyzing entity div00. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/div00.vhd(17): analyzing architecture div0. VHDL-1010
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/osc00.vhd. VHDL-1481
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/osc00.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/osc00.vhd(8): analyzing entity osc00. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/osc00.vhd(13): analyzing architecture osc0. VHDL-1010
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/packagediv00.vhd. VHDL-1481
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/packagediv00.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/packagediv00.vhd(8): analyzing package packagediv00. VHDL-1014
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/topdiv00.vhd. VHDL-1481
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/topdiv00.vhd(4): 'components' is not compiled in library lattice. VHDL-1240
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/topdiv00.vhd(9): analyzing entity topdiv00. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/impl1/source/topdiv00.vhd(17): analyzing architecture topdiv0. VHDL-1010
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/coder00.vhd. VHDL-1481
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/coder00.vhd(4): analyzing entity coder00. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/coder00.vhd(12): analyzing architecture coder0. VHDL-1010
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/contring0.vhd. VHDL-1481
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/contring0.vhd(4): analyzing entity contring00. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/contring0.vhd(11): analyzing architecture contring0. VHDL-1010
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/packagekey00.vhd. VHDL-1481
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/packagekey00.vhd(4): analyzing package packagekey00. VHDL-1014
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/topkey00.vhd. VHDL-1481
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/topkey00.vhd(5): analyzing entity topkey00. VHDL-1012
+INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/topkey00.vhd(17): analyzing architecture topkey0. VHDL-1010
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+unit topkey00 is not yet analyzed. VHDL-1485
+c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/topkey00.vhd(5): executing topkey00(topkey0)
+
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_8/topkey00.vhd(15): replacing existing netlist topkey00(topkey0). VHDL-1205
+Top module name (VHDL): topkey00
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.9/ispfpga.
+Package Status:                     Final          Version 1.39.
+Top-level module name = topkey00.
+######## Converting I/O port oscraw0 to output.
+######## Converting I/O port oscdiv0 to output.
+######## Converting I/O port outr0[3] to output.
+######## Converting I/O port outr0[2] to output.
+######## Converting I/O port outr0[1] to output.
+######## Converting I/O port outr0[0] to output.
+
+
+
+Duplicate register/latch removal. \K01/soutr_i0 is a one-to-one match with \K01/outr__i2.
+Duplicate register/latch removal. \K01/soutr_i1 is a one-to-one match with \K01/outr__i3.
+Duplicate register/latch removal. \K01/soutr_i2 is a one-to-one match with \K01/outr__i4.
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in topkey00_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file practica8_impl1.ngd.
+
+################### Begin Area Report (topkey00)######################
+Number of register bits => 38 of 7209 (0 % )
+CCU2D => 11
+FD1P3AX => 12
+FD1P3IX => 21
+FD1S3IX => 4
+FD1S3JX => 1
+GSR => 1
+IB => 9
+INV => 1
+LUT4 => 145
+OB => 17
+PFUMX => 17
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+OSCH("2.08")(1,4) => 1
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : OS00/OS01/oscdiv0_c, loads : 18
+  Net : OS00/OS00/oscraw0_c, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 13
+Top 10 highest fanout Clock Enables:
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 22
+  Net : K02/oscdiv0_c_enable_5, loads : 1
+  Net : oscdiv0_c_enable_6, loads : 1
+  Net : oscdiv0_c_enable_1, loads : 1
+  Net : K02/oscdiv0_c_enable_7, loads : 1
+  Net : K02/oscdiv0_c_enable_3, loads : 1
+  Net : K02/oscdiv0_c_enable_8, loads : 1
+  Net : OS00/OS01/clkdiv_N_23_enable_1, loads : 1
+  Net : K02/oscdiv0_c_enable_9, loads : 1
+  Net : K02/oscdiv0_c_enable_4, loads : 1
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : inkey0_c_2, loads : 43
+  Net : inkey0_c_1, loads : 42
+  Net : inkey0_c_3, loads : 41
+  Net : inkey0_c_0, loads : 39
+  Net : K01/soutr_0, loads : 35
+  Net : K01/soutr_1, loads : 30
+  Net : K01/soutr_2, loads : 24
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 22
+  Net : OS00/OS00/clkdiv_N_23, loads : 21
+  Net : OS00/OS01/n1805, loads : 21
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets oscraw0_c]               |    1.000 MHz|  106.168 MHz|     8  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets oscdiv0_c]               |    1.000 MHz|  114.260 MHz|     7  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 58.031  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.781  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

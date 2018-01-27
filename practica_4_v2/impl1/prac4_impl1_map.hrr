@@ -10,36 +10,36 @@ Report for cell topContador
                                 RIPPLE	         11        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                              topdiv00	          1        49.1
-                              contador	          1        42.7
+                              topdiv00	          1        59.0
+                              contador	          1        41.0
 ---------------------------------------------------
 Report for cell contador
    Instance path: topContador/contador0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      16.67        42.7
-                                  LUT4	      26.00        54.2
+                                  SLIC	      16.00        41.0
+                                  LUT4	      25.00        52.1
                                 PFUREG	         17        43.6
 ---------------------------------------------------
 Report for cell topdiv00
    Instance path: topContador/OS00
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      19.17        49.1
-                                  LUT4	      15.33        31.9
+                                  SLIC	      23.00        59.0
+                                  LUT4	      23.00        47.9
                                 PFUREG	         22        56.4
                                 RIPPLE	         11        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
                                  osc00	          1         0.0
-                                 div00	          1        49.1
+                                 div00	          1        59.0
 ---------------------------------------------------
 Report for cell div00
    Instance path: topContador/OS00/OS01
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      19.17        49.1
-                                  LUT4	      15.33        31.9
+                                  SLIC	      23.00        59.0
+                                  LUT4	      23.00        47.9
                                 PFUREG	         22        56.4
                                 RIPPLE	         11        100.0
 ---------------------------------------------------

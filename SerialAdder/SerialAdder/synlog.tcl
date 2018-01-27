@@ -1,0 +1,1 @@
+run_tcl -fg SerialAdder_SerialAdder_synplify.tcl

@@ -1,0 +1,24 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Nov 15 09:03:11 2017 *
+NOTE DESIGN NAME: topDado *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS oscraw0 : 105 : out *
+NOTE PINS oscdiv0 : 21 : out *
+NOTE PINS clk0 : 63 : out *
+NOTE PINS display0[6] : 12 : out *
+NOTE PINS display0[5] : 11 : out *
+NOTE PINS display0[4] : 14 : out *
+NOTE PINS display0[3] : 13 : out *
+NOTE PINS display0[2] : 20 : out *
+NOTE PINS display0[1] : 19 : out *
+NOTE PINS display0[0] : 22 : out *
+NOTE PINS indiv0[3] : 65 : in *
+NOTE PINS indiv0[2] : 61 : in *
+NOTE PINS indiv0[1] : 67 : in *
+NOTE PINS indiv0[0] : 62 : in *
+NOTE PINS clr0 : 40 : in *
+NOTE PINS control0 : 38 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

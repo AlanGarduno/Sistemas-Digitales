@@ -1,1 +1,0 @@
-project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/dado/packagedado.vhd" "C:/users/richie/desktop/4\ semestre/dsd/dado/osc00.vhd" "C:/users/richie/desktop/4\ semestre/dsd/dado/dado0.vhd" "C:/users/richie/desktop/4\ semestre/dsd/dado/topdado0.vhd" 

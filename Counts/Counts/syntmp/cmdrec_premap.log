@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.9\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\JCVELMON\Desktop\Counts\Counts   -part LCMXO2_7000HE  -package TG144C  -grade -4    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\report\Counts_Counts_premap.xml  -top_level_module  topMOD  -oedif  C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.edi  -conchk_prepass  C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts_cck.rpt   -freq 1.000   C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_prem.srd  -devicelib  C:\lscc\diamond\3.9\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.9\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\JCVELMON\Desktop\Counts\Counts\syntmp\Counts_Counts.plg  -osyn  C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_prem.srd  -prjdir  C:\Users\JCVELMON\Desktop\Counts\Counts\  -prjname  proj_1  -log  C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\Counts_Counts_premap.srr 
+rc:1 success:1 runtime:1
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts.edi|io:o|time:1511967291|size:83567|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\Counts_Counts_cck.rpt|io:o|time:1511967505|size:2701|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_mult.srs|io:i|time:1511967504|size:3244|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_prem.srd|io:o|time:1511967505|size:12214|exec:0
+file:C:\lscc\diamond\3.9\synpbase\lib\lucent\machxo2.v|io:i|time:1489047244|size:54295|exec:0
+file:C:\lscc\diamond\3.9\synpbase\lib\lucent\pmi_def.v|io:i|time:1489047244|size:40584|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\syntmp\Counts_Counts.plg|io:o|time:1511967504|size:0|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_prem.srd|io:o|time:1511967505|size:12214|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synlog\Counts_Counts_premap.srr|io:o|time:1511967505|size:3830|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin\m_gen_lattice.exe|io:i|time:1489220624|size:19190784|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin64\m_gen_lattice.exe|io:i|time:1489222152|size:23049728|exec:1

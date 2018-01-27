@@ -1,0 +1,29 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Nov 24 12:54:17 2017 *
+NOTE DESIGN NAME: topTeclado *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS oscraw0 : 39 : out *
+NOTE PINS oscdiv0 : 110 : out *
+NOTE PINS C0[2] : 69 : out *
+NOTE PINS C0[1] : 71 : out *
+NOTE PINS C0[0] : 68 : out *
+NOTE PINS display0[6] : 34 : out *
+NOTE PINS display0[5] : 35 : out *
+NOTE PINS display0[4] : 32 : out *
+NOTE PINS display0[3] : 33 : out *
+NOTE PINS display0[2] : 27 : out *
+NOTE PINS display0[1] : 28 : out *
+NOTE PINS display0[0] : 25 : out *
+NOTE PINS indiv0[3] : 65 : in *
+NOTE PINS indiv0[2] : 61 : in *
+NOTE PINS indiv0[1] : 67 : in *
+NOTE PINS indiv0[0] : 62 : in *
+NOTE PINS F0[3] : 73 : in *
+NOTE PINS F0[2] : 74 : in *
+NOTE PINS F0[1] : 75 : in *
+NOTE PINS F0[0] : 76 : in *
+NOTE PINS clr0 : 40 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

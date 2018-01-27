@@ -1,0 +1,14 @@
+#Start recording tcl command: 11/15/2017 08:58:47
+#Project Location: C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_7; Project name: practica7
+prj_project open "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_7/practica7.ldf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_7/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_7/impl1/impl1.xcf"
+prj_src enable "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_7/impl1/impl1.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_7/impl1/impl1.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 11/15/2017 09:31:01

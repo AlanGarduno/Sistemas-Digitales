@@ -1,0 +1,8 @@
+@W: CG296 :"C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd":11:1:11:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd":16:20:16:21|Referenced variable ci is not in sensitivity list.
+@W: CG290 :"C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd":16:14:16:14|Referenced variable b is not in sensitivity list.
+@W: CG290 :"C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd":16:8:16:8|Referenced variable a is not in sensitivity list.
+@W: CD638 :"C:\Users\Lacho\Desktop\SerialAdder\topdiv00.vhd":18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD276 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL167 :"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":84:1:84:4|Input ci of instance SREG is floating
+

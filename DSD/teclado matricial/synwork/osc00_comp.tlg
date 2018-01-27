@@ -1,6 +1,0 @@
-@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\teclado matricial\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0 
-@W: CD280 :"C:\users\richie\desktop\4 semestre\dsd\teclado matricial\osc00.vhd":13:10:13:17|Unbound component OSCTIMER mapped to black box
-@W: CD326 :"C:\users\richie\desktop\4 semestre\dsd\teclado matricial\osc00.vhd":25:0:25:5|Port oscout of entity work.osctimer is unconnected
-@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\teclado matricial\osc00.vhd":13:10:13:17|Synthesizing work.osctimer.syn_black_box 
-Post processing for work.osctimer.syn_black_box
-Post processing for work.osc00.osc0

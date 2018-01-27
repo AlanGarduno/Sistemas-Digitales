@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.9\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_hdl_.srs  -top  topMOD  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\JCVELMON\Desktop\Counts\Counts\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\div00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\osc00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\packagediv00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\Registry.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\pkgTop.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd -lib work C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd  -log  C:\Users\JCVELMON\Desktop\Counts\Counts\syntax.log  -fileorder  C:\Users\JCVELMON\Desktop\Counts\Counts\syntmp\hdlorder.tcl 
+rc:0 success:1 runtime:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\synwork\Counts_Counts_hdl_.srs|io:o|time:0|size:0|exec:0
+file:C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\div00.vhd|io:i|time:1504755470|size:2096|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\osc00.vhd|io:i|time:1504755548|size:527|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\packagediv00.vhd|io:i|time:1504755578|size:387|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd|io:i|time:1504755846|size:600|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Registry.vhd|io:i|time:1511967477|size:1537|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\pkgTop.vhd|io:i|time:1511271888|size:649|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd|io:i|time:1511967212|size:947|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd|io:i|time:1510758270|size:2129|exec:0
+file:C:\Users\JCVELMON\Desktop\Counts\Counts\syntax.log|io:o|time:1511967501|size:996|exec:0
+file:C:\lscc\diamond\3.9\synpbase\bin\c_vhdl.exe|io:i|time:1489222824|size:2416640|exec:1
+file:C:\lscc\diamond\3.9\synpbase\bin64\c_vhdl.exe|io:i|time:1489223076|size:3082752|exec:1

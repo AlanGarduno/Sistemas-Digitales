@@ -29,7 +29,7 @@ begin
 			q1 => q1t,
 			q2 => q2t,
 			q3 => q3t,
-			q4 => q4t,
+			q4 => q4t, 
 			q5 => q5t,
 			q6 => q6t,
 			q7 => q7t,

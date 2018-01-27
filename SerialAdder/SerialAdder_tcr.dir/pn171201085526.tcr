@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/1/2017 08:52:35
+#Project Location: C:/Users/Lacho/Desktop/SerialAdder; Project name: SerialAdder
+prj_project open "C:/Users/Lacho/Desktop/SerialAdder/SerialAdder.ldf"
+prj_project close
+#Stop recording: 12/1/2017 08:55:26

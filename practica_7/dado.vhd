@@ -42,4 +42,4 @@ begin
 	end process;
 
 end a_dado;
-
+ 

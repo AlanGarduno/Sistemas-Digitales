@@ -13,8 +13,19 @@ architecture a_B of ContB is
  signal  j0,j1,j2,j3,j4,j5,j6,j7,j8:std_logic;
 begin
    process (clk)
-   begin	
-      if (clk'EVENT and clk='1')then
+   begin
+	if(c = '0')
+		q0<='0',
+		q1<='0',
+		q2<='0',
+		q3<='0',
+		q4<='0',
+		q5<='0',
+		q6<='0',
+		q7<='0',
+		q8<='0';
+		
+      elsif (clk'EVENT and clk='1')then
 	  	 j0<='1';
 		 j1<=c xor q0;
          j2<=(c and not q1 and not q0)or(not c and q1 and q0);

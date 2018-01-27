@@ -1,6 +1,0 @@
-@N|Running in 64-bit mode
-@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"C:\users\richie\desktop\4 semestre\dsd\decada2\deca.vhd":8:7:8:10|Top entity is set to deca.
-@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\decada2\deca.vhd":8:7:8:10|Synthesizing work.deca.a_deca 
-@N: CL201 :"C:\users\richie\desktop\4 semestre\dsd\decada2\deca.vhd":35:2:35:3|Trying to extract state machine for register display
-

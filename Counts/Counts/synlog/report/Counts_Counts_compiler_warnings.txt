@@ -1,0 +1,4 @@
+@W: CD638 :"C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd":18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD276 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL240 :"C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd":18:2:18:3|Signal CD is floating; a simulation mismatch is possible.
+

@@ -1,7 +1,0 @@
-C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  Cont  -multisrs  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\synwork\Cont_comp.srs"  -osyn  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\synwork\Cont_mult.srs"  -log  "C:\users\richie\desktop\4 semestre\dsd\contador de decada\synlog\Cont_multi_srs_gen.srr" 
-rc:0 success:1
-C:\users\richie\desktop\4 semestre\dsd\contador de decada\synwork\Cont_comp.srs|i|1492537403|1579
-C:\users\richie\desktop\4 semestre\dsd\contador de decada\synwork\Cont_mult.srs|o|1492537405|1647
-C:\users\richie\desktop\4 semestre\dsd\contador de decada\synlog\Cont_multi_srs_gen.srr|o|1492537405|376
-C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401227536|2741760
-C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401227732|6337536

@@ -1,3 +1,0 @@
-@E: CD184 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\top_secuencia.vhd":30:8:30:9|target clk0 of assignment is not writeable
-@E|Parse errors encountered - exiting
-

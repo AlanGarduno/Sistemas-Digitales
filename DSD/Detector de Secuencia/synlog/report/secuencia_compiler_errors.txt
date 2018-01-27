@@ -1,3 +1,0 @@
-@E: CD204 :"C:\users\richie\desktop\4 semestre\dsd\detector de secuencia\secuencia.vhd":59:1:59:5|Expecting sequential statement
-@E|Parse errors encountered - exiting
-

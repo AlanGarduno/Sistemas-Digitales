@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd":6:7:6:12|Top entity is set to topMOD.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd":6:7:6:12|Synthesizing work.topmod.behavioral.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd":6:7:6:14|Synthesizing work.bcd_7seg.behavioral.
+@N: CD604 :"C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd":52:3:52:16|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":5:7:5:14|Synthesizing work.registry.behavioral.
+@N: CD364 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":27:17:27:17|Removing redundant assignment.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\JCVELMON\Desktop\Counts\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL159 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":7:12:7:13|Input CD is unused.
+@N: CL159 :"C:\Users\JCVELMON\Desktop\Counts\Registry.vhd":7:16:7:17|Input CI is unused.
+@N|Running in 64-bit mode
+

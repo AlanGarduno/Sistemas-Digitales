@@ -5,10 +5,10 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Nov 13 10:20:12 2017
+Thu Nov 23 09:57:58 2017
 
 
-Command Line:  synthesis -f prac4_impl1_lattice.synproj -gui 
+Command Line:  synthesis -f prac4_impl1_lattice.synproj -gui -msgset C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4_v2/promote.xml 
 
 Synthesis options:
 The -a option is MachXO2.
@@ -147,10 +147,11 @@ Top-level module name = topContador.
 ######## Converting I/O port q6t to output.
 ######## Converting I/O port q7t to output.
 ######## Converting I/O port q8t to output.
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4_v2/impl1/contador0.vhd(78): Register \contador0/j0_179 is stuck at One. VDB-5014
 
 
 
-GSR will not be inferred because no asynchronous signal was found in the netlist.
+GSR instance connected to net c0_c.
 Applying 1.000000 MHz constraint to all clocks
 
 WARNING - synthesis: No user .sdc file.
@@ -168,15 +169,15 @@ Writing NGD file prac4_impl1.ngd.
 ################### Begin Area Report (topContador)######################
 Number of register bits => 39 of 7209 (0 % )
 CCU2D => 11
-FD1P3AX => 1
+FD1P3AX => 9
 FD1P3IX => 21
-FD1S3AX => 17
+FD1S3AX => 9
 GSR => 1
 IB => 5
 INV => 1
 LUT4 => 48
 OB => 11
-PFUMX => 5
+PFUMX => 4
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -190,21 +191,23 @@ Number of Clocks: 2
   Net : OS00/OS01/oscdiv0_c, loads : 19
   Net : OS00/OS00/oscraw0_c, loads : 2
 Clock Enable Nets
-Number of Clock Enables: 1
-Top 1 highest fanout Clock Enables:
-  Net : clkdiv_N_23_enable_22, loads : 1
+Number of Clock Enables: 3
+Top 3 highest fanout Clock Enables:
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 21
+  Net : c0_c, loads : 2
+  Net : OS00/OS01/clkdiv_N_23_enable_3, loads : 1
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : clkdiv_N_23_enable_22, loads : 23
   Net : OS00/OS00/clkdiv_N_23, loads : 21
-  Net : OS00/OS01/n429, loads : 21
-  Net : contador0/q0t_c, loads : 10
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 21
+  Net : OS00/OS01/n464, loads : 21
+  Net : c0_c, loads : 14
+  Net : contador0/q0t_c, loads : 9
+  Net : indiv0_c_1, loads : 8
+  Net : indiv0_c_0, loads : 8
   Net : contador0/q3t_c, loads : 8
   Net : contador0/q4t_c, loads : 8
-  Net : indiv0_c_3, loads : 6
-  Net : indiv0_c_2, loads : 6
-  Net : indiv0_c_1, loads : 6
-  Net : c0_c, loads : 6
+  Net : indiv0_c_3, loads : 7
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -217,7 +220,7 @@ create_clock -period 1000.000000 -name  |             |             |
 clk1 [get_nets oscdiv0_c]               |    1.000 MHz|  145.688 MHz|     4  
                                         |             |             |
 create_clock -period 1000.000000 -name  |             |             |
-clk0 [get_nets oscraw0_c]               |    1.000 MHz|  112.600 MHz|     6  
+clk0 [get_nets oscraw0_c]               |    1.000 MHz|   95.758 MHz|     6  
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -225,8 +228,8 @@ clk0 [get_nets oscraw0_c]               |    1.000 MHz|  112.600 MHz|     6
 All constraints were met.
 
 
-Peak Memory Usage: 54.348  MB
+Peak Memory Usage: 54.746  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.953  secs
+Elapsed CPU time for LSE flow : 1.188  secs
 --------------------------------------------------------------

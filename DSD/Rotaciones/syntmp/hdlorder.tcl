@@ -1,1 +1,0 @@
-project -fileorder "C:/users/richie/desktop/4\ semestre/dsd/rotaciones/package_registrouni.vhd" "C:/users/richie/desktop/4\ semestre/dsd/rotaciones/registrouniversal.vhd" 

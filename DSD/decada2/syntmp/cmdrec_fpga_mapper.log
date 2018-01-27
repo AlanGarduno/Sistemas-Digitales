@@ -1,9 +1,0 @@
-C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\richie\desktop\4 semestre\dsd\decada2"  -part LC4064B  -package T44C  -grade -2.5   -ispmach4s -RWCheckOnRam 1 -areadelay 0 -minc -auto_constrain_io -summaryfile "C:\users\richie\desktop\4 semestre\dsd\decada2\synlog\report\top_deca0_fpga_mapper.xml" -top_level_module  top_deca0  -multisrs  -ta_num_paths 3  -ta_num_points 0  -oedif  "C:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.edi"  -freq 200.000  "C:\users\richie\desktop\4 semestre\dsd\decada2\synwork\top_deca0_mult.srs"  -ologparam  "C:\users\richie\desktop\4 semestre\dsd\decada2\syntmp\top_deca0.plg"  -osyn  "C:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.srm"  -prjdir  "c:\users\richie\desktop\4 semestre\dsd\decada2\"  -prjname  top_deca0  -log  "C:\users\richie\desktop\4 semestre\dsd\decada2\synlog\top_deca0_fpga_mapper.srr" 
-rc:0 success:1
-C:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.edi|o|1495759641|85232
-C:\users\richie\desktop\4 semestre\dsd\decada2\synwork\top_deca0_mult.srs|i|1495759641|2496
-"C:\users\richie\desktop\4 semestre\dsd\decada2\syntmp\top_deca0.plg"|o|0|0
-C:\users\richie\desktop\4 semestre\dsd\decada2\top_deca0.srm|o|1495759641|34756
-C:\users\richie\desktop\4 semestre\dsd\decada2\synlog\top_deca0_fpga_mapper.srr|o|1495759642|1529
-C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399369284|7067648
-C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399372122|8049664

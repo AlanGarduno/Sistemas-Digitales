@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":7:7:7:14|Top entity is set to topAdder.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":7:7:7:14|Synthesizing work.topadder.behavioral.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\BCD_7SEG.vhd":6:7:6:14|Synthesizing work.bcd_7seg.behavioral.
+@N: CD604 :"C:\Users\Lacho\Desktop\SerialAdder\BCD_7SEG.vhd":52:3:52:16|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\Registry.vhd":5:7:5:14|Synthesizing work.registry.behavioral.
+@N: CD364 :"C:\Users\Lacho\Desktop\SerialAdder\Registry.vhd":19:16:19:16|Removing redundant assignment.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\X_FF.vhd":107:7:107:9|Synthesizing work.ffd.behavioral.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\FullAdder.vhd":3:7:3:15|Synthesizing work.fulladder.behavioral.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\Lacho\Desktop\SerialAdder\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

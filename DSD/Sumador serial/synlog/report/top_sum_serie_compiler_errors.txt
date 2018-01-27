@@ -1,2 +1,0 @@
-@E: CD326 :"C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.vhd":35:3:35:5|Port clr of entity work.sumador is unconnected
-

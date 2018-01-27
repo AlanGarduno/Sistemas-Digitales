@@ -1,4 +1,0 @@
-@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd":30:9:30:15|display is not readable.  This may cause a simulation mismatch.
-@W: CD266 :"C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd":39:15:39:21|display is not readable.  This may cause a simulation mismatch.
-@W: CD274 :"C:\users\richie\desktop\4 semestre\dsd\dado sofi\dado0.vhd":30:4:30:7|Incomplete case statement - add more cases or a when others
-

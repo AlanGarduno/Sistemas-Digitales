@@ -1,7 +1,0 @@
-@N|Running in 64-bit mode
-@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\sec.vhd":6:7:6:9|Top entity is set to sec.
-@N: CD630 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\sec.vhd":6:7:6:9|Synthesizing work.sec.a_sec 
-@N: CD231 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\sec.vhd":12:13:12:14|Using onehot encoding for type estados (a="10000")
-@N: CL201 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\sec.vhd":57:4:57:5|Trying to extract state machine for register edo_presente
-

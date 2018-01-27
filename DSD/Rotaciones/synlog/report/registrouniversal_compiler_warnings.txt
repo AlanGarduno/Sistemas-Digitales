@@ -1,2 +1,0 @@
-@W: CL158 :"C:\users\richie\desktop\4 semestre\dsd\rotaciones\registrouniversal.vhd":10:2:10:4|Inout sal is unused
-

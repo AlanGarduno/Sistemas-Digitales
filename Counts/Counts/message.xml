@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLR_c</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>DERECHA</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>IZQUIERDA</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OS00/OS01/un1_sdiv_1_cry_19_0_COUT</Dynamic>
+            <Navigation>OS00/OS01/un1_sdiv_1_cry_19_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OS00/OS01/un1_sdiv_1_cry_0_0_S0</Dynamic>
+            <Navigation>OS00/OS01/un1_sdiv_1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OS00/OS00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>OS00/OS00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_Q_s_3_0_COUT</Dynamic>
+            <Navigation>REG0/un1_Q_s_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_Q_s_3_0_S1</Dynamic>
+            <Navigation>REG0/un1_Q_s_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_Q_cry_0_0_S0</Dynamic>
+            <Navigation>REG0/un1_Q_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_Q_cry_0_0_S1</Dynamic>
+            <Navigation>REG0/un1_Q_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_AUX_s_3_0_COUT</Dynamic>
+            <Navigation>REG0/un1_AUX_s_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_AUX_s_3_0_S1</Dynamic>
+            <Navigation>REG0/un1_AUX_s_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_AUX_cry_0_0_S0</Dynamic>
+            <Navigation>REG0/un1_AUX_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>REG0/un1_AUX_cry_0_0_S1</Dynamic>
+            <Navigation>REG0/un1_AUX_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>DERECHA</Dynamic>
+            <Navigation>DERECHA</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>IZQUIERDA</Dynamic>
+            <Navigation>IZQUIERDA</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>13</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd&quot;:18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd&quot;:18:2:18:3|Signal CD is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Signal CD is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\jcvelmon\desktop\counts\div00.vhd&quot;:22:2:22:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including OS00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\jcvelmon\desktop\counts\div00.vhd</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including OS00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\jcvelmon\desktop\counts\bcd_7seg.vhd&quot;:34:2:34:5|ROM BCD.SEG_1[6:0] (in view: work.topMOD(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\jcvelmon\desktop\counts\bcd_7seg.vhd</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM BCD.SEG_1[6:0] (in view: work.topMOD(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\jcvelmon\desktop\counts\bcd_7seg.vhd&quot;:34:2:34:5|ROM BCD.SEG_1[6:0] (in view: work.topMOD(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\jcvelmon\desktop\counts\bcd_7seg.vhd</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>ROM BCD.SEG_1[6:0] (in view: work.topMOD(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:OS00.OS00.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:OS00.OS00.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

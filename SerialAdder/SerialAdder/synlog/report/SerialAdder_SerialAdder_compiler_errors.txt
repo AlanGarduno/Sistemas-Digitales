@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\Lacho\Desktop\SerialAdder\topMOD.vhd":76:1:76:4|Port ci of entity work.registry is unconnected. If a port needs to remain unconnected, use the keyword open.
+

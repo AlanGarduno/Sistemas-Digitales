@@ -1,0 +1,54 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Dec 08 20:33:50 2017 *
+NOTE DESIGN NAME: topAdder *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS oscraw0 : 34 : out *
+NOTE PINS indiv0[0] : 62 : in *
+NOTE PINS CRTL_S : 41 : in *
+NOTE PINS ADD_CLR : 38 : in *
+NOTE PINS CD[3] : 121 : out *
+NOTE PINS CD[2] : 122 : out *
+NOTE PINS CD[1] : 119 : out *
+NOTE PINS CD[0] : 120 : out *
+NOTE PINS SEG[6] : 126 : out *
+NOTE PINS SEG[5] : 125 : out *
+NOTE PINS SEG[4] : 128 : out *
+NOTE PINS SEG[3] : 127 : out *
+NOTE PINS SEG[2] : 133 : out *
+NOTE PINS SEG[1] : 132 : out *
+NOTE PINS SEG[0] : 139 : out *
+NOTE PINS SQ[3] : 24 : out *
+NOTE PINS SQ[2] : 23 : out *
+NOTE PINS SQ[1] : 26 : out *
+NOTE PINS SQ[0] : 25 : out *
+NOTE PINS S : 52 : out *
+NOTE PINS Cf_LED : 54 : out *
+NOTE PINS BQ[3] : 111 : out *
+NOTE PINS BQ[2] : 112 : out *
+NOTE PINS BQ[1] : 113 : out *
+NOTE PINS BQ[0] : 114 : out *
+NOTE PINS AQ[3] : 115 : out *
+NOTE PINS AQ[2] : 117 : out *
+NOTE PINS AQ[1] : 4 : out *
+NOTE PINS AQ[0] : 5 : out *
+NOTE PINS B[3] : 100 : in *
+NOTE PINS B[2] : 99 : in *
+NOTE PINS B[1] : 105 : in *
+NOTE PINS B[0] : 104 : in *
+NOTE PINS A[3] : 55 : in *
+NOTE PINS A[2] : 48 : in *
+NOTE PINS A[1] : 50 : in *
+NOTE PINS A[0] : 47 : in *
+NOTE PINS CRTL[1] : 39 : in *
+NOTE PINS CRTL[0] : 44 : in *
+NOTE PINS IZQUIERDA : 45 : in *
+NOTE PINS DERECHA : 42 : in *
+NOTE PINS CLR : 40 : in *
+NOTE PINS oscdiv0 : 35 : out *
+NOTE PINS indiv0[3] : 65 : in *
+NOTE PINS indiv0[2] : 61 : in *
+NOTE PINS indiv0[1] : 67 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

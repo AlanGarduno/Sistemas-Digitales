@@ -12,27 +12,15 @@ I/O cells:      20
                                  IB        11          100.0
                                 INV         1          100.0
                             L6MUX21         2          100.0
-                               LUT4        78          100.0
+                               LUT4        74          100.0
                                  OB         9          100.0
-                              PFUMX        13          100.0
-                        VERIFIC_PWR         1          100.0
+                              PFUMX        17          100.0
 SUB MODULES
                            contador         1
                               div00         1
                               osc00         1
                            topdiv00         1
-                              TOTAL       160
-----------------------------------------------------------------------
-Report for cell contador.v1
-Instance Path : REG00
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                            FD1P3AX         6           85.7
-                            FD1P3AY         1          100.0
-                            L6MUX21         1           50.0
-                               LUT4        53           67.9
-                              PFUMX        11           84.6
-                              TOTAL        72
+                              TOTAL       159
 ----------------------------------------------------------------------
 Report for cell topdiv00.v1
 Instance Path : OS00
@@ -42,13 +30,12 @@ Instance Path : OS00
                             FD1P3AX         1           14.3
                             FD1P3IX        21          100.0
                                 INV         1          100.0
-                            L6MUX21         1           50.0
-                               LUT4        12           15.4
-                              PFUMX         2           15.4
+                               LUT4        21           28.4
+                              PFUMX         4           23.5
 SUB MODULES
                               div00         1
                               osc00         1
-                              TOTAL        51
+                              TOTAL        61
 ----------------------------------------------------------------------
 Report for cell div00.v1
 Instance Path : OS00.OS01
@@ -57,10 +44,9 @@ Instance Path : OS00.OS01
                               CCU2D        11          100.0
                             FD1P3AX         1           14.3
                             FD1P3IX        21          100.0
-                            L6MUX21         1           50.0
-                               LUT4        12           15.4
-                              PFUMX         2           15.4
-                              TOTAL        48
+                               LUT4        21           28.4
+                              PFUMX         4           23.5
+                              TOTAL        58
 ----------------------------------------------------------------------
 Report for cell osc00.v1
 Instance Path : OS00.OS00
@@ -68,3 +54,14 @@ Instance Path : OS00.OS00
                                cell     count   Res Usage(%)
                                 INV         1          100.0
                               TOTAL         1
+----------------------------------------------------------------------
+Report for cell contador.v1
+Instance Path : REG00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         6           85.7
+                            FD1P3AY         1          100.0
+                            L6MUX21         2          100.0
+                               LUT4        48           64.9
+                              PFUMX        13           76.5
+                              TOTAL        70

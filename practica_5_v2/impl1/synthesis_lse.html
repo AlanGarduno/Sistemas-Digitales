@@ -14,7 +14,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Nov 08 15:29:16 2017
+Wed Nov 15 09:51:48 2017
 
 
 Command Line:  synthesis -f prac5_impl1_lattice.synproj -gui -msgset C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_5_v2/promote.xml 
@@ -132,7 +132,7 @@ INFO - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/co
 unit topContador is not yet analyzed. VHDL-1485
 unit topContador is not yet analyzed. VHDL-1485
 WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/cont.vhd(39): case statement does not cover all choices. 'others' clause is needed. VHDL-1037
-WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/cont.vhd(52): case statement does not cover all choices. 'others' clause is needed. VHDL-1037
+WARNING - synthesis: c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/cont.vhd(58): case statement does not cover all choices. 'others' clause is needed. VHDL-1037
 unit topContador is not yet analyzed. VHDL-1485
 c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/topcont0.vhd(9): executing topContador(a_topContador)
 
@@ -182,9 +182,9 @@ GSR => 1
 IB => 11
 INV => 1
 L6MUX21 => 2
-LUT4 => 78
+LUT4 => 74
 OB => 9
-PFUMX => 13
+PFUMX => 17
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -198,22 +198,23 @@ Number of Clocks: 2
   Net : OS00/OS01/oscdiv0_c, loads : 9
   Net : OS00/OS00/oscraw0_c, loads : 2
 Clock Enable Nets
-Number of Clock Enables: 2
-Top 2 highest fanout Clock Enables:
+Number of Clock Enables: 3
+Top 3 highest fanout Clock Enables:
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 21
   Net : REG00/oscdiv0_c_enable_7, loads : 7
-  Net : clkdiv_N_23_enable_22, loads : 1
+  Net : OS00/OS01/clkdiv_N_23_enable_1, loads : 1
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : clkdiv_N_23_enable_22, loads : 23
+  Net : REG00/display0_c_2, loads : 21
   Net : OS00/OS00/clkdiv_N_23, loads : 21
-  Net : OS00/OS01/n580, loads : 21
-  Net : REG00/display0_c_4, loads : 18
-  Net : REG00/display0_c_1, loads : 18
-  Net : REG00/display0_c_5, loads : 17
-  Net : REG00/display0_c_2, loads : 17
-  Net : REG00/display0_c_0, loads : 17
-  Net : REG00/display0_c_6, loads : 16
-  Net : REG00/display0_c_3, loads : 16
+  Net : OS00/OS01/clkdiv_N_23_enable_22, loads : 21
+  Net : OS00/OS01/n581, loads : 21
+  Net : REG00/display0_c_4, loads : 19
+  Net : REG00/display0_c_3, loads : 17
+  Net : REG00/display0_c_1, loads : 17
+  Net : REG00/display0_c_0, loads : 16
+  Net : REG00/display0_c_5, loads : 15
+  Net : REG00/display0_c_6, loads : 13
 ################### End Clock Report ##################
 
 <A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
@@ -223,10 +224,10 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 1000.000000 -name  |             |             |
-clk1 [get_nets oscdiv0_c]               |    1.000 MHz|  129.955 MHz|     7  
+clk1 [get_nets oscraw0_c]               |    1.000 MHz|  129.333 MHz|     6  
                                         |             |             |
 create_clock -period 1000.000000 -name  |             |             |
-clk0 [get_nets oscraw0_c]               |    1.000 MHz|  124.984 MHz|     7  
+clk0 [get_nets oscdiv0_c]               |    1.000 MHz|  154.895 MHz|     6  
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -234,10 +235,10 @@ clk0 [get_nets oscraw0_c]               |    1.000 MHz|  124.984 MHz|     7
 All constraints were met.
 
 
-Peak Memory Usage: 55.707  MB
+Peak Memory Usage: 55.402  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 1.375  secs
+Elapsed CPU time for LSE flow : 1.344  secs
 --------------------------------------------------------------
 
 

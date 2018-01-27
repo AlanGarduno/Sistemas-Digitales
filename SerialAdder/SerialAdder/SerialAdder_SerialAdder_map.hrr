@@ -1,0 +1,92 @@
+---------------------------------------------------
+Report for cell topAdder
+   Instance path: topAdder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.00        100.0
+                                  LUT4	      48.00        100.0
+                                 IOBUF	         46        100.0
+                                PFUREG	         35        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        54.3
+                                   ffD	          1         2.4
+                            Registry_0	          1         4.3
+                            Registry_1	          1        11.0
+                              Registry	          1        15.2
+                             FullAdder	          1         1.9
+                              BCD_7SEG	          1         9.5
+---------------------------------------------------
+Report for cell BCD_7SEG
+   Instance path: topAdder/BCD
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.33         9.5
+                                  LUT4	       7.00        14.6
+---------------------------------------------------
+Report for cell Registry_0
+   Instance path: topAdder/SREG
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50         4.3
+                                  LUT4	       1.00         2.1
+                                PFUREG	          4        11.4
+---------------------------------------------------
+Report for cell ffD
+   Instance path: topAdder/FF_D
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.83         2.4
+                                  LUT4	       1.00         2.1
+                                PFUREG	          1         2.9
+---------------------------------------------------
+Report for cell FullAdder
+   Instance path: topAdder/ADD0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.67         1.9
+                                  LUT4	       2.00         4.2
+---------------------------------------------------
+Report for cell Registry_1
+   Instance path: topAdder/REGB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.83        11.0
+                                  LUT4	       8.00        16.7
+                                PFUREG	          4        11.4
+---------------------------------------------------
+Report for cell Registry
+   Instance path: topAdder/REGA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.33        15.2
+                                  LUT4	      11.00        22.9
+                                PFUREG	          4        11.4
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topAdder/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.00        54.3
+                                  LUT4	      16.00        33.3
+                                PFUREG	         22        62.9
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        54.3
+---------------------------------------------------
+Report for cell div00
+   Instance path: topAdder/OS00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.00        54.3
+                                  LUT4	      16.00        33.3
+                                PFUREG	         22        62.9
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topAdder/OS00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

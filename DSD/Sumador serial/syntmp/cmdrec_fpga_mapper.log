@@ -1,9 +1,0 @@
-C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\richie\desktop\4 semestre\dsd\sumador serial"  -part LC4064B  -package T44C  -grade -2.5   -ispmach4s -RWCheckOnRam 1 -areadelay 0 -minc -auto_constrain_io -summaryfile "C:\users\richie\desktop\4 semestre\dsd\sumador serial\synlog\report\top_sum_serie_fpga_mapper.xml" -top_level_module  top_sum_serie  -multisrs  -ta_num_paths 3  -ta_num_points 0  -oedif  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.edi"  -freq 200.000  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_mult.srs"  -ologparam  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\syntmp\top_sum_serie.plg"  -osyn  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srm"  -prjdir  "c:\users\richie\desktop\4 semestre\dsd\sumador serial\"  -prjname  top_sum_serie  -log  "C:\users\richie\desktop\4 semestre\dsd\sumador serial\synlog\top_sum_serie_fpga_mapper.srr" 
-rc:0 success:1
-C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.edi|o|1497636204|44565
-C:\users\richie\desktop\4 semestre\dsd\sumador serial\synwork\top_sum_serie_mult.srs|i|1497636203|2962
-"C:\users\richie\desktop\4 semestre\dsd\sumador serial\syntmp\top_sum_serie.plg"|o|0|0
-C:\users\richie\desktop\4 semestre\dsd\sumador serial\top_sum_serie.srm|o|1497636204|19281
-C:\users\richie\desktop\4 semestre\dsd\sumador serial\synlog\top_sum_serie_fpga_mapper.srr|o|1497636204|1190
-C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399369284|7067648
-C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399372122|8049664

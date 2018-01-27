@@ -188,9 +188,9 @@
         <Message>
             <ID>35928037</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/cont.vhd(52): </Dynamic>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/cont.vhd(58): </Dynamic>
             <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_5_v2/cont.vhd</Navigation>
-            <Navigation>52</Navigation>
+            <Navigation>58</Navigation>
         </Message>
         <Message>
             <ID>35921205</ID>

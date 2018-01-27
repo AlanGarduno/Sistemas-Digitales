@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_5_v2/impl1/prac5_impl1.jed</File>
-			<FileTime>11/08/17 15:33:37</FileTime>
-			<JedecChecksum>0x5EB1</JedecChecksum>
+			<FileTime>11/15/17 09:52:43</FileTime>
+			<JedecChecksum>0x5999</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -29,6 +29,7 @@
 				<PreloadLength>664</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
 				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<Usercode>0x00000000</Usercode>
 				<AccessMode>FLASH</AccessMode>
 			</Option>

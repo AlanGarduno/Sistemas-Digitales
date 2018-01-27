@@ -1,7 +1,0 @@
-clk  i
-clr  i
-control  i
-salida[3]  b
-salida[2]  b
-salida[1]  b
-salida[0]  b

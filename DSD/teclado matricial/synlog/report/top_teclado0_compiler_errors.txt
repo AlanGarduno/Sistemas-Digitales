@@ -1,3 +1,0 @@
-@E: CD213 :"C:\users\richie\desktop\4 semestre\dsd\teclado matricial\top_teclado0.vhd":28:3:28:5|Undefined identifier
-@E|Parse errors encountered - exiting
-

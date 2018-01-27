@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/JCVELMON/Desktop/Semestre Actual/DSD/practica_4/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd(8): </Dynamic>
+            <Dynamic>packagediv00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/packagediv00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd(9): </Dynamic>
+            <Dynamic>topdiv00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd(17): </Dynamic>
+            <Dynamic>topdiv0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/topdiv00.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd(6): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd(10): </Dynamic>
+            <Dynamic>div00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd(17): </Dynamic>
+            <Dynamic>div0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/div00.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd(8): </Dynamic>
+            <Dynamic>osc00</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd(13): </Dynamic>
+            <Dynamic>osc0</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/impl1/source/osc00.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd(8): </Dynamic>
+            <Dynamic>packagecontador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/packagecontador.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(9): </Dynamic>
+            <Dynamic>topcontador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(19): </Dynamic>
+            <Dynamic>a_topcontador</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35921261</ID>
+            <Severity>Error</Severity>
+            <Dynamic>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd(25): </Dynamic>
+            <Dynamic>port</Dynamic>
+            <Navigation>c:/users/jcvelmon/desktop/semestre actual/dsd/practica_4/topcontador.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

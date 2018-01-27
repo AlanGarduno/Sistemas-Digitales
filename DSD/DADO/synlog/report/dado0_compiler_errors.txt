@@ -1,3 +1,0 @@
-@E: CD415 :"C:\users\richie\desktop\4 semestre\dsd\dado\dado0.vhd":41:6:41:8|Expecting keyword if
-@E|Parse errors encountered - exiting
-

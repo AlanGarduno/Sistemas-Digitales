@@ -1,11 +1,11 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Mon Nov 13 10:22:12 2017 *
+NOTE DATE CREATED: Thu Nov 23 10:01:08 2017 *
 NOTE DESIGN NAME: topContador *
 NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
 NOTE PIN ASSIGNMENTS *
-NOTE PINS oscdiv0 : 94 : out *
-NOTE PINS oscraw0 : 76 : out *
+NOTE PINS oscdiv0 : 86 : out *
+NOTE PINS oscraw0 : 38 : out *
 NOTE PINS q0t : 10 : out *
 NOTE PINS q1t : 9 : out *
 NOTE PINS q2t : 12 : out *

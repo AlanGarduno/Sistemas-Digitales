@@ -44,22 +44,36 @@
     </pins>
 
     <!--
-        Instances in netlist: 158
+        Instances in netlist: 169
     -->
 
-    <instance  name = "contador0/q1_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q0_I_0_200"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j0"  />
+        <nitem  name = "contador0/q0_N_200"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/c_I_0_197"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "i"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
-        <nitem  name = "contador0/q1_N_215"  />
+        <nitem  name = "c0"  />
+        <nitem  name = "contador0/c_N_202"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_188"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_I_0_198"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -69,47 +83,73 @@
         <nets>
         <nitem  name = "c0"  />
         <nitem  name = "q0t"  />
-        <nitem  name = "contador0/j1_N_210"  />
+        <nitem  name = "contador0/j1_N_213"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_190"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "c0"  />
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j2_N_213"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j2_I_8"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j2_N_213"  />
-        <nitem  name = "contador0/j2_N_212"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_I_0_191"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q1_I_0"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "i"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/c_I_0_201"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j2_N_217"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q0_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q0_N_221"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j2_I_9"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j2_N_217"  />
+        <nitem  name = "contador0/q0_N_221"  />
+        <nitem  name = "contador0/j2_N_216"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/c_N_202_I_0_203"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j2_N_223"  />
         </nets>
     </instance>
 
@@ -121,27 +161,13 @@
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
-        <nitem  name = "contador0/c_N_219"  />
-        <nitem  name = "contador0/j2_N_217"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j2_I_9"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
         <nitem  name = "q0t"  />
-        <nitem  name = "contador0/j2_N_217"  />
-        <nitem  name = "contador0/j2_N_216"  />
+        <nitem  name = "contador0/j2_N_223"  />
+        <nitem  name = "contador0/j2_N_222"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j2_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/j2_I_8"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -149,9 +175,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j2_N_212"  />
         <nitem  name = "contador0/j2_N_216"  />
-        <nitem  name = "contador0/j2_N_211"  />
+        <nitem  name = "contador0/j2_N_222"  />
+        <nitem  name = "contador0/j2_N_215"  />
         </nets>
     </instance>
 
@@ -163,11 +189,11 @@
 
         <nets>
         <nitem  name = "q2t"  />
-        <nitem  name = "contador0/q2_N_225"  />
+        <nitem  name = "contador0/q2_N_230"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_193"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_I_0_204"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -176,64 +202,8 @@
 
         <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/q2_N_225"  />
-        <nitem  name = "contador0/j3_N_223"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j3_I_12"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j3_N_223"  />
-        <nitem  name = "contador0/j3_N_222"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j3_I_11"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j3_N_222"  />
-        <nitem  name = "contador0/j3_N_221"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_N_219_I_0_195"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q2t"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q2_N_230"  />
         <nitem  name = "contador0/j3_N_228"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j3_I_14"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q1t"  />
-        <nitem  name = "contador0/j3_N_228"  />
-        <nitem  name = "contador0/j3_N_227"  />
         </nets>
     </instance>
 
@@ -245,13 +215,69 @@
         </pins>
 
         <nets>
-        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j3_N_228"  />
+        <nitem  name = "contador0/j3_N_227"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j3_I_12"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/q0_N_221"  />
         <nitem  name = "contador0/j3_N_227"  />
         <nitem  name = "contador0/j3_N_226"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j3_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_N_202_I_0_206"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j3_N_233"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j3_I_15"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/j3_N_233"  />
+        <nitem  name = "contador0/j3_N_232"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j3_I_14"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j3_N_232"  />
+        <nitem  name = "contador0/j3_N_231"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j3_I_11"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -259,9 +285,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j3_N_221"  />
         <nitem  name = "contador0/j3_N_226"  />
-        <nitem  name = "contador0/j3_N_220"  />
+        <nitem  name = "contador0/j3_N_231"  />
+        <nitem  name = "contador0/j3_N_225"  />
         </nets>
     </instance>
 
@@ -273,11 +299,11 @@
 
         <nets>
         <nitem  name = "q3t"  />
-        <nitem  name = "contador0/q3_N_235"  />
+        <nitem  name = "contador0/q3_N_241"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_196"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_I_0_207"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -286,78 +312,8 @@
 
         <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/q3_N_235"  />
-        <nitem  name = "contador0/j4_N_233"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j4_I_17"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q2_N_225"  />
-        <nitem  name = "contador0/j4_N_233"  />
-        <nitem  name = "contador0/j4_N_232"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j4_I_16"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j4_N_232"  />
-        <nitem  name = "contador0/j4_N_231"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j4_I_15"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j4_N_231"  />
-        <nitem  name = "contador0/j4_N_230"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_N_219_I_0_198"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q3t"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q3_N_241"  />
         <nitem  name = "contador0/j4_N_239"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j4_I_20"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q2t"  />
-        <nitem  name = "contador0/j4_N_239"  />
-        <nitem  name = "contador0/j4_N_238"  />
         </nets>
     </instance>
 
@@ -369,9 +325,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/q2_N_230"  />
+        <nitem  name = "contador0/j4_N_239"  />
         <nitem  name = "contador0/j4_N_238"  />
-        <nitem  name = "contador0/j4_N_237"  />
         </nets>
     </instance>
 
@@ -383,13 +339,83 @@
         </pins>
 
         <nets>
-        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j4_N_238"  />
+        <nitem  name = "contador0/j4_N_237"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j4_I_17"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/q0_N_221"  />
         <nitem  name = "contador0/j4_N_237"  />
         <nitem  name = "contador0/j4_N_236"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j4_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_N_202_I_0_209"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j4_N_245"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j4_I_22"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/j4_N_245"  />
+        <nitem  name = "contador0/j4_N_244"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j4_I_21"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/j4_N_244"  />
+        <nitem  name = "contador0/j4_N_243"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j4_I_20"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j4_N_243"  />
+        <nitem  name = "contador0/j4_N_242"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j4_I_16"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -397,9 +423,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j4_N_230"  />
         <nitem  name = "contador0/j4_N_236"  />
-        <nitem  name = "contador0/j4_N_229"  />
+        <nitem  name = "contador0/j4_N_242"  />
+        <nitem  name = "contador0/j4_N_235"  />
         </nets>
     </instance>
 
@@ -411,11 +437,11 @@
 
         <nets>
         <nitem  name = "q4t"  />
-        <nitem  name = "contador0/q4_N_247"  />
+        <nitem  name = "contador0/q4_N_254"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_199"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_I_0_210"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -424,92 +450,8 @@
 
         <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/q4_N_247"  />
-        <nitem  name = "contador0/j5_N_245"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j5_I_24"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q3_N_235"  />
-        <nitem  name = "contador0/j5_N_245"  />
-        <nitem  name = "contador0/j5_N_244"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j5_I_23"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q2_N_225"  />
-        <nitem  name = "contador0/j5_N_244"  />
-        <nitem  name = "contador0/j5_N_243"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j5_I_22"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j5_N_243"  />
-        <nitem  name = "contador0/j5_N_242"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j5_I_21"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j5_N_242"  />
-        <nitem  name = "contador0/j5_N_241"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_N_219_I_0_201"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q4t"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q4_N_254"  />
         <nitem  name = "contador0/j5_N_252"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j5_I_28"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q3t"  />
-        <nitem  name = "contador0/j5_N_252"  />
-        <nitem  name = "contador0/j5_N_251"  />
         </nets>
     </instance>
 
@@ -521,9 +463,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/q3_N_241"  />
+        <nitem  name = "contador0/j5_N_252"  />
         <nitem  name = "contador0/j5_N_251"  />
-        <nitem  name = "contador0/j5_N_250"  />
         </nets>
     </instance>
 
@@ -535,9 +477,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/q2_N_230"  />
+        <nitem  name = "contador0/j5_N_251"  />
         <nitem  name = "contador0/j5_N_250"  />
-        <nitem  name = "contador0/j5_N_249"  />
         </nets>
     </instance>
 
@@ -549,13 +491,97 @@
         </pins>
 
         <nets>
-        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j5_N_250"  />
+        <nitem  name = "contador0/j5_N_249"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_I_24"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/q0_N_221"  />
         <nitem  name = "contador0/j5_N_249"  />
         <nitem  name = "contador0/j5_N_248"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j5_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_N_202_I_0_212"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j5_N_259"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_I_31"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/j5_N_259"  />
+        <nitem  name = "contador0/j5_N_258"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_I_30"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/j5_N_258"  />
+        <nitem  name = "contador0/j5_N_257"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_I_29"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/j5_N_257"  />
+        <nitem  name = "contador0/j5_N_256"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_I_28"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j5_N_256"  />
+        <nitem  name = "contador0/j5_N_255"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_I_23"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -563,9 +589,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j5_N_241"  />
         <nitem  name = "contador0/j5_N_248"  />
-        <nitem  name = "contador0/j5_N_240"  />
+        <nitem  name = "contador0/j5_N_255"  />
+        <nitem  name = "contador0/j5_N_247"  />
         </nets>
     </instance>
 
@@ -577,11 +603,11 @@
 
         <nets>
         <nitem  name = "q5t"  />
-        <nitem  name = "contador0/q5_N_261"  />
+        <nitem  name = "contador0/q5_N_269"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_202"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_I_0_213"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -590,106 +616,8 @@
 
         <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/q5_N_261"  />
-        <nitem  name = "contador0/j6_N_259"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j6_I_33"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q4_N_247"  />
-        <nitem  name = "contador0/j6_N_259"  />
-        <nitem  name = "contador0/j6_N_258"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j6_I_32"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q3_N_235"  />
-        <nitem  name = "contador0/j6_N_258"  />
-        <nitem  name = "contador0/j6_N_257"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j6_I_31"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q2_N_225"  />
-        <nitem  name = "contador0/j6_N_257"  />
-        <nitem  name = "contador0/j6_N_256"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j6_I_30"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j6_N_256"  />
-        <nitem  name = "contador0/j6_N_255"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j6_I_29"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j6_N_255"  />
-        <nitem  name = "contador0/j6_N_254"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_N_219_I_0_204"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q5t"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q5_N_269"  />
         <nitem  name = "contador0/j6_N_267"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j6_I_38"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q4t"  />
-        <nitem  name = "contador0/j6_N_267"  />
-        <nitem  name = "contador0/j6_N_266"  />
         </nets>
     </instance>
 
@@ -701,9 +629,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/q4_N_254"  />
+        <nitem  name = "contador0/j6_N_267"  />
         <nitem  name = "contador0/j6_N_266"  />
-        <nitem  name = "contador0/j6_N_265"  />
         </nets>
     </instance>
 
@@ -715,9 +643,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/q3_N_241"  />
+        <nitem  name = "contador0/j6_N_266"  />
         <nitem  name = "contador0/j6_N_265"  />
-        <nitem  name = "contador0/j6_N_264"  />
         </nets>
     </instance>
 
@@ -729,9 +657,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/q2_N_230"  />
+        <nitem  name = "contador0/j6_N_265"  />
         <nitem  name = "contador0/j6_N_264"  />
-        <nitem  name = "contador0/j6_N_263"  />
         </nets>
     </instance>
 
@@ -743,13 +671,111 @@
         </pins>
 
         <nets>
-        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j6_N_264"  />
+        <nitem  name = "contador0/j6_N_263"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_33"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/q0_N_221"  />
         <nitem  name = "contador0/j6_N_263"  />
         <nitem  name = "contador0/j6_N_262"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j6_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_N_202_I_0_215"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q5t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j6_N_275"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_42"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/j6_N_275"  />
+        <nitem  name = "contador0/j6_N_274"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_41"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/j6_N_274"  />
+        <nitem  name = "contador0/j6_N_273"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_40"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/j6_N_273"  />
+        <nitem  name = "contador0/j6_N_272"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_39"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/j6_N_272"  />
+        <nitem  name = "contador0/j6_N_271"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_38"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j6_N_271"  />
+        <nitem  name = "contador0/j6_N_270"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_I_32"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -757,9 +783,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j6_N_254"  />
         <nitem  name = "contador0/j6_N_262"  />
-        <nitem  name = "contador0/j6_N_253"  />
+        <nitem  name = "contador0/j6_N_270"  />
+        <nitem  name = "contador0/j6_N_261"  />
         </nets>
     </instance>
 
@@ -771,11 +797,11 @@
 
         <nets>
         <nitem  name = "q6t"  />
-        <nitem  name = "contador0/q6_N_277"  />
+        <nitem  name = "contador0/q6_N_286"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/c_I_0_205"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_I_0_216"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -784,120 +810,8 @@
 
         <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/q6_N_277"  />
-        <nitem  name = "contador0/j7_N_275"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_44"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q5_N_261"  />
-        <nitem  name = "contador0/j7_N_275"  />
-        <nitem  name = "contador0/j7_N_274"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_43"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q4_N_247"  />
-        <nitem  name = "contador0/j7_N_274"  />
-        <nitem  name = "contador0/j7_N_273"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_42"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q3_N_235"  />
-        <nitem  name = "contador0/j7_N_273"  />
-        <nitem  name = "contador0/j7_N_272"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_41"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q2_N_225"  />
-        <nitem  name = "contador0/j7_N_272"  />
-        <nitem  name = "contador0/j7_N_271"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_40"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j7_N_271"  />
-        <nitem  name = "contador0/j7_N_270"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_39"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j7_N_270"  />
-        <nitem  name = "contador0/j7_N_269"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_N_219_I_0_207"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q6t"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q6_N_286"  />
         <nitem  name = "contador0/j7_N_284"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j7_I_50"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q5t"  />
-        <nitem  name = "contador0/j7_N_284"  />
-        <nitem  name = "contador0/j7_N_283"  />
         </nets>
     </instance>
 
@@ -909,9 +823,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/q5_N_269"  />
+        <nitem  name = "contador0/j7_N_284"  />
         <nitem  name = "contador0/j7_N_283"  />
-        <nitem  name = "contador0/j7_N_282"  />
         </nets>
     </instance>
 
@@ -923,9 +837,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/q4_N_254"  />
+        <nitem  name = "contador0/j7_N_283"  />
         <nitem  name = "contador0/j7_N_282"  />
-        <nitem  name = "contador0/j7_N_281"  />
         </nets>
     </instance>
 
@@ -937,9 +851,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/q3_N_241"  />
+        <nitem  name = "contador0/j7_N_282"  />
         <nitem  name = "contador0/j7_N_281"  />
-        <nitem  name = "contador0/j7_N_280"  />
         </nets>
     </instance>
 
@@ -951,9 +865,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/q2_N_230"  />
+        <nitem  name = "contador0/j7_N_281"  />
         <nitem  name = "contador0/j7_N_280"  />
-        <nitem  name = "contador0/j7_N_279"  />
         </nets>
     </instance>
 
@@ -965,13 +879,125 @@
         </pins>
 
         <nets>
-        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j7_N_280"  />
+        <nitem  name = "contador0/j7_N_279"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_44"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/q0_N_221"  />
         <nitem  name = "contador0/j7_N_279"  />
         <nitem  name = "contador0/j7_N_278"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j7_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_N_202_I_0_218"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q6t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j7_N_293"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_55"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q5t"  />
+        <nitem  name = "contador0/j7_N_293"  />
+        <nitem  name = "contador0/j7_N_292"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_54"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/j7_N_292"  />
+        <nitem  name = "contador0/j7_N_291"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_53"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/j7_N_291"  />
+        <nitem  name = "contador0/j7_N_290"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_52"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/j7_N_290"  />
+        <nitem  name = "contador0/j7_N_289"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_51"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/j7_N_289"  />
+        <nitem  name = "contador0/j7_N_288"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_50"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j7_N_288"  />
+        <nitem  name = "contador0/j7_N_287"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_I_43"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -979,9 +1005,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j7_N_269"  />
         <nitem  name = "contador0/j7_N_278"  />
-        <nitem  name = "contador0/j7_N_268"  />
+        <nitem  name = "contador0/j7_N_287"  />
+        <nitem  name = "contador0/j7_N_277"  />
         </nets>
     </instance>
 
@@ -993,7 +1019,7 @@
 
         <nets>
         <nitem  name = "q7t"  />
-        <nitem  name = "contador0/q7_N_295"  />
+        <nitem  name = "contador0/q7_N_305"  />
         </nets>
     </instance>
 
@@ -1006,134 +1032,8 @@
 
         <nets>
         <nitem  name = "c0"  />
-        <nitem  name = "contador0/q7_N_295"  />
-        <nitem  name = "contador0/j8_N_293"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_57"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q6_N_277"  />
-        <nitem  name = "contador0/j8_N_293"  />
-        <nitem  name = "contador0/j8_N_292"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_56"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q5_N_261"  />
-        <nitem  name = "contador0/j8_N_292"  />
-        <nitem  name = "contador0/j8_N_291"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_55"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q4_N_247"  />
-        <nitem  name = "contador0/j8_N_291"  />
-        <nitem  name = "contador0/j8_N_290"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_54"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q3_N_235"  />
-        <nitem  name = "contador0/j8_N_290"  />
-        <nitem  name = "contador0/j8_N_289"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_53"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q2_N_225"  />
-        <nitem  name = "contador0/j8_N_289"  />
-        <nitem  name = "contador0/j8_N_288"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_52"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/q1_N_215"  />
-        <nitem  name = "contador0/j8_N_288"  />
-        <nitem  name = "contador0/j8_N_287"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_51"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        <pitem  name = "a1"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/j8_N_287"  />
-        <nitem  name = "contador0/j8_N_286"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/c_N_219_I_0"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q7t"  />
-        <nitem  name = "contador0/c_N_219"  />
+        <nitem  name = "contador0/q7_N_305"  />
         <nitem  name = "contador0/j8_N_303"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/j8_I_64"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "a1"  direction = "in"  />
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "o"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "q6t"  />
-        <nitem  name = "contador0/j8_N_303"  />
-        <nitem  name = "contador0/j8_N_302"  />
         </nets>
     </instance>
 
@@ -1145,9 +1045,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q5t"  />
+        <nitem  name = "contador0/q6_N_286"  />
+        <nitem  name = "contador0/j8_N_303"  />
         <nitem  name = "contador0/j8_N_302"  />
-        <nitem  name = "contador0/j8_N_301"  />
         </nets>
     </instance>
 
@@ -1159,9 +1059,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/q5_N_269"  />
+        <nitem  name = "contador0/j8_N_302"  />
         <nitem  name = "contador0/j8_N_301"  />
-        <nitem  name = "contador0/j8_N_300"  />
         </nets>
     </instance>
 
@@ -1173,9 +1073,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/q4_N_254"  />
+        <nitem  name = "contador0/j8_N_301"  />
         <nitem  name = "contador0/j8_N_300"  />
-        <nitem  name = "contador0/j8_N_299"  />
         </nets>
     </instance>
 
@@ -1187,9 +1087,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/q3_N_241"  />
+        <nitem  name = "contador0/j8_N_300"  />
         <nitem  name = "contador0/j8_N_299"  />
-        <nitem  name = "contador0/j8_N_298"  />
         </nets>
     </instance>
 
@@ -1201,9 +1101,9 @@
         </pins>
 
         <nets>
-        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/q2_N_230"  />
+        <nitem  name = "contador0/j8_N_299"  />
         <nitem  name = "contador0/j8_N_298"  />
-        <nitem  name = "contador0/j8_N_297"  />
         </nets>
     </instance>
 
@@ -1215,13 +1115,139 @@
         </pins>
 
         <nets>
-        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/q1_N_219"  />
+        <nitem  name = "contador0/j8_N_298"  />
+        <nitem  name = "contador0/j8_N_297"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_57"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/q0_N_221"  />
         <nitem  name = "contador0/j8_N_297"  />
         <nitem  name = "contador0/j8_N_296"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j8_I_0"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/c_N_202_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q7t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j8_N_313"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_70"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q6t"  />
+        <nitem  name = "contador0/j8_N_313"  />
+        <nitem  name = "contador0/j8_N_312"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_69"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q5t"  />
+        <nitem  name = "contador0/j8_N_312"  />
+        <nitem  name = "contador0/j8_N_311"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_68"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/j8_N_311"  />
+        <nitem  name = "contador0/j8_N_310"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_67"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/j8_N_310"  />
+        <nitem  name = "contador0/j8_N_309"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_66"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/j8_N_309"  />
+        <nitem  name = "contador0/j8_N_308"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_65"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/j8_N_308"  />
+        <nitem  name = "contador0/j8_N_307"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_64"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q0t"  />
+        <nitem  name = "contador0/j8_N_307"  />
+        <nitem  name = "contador0/j8_N_306"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_56"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1229,13 +1255,13 @@
         </pins>
 
         <nets>
-        <nitem  name = "contador0/j8_N_286"  />
         <nitem  name = "contador0/j8_N_296"  />
-        <nitem  name = "contador0/j8_N_285"  />
+        <nitem  name = "contador0/j8_N_306"  />
+        <nitem  name = "contador0/j8_N_295"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q1_I_0_189"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q1_I_0_199"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1245,11 +1271,11 @@
         <nets>
         <nitem  name = "q1t"  />
         <nitem  name = "contador0/j1"  />
-        <nitem  name = "contador0/q1_N_202"  />
+        <nitem  name = "contador0/q1_N_203"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q2_I_0_192"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q2_I_0_202"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1259,11 +1285,11 @@
         <nets>
         <nitem  name = "q2t"  />
         <nitem  name = "contador0/j2"  />
-        <nitem  name = "contador0/q2_N_203"  />
+        <nitem  name = "contador0/q2_N_204"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q3_I_0_194"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q3_I_0_205"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1273,11 +1299,11 @@
         <nets>
         <nitem  name = "q3t"  />
         <nitem  name = "contador0/j3"  />
-        <nitem  name = "contador0/q3_N_204"  />
+        <nitem  name = "contador0/q3_N_205"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q4_I_0_197"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q4_I_0_208"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1287,11 +1313,11 @@
         <nets>
         <nitem  name = "q4t"  />
         <nitem  name = "contador0/j4"  />
-        <nitem  name = "contador0/q4_N_205"  />
+        <nitem  name = "contador0/q4_N_206"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q5_I_0_200"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q5_I_0_211"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1301,11 +1327,11 @@
         <nets>
         <nitem  name = "q5t"  />
         <nitem  name = "contador0/j5"  />
-        <nitem  name = "contador0/q5_N_206"  />
+        <nitem  name = "contador0/q5_N_207"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q6_I_0_203"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q6_I_0_214"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1315,11 +1341,11 @@
         <nets>
         <nitem  name = "q6t"  />
         <nitem  name = "contador0/j6"  />
-        <nitem  name = "contador0/q6_N_207"  />
+        <nitem  name = "contador0/q6_N_208"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q7_I_0_206"  library = "work"  arch = "RTL"  type = "comb">
+    <instance  name = "contador0/q7_I_0_217"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1329,7 +1355,7 @@
         <nets>
         <nitem  name = "q7t"  />
         <nitem  name = "contador0/j7"  />
-        <nitem  name = "contador0/q7_N_208"  />
+        <nitem  name = "contador0/q7_N_209"  />
         </nets>
     </instance>
 
@@ -1343,11 +1369,172 @@
         <nets>
         <nitem  name = "q8t"  />
         <nitem  name = "contador0/j8"  />
-        <nitem  name = "contador0/q8_N_209"  />
+        <nitem  name = "contador0/q8_N_210"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j1_161"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/q1_171"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q1t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q1_N_203"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q2_172"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q2t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q2_N_204"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q3_173"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q3t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q3_N_205"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q4_174"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q4t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q4_N_206"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q5_175"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q5t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q5_N_207"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q6_176"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q6t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q6_N_208"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q7_177"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q7t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q7_N_209"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q8_178"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "q8t"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q8_N_210"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j0_179"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
+        <nitem  name = "contador0/j0"  />
+        <nitem  name = "contador0/j0_N_211"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j1_180"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1360,11 +1547,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j1"  />
-        <nitem  name = "contador0/j1_N_210"  />
+        <nitem  name = "contador0/j1_N_212"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j2_162"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j0_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/pwr"  />
+        <nitem  name = "contador0/j0"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j0_N_211"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j2_181"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1377,11 +1580,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j2"  />
-        <nitem  name = "contador0/j2_N_211"  />
+        <nitem  name = "contador0/j2_N_214"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j3_163"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j1_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j1"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j1_N_213"  />
+        <nitem  name = "contador0/j1_N_212"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j3_182"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1394,11 +1613,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j3"  />
-        <nitem  name = "contador0/j3_N_220"  />
+        <nitem  name = "contador0/j3_N_224"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j4_164"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j2_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j2"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j2_N_215"  />
+        <nitem  name = "contador0/j2_N_214"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j4_183"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1411,11 +1646,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j4"  />
-        <nitem  name = "contador0/j4_N_229"  />
+        <nitem  name = "contador0/j4_N_234"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j5_165"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j3_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j3"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j3_N_225"  />
+        <nitem  name = "contador0/j3_N_224"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j5_184"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1428,11 +1679,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j5"  />
-        <nitem  name = "contador0/j5_N_240"  />
+        <nitem  name = "contador0/j5_N_246"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j6_166"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j4_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j4"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j4_N_235"  />
+        <nitem  name = "contador0/j4_N_234"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j6_185"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1445,11 +1712,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j6"  />
-        <nitem  name = "contador0/j6_N_253"  />
+        <nitem  name = "contador0/j6_N_260"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j7_167"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j5_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j5"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j5_N_247"  />
+        <nitem  name = "contador0/j5_N_246"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j7_186"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1462,11 +1745,27 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j7"  />
-        <nitem  name = "contador0/j7_N_268"  />
+        <nitem  name = "contador0/j7_N_276"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/j8_168"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j6_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j6"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j6_N_261"  />
+        <nitem  name = "contador0/j6_N_260"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_187"  library = "work"  arch = "RTL"  type = "reg">
         <pins>
         <pitem  name = "s"  direction = "in"  />
         <pitem  name = "r"  direction = "in"  />
@@ -1479,172 +1778,57 @@
         <nitem  name = "contador0/gnd"  />
         <nitem  name = "oscdiv0"  />
         <nitem  name = "contador0/j8"  />
-        <nitem  name = "contador0/j8_N_285"  />
+        <nitem  name = "contador0/j8_N_294"  />
         </nets>
     </instance>
 
-    <instance  name = "contador0/q0_169"  library = "work"  arch = "RTL"  type = "reg">
+    <instance  name = "contador0/j7_I_0"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q0t"  />
-        <nitem  name = "contador0/q0_N_201"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q1_170"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q1t"  />
-        <nitem  name = "contador0/q1_N_202"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q2_171"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q2t"  />
-        <nitem  name = "contador0/q2_N_203"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q3_172"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q3t"  />
-        <nitem  name = "contador0/q3_N_204"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q4_173"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q4t"  />
-        <nitem  name = "contador0/q4_N_205"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q5_174"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q5t"  />
-        <nitem  name = "contador0/q5_N_206"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q6_175"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q6t"  />
-        <nitem  name = "contador0/q6_N_207"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q7_176"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q7t"  />
-        <nitem  name = "contador0/q7_N_208"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q8_177"  library = "work"  arch = "RTL"  type = "reg">
-        <pins>
-        <pitem  name = "s"  direction = "in"  />
-        <pitem  name = "r"  direction = "in"  />
-        <pitem  name = "clk"  direction = "in"  />
-        <pitem  name = "q"  direction = "out"  />
-        <pitem  name = "d"  direction = "in"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "contador0/gnd"  />
-        <nitem  name = "oscdiv0"  />
-        <nitem  name = "q8t"  />
-        <nitem  name = "contador0/q8_N_209"  />
-        </nets>
-    </instance>
-
-    <instance  name = "contador0/q0_I_0"  library = "work"  arch = "RTL"  type = "comb">
-        <pins>
-        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
+        <nitem  name = "contador0/j7"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j7_N_277"  />
+        <nitem  name = "contador0/j7_N_276"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/j8_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/j8"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/j8_N_295"  />
+        <nitem  name = "contador0/j8_N_294"  />
+        </nets>
+    </instance>
+
+    <instance  name = "contador0/q0_170"  library = "work"  arch = "RTL"  type = "reg">
+        <pins>
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "contador0/gnd"  />
+        <nitem  name = "oscdiv0"  />
         <nitem  name = "q0t"  />
-        <nitem  name = "contador0/q0_N_201"  />
+        <nitem  name = "contador0/c_N_202"  />
+        <nitem  name = "contador0/q0_N_200"  />
         </nets>
     </instance>
 
@@ -4616,27 +4800,28 @@
     <instance  name = "OSCInst0"  />
     <instance  name = "contador0"  />
     <!--
-        REG instances in netlist: 19
+        REG instances in netlist: 20
     -->
 
     <regs>
-        <reg  name = "contador0/j1_161"  />
-        <reg  name = "contador0/j2_162"  />
-        <reg  name = "contador0/j3_163"  />
-        <reg  name = "contador0/j4_164"  />
-        <reg  name = "contador0/j5_165"  />
-        <reg  name = "contador0/j6_166"  />
-        <reg  name = "contador0/j7_167"  />
-        <reg  name = "contador0/j8_168"  />
-        <reg  name = "contador0/q0_169"  />
-        <reg  name = "contador0/q1_170"  />
-        <reg  name = "contador0/q2_171"  />
-        <reg  name = "contador0/q3_172"  />
-        <reg  name = "contador0/q4_173"  />
-        <reg  name = "contador0/q5_174"  />
-        <reg  name = "contador0/q6_175"  />
-        <reg  name = "contador0/q7_176"  />
-        <reg  name = "contador0/q8_177"  />
+        <reg  name = "contador0/q1_171"  />
+        <reg  name = "contador0/q2_172"  />
+        <reg  name = "contador0/q3_173"  />
+        <reg  name = "contador0/q4_174"  />
+        <reg  name = "contador0/q5_175"  />
+        <reg  name = "contador0/q6_176"  />
+        <reg  name = "contador0/q7_177"  />
+        <reg  name = "contador0/q8_178"  />
+        <reg  name = "contador0/j0_179"  />
+        <reg  name = "contador0/j1_180"  />
+        <reg  name = "contador0/j2_181"  />
+        <reg  name = "contador0/j3_182"  />
+        <reg  name = "contador0/j4_183"  />
+        <reg  name = "contador0/j5_184"  />
+        <reg  name = "contador0/j6_185"  />
+        <reg  name = "contador0/j7_186"  />
+        <reg  name = "contador0/j8_187"  />
+        <reg  name = "contador0/q0_170"  />
         <reg  name = "OS00/OS01/sdiv"  />
         <reg  name = "OS00/OS01/outdiv_58"  />
     </regs>

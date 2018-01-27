@@ -21,4 +21,4 @@ package packageContador is
 		);
   end component;
   
-  end packageContador;
+end packageContador;

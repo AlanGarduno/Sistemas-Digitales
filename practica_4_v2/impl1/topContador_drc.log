@@ -12,7 +12,7 @@ WARNING - synthesis: input pad net 'clk0' has no legal load.
 WARNING - synthesis: DRC complete with 2 warnings.
 
 Design Results:
-    125 blocks expanded
+    124 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file prac4_impl1.ngd.

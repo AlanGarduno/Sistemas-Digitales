@@ -6,7 +6,7 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Wed Nov 08 15:33:30 2017
+Wed Nov 15 09:52:36 2017
 
 Pinout by Port Name:
 +-------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -30,15 +30,14 @@ Pinout by Port Name:
 | indiv0[1]   | 67/2     | LVCMOS25_IN  | PB35B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | indiv0[2]   | 61/2     | LVCMOS25_IN  | PB31A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | indiv0[3]   | 65/2     | LVCMOS25_IN  | PB35A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| oscdiv0     | 121/0    | LVCMOS25_OUT | PT25B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| oscraw0     | 97/1     | LVCMOS25_OUT | PR7B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| oscdiv0     | 100/1    | LVCMOS25_OUT | PR5A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| oscraw0     | 99/1     | LVCMOS25_OUT | PR5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 +-------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
 +------+-------+
 | Bank | Vccio |
 +------+-------+
-| 0    | 2.5V  |
 | 1    | 2.5V  |
 | 2    | 2.5V  |
 | 3    | 2.5V  |
@@ -132,10 +131,10 @@ Pinout by Pin Number:
 | 94/1     |     unused, PULL:DOWN |            |              | PR11A | DQS0           |           |           |
 | 95/1     |     unused, PULL:DOWN |            |              | PR9B  | DQ0            |           |           |
 | 96/1     |     unused, PULL:DOWN |            |              | PR9A  | DQ0            |           |           |
-| 97/1     | oscraw0               |            | LVCMOS25_OUT | PR7B  | DQ0            |           |           |
+| 97/1     |     unused, PULL:DOWN |            |              | PR7B  | DQ0            |           |           |
 | 98/1     |     unused, PULL:DOWN |            |              | PR7A  | DQ0            |           |           |
-| 99/1     |     unused, PULL:DOWN |            |              | PR5B  | DQ0            |           |           |
-| 100/1    |     unused, PULL:DOWN |            |              | PR5A  | DQ0            |           |           |
+| 99/1     | oscraw0               |            | LVCMOS25_OUT | PR5B  | DQ0            |           |           |
+| 100/1    | oscdiv0               |            | LVCMOS25_OUT | PR5A  | DQ0            |           |           |
 | 103/1    |     unused, PULL:DOWN |            |              | PR4C  |                |           |           |
 | 104/1    |     unused, PULL:DOWN |            |              | PR3B  | R_GPLLC_IN/DQ0 |           |           |
 | 105/1    |     unused, PULL:DOWN |            |              | PR3A  | R_GPLLT_IN/DQ0 |           |           |
@@ -151,7 +150,7 @@ Pinout by Pin Number:
 | 117/0    |     unused, PULL:DOWN |            |              | PT28A |                |           |           |
 | 119/0    |     unused, PULL:DOWN |            |              | PT27D | PROGRAMN       |           |           |
 | 120/0    |     unused, PULL:DOWN |            |              | PT27C | JTAGENB        |           |           |
-| 121/0    | oscdiv0               |            | LVCMOS25_OUT | PT25B |                |           |           |
+| 121/0    |     unused, PULL:DOWN |            |              | PT25B |                |           |           |
 | 122/0    |     unused, PULL:DOWN |            |              | PT25A |                |           |           |
 | 125/0    |     unused, PULL:DOWN |            |              | PT22D | SDA/PCLKC0_0   |           |           |
 | 126/0    |     unused, PULL:DOWN |            |              | PT22C | SCL/PCLKT0_0   |           |           |
@@ -426,8 +425,8 @@ LOCATE  COMP  "indiv0[0]"  SITE  "62";
 LOCATE  COMP  "indiv0[1]"  SITE  "67";
 LOCATE  COMP  "indiv0[2]"  SITE  "61";
 LOCATE  COMP  "indiv0[3]"  SITE  "65";
-LOCATE  COMP  "oscdiv0"  SITE  "121";
-LOCATE  COMP  "oscraw0"  SITE  "97";
+LOCATE  COMP  "oscdiv0"  SITE  "100";
+LOCATE  COMP  "oscraw0"  SITE  "99";
 
 
 
@@ -439,5 +438,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Nov 08 15:33:30 2017
+Wed Nov 15 09:52:36 2017
 

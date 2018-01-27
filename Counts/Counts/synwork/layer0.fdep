@@ -1,0 +1,71 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\JCVELMON\\Desktop\\Counts\\Counts\\synwork\\Counts_Counts_comp.srs|-top|topMOD|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\bin64\\c_vhdl.exe":1489223076
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\location.map":1489244912
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\std.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\std1164.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\numeric.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\umr_capim.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\arith.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\unsigned.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\vhd\\hyperents.vhd":1489043000
+#CUR:"C:\\lscc\\diamond\\3.9\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1480973228
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\Registry.vhd":1511967477
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\pkgTop.vhd":1511271888
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\BCD_7SEG.vhd":1510758270
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\div00.vhd":1504755470
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\cpld\\lattice.vhd":1489047246
+#CUR:"C:\\lscc\\diamond\\3.9\\synpbase\\lib\\lucent\\machxo2.vhd":1489047244
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\osc00.vhd":1504755548
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\packagediv00.vhd":1504755578
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\topdiv00.vhd":1504755846
+#CUR:"C:\\Users\\JCVELMON\\Desktop\\Counts\\topMOD.vhd":1511967212
+0 "C:\lscc\diamond\3.9\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\JCVELMON\Desktop\Counts\Registry.vhd" vhdl
+2 "C:\Users\JCVELMON\Desktop\Counts\pkgTop.vhd" vhdl
+3 "C:\Users\JCVELMON\Desktop\Counts\BCD_7SEG.vhd" vhdl
+4 "C:\Users\JCVELMON\Desktop\Counts\div00.vhd" vhdl
+5 "C:\Users\JCVELMON\Desktop\Counts\osc00.vhd" vhdl
+6 "C:\Users\JCVELMON\Desktop\Counts\packagediv00.vhd" vhdl
+7 "C:\Users\JCVELMON\Desktop\Counts\topdiv00.vhd" vhdl
+8 "C:\Users\JCVELMON\Desktop\Counts\topMOD.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 0 
+5 0 
+6 0 
+7 5 4 0 6 
+8 7 1 3 2 
+
+# Dependency Lists (Users Of)
+0 7 6 5 4 
+1 8 
+2 8 
+3 8 
+4 7 
+5 7 
+6 7 
+7 8 
+8 -1
+
+# Design Unit to File Association
+arch work registry behavioral 1
+module work registry 1
+arch work bcd_7seg behavioral 3
+module work bcd_7seg 3
+arch work div00 div0 4
+module work div00 4
+arch work osc00 osc0 5
+module work osc00 5
+arch work topdiv00 topdiv0 7
+module work topdiv00 7
+arch work topmod behavioral 8
+module work topmod 8
+
+
+# Configuration files used

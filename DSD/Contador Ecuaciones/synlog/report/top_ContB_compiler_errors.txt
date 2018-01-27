@@ -1,2 +1,0 @@
-@E: CD327 :"C:\users\richie\desktop\4 semestre\dsd\contador ecuaciones\top_contb.vhd":32:31:32:34|Illegal connection of instance input clk to entity output clk0
-

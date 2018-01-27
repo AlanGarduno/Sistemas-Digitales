@@ -1,0 +1,20 @@
+Results of NGD DRC are available in topMOD_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'DERECHA' has no load.
+WARNING - synthesis: input pad net 'DERECHA' has no legal load.
+WARNING - synthesis: logical net 'IZQUIERDA' has no load.
+WARNING - synthesis: input pad net 'IZQUIERDA' has no legal load.
+WARNING - synthesis: DRC complete with 4 warnings.
+
+Design Results:
+    154 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file prac6_impl1.ngd.

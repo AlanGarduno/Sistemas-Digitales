@@ -1,0 +1,74 @@
+----------------------------------------------------------------------
+Report for cell topkey00.TECH
+Register bits:  38 of 7209 (0.527%)
+I/O cells:      26
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11          100.0
+                            FD1P3AX        12          100.0
+                            FD1P3IX        21          100.0
+                            FD1S3IX         4          100.0
+                            FD1S3JX         1          100.0
+                                GSR         1          100.0
+                                 IB         9          100.0
+                                INV         1          100.0
+                               LUT4       145          100.0
+                                 OB        17          100.0
+                              PFUMX        17          100.0
+SUB MODULES
+                            coder00         1
+                         contring00         1
+                              div00         1
+                              osc00         1
+                           topdiv00         1
+                              TOTAL       244
+----------------------------------------------------------------------
+Report for cell topdiv00.v1
+Instance Path : OS00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11          100.0
+                            FD1P3AX         1            8.3
+                            FD1P3IX        21          100.0
+                                INV         1          100.0
+                               LUT4        25           17.2
+                              PFUMX         1            5.9
+SUB MODULES
+                              div00         1
+                              osc00         1
+                              TOTAL        62
+----------------------------------------------------------------------
+Report for cell div00.v1
+Instance Path : OS00.OS01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11          100.0
+                            FD1P3AX         1            8.3
+                            FD1P3IX        21          100.0
+                               LUT4        25           17.2
+                              PFUMX         1            5.9
+                              TOTAL        59
+----------------------------------------------------------------------
+Report for cell osc00.v1
+Instance Path : OS00.OS00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                INV         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell contring00.v1
+Instance Path : K01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         4          100.0
+                            FD1S3JX         1          100.0
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell coder00.v1
+Instance Path : K02
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        11           91.7
+                               LUT4        98           67.6
+                              PFUMX        12           70.6
+                              TOTAL       121

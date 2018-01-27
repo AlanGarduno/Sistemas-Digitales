@@ -9,7 +9,7 @@
 <PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
 --------------------------------------------------------------------------------
 Lattice Synthesis Timing Report, Version  
-Wed Nov 08 15:29:18 2017
+Wed Nov 15 09:51:49 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -27,236 +27,224 @@ Report level:    verbose report, limited to 3 items per constraint
 
 
 ================================================================================
-Constraint: create_clock -period 1000.000000 -name clk1 [get_nets oscdiv0_c]
-            134 items scored, 0 timing errors detected.
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets oscraw0_c]
+            571 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
-Passed:  The following path meets requirements by 992.305ns
+Passed:  The following path meets requirements by 992.268ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3AX    CK             \REG00/display_i2  (from oscdiv0_c +)
-   Destination:    FD1P3AX    D              \REG00/display_i2  (to oscdiv0_c +)
+   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_105__i18  (from oscraw0_c +)
+   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_105__i15  (to oscraw0_c -)
 
-   Delay:                   7.549ns  (34.7% logic, 65.3% route), 7 logic levels.
+   Delay:                   7.586ns  (31.7% logic, 68.3% route), 6 logic levels.
 
  Constraint Details:
 
-      7.549ns data_path \REG00/display_i2 to \REG00/display_i2 meets
+      7.586ns data_path \OS00/OS01/sdiv_105__i18 to \OS00/OS01/sdiv_105__i15 meets
     1000.000ns delay constraint less
-      0.146ns L_S requirement (totaling 999.854ns) by 992.305ns
+      0.146ns L_S requirement (totaling 999.854ns) by 992.268ns
 
- Path Details: \REG00/display_i2 to \REG00/display_i2
+ Path Details: \OS00/OS01/sdiv_105__i18 to \OS00/OS01/sdiv_105__i15
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.403             CK to Q              \REG00/display_i2 (from oscdiv0_c)
-Route        19   e 1.572                                  display0_c_1
-LUT4        ---     0.448              B to Z              \REG00/i1311_2_lut
-Route         2   e 0.954                                  \REG00/n1415
-LUT4        ---     0.448              A to Z              \REG00/n6_bdd_4_lut_then_4_lut
-Route         1   e 0.020                                  \REG00/n1598
-MUXL5       ---     0.212           ALUT to Z              \REG00/i1448
-Route         1   e 0.788                                  \REG00/n1599
-LUT4        ---     0.448              B to Z              \REG00/i1_4_lut_4_lut
-Route         1   e 0.020                                  \REG00/display_6__N_223[1]
-MUXL5       ---     0.212           BLUT to Z              \REG00/mux_5_Mux_1_i31
-Route         1   e 0.788                                  \REG00/n31_adj_238
-LUT4        ---     0.448              A to Z              \REG00/mux_5_Mux_1_i63_4_lut
-Route         1   e 0.788                                  \REG00/display_6__N_200[1]
+L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_105__i18 (from oscraw0_c)
+Route         6   e 1.266                                  \OS00/OS01/sdiv[18]
+LUT4        ---     0.448              A to Z              \OS00/OS01/i1_2_lut_3_lut
+Route         1   e 0.788                                  \OS00/OS01/n519
+LUT4        ---     0.448              D to Z              \OS00/OS01/i2_4_lut
+Route         1   e 0.788                                  \OS00/OS01/n1348
+LUT4        ---     0.448              A to Z              \OS00/OS01/n1348_bdd_4_lut_1433
+Route         1   e 0.788                                  \OS00/OS01/n1593
+LUT4        ---     0.448              A to Z              \OS00/OS01/n1593_bdd_3_lut
+Route         1   e 0.020                                  \OS00/OS01/n1594
+MUXL5       ---     0.212           BLUT to Z              \OS00/OS01/i1431
+Route        21   e 1.529                                  \OS00/OS01/n581
                   --------
-                    7.549  (34.7% logic, 65.3% route), 7 logic levels.
+                    7.586  (31.7% logic, 68.3% route), 6 logic levels.
 
 
-Passed:  The following path meets requirements by 992.308ns
+Passed:  The following path meets requirements by 992.268ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3AX    CK             \REG00/display_i3  (from oscdiv0_c +)
-   Destination:    FD1P3AX    D              \REG00/display_i2  (to oscdiv0_c +)
+   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_105__i18  (from oscraw0_c +)
+   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_105__i16  (to oscraw0_c -)
 
-   Delay:                   7.546ns  (34.7% logic, 65.3% route), 7 logic levels.
+   Delay:                   7.586ns  (31.7% logic, 68.3% route), 6 logic levels.
 
  Constraint Details:
 
-      7.546ns data_path \REG00/display_i3 to \REG00/display_i2 meets
+      7.586ns data_path \OS00/OS01/sdiv_105__i18 to \OS00/OS01/sdiv_105__i16 meets
     1000.000ns delay constraint less
-      0.146ns L_S requirement (totaling 999.854ns) by 992.308ns
+      0.146ns L_S requirement (totaling 999.854ns) by 992.268ns
 
- Path Details: \REG00/display_i3 to \REG00/display_i2
+ Path Details: \OS00/OS01/sdiv_105__i18 to \OS00/OS01/sdiv_105__i16
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.403             CK to Q              \REG00/display_i3 (from oscdiv0_c)
-Route        18   e 1.569                                  display0_c_2
-LUT4        ---     0.448              A to Z              \REG00/i1311_2_lut
-Route         2   e 0.954                                  \REG00/n1415
-LUT4        ---     0.448              A to Z              \REG00/n6_bdd_4_lut_then_4_lut
-Route         1   e 0.020                                  \REG00/n1598
-MUXL5       ---     0.212           ALUT to Z              \REG00/i1448
-Route         1   e 0.788                                  \REG00/n1599
-LUT4        ---     0.448              B to Z              \REG00/i1_4_lut_4_lut
-Route         1   e 0.020                                  \REG00/display_6__N_223[1]
-MUXL5       ---     0.212           BLUT to Z              \REG00/mux_5_Mux_1_i31
-Route         1   e 0.788                                  \REG00/n31_adj_238
-LUT4        ---     0.448              A to Z              \REG00/mux_5_Mux_1_i63_4_lut
-Route         1   e 0.788                                  \REG00/display_6__N_200[1]
+L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_105__i18 (from oscraw0_c)
+Route         6   e 1.266                                  \OS00/OS01/sdiv[18]
+LUT4        ---     0.448              A to Z              \OS00/OS01/i1_2_lut_3_lut
+Route         1   e 0.788                                  \OS00/OS01/n519
+LUT4        ---     0.448              D to Z              \OS00/OS01/i2_4_lut
+Route         1   e 0.788                                  \OS00/OS01/n1348
+LUT4        ---     0.448              A to Z              \OS00/OS01/n1348_bdd_4_lut_1433
+Route         1   e 0.788                                  \OS00/OS01/n1593
+LUT4        ---     0.448              A to Z              \OS00/OS01/n1593_bdd_3_lut
+Route         1   e 0.020                                  \OS00/OS01/n1594
+MUXL5       ---     0.212           BLUT to Z              \OS00/OS01/i1431
+Route        21   e 1.529                                  \OS00/OS01/n581
                   --------
-                    7.546  (34.7% logic, 65.3% route), 7 logic levels.
+                    7.586  (31.7% logic, 68.3% route), 6 logic levels.
 
 
-Passed:  The following path meets requirements by 992.471ns
+Passed:  The following path meets requirements by 992.268ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3AX    CK             \REG00/display_i2  (from oscdiv0_c +)
-   Destination:    FD1P3AX    D              \REG00/display_i2  (to oscdiv0_c +)
+   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_105__i18  (from oscraw0_c +)
+   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_105__i17  (to oscraw0_c -)
 
-   Delay:                   7.383ns  (35.5% logic, 64.5% route), 7 logic levels.
+   Delay:                   7.586ns  (31.7% logic, 68.3% route), 6 logic levels.
 
  Constraint Details:
 
-      7.383ns data_path \REG00/display_i2 to \REG00/display_i2 meets
+      7.586ns data_path \OS00/OS01/sdiv_105__i18 to \OS00/OS01/sdiv_105__i17 meets
     1000.000ns delay constraint less
-      0.146ns L_S requirement (totaling 999.854ns) by 992.471ns
+      0.146ns L_S requirement (totaling 999.854ns) by 992.268ns
 
- Path Details: \REG00/display_i2 to \REG00/display_i2
+ Path Details: \OS00/OS01/sdiv_105__i18 to \OS00/OS01/sdiv_105__i17
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.403             CK to Q              \REG00/display_i2 (from oscdiv0_c)
-Route        19   e 1.572                                  display0_c_1
-LUT4        ---     0.448              C to Z              \REG00/i1378_2_lut_3_lut
-Route         1   e 0.788                                  \REG00/n716
-LUT4        ---     0.448              A to Z              \REG00/n6_bdd_4_lut_else_4_lut
-Route         1   e 0.020                                  \REG00/n1597
-MUXL5       ---     0.212           BLUT to Z              \REG00/i1448
-Route         1   e 0.788                                  \REG00/n1599
-LUT4        ---     0.448              B to Z              \REG00/i1_4_lut_4_lut
-Route         1   e 0.020                                  \REG00/display_6__N_223[1]
-MUXL5       ---     0.212           BLUT to Z              \REG00/mux_5_Mux_1_i31
-Route         1   e 0.788                                  \REG00/n31_adj_238
-LUT4        ---     0.448              A to Z              \REG00/mux_5_Mux_1_i63_4_lut
-Route         1   e 0.788                                  \REG00/display_6__N_200[1]
+L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_105__i18 (from oscraw0_c)
+Route         6   e 1.266                                  \OS00/OS01/sdiv[18]
+LUT4        ---     0.448              A to Z              \OS00/OS01/i1_2_lut_3_lut
+Route         1   e 0.788                                  \OS00/OS01/n519
+LUT4        ---     0.448              D to Z              \OS00/OS01/i2_4_lut
+Route         1   e 0.788                                  \OS00/OS01/n1348
+LUT4        ---     0.448              A to Z              \OS00/OS01/n1348_bdd_4_lut_1433
+Route         1   e 0.788                                  \OS00/OS01/n1593
+LUT4        ---     0.448              A to Z              \OS00/OS01/n1593_bdd_3_lut
+Route         1   e 0.020                                  \OS00/OS01/n1594
+MUXL5       ---     0.212           BLUT to Z              \OS00/OS01/i1431
+Route        21   e 1.529                                  \OS00/OS01/n581
                   --------
-                    7.383  (35.5% logic, 64.5% route), 7 logic levels.
+                    7.586  (31.7% logic, 68.3% route), 6 logic levels.
 
-Report: 7.695 ns is the maximum delay for this constraint.
+Report: 7.732 ns is the maximum delay for this constraint.
 
 
 
 ================================================================================
-Constraint: create_clock -period 1000.000000 -name clk0 [get_nets oscraw0_c]
-            676 items scored, 0 timing errors detected.
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets oscdiv0_c]
+            122 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
-Passed:  The following path meets requirements by 991.999ns
+Passed:  The following path meets requirements by 993.544ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_106__i19  (from oscraw0_c +)
-   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_106__i16  (to oscraw0_c -)
+   Source:         FD1P3AX    CK             \REG00/display_i4  (from oscdiv0_c +)
+   Destination:    FD1P3AX    D              \REG00/display_i3  (to oscdiv0_c +)
 
-   Delay:                   7.855ns  (33.3% logic, 66.7% route), 7 logic levels.
+   Delay:                   6.310ns  (34.4% logic, 65.6% route), 6 logic levels.
 
  Constraint Details:
 
-      7.855ns data_path \OS00/OS01/sdiv_106__i19 to \OS00/OS01/sdiv_106__i16 meets
+      6.310ns data_path \REG00/display_i4 to \REG00/display_i3 meets
     1000.000ns delay constraint less
-      0.146ns L_S requirement (totaling 999.854ns) by 991.999ns
+      0.146ns L_S requirement (totaling 999.854ns) by 993.544ns
 
- Path Details: \OS00/OS01/sdiv_106__i19 to \OS00/OS01/sdiv_106__i16
+ Path Details: \REG00/display_i4 to \REG00/display_i3
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_106__i19 (from oscraw0_c)
-Route         7   e 1.303                                  sdiv[19]
-LUT4        ---     0.448              A to Z              \OS00/OS01/i1_2_lut_rep_20
-Route         1   e 0.788                                  \OS00/OS01/n1587
-LUT4        ---     0.448              B to Z              \OS00/OS01/i2_3_lut_4_lut
-Route         1   e 0.788                                  n1406
-LUT4        ---     0.448              D to Z              i1_4_lut_4_lut
-Route         1   e 0.020                                  n45_adj_239
-MUXL5       ---     0.212           ALUT to Z              \OS00/OS01/i74
-Route         1   e 0.020                                  \OS00/OS01/n36
-MUXL5       ---     0.212             D1 to Z              \OS00/OS01/i71
-Route         1   e 0.788                                  \OS00/OS01/n34
-LUT4        ---     0.448              B to Z              \OS00/OS01/i1_2_lut_adj_8
-Route        21   e 1.529                                  \OS00/OS01/n580
+L_CO        ---     0.403             CK to Q              \REG00/display_i4 (from oscdiv0_c)
+Route        18   e 1.569                                  display0_c_3
+LUT4        ---     0.448              A to Z              \REG00/i718_2_lut_rep_24
+Route         2   e 0.954                                  \REG00/n1543
+LUT4        ---     0.448              D to Z              \REG00/display0_c_5_bdd_4_lut
+Route         1   e 0.788                                  \REG00/n1530
+LUT4        ---     0.448              C to Z              \REG00/i1_2_lut_4_lut_4_lut
+Route         1   e 0.020                                  \REG00/display_6__N_223[2]
+MUXL5       ---     0.212           BLUT to Z              \REG00/mux_5_Mux_2_i31
+Route         1   e 0.020                                  \REG00/n31
+MUXL5       ---     0.212             D0 to Z              \REG00/mux_5_Mux_2_i63
+Route         1   e 0.788                                  \REG00/display_6__N_200[2]
                   --------
-                    7.855  (33.3% logic, 66.7% route), 7 logic levels.
+                    6.310  (34.4% logic, 65.6% route), 6 logic levels.
 
 
-Passed:  The following path meets requirements by 991.999ns
+Passed:  The following path meets requirements by 993.556ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_106__i19  (from oscraw0_c +)
-   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_106__i17  (to oscraw0_c -)
+   Source:         FD1P3AX    CK             \REG00/display_i7  (from oscdiv0_c +)
+   Destination:    FD1P3AX    D              \REG00/display_i3  (to oscdiv0_c +)
 
-   Delay:                   7.855ns  (33.3% logic, 66.7% route), 7 logic levels.
+   Delay:                   6.298ns  (34.5% logic, 65.5% route), 6 logic levels.
 
  Constraint Details:
 
-      7.855ns data_path \OS00/OS01/sdiv_106__i19 to \OS00/OS01/sdiv_106__i17 meets
+      6.298ns data_path \REG00/display_i7 to \REG00/display_i3 meets
     1000.000ns delay constraint less
-      0.146ns L_S requirement (totaling 999.854ns) by 991.999ns
+      0.146ns L_S requirement (totaling 999.854ns) by 993.556ns
 
- Path Details: \OS00/OS01/sdiv_106__i19 to \OS00/OS01/sdiv_106__i17
+ Path Details: \REG00/display_i7 to \REG00/display_i3
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_106__i19 (from oscraw0_c)
-Route         7   e 1.303                                  sdiv[19]
-LUT4        ---     0.448              A to Z              \OS00/OS01/i1_2_lut_rep_20
-Route         1   e 0.788                                  \OS00/OS01/n1587
-LUT4        ---     0.448              B to Z              \OS00/OS01/i2_3_lut_4_lut
-Route         1   e 0.788                                  n1406
-LUT4        ---     0.448              D to Z              i1_4_lut_4_lut
-Route         1   e 0.020                                  n45_adj_239
-MUXL5       ---     0.212           ALUT to Z              \OS00/OS01/i74
-Route         1   e 0.020                                  \OS00/OS01/n36
-MUXL5       ---     0.212             D1 to Z              \OS00/OS01/i71
-Route         1   e 0.788                                  \OS00/OS01/n34
-LUT4        ---     0.448              B to Z              \OS00/OS01/i1_2_lut_adj_8
-Route        21   e 1.529                                  \OS00/OS01/n580
+L_CO        ---     0.403             CK to Q              \REG00/display_i7 (from oscdiv0_c)
+Route        14   e 1.557                                  display0_c_6
+LUT4        ---     0.448              B to Z              \REG00/i718_2_lut_rep_24
+Route         2   e 0.954                                  \REG00/n1543
+LUT4        ---     0.448              D to Z              \REG00/display0_c_5_bdd_4_lut
+Route         1   e 0.788                                  \REG00/n1530
+LUT4        ---     0.448              C to Z              \REG00/i1_2_lut_4_lut_4_lut
+Route         1   e 0.020                                  \REG00/display_6__N_223[2]
+MUXL5       ---     0.212           BLUT to Z              \REG00/mux_5_Mux_2_i31
+Route         1   e 0.020                                  \REG00/n31
+MUXL5       ---     0.212             D0 to Z              \REG00/mux_5_Mux_2_i63
+Route         1   e 0.788                                  \REG00/display_6__N_200[2]
                   --------
-                    7.855  (33.3% logic, 66.7% route), 7 logic levels.
+                    6.298  (34.5% logic, 65.5% route), 6 logic levels.
 
 
-Passed:  The following path meets requirements by 991.999ns
+Passed:  The following path meets requirements by 993.700ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3IX    CK             \OS00/OS01/sdiv_106__i19  (from oscraw0_c +)
-   Destination:    FD1P3IX    CD             \OS00/OS01/sdiv_106__i18  (to oscraw0_c -)
+   Source:         FD1P3AX    CK             \REG00/display_i3  (from oscdiv0_c +)
+   Destination:    FD1P3AX    D              \REG00/display_i3  (to oscdiv0_c +)
 
-   Delay:                   7.855ns  (33.3% logic, 66.7% route), 7 logic levels.
+   Delay:                   6.154ns  (35.3% logic, 64.7% route), 6 logic levels.
 
  Constraint Details:
 
-      7.855ns data_path \OS00/OS01/sdiv_106__i19 to \OS00/OS01/sdiv_106__i18 meets
+      6.154ns data_path \REG00/display_i3 to \REG00/display_i3 meets
     1000.000ns delay constraint less
-      0.146ns L_S requirement (totaling 999.854ns) by 991.999ns
+      0.146ns L_S requirement (totaling 999.854ns) by 993.700ns
 
- Path Details: \OS00/OS01/sdiv_106__i19 to \OS00/OS01/sdiv_106__i18
+ Path Details: \REG00/display_i3 to \REG00/display_i3
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.403             CK to Q              \OS00/OS01/sdiv_106__i19 (from oscraw0_c)
-Route         7   e 1.303                                  sdiv[19]
-LUT4        ---     0.448              A to Z              \OS00/OS01/i1_2_lut_rep_20
-Route         1   e 0.788                                  \OS00/OS01/n1587
-LUT4        ---     0.448              B to Z              \OS00/OS01/i2_3_lut_4_lut
-Route         1   e 0.788                                  n1406
-LUT4        ---     0.448              D to Z              i1_4_lut_4_lut
-Route         1   e 0.020                                  n45_adj_239
-MUXL5       ---     0.212           ALUT to Z              \OS00/OS01/i74
-Route         1   e 0.020                                  \OS00/OS01/n36
-MUXL5       ---     0.212             D1 to Z              \OS00/OS01/i71
-Route         1   e 0.788                                  \OS00/OS01/n34
-LUT4        ---     0.448              B to Z              \OS00/OS01/i1_2_lut_adj_8
-Route        21   e 1.529                                  \OS00/OS01/n580
+L_CO        ---     0.403             CK to Q              \REG00/display_i3 (from oscdiv0_c)
+Route        22   e 1.579                                  display0_c_2
+LUT4        ---     0.448              A to Z              \REG00/i45_3_lut_4_lut_4_lut
+Route         1   e 0.788                                  \REG00/n29
+LUT4        ---     0.448              B to Z              \REG00/i2_3_lut_4_lut_4_lut_adj_12
+Route         1   e 0.788                                  \REG00/n1167
+LUT4        ---     0.448              B to Z              \REG00/i1_4_lut
+Route         1   e 0.020                                  \REG00/display_6__N_216[2]
+MUXL5       ---     0.212           ALUT to Z              \REG00/mux_5_Mux_2_i31
+Route         1   e 0.020                                  \REG00/n31
+MUXL5       ---     0.212             D0 to Z              \REG00/mux_5_Mux_2_i63
+Route         1   e 0.788                                  \REG00/display_6__N_200[2]
                   --------
-                    7.855  (33.3% logic, 66.7% route), 7 logic levels.
+                    6.154  (35.3% logic, 64.7% route), 6 logic levels.
 
-Report: 8.001 ns is the maximum delay for this constraint.
+Report: 6.456 ns is the maximum delay for this constraint.
 
 
 <A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
@@ -266,10 +254,10 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 1000.000000 -name  |             |             |
-clk1 [get_nets oscdiv0_c]               |  1000.000 ns|     7.695 ns|     7  
+clk1 [get_nets oscraw0_c]               |  1000.000 ns|     7.732 ns|     6  
                                         |             |             |
 create_clock -period 1000.000000 -name  |             |             |
-clk0 [get_nets oscraw0_c]               |  1000.000 ns|     8.001 ns|     7  
+clk0 [get_nets oscdiv0_c]               |  1000.000 ns|     6.456 ns|     6  
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -283,10 +271,10 @@ All constraints were met.
 
 Timing errors: 0  Score: 0
 
-Constraints cover  810 paths, 140 nets, and 337 connections (73.3% coverage)
+Constraints cover  693 paths, 138 nets, and 328 connections (71.9% coverage)
 
 
-Peak memory: 58355712 bytes, TRCE: 446464 bytes, DLYMAN: 0 bytes
+Peak memory: 58028032 bytes, TRCE: 458752 bytes, DLYMAN: 0 bytes
 CPU_TIME_REPORT: 0 secs 
 
 

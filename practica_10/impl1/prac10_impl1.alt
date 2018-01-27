@@ -1,0 +1,22 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Dec 08 15:35:38 2017 *
+NOTE DESIGN NAME: topSecuencia *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS oscraw0 : 35 : out *
+NOTE PINS oscdiv0 : 34 : out *
+NOTE PINS display0[6] : 126 : out *
+NOTE PINS display0[5] : 125 : out *
+NOTE PINS display0[4] : 128 : out *
+NOTE PINS display0[3] : 127 : out *
+NOTE PINS display0[2] : 133 : out *
+NOTE PINS display0[1] : 132 : out *
+NOTE PINS display0[0] : 139 : out *
+NOTE PINS indiv0[3] : 65 : in *
+NOTE PINS indiv0[2] : 61 : in *
+NOTE PINS indiv0[1] : 67 : in *
+NOTE PINS indiv0[0] : 62 : in *
+NOTE PINS ent0 : 38 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *
